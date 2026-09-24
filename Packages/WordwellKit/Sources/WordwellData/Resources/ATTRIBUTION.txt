@@ -1,0 +1,12 @@
+Dictionary data: Open English Wordnet 2025 (standard edition)
+Copyright Open English Wordnet Community. Derived from Princeton WordNet,
+Copyright 2006 Princeton University.
+
+Source: https://en-word.net/downloads
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+The source JSON was converted into a SQLite database with a full-text search
+index for this application. Definitions and examples were not rewritten.
+The complete OEWN and Princeton WordNet license texts are included alongside
+this file as OEWN_LICENSE.md and WNDB_License.txt.

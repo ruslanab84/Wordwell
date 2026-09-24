@@ -1,0 +1,15 @@
+{
+  "images": [
+    {
+      "filename": "pv_face_up_to_line.svg",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "preserves-vector-representation": true
+  }
+}

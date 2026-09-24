@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "get-up",
+    "phrase": "get up",
+    "meaning": "leave bed after sleeping",
+    "example": "I get up at seven on weekdays.",
+    "level": "A1–A2",
+    "imageAsset": "pv_get_up_line",
+    "imageAlt": "A person rises from a bed."
+  },
+  {
+    "id": "get-on",
+    "phrase": "get on",
+    "meaning": "board a vehicle",
+    "example": "We got on the bus at the next stop.",
+    "level": "A1–A2",
+    "imageAsset": "pv_get_on_line",
+    "imageAlt": "A person steps toward an open bus door."
+  },
+  {
+    "id": "get-off",
+    "phrase": "get off",
+    "meaning": "leave a vehicle",
+    "example": "Get off the train at Central Station.",
+    "level": "A1–A2",
+    "imageAsset": "pv_get_off_line",
+    "imageAlt": "A person steps away from a train."
+  },
+  {
+    "id": "get-in",
+    "phrase": "get in",
+    "meaning": "enter a car or small space",
+    "example": "She got in the car and closed the door.",
+    "level": "A1–A2",
+    "imageAsset": "pv_get_in_line",
+    "imageAlt": "A person moves toward an open car."
+  },
+  {
+    "id": "get-out",
+    "phrase": "get out",
+    "meaning": "leave a place or vehicle",
+    "example": "We got out of the car by the lake.",
+    "level": "A1–A2",
+    "imageAsset": "pv_get_out_line",
+    "imageAlt": "A person moves away from a car."
+  },
+  {
+    "id": "get-back",
+    "phrase": "get back",
+    "meaning": "return to a place",
+    "example": "I'll get back home before dinner.",
+    "level": "A1–A2",
+    "imageAsset": "pv_get_back_line",
+    "imageAlt": "A person returns toward a house."
+  },
+  {
+    "id": "get-together",
+    "phrase": "get together",
+    "meaning": "meet socially",
+    "example": "Let's get together for coffee on Friday.",
+    "level": "A1–A2",
+    "imageAsset": "pv_get_together_line",
+    "imageAlt": "Two people meet, joined by linking lines."
+  },
+  {
+    "id": "get-along",
+    "phrase": "get along",
+    "meaning": "have a friendly relationship",
+    "example": "The two neighbors get along well.",
+    "level": "A1–A2",
+    "imageAsset": "pv_get_along_line",
+    "imageAlt": "Two people share a friendly heart symbol."
+  },
+  {
+    "id": "go-out",
+    "phrase": "go out",
+    "meaning": "leave home for an activity",
+    "example": "We went out for dinner last night.",
+    "level": "A1–A2",
+    "imageAsset": "pv_go_out_line",
+    "imageAlt": "A person walks away from a house."
+  },
+  {
+    "id": "go-back",
+    "phrase": "go back",
+    "meaning": "return to a previous place",
+    "example": "We need to go back to the hotel.",
+    "level": "A1–A2",
+    "imageAsset": "pv_go_back_line",
+    "imageAlt": "A person heads back toward a hotel."
+  },
+  {
+    "id": "go-away",
+    "phrase": "go away",
+    "meaning": "leave a place",
+    "example": "The family went away for the weekend.",
+    "level": "A1–A2",
+    "imageAsset": "pv_go_away_line",
+    "imageAlt": "A packed bag moves away from a house."
+  },
+  {
+    "id": "go-up",
+    "phrase": "go up",
+    "meaning": "increase",
+    "example": "Food prices went up again.",
+    "level": "A1–A2",
+    "imageAsset": "pv_go_up_line",
+    "imageAlt": "A rising line appears beside a coin."
+  },
+  {
+    "id": "go-down",
+    "phrase": "go down",
+    "meaning": "decrease",
+    "example": "The temperature went down overnight.",
+    "level": "A1–A2",
+    "imageAsset": "pv_go_down_line",
+    "imageAlt": "A thermometer appears beside a falling line."
+  },
+  {
+    "id": "go-off",
+    "phrase": "go off",
+    "meaning": "start ringing or sounding",
+    "example": "My alarm went off at six.",
+    "level": "A1–A2",
+    "imageAsset": "pv_go_off_line",
+    "imageAlt": "An alarm clock rings with radiating lines."
+  },
+  {
+    "id": "come-in",
+    "phrase": "come in",
+    "meaning": "enter a room",
+    "example": "Please come in and sit down.",
+    "level": "A1–A2",
+    "imageAsset": "pv_come_in_line",
+    "imageAlt": "A person enters through a doorway."
+  },
+  {
+    "id": "come-out",
+    "phrase": "come out",
+    "meaning": "leave an enclosed place",
+    "example": "The children came out of the classroom.",
+    "level": "A1–A2",
+    "imageAsset": "pv_come_out_line",
+    "imageAlt": "A person emerges from a doorway."
+  },
+  {
+    "id": "come-back",
+    "phrase": "come back",
+    "meaning": "return",
+    "example": "When will you come back from your trip?",
+    "level": "A1–A2",
+    "imageAsset": "pv_come_back_line",
+    "imageAlt": "A travel bag returns toward a house."
+  },
+  {
+    "id": "come-over",
+    "phrase": "come over",
+    "meaning": "visit someone's home",
+    "example": "My cousins are coming over tonight.",
+    "level": "A1–A2",
+    "imageAsset": "pv_come_over_line",
+    "imageAlt": "A visitor approaches a house."
+  },
+  {
+    "id": "come-along",
+    "phrase": "come along",
+    "meaning": "join someone",
+    "example": "Would you like to come along to the market?",
+    "level": "A1–A2",
+    "imageAsset": "pv_come_along_line",
+    "imageAlt": "One person follows and joins another."
+  },
+  {
+    "id": "come-down",
+    "phrase": "come down",
+    "meaning": "move from a higher place",
+    "example": "The cat came down from the tree.",
+    "level": "A1–A2",
+    "imageAsset": "pv_come_down_line",
+    "imageAlt": "A cat descends from a tree."
+  },
+  {
+    "id": "take-off",
+    "phrase": "take off",
+    "meaning": "remove clothing",
+    "example": "Please take off your shoes at the door.",
+    "level": "A1–A2",
+    "imageAsset": "pv_take_off_line",
+    "imageAlt": "A shoe moves away from a person's foot."
+  },
+  {
+    "id": "take-out",
+    "phrase": "take out",
+    "meaning": "remove something from inside",
+    "example": "He took out his keys from the bag.",
+    "level": "A1–A2",
+    "imageAsset": "pv_take_out_line",
+    "imageAlt": "A key is lifted out of a bag."
+  },
+  {
+    "id": "take-away",
+    "phrase": "take away",
+    "meaning": "remove from a place",
+    "example": "The waiter took away our empty plates.",
+    "level": "A1–A2",
+    "imageAsset": "pv_take_away_line",
+    "imageAlt": "An empty plate moves away from a table."
+  },
+  {
+    "id": "take-care-of",
+    "phrase": "take care of",
+    "meaning": "look after someone or something",
+    "example": "Can you take care of my plants?",
+    "level": "A1–A2",
+    "imageAsset": "pv_take_care_of_line",
+    "imageAlt": "A person tends a small potted plant."
+  },
+  {
+    "id": "put-on",
+    "phrase": "put on",
+    "meaning": "dress in clothing",
+    "example": "Put on your coat; it's cold outside.",
+    "level": "A1–A2",
+    "imageAsset": "pv_put_on_line",
+    "imageAlt": "A person puts on a coat."
+  },
+  {
+    "id": "put-away",
+    "phrase": "put away",
+    "meaning": "place something in storage",
+    "example": "Please put away your toys after playing.",
+    "level": "A1–A2",
+    "imageAsset": "pv_put_away_line",
+    "imageAlt": "A toy is placed inside a storage box."
+  },
+  {
+    "id": "put-down",
+    "phrase": "put down",
+    "meaning": "place something on a surface",
+    "example": "She put down her cup beside the book.",
+    "level": "A1–A2",
+    "imageAsset": "pv_put_down_line",
+    "imageAlt": "A cup is lowered onto a table."
+  },
+  {
+    "id": "put-back",
+    "phrase": "put back",
+    "meaning": "return to its place",
+    "example": "Put the book back on the shelf.",
+    "level": "A1–A2",
+    "imageAsset": "pv_put_back_line",
+    "imageAlt": "A book returns to a shelf."
+  },
+  {
+    "id": "put-in",
+    "phrase": "put in",
+    "meaning": "insert something",
+    "example": "She put the letter in the envelope.",
+    "level": "A1–A2",
+    "imageAsset": "pv_put_in_line",
+    "imageAlt": "A letter slides into an envelope."
+  },
+  {
+    "id": "turn-on",
+    "phrase": "turn on",
+    "meaning": "start a device",
+    "example": "Could you turn on the lights?",
+    "level": "A1–A2",
+    "imageAsset": "pv_turn_on_line",
+    "imageAlt": "A hand switches on a glowing lamp."
+  },
+  {
+    "id": "turn-off",
+    "phrase": "turn off",
+    "meaning": "stop a device",
+    "example": "Turn off the TV before bed.",
+    "level": "A1–A2",
+    "imageAsset": "pv_turn_off_line",
+    "imageAlt": "A hand switches off a screen."
+  },
+  {
+    "id": "turn-up",
+    "phrase": "turn up",
+    "meaning": "increase volume or intensity",
+    "example": "Please turn up the music a little.",
+    "level": "A1–A2",
+    "imageAsset": "pv_turn_up_line",
+    "imageAlt": "Sound waves grow beside a speaker."
+  },
+  {
+    "id": "turn-down",
+    "phrase": "turn down",
+    "meaning": "reduce volume or reject",
+    "example": "Turn down the radio; the baby is asleep.",
+    "level": "A1–A2",
+    "imageAsset": "pv_turn_down_line",
+    "imageAlt": "Sound waves shrink beside a speaker."
+  },
+  {
+    "id": "turn-around",
+    "phrase": "turn around",
+    "meaning": "face the opposite direction",
+    "example": "Turn around and look at the sea.",
+    "level": "A1–A2",
+    "imageAsset": "pv_turn_around_line",
+    "imageAlt": "A person turns to face the sea."
+  },
+  {
+    "id": "turn-over",
+    "phrase": "turn over",
+    "meaning": "flip to the other side",
+    "example": "Turn over the page to see the map.",
+    "level": "A1–A2",
+    "imageAsset": "pv_turn_over_line",
+    "imageAlt": "A page flips to reveal a map."
+  },
+  {
+    "id": "look-for",
+    "phrase": "look for",
+    "meaning": "try to find",
+    "example": "I'm looking for my blue notebook.",
+    "level": "A1–A2",
+    "imageAsset": "pv_look_for_line",
+    "imageAlt": "A magnifier searches for a notebook."
+  },
+  {
+    "id": "look-after",
+    "phrase": "look after",
+    "meaning": "care for",
+    "example": "He looks after his little brother.",
+    "level": "A1–A2",
+    "imageAsset": "pv_look_after_line",
+    "imageAlt": "An adult cares for a child."
+  },
+  {
+    "id": "look-up",
+    "phrase": "look up",
+    "meaning": "search for information",
+    "example": "Look up the word in a dictionary.",
+    "level": "A1–A2",
+    "imageAsset": "pv_look_up_line",
+    "imageAlt": "A magnifier searches inside a dictionary."
+  },
+  {
+    "id": "look-out",
+    "phrase": "look out",
+    "meaning": "be careful of danger",
+    "example": "Look out! A bike is coming.",
+    "level": "A1–A2",
+    "imageAsset": "pv_look_out_line",
+    "imageAlt": "An eye spots an approaching bicycle."
+  },
+  {
+    "id": "bring-back",
+    "phrase": "bring back",
+    "meaning": "return something or remind someone",
+    "example": "Please bring back the library book tomorrow.",
+    "level": "A1–A2",
+    "imageAsset": "pv_bring_back_line",
+    "imageAlt": "A book returns to a library shelf."
+  },
+  {
+    "id": "bring-in",
+    "phrase": "bring in",
+    "meaning": "introduce or carry inside",
+    "example": "They brought in fresh chairs for the guests.",
+    "level": "A1–A2",
+    "imageAsset": "pv_bring_in_line",
+    "imageAlt": "A chair is carried through a doorway."
+  },
+  {
+    "id": "bring-along",
+    "phrase": "bring along",
+    "meaning": "take someone or something with you",
+    "example": "Bring along a bottle of water.",
+    "level": "A1–A2",
+    "imageAsset": "pv_bring_along_line",
+    "imageAlt": "A person travels with a bottle."
+  },
+  {
+    "id": "give-back",
+    "phrase": "give back",
+    "meaning": "return something",
+    "example": "Please give back my pencil.",
+    "level": "A1–A2",
+    "imageAsset": "pv_give_back_line",
+    "imageAlt": "A hand returns a pencil to another hand."
+  },
+  {
+    "id": "run-out-of",
+    "phrase": "run out of",
+    "meaning": "use all of something",
+    "example": "We ran out of milk this morning.",
+    "level": "A1–A2",
+    "imageAsset": "pv_run_out_of_line",
+    "imageAlt": "An empty milk bottle has no drops left."
+  },
+  {
+    "id": "run-away",
+    "phrase": "run away",
+    "meaning": "escape",
+    "example": "The dog ran away through the open gate.",
+    "level": "A1–A2",
+    "imageAsset": "pv_run_away_line",
+    "imageAlt": "A dog runs away through an open gate."
+  },
+  {
+    "id": "run-after",
+    "phrase": "run after",
+    "meaning": "chase",
+    "example": "The child ran after the rolling ball.",
+    "level": "A1–A2",
+    "imageAsset": "pv_run_after_line",
+    "imageAlt": "A child chases a rolling ball."
+  },
+  {
+    "id": "pick-up",
+    "phrase": "pick up",
+    "meaning": "lift something",
+    "example": "Please pick up your bag from the floor.",
+    "level": "A1–A2",
+    "imageAsset": "pv_pick_up_line",
+    "imageAlt": "A hand lifts a bag from the floor."
+  },
+  {
+    "id": "hold-on",
+    "phrase": "hold on",
+    "meaning": "wait briefly",
+    "example": "Hold on while I find your file.",
+    "level": "A1–A2",
+    "imageAsset": "pv_hold_on_line",
+    "imageAlt": "A raised hand asks someone to wait by a clock."
+  },
+  {
+    "id": "keep-on",
+    "phrase": "keep on",
+    "meaning": "continue doing something",
+    "example": "Keep on walking until you see the bridge.",
+    "level": "A1–A2",
+    "imageAsset": "pv_keep_on_line",
+    "imageAlt": "A walker continues along a path."
+  },
+  {
+    "id": "keep-away",
+    "phrase": "keep away",
+    "meaning": "stay at a distance",
+    "example": "Keep away from the wet paint.",
+    "level": "A1–A2",
+    "imageAsset": "pv_keep_away_line",
+    "imageAlt": "A person stays clear of wet paint."
+  },
+  {
+    "id": "call-back",
+    "phrase": "call back",
+    "meaning": "return a phone call",
+    "example": "I'll call you back after lunch.",
+    "level": "A1–A2",
+    "imageAsset": "pv_call_back_line",
+    "imageAlt": "A phone call returns to the first caller."
+  },
+  {
+    "id": "call-out",
+    "phrase": "call out",
+    "meaning": "speak loudly to someone",
+    "example": "She called out from the garden.",
+    "level": "A1–A2",
+    "imageAsset": "pv_call_out_line",
+    "imageAlt": "A person calls toward a house from outside."
+  },
+  {
+    "id": "cut-out",
+    "phrase": "cut out",
+    "meaning": "remove a shape by cutting",
+    "example": "She cut out a paper star.",
+    "level": "A1–A2",
+    "imageAsset": "pv_cut_out_line",
+    "imageAlt": "Scissors cut out a star shape."
+  },
+  {
+    "id": "drop-off",
+    "phrase": "drop off",
+    "meaning": "deliver someone or something",
+    "example": "I'll drop you off at the station.",
+    "level": "A1–A2",
+    "imageAsset": "pv_drop_off_line",
+    "imageAlt": "A car stops at a station."
+  },
+  {
+    "id": "fall-down",
+    "phrase": "fall down",
+    "meaning": "drop to the ground",
+    "example": "The small tower fell down in the wind.",
+    "level": "A1–A2",
+    "imageAsset": "pv_fall_down_line",
+    "imageAlt": "A tower tips down toward the ground."
+  },
+  {
+    "id": "fall-over",
+    "phrase": "fall over",
+    "meaning": "lose balance and fall",
+    "example": "The child fell over on the grass.",
+    "level": "A1–A2",
+    "imageAsset": "pv_fall_over_line",
+    "imageAlt": "A child loses balance and falls sideways."
+  },
+  {
+    "id": "fill-in",
+    "phrase": "fill in",
+    "meaning": "complete missing information",
+    "example": "Fill in your name on the form.",
+    "level": "A1–A2",
+    "imageAsset": "pv_fill_in_line",
+    "imageAlt": "A pencil fills a blank field on a form."
+  },
+  {
+    "id": "fill-out",
+    "phrase": "fill out",
+    "meaning": "complete a form",
+    "example": "Please fill out this application.",
+    "level": "A1–A2",
+    "imageAsset": "pv_fill_out_line",
+    "imageAlt": "A pen completes a paper application."
+  },
+  {
+    "id": "fill-up",
+    "phrase": "fill up",
+    "meaning": "make completely full",
+    "example": "She filled up the bottle with water.",
+    "level": "A1–A2",
+    "imageAsset": "pv_fill_up_line",
+    "imageAlt": "Water rises to the top of a bottle."
+  },
+  {
+    "id": "find-out",
+    "phrase": "find out",
+    "meaning": "discover information",
+    "example": "We found out when the museum opens.",
+    "level": "A1–A2",
+    "imageAsset": "pv_find_out_line",
+    "imageAlt": "A magnifier reveals the museum opening time."
+  },
+  {
+    "id": "work-on",
+    "phrase": "work on",
+    "meaning": "spend time improving something",
+    "example": "She's working on her pronunciation.",
+    "level": "A1–A2",
+    "imageAsset": "pv_work_on_line",
+    "imageAlt": "A learner practices speaking into a microphone."
+  },
+  {
+    "id": "stand-up",
+    "phrase": "stand up",
+    "meaning": "rise to your feet",
+    "example": "Everyone stood up when the music began.",
+    "level": "A1–A2",
+    "imageAsset": "pv_stand_up_line",
+    "imageAlt": "A person rises from a chair."
+  },
+  {
+    "id": "stay-in",
+    "phrase": "stay in",
+    "meaning": "remain at home",
+    "example": "Let's stay in and watch a film.",
+    "level": "A1–A2",
+    "imageAsset": "pv_stay_in_line",
+    "imageAlt": "A person relaxes inside a house."
+  },
+  {
+    "id": "stay-up",
+    "phrase": "stay up",
+    "meaning": "remain awake late",
+    "example": "I stayed up to finish the book.",
+    "level": "A1–A2",
+    "imageAsset": "pv_stay_up_line",
+    "imageAlt": "A reader stays awake beneath the moon."
+  },
+  {
+    "id": "stay-away",
+    "phrase": "stay away",
+    "meaning": "avoid going near",
+    "example": "Stay away from the broken glass.",
+    "level": "A1–A2",
+    "imageAsset": "pv_stay_away_line",
+    "imageAlt": "A person keeps clear of broken glass."
+  },
+  {
+    "id": "throw-away",
+    "phrase": "throw away",
+    "meaning": "put in the trash",
+    "example": "Throw away the empty carton.",
+    "level": "A1–A2",
+    "imageAsset": "pv_throw_away_line",
+    "imageAlt": "An empty carton goes into a bin."
+  },
+  {
+    "id": "try-on",
+    "phrase": "try on",
+    "meaning": "put on to check fit",
+    "example": "Can I try on these boots?",
+    "level": "A1–A2",
+    "imageAsset": "pv_try_on_line",
+    "imageAlt": "A person tries a boot on one foot."
+  },
+  {
+    "id": "write-down",
+    "phrase": "write down",
+    "meaning": "record in writing",
+    "example": "Write down the address before you leave.",
+    "level": "A1–A2",
+    "imageAsset": "pv_write_down_line",
+    "imageAlt": "A pen records an address on paper."
+  },
+  {
+    "id": "write-back",
+    "phrase": "write back",
+    "meaning": "reply by letter or email",
+    "example": "He wrote back the next day.",
+    "level": "A1–A2",
+    "imageAsset": "pv_write_back_line",
+    "imageAlt": "A reply letter travels back to its sender."
+  },
+  {
+    "id": "blow-out",
+    "phrase": "blow out",
+    "meaning": "extinguish by blowing",
+    "example": "She blew out the birthday candles.",
+    "level": "A1–A2",
+    "imageAsset": "pv_blow_out_line",
+    "imageAlt": "A person blows out a candle flame."
+  },
+  {
+    "id": "blow-away",
+    "phrase": "blow away",
+    "meaning": "carry away with wind",
+    "example": "The wind blew away my notes.",
+    "level": "A1–A2",
+    "imageAsset": "pv_blow_away_line",
+    "imageAlt": "Wind carries a sheet of paper away."
+  },
+  {
+    "id": "check-in",
+    "phrase": "check in",
+    "meaning": "register on arrival",
+    "example": "We checked in at the hotel desk.",
+    "level": "A1–A2",
+    "imageAsset": "pv_check_in_line",
+    "imageAlt": "A traveler approaches a registration sheet."
+  },
+  {
+    "id": "check-out",
+    "phrase": "check out",
+    "meaning": "leave a hotel after paying",
+    "example": "We checked out before noon.",
+    "level": "A1–A2",
+    "imageAsset": "pv_check_out_line",
+    "imageAlt": "A traveler leaves a hotel."
+  },
+  {
+    "id": "clean-up",
+    "phrase": "clean up",
+    "meaning": "make a place clean and tidy",
+    "example": "We cleaned up the kitchen after dinner.",
+    "level": "A1–A2",
+    "imageAsset": "pv_clean_up_line",
+    "imageAlt": "A person tidies a kitchen with a broom."
+  },
+  {
+    "id": "cross-out",
+    "phrase": "cross out",
+    "meaning": "draw a line through writing",
+    "example": "Cross out the wrong answer.",
+    "level": "A1–A2",
+    "imageAsset": "pv_cross_out_line",
+    "imageAlt": "A pen draws a line through a wrong word."
+  },
+  {
+    "id": "dress-up",
+    "phrase": "dress up",
+    "meaning": "wear special or formal clothes",
+    "example": "The children dressed up for the play.",
+    "level": "A1–A2",
+    "imageAsset": "pv_dress_up_line",
+    "imageAlt": "A child puts on a stage costume."
+  },
+  {
+    "id": "eat-out",
+    "phrase": "eat out",
+    "meaning": "have a meal at a restaurant",
+    "example": "We eat out once a month.",
+    "level": "A1–A2",
+    "imageAsset": "pv_eat_out_line",
+    "imageAlt": "A diner sits down at a restaurant table."
+  },
+  {
+    "id": "grow-up",
+    "phrase": "grow up",
+    "meaning": "become an adult",
+    "example": "She grew up near the sea.",
+    "level": "A1–A2",
+    "imageAsset": "pv_grow_up_line",
+    "imageAlt": "A child grows taller into an adult."
+  },
+  {
+    "id": "hand-in",
+    "phrase": "hand in",
+    "meaning": "submit work",
+    "example": "Hand in your essay on Monday.",
+    "level": "A1–A2",
+    "imageAsset": "pv_hand_in_line",
+    "imageAlt": "A hand offers a written page."
+  },
+  {
+    "id": "hang-on",
+    "phrase": "hang on",
+    "meaning": "wait for a short time",
+    "example": "Hang on while I check the address.",
+    "level": "A1–A2",
+    "imageAsset": "pv_hang_on_line",
+    "imageAlt": "A caller waits beside a phone and clock."
+  },
+  {
+    "id": "hang-up",
+    "phrase": "hang up",
+    "meaning": "end a phone call",
+    "example": "He hung up after saying goodbye.",
+    "level": "A1–A2",
+    "imageAsset": "pv_hang_up_line",
+    "imageAlt": "A hand ends a call on a phone."
+  },
+  {
+    "id": "hang-out",
+    "phrase": "hang out",
+    "meaning": "spend relaxed time together",
+    "example": "We hung out in the park after school.",
+    "level": "A1–A2",
+    "imageAsset": "pv_hang_out_line",
+    "imageAlt": "Friends relax together under a tree."
+  },
+  {
+    "id": "help-out",
+    "phrase": "help out",
+    "meaning": "give practical help",
+    "example": "Can you help out at the school fair?",
+    "level": "A1–A2",
+    "imageAsset": "pv_help_out_line",
+    "imageAlt": "A volunteer helps at a fair stall."
+  },
+  {
+    "id": "join-in",
+    "phrase": "join in",
+    "meaning": "participate in a group activity",
+    "example": "Everyone joined in the singing.",
+    "level": "A1–A2",
+    "imageAsset": "pv_join_in_line",
+    "imageAlt": "One singer joins a choir."
+  },
+  {
+    "id": "let-in",
+    "phrase": "let in",
+    "meaning": "allow to enter",
+    "example": "Please let the cat in before it rains.",
+    "level": "A1–A2",
+    "imageAsset": "pv_let_in_line",
+    "imageAlt": "A door opens to let a cat inside."
+  },
+  {
+    "id": "let-out",
+    "phrase": "let out",
+    "meaning": "allow to leave",
+    "example": "She let the dog out into the garden.",
+    "level": "A1–A2",
+    "imageAsset": "pv_let_out_line",
+    "imageAlt": "A dog leaves through an open door."
+  },
+  {
+    "id": "lie-down",
+    "phrase": "lie down",
+    "meaning": "put your body flat to rest",
+    "example": "Lie down for a while if you feel tired.",
+    "level": "A1–A2",
+    "imageAsset": "pv_lie_down_line",
+    "imageAlt": "A person lies down on a bed."
+  },
+  {
+    "id": "line-up",
+    "phrase": "line up",
+    "meaning": "stand in a row",
+    "example": "Please line up outside the classroom.",
+    "level": "A1–A2",
+    "imageAsset": "pv_line_up_line",
+    "imageAlt": "Children stand in a line by a classroom door."
+  },
+  {
+    "id": "log-in",
+    "phrase": "log in",
+    "meaning": "enter a computer account",
+    "example": "Log in with your school password.",
+    "level": "A1–A2",
+    "imageAsset": "pv_log_in_line",
+    "imageAlt": "A user enters an account on a computer."
+  },
+  {
+    "id": "log-out",
+    "phrase": "log out",
+    "meaning": "leave a computer account",
+    "example": "Remember to log out on a shared device.",
+    "level": "A1–A2",
+    "imageAsset": "pv_log_out_line",
+    "imageAlt": "A user leaves an account on a computer."
+  },
+  {
+    "id": "move-in",
+    "phrase": "move in",
+    "meaning": "start living in a new home",
+    "example": "They moved in on Saturday.",
+    "level": "A1–A2",
+    "imageAsset": "pv_move_in_line",
+    "imageAlt": "Moving boxes enter a new house."
+  },
+  {
+    "id": "move-out",
+    "phrase": "move out",
+    "meaning": "leave a home permanently",
+    "example": "My flatmate moved out in June.",
+    "level": "A1–A2",
+    "imageAsset": "pv_move_out_line",
+    "imageAlt": "Moving boxes leave a house."
+  },
+  {
+    "id": "save-up",
+    "phrase": "save up",
+    "meaning": "keep money for a future purchase",
+    "example": "She's saving up for a bicycle.",
+    "level": "A1–A2",
+    "imageAsset": "pv_save_up_line",
+    "imageAlt": "Coins collect beside a desired bicycle."
+  },
+  {
+    "id": "sign-in",
+    "phrase": "sign in",
+    "meaning": "record your arrival",
+    "example": "Visitors must sign in at reception.",
+    "level": "A1–A2",
+    "imageAsset": "pv_sign_in_line",
+    "imageAlt": "A visitor writes a name in a register."
+  },
+  {
+    "id": "sign-up",
+    "phrase": "sign up",
+    "meaning": "join by registering",
+    "example": "I signed up for a cooking class.",
+    "level": "A1–A2",
+    "imageAsset": "pv_sign_up_line",
+    "imageAlt": "A learner signs a class registration form."
+  },
+  {
+    "id": "sit-down",
+    "phrase": "sit down",
+    "meaning": "move into a seated position",
+    "example": "Sit down and make yourself comfortable.",
+    "level": "A1–A2",
+    "imageAsset": "pv_sit_down_line",
+    "imageAlt": "A person lowers into a chair."
+  },
+  {
+    "id": "slow-down",
+    "phrase": "slow down",
+    "meaning": "reduce speed",
+    "example": "Slow down near the school.",
+    "level": "A1–A2",
+    "imageAsset": "pv_slow_down_line",
+    "imageAlt": "A car slows near a school building."
+  },
+  {
+    "id": "speak-up",
+    "phrase": "speak up",
+    "meaning": "speak more loudly",
+    "example": "Please speak up; the room is noisy.",
+    "level": "A1–A2",
+    "imageAsset": "pv_speak_up_line",
+    "imageAlt": "A speaker's voice waves grow larger."
+  },
+  {
+    "id": "switch-on",
+    "phrase": "switch on",
+    "meaning": "start an electrical device",
+    "example": "Switch on the fan if you're hot.",
+    "level": "A1–A2",
+    "imageAsset": "pv_switch_on_line",
+    "imageAlt": "A hand starts a spinning fan."
+  },
+  {
+    "id": "switch-off",
+    "phrase": "switch off",
+    "meaning": "stop an electrical device",
+    "example": "Switch off the fan before you leave.",
+    "level": "A1–A2",
+    "imageAsset": "pv_switch_off_line",
+    "imageAlt": "A hand stops a fan spinning."
+  },
+  {
+    "id": "tidy-up",
+    "phrase": "tidy up",
+    "meaning": "make a place orderly",
+    "example": "Tidy up your desk before you go.",
+    "level": "A1–A2",
+    "imageAsset": "pv_tidy_up_line",
+    "imageAlt": "Loose papers are neatly arranged on a desk."
+  },
+  {
+    "id": "come-on",
+    "phrase": "come on",
+    "meaning": "encourage someone to act",
+    "example": "Come on, you can finish the last lap!",
+    "level": "A1–A2",
+    "imageAsset": "pv_come_on_line",
+    "imageAlt": "A cheering voice encourages a runner."
+  },
+  {
+    "id": "go-in",
+    "phrase": "go in",
+    "meaning": "enter a place",
+    "example": "We went in when the shop opened.",
+    "level": "A1–A2",
+    "imageAsset": "pv_go_in_line",
+    "imageAlt": "A customer moves into an open shop."
+  },
+  {
+    "id": "look-around",
+    "phrase": "look around",
+    "meaning": "inspect a place",
+    "example": "We looked around the museum for an hour.",
+    "level": "A1–A2",
+    "imageAsset": "pv_look_around_line",
+    "imageAlt": "An eye surveys the rooms of a building."
+  },
+  {
+    "id": "look-down",
+    "phrase": "look down",
+    "meaning": "direct your eyes toward a lower place",
+    "example": "Look down and you'll see the river.",
+    "level": "A1–A2",
+    "imageAsset": "pv_look_down_line",
+    "imageAlt": "An eye looks downward toward water."
+  },
+  {
+    "id": "sit-up",
+    "phrase": "sit up",
+    "meaning": "move into an upright seated position",
+    "example": "The patient sat up in bed to drink water.",
+    "level": "A1–A2",
+    "imageAsset": "pv_sit_up_line",
+    "imageAlt": "A patient rises upright in a bed."
+  },
+  {
+    "id": "wake-up",
+    "phrase": "wake up",
+    "meaning": "stop sleeping",
+    "example": "The baby woke up when the dog barked.",
+    "level": "A1–A2",
+    "imageAsset": "pv_wake_up_line",
+    "imageAlt": "A sleeper wakes as a loud sound rings out."
+  },
+  {
+    "id": "get-over",
+    "phrase": "get over",
+    "meaning": "recover from an illness or difficulty",
+    "example": "It took her a week to get over the flu.",
+    "level": "B1–B2",
+    "imageAsset": "pv_get_over_line",
+    "imageAlt": "A person moves past a dark cloud."
+  },
+  {
+    "id": "get-by",
+    "phrase": "get by",
+    "meaning": "manage with what is available",
+    "example": "We can get by with one small car.",
+    "level": "B1–B2",
+    "imageAsset": "pv_get_by_line",
+    "imageAlt": "A person manages with a single small car."
+  },
+  {
+    "id": "go-on",
+    "phrase": "go on",
+    "meaning": "continue happening",
+    "example": "The meeting went on for two hours.",
+    "level": "B1–B2",
+    "imageAsset": "pv_go_on_line",
+    "imageAlt": "A clock shows an event continuing."
+  },
+  {
+    "id": "go-through",
+    "phrase": "go through",
+    "meaning": "experience something difficult",
+    "example": "They went through a hard winter.",
+    "level": "B1–B2",
+    "imageAsset": "pv_go_through_line",
+    "imageAlt": "A person passes through a storm cloud."
+  },
+  {
+    "id": "go-over",
+    "phrase": "go over",
+    "meaning": "review carefully",
+    "example": "Let's go over the answers together.",
+    "level": "B1–B2",
+    "imageAsset": "pv_go_over_line",
+    "imageAlt": "A magnifier passes over an open book."
+  },
+  {
+    "id": "go-ahead",
+    "phrase": "go ahead",
+    "meaning": "begin or proceed",
+    "example": "You can go ahead without me.",
+    "level": "B1–B2",
+    "imageAsset": "pv_go_ahead_line",
+    "imageAlt": "A person starts along a clear path."
+  },
+  {
+    "id": "come-up",
+    "phrase": "come up",
+    "meaning": "arise or be mentioned",
+    "example": "A new question came up in class.",
+    "level": "B1–B2",
+    "imageAsset": "pv_come_up_line",
+    "imageAlt": "A question mark rises above a book."
+  },
+  {
+    "id": "come-across",
+    "phrase": "come across",
+    "meaning": "find by chance",
+    "example": "I came across an old photo in a drawer.",
+    "level": "B1–B2",
+    "imageAsset": "pv_come_across_line",
+    "imageAlt": "An old photo appears in an opened drawer."
+  },
+  {
+    "id": "come-up-with",
+    "phrase": "come up with",
+    "meaning": "think of an idea or plan",
+    "example": "Mia came up with a clever solution.",
+    "level": "B1–B2",
+    "imageAsset": "pv_come_up_with_line",
+    "imageAlt": "A light bulb appears above a person's head."
+  },
+  {
+    "id": "take-back",
+    "phrase": "take back",
+    "meaning": "return an item",
+    "example": "I took the broken lamp back to the shop.",
+    "level": "B1–B2",
+    "imageAsset": "pv_take_back_line",
+    "imageAlt": "A lamp is carried back toward a shop."
+  },
+  {
+    "id": "take-over",
+    "phrase": "take over",
+    "meaning": "gain control of something",
+    "example": "Her sister took over the family business.",
+    "level": "B1–B2",
+    "imageAsset": "pv_take_over_line",
+    "imageAlt": "A new person takes a seat at a work desk."
+  },
+  {
+    "id": "take-up",
+    "phrase": "take up",
+    "meaning": "start a hobby or activity",
+    "example": "He took up painting last spring.",
+    "level": "B1–B2",
+    "imageAsset": "pv_take_up_line",
+    "imageAlt": "A person picks up a paintbrush."
+  },
+  {
+    "id": "take-after",
+    "phrase": "take after",
+    "meaning": "resemble a family member",
+    "example": "Lea takes after her mother.",
+    "level": "B1–B2",
+    "imageAsset": "pv_take_after_line",
+    "imageAlt": "Two family faces resemble one another."
+  },
+  {
+    "id": "take-part-in",
+    "phrase": "take part in",
+    "meaning": "participate in an activity",
+    "example": "Our class took part in the race.",
+    "level": "B1–B2",
+    "imageAsset": "pv_take_part_in_line",
+    "imageAlt": "A person approaches a race flag."
+  },
+  {
+    "id": "take-on",
+    "phrase": "take on",
+    "meaning": "accept a responsibility",
+    "example": "She took on an extra project.",
+    "level": "B1–B2",
+    "imageAsset": "pv_take_on_line",
+    "imageAlt": "A person accepts another work folder."
+  },
+  {
+    "id": "put-off",
+    "phrase": "put off",
+    "meaning": "delay an event",
+    "example": "We put off the picnic until Sunday.",
+    "level": "B1–B2",
+    "imageAsset": "pv_put_off_line",
+    "imageAlt": "A picnic moves to a later calendar date."
+  },
+  {
+    "id": "put-up-with",
+    "phrase": "put up with",
+    "meaning": "tolerate something unpleasant",
+    "example": "He puts up with the noise next door.",
+    "level": "B1–B2",
+    "imageAsset": "pv_put_up_with_line",
+    "imageAlt": "A person endures noise from a speaker."
+  },
+  {
+    "id": "put-out",
+    "phrase": "put out",
+    "meaning": "extinguish a fire",
+    "example": "The firefighters put out the small fire.",
+    "level": "B1–B2",
+    "imageAsset": "pv_put_out_line",
+    "imageAlt": "Water reaches a small flame and puts it out."
+  },
+  {
+    "id": "put-together",
+    "phrase": "put together",
+    "meaning": "assemble parts",
+    "example": "We put together the new desk.",
+    "level": "B1–B2",
+    "imageAsset": "pv_put_together_line",
+    "imageAlt": "A tool joins the parts of a desk."
+  },
+  {
+    "id": "put-up",
+    "phrase": "put up",
+    "meaning": "raise or display something",
+    "example": "They put up a tent near the river.",
+    "level": "B1–B2",
+    "imageAsset": "pv_put_up_line",
+    "imageAlt": "A person raises a tent pole."
+  },
+  {
+    "id": "turn-back",
+    "phrase": "turn back",
+    "meaning": "reverse direction",
+    "example": "The road was closed, so we turned back.",
+    "level": "B1–B2",
+    "imageAsset": "pv_turn_back_line",
+    "imageAlt": "A car reverses at a road barrier."
+  },
+  {
+    "id": "turn-into",
+    "phrase": "turn into",
+    "meaning": "become something different",
+    "example": "The old factory turned into a library.",
+    "level": "B1–B2",
+    "imageAsset": "pv_turn_into_line",
+    "imageAlt": "A factory changes into a library book symbol."
+  },
+  {
+    "id": "turn-out",
+    "phrase": "turn out",
+    "meaning": "prove to be the case",
+    "example": "The exam turned out to be easier than expected.",
+    "level": "B1–B2",
+    "imageAsset": "pv_turn_out_line",
+    "imageAlt": "A question changes into a check mark."
+  },
+  {
+    "id": "turn-to",
+    "phrase": "turn to",
+    "meaning": "ask someone for help",
+    "example": "She turned to her friend for advice.",
+    "level": "B1–B2",
+    "imageAsset": "pv_turn_to_line",
+    "imageAlt": "One person asks another for help."
+  },
+  {
+    "id": "look-forward-to",
+    "phrase": "look forward to",
+    "meaning": "feel pleased about a future event",
+    "example": "We're looking forward to the holiday.",
+    "level": "B1–B2",
+    "imageAsset": "pv_look_forward_to_line",
+    "imageAlt": "A person looks ahead to a marked holiday date."
+  },
+  {
+    "id": "look-into",
+    "phrase": "look into",
+    "meaning": "investigate",
+    "example": "The team will look into the problem.",
+    "level": "B1–B2",
+    "imageAsset": "pv_look_into_line",
+    "imageAlt": "A magnifier examines a question mark."
+  },
+  {
+    "id": "look-back",
+    "phrase": "look back",
+    "meaning": "think about the past",
+    "example": "She looks back on her school days fondly.",
+    "level": "B1–B2",
+    "imageAsset": "pv_look_back_line",
+    "imageAlt": "A person looks back toward an old clock."
+  },
+  {
+    "id": "look-over",
+    "phrase": "look over",
+    "meaning": "examine quickly",
+    "example": "Could you look over my report?",
+    "level": "B1–B2",
+    "imageAsset": "pv_look_over_line",
+    "imageAlt": "An eye scans the pages of a report."
+  },
+  {
+    "id": "look-up-to",
+    "phrase": "look up to",
+    "meaning": "admire someone",
+    "example": "He has always looked up to his teacher.",
+    "level": "B1–B2",
+    "imageAsset": "pv_look_up_to_line",
+    "imageAlt": "A child looks up admiringly at a teacher."
+  },
+  {
+    "id": "break-down",
+    "phrase": "break down",
+    "meaning": "stop working",
+    "example": "Our car broke down on the motorway.",
+    "level": "B1–B2",
+    "imageAsset": "pv_break_down_line",
+    "imageAlt": "A stopped car sits beside a repair tool."
+  },
+  {
+    "id": "break-up",
+    "phrase": "break up",
+    "meaning": "end a relationship",
+    "example": "They broke up last summer.",
+    "level": "B1–B2",
+    "imageAsset": "pv_break_up_line",
+    "imageAlt": "A broken heart separates two people."
+  },
+  {
+    "id": "break-in",
+    "phrase": "break in",
+    "meaning": "enter illegally",
+    "example": "Someone tried to break in last night.",
+    "level": "B1–B2",
+    "imageAsset": "pv_break_in_line",
+    "imageAlt": "A damaged lock hangs on a door."
+  },
+  {
+    "id": "break-out",
+    "phrase": "break out",
+    "meaning": "start suddenly",
+    "example": "A fire broke out in the kitchen.",
+    "level": "B1–B2",
+    "imageAsset": "pv_break_out_line",
+    "imageAlt": "Flames suddenly appear in a house."
+  },
+  {
+    "id": "break-off",
+    "phrase": "break off",
+    "meaning": "separate a piece",
+    "example": "He broke off a piece of chocolate.",
+    "level": "B1–B2",
+    "imageAsset": "pv_break_off_line",
+    "imageAlt": "A piece breaks away from a chocolate bar."
+  },
+  {
+    "id": "break-through",
+    "phrase": "break through",
+    "meaning": "pass a barrier",
+    "example": "The sun broke through the clouds.",
+    "level": "B1–B2",
+    "imageAsset": "pv_break_through_line",
+    "imageAlt": "Sunlight passes through a cloud."
+  },
+  {
+    "id": "bring-up",
+    "phrase": "bring up",
+    "meaning": "mention a subject",
+    "example": "Don't bring up the surprise party yet.",
+    "level": "B1–B2",
+    "imageAsset": "pv_bring_up_line",
+    "imageAlt": "A speech bubble raises the subject of a gift."
+  },
+  {
+    "id": "bring-out",
+    "phrase": "bring out",
+    "meaning": "make something available",
+    "example": "The baker brought out a fresh loaf.",
+    "level": "B1–B2",
+    "imageAsset": "pv_bring_out_line",
+    "imageAlt": "A loaf of bread comes out of an oven."
+  },
+  {
+    "id": "give-up",
+    "phrase": "give up",
+    "meaning": "stop trying or doing something",
+    "example": "Don't give up after one hard lesson.",
+    "level": "B1–B2",
+    "imageAsset": "pv_give_up_line",
+    "imageAlt": "A person lowers a flag after stopping."
+  },
+  {
+    "id": "give-away",
+    "phrase": "give away",
+    "meaning": "give without payment",
+    "example": "They gave away their old books.",
+    "level": "B1–B2",
+    "imageAsset": "pv_give_away_line",
+    "imageAlt": "Books pass freely from one hand to another."
+  },
+  {
+    "id": "give-out",
+    "phrase": "give out",
+    "meaning": "distribute",
+    "example": "The teacher gave out the worksheets.",
+    "level": "B1–B2",
+    "imageAsset": "pv_give_out_line",
+    "imageAlt": "A teacher distributes sheets of paper."
+  },
+  {
+    "id": "give-in",
+    "phrase": "give in",
+    "meaning": "stop resisting",
+    "example": "After an hour, he gave in and agreed.",
+    "level": "B1–B2",
+    "imageAsset": "pv_give_in_line",
+    "imageAlt": "A person lowers a barrier in agreement."
+  },
+  {
+    "id": "give-off",
+    "phrase": "give off",
+    "meaning": "produce a smell, heat, or light",
+    "example": "The flowers give off a sweet smell.",
+    "level": "B1–B2",
+    "imageAsset": "pv_give_off_line",
+    "imageAlt": "Gentle scent lines rise from a flower."
+  },
+  {
+    "id": "make-up",
+    "phrase": "make up",
+    "meaning": "invent a story",
+    "example": "He made up an excuse for being late.",
+    "level": "B1–B2",
+    "imageAsset": "pv_make_up_line",
+    "imageAlt": "A person invents a story in a speech bubble."
+  },
+  {
+    "id": "make-out",
+    "phrase": "make out",
+    "meaning": "see or hear with difficulty",
+    "example": "I could barely make out the sign in the fog.",
+    "level": "B1–B2",
+    "imageAsset": "pv_make_out_line",
+    "imageAlt": "An eye struggles to see a sign through fog."
+  },
+  {
+    "id": "make-up-for",
+    "phrase": "make up for",
+    "meaning": "compensate for something",
+    "example": "She made up for lost time by working late.",
+    "level": "B1–B2",
+    "imageAsset": "pv_make_up_for_line",
+    "imageAlt": "Extra work balances lost time on a clock."
+  },
+  {
+    "id": "make-do",
+    "phrase": "make do",
+    "meaning": "manage without ideal supplies",
+    "example": "We made do with two chairs for three guests.",
+    "level": "B1–B2",
+    "imageAsset": "pv_make_do_line",
+    "imageAlt": "Three guests manage with only two chairs."
+  },
+  {
+    "id": "run-into",
+    "phrase": "run into",
+    "meaning": "meet unexpectedly",
+    "example": "I ran into my old coach downtown.",
+    "level": "B1–B2",
+    "imageAsset": "pv_run_into_line",
+    "imageAlt": "Two people meet unexpectedly, marked by radiating lines."
+  },
+  {
+    "id": "run-over",
+    "phrase": "run over",
+    "meaning": "hit with a vehicle",
+    "example": "A car nearly ran over the bicycle.",
+    "level": "B1–B2",
+    "imageAsset": "pv_run_over_line",
+    "imageAlt": "A car passes dangerously close to a bicycle."
+  },
+  {
+    "id": "run-through",
+    "phrase": "run through",
+    "meaning": "rehearse or review quickly",
+    "example": "Let's run through the plan once more.",
+    "level": "B1–B2",
+    "imageAsset": "pv_run_through_line",
+    "imageAlt": "A person reviews a plan from start to finish."
+  },
+  {
+    "id": "set-up",
+    "phrase": "set up",
+    "meaning": "arrange or create",
+    "example": "They set up a small market stall.",
+    "level": "B1–B2",
+    "imageAsset": "pv_set_up_line",
+    "imageAlt": "A person assembles a market stall."
+  },
+  {
+    "id": "set-off",
+    "phrase": "set off",
+    "meaning": "begin a journey",
+    "example": "We set off before sunrise.",
+    "level": "B1–B2",
+    "imageAsset": "pv_set_off_line",
+    "imageAlt": "Travelers leave as the sun rises."
+  },
+  {
+    "id": "set-out",
+    "phrase": "set out",
+    "meaning": "start with a particular aim",
+    "example": "She set out to learn Japanese.",
+    "level": "B1–B2",
+    "imageAsset": "pv_set_out_line",
+    "imageAlt": "A learner starts toward an open book."
+  },
+  {
+    "id": "set-aside",
+    "phrase": "set aside",
+    "meaning": "reserve for later",
+    "example": "I set aside money for the trip.",
+    "level": "B1–B2",
+    "imageAsset": "pv_set_aside_line",
+    "imageAlt": "Coins are put into a savings jar."
+  },
+  {
+    "id": "set-down",
+    "phrase": "set down",
+    "meaning": "write or place something",
+    "example": "He set down the instructions on paper.",
+    "level": "B1–B2",
+    "imageAsset": "pv_set_down_line",
+    "imageAlt": "A pencil writes instructions on a plan."
+  },
+  {
+    "id": "pick-out",
+    "phrase": "pick out",
+    "meaning": "choose from a group",
+    "example": "She picked out a red scarf.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pick_out_line",
+    "imageAlt": "A hand selects one scarf from a group."
+  },
+  {
+    "id": "pick-on",
+    "phrase": "pick on",
+    "meaning": "treat someone unfairly",
+    "example": "Older children picked on the new pupil.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pick_on_line",
+    "imageAlt": "One child is singled out by another."
+  },
+  {
+    "id": "hold-up",
+    "phrase": "hold up",
+    "meaning": "delay or stop progress",
+    "example": "Traffic held us up for an hour.",
+    "level": "B1–B2",
+    "imageAsset": "pv_hold_up_line",
+    "imageAlt": "A car waits behind traffic while a clock passes."
+  },
+  {
+    "id": "hold-back",
+    "phrase": "hold back",
+    "meaning": "stop yourself from showing emotion",
+    "example": "She held back her tears.",
+    "level": "B1–B2",
+    "imageAsset": "pv_hold_back_line",
+    "imageAlt": "A person keeps a tear from falling."
+  },
+  {
+    "id": "hold-out",
+    "phrase": "hold out",
+    "meaning": "offer something in your hand",
+    "example": "He held out the map for us to see.",
+    "level": "B1–B2",
+    "imageAsset": "pv_hold_out_line",
+    "imageAlt": "An outstretched hand offers a map."
+  },
+  {
+    "id": "keep-up",
+    "phrase": "keep up",
+    "meaning": "stay at the same level or pace",
+    "example": "I can't keep up with that fast runner.",
+    "level": "B1–B2",
+    "imageAsset": "pv_keep_up_line",
+    "imageAlt": "A runner tries to follow a faster runner."
+  },
+  {
+    "id": "keep-out",
+    "phrase": "keep out",
+    "meaning": "prevent entry",
+    "example": "The fence keeps animals out of the garden.",
+    "level": "B1–B2",
+    "imageAsset": "pv_keep_out_line",
+    "imageAlt": "A fence stops an animal entering a garden."
+  },
+  {
+    "id": "keep-back",
+    "phrase": "keep back",
+    "meaning": "remain behind",
+    "example": "Please keep back from the platform edge.",
+    "level": "B1–B2",
+    "imageAsset": "pv_keep_back_line",
+    "imageAlt": "A person stands back from a platform edge."
+  },
+  {
+    "id": "call-off",
+    "phrase": "call off",
+    "meaning": "cancel",
+    "example": "They called off the match because of rain.",
+    "level": "B1–B2",
+    "imageAsset": "pv_call_off_line",
+    "imageAlt": "Rain cancels a ball game."
+  },
+  {
+    "id": "call-on",
+    "phrase": "call on",
+    "meaning": "ask someone to speak",
+    "example": "The teacher called on Ana to answer.",
+    "level": "B1–B2",
+    "imageAsset": "pv_call_on_line",
+    "imageAlt": "A teacher invites a pupil to answer."
+  },
+  {
+    "id": "call-for",
+    "phrase": "call for",
+    "meaning": "require something",
+    "example": "This recipe calls for two eggs.",
+    "level": "B1–B2",
+    "imageAsset": "pv_call_for_line",
+    "imageAlt": "A recipe points to two eggs."
+  },
+  {
+    "id": "carry-on",
+    "phrase": "carry on",
+    "meaning": "continue an activity",
+    "example": "Please carry on with your reading.",
+    "level": "B1–B2",
+    "imageAsset": "pv_carry_on_line",
+    "imageAlt": "A reader continues through an open book."
+  },
+  {
+    "id": "carry-out",
+    "phrase": "carry out",
+    "meaning": "perform a task",
+    "example": "The team carried out the experiment.",
+    "level": "B1–B2",
+    "imageAsset": "pv_carry_out_line",
+    "imageAlt": "A person completes an experiment using a flask."
+  },
+  {
+    "id": "cut-down-on",
+    "phrase": "cut down on",
+    "meaning": "reduce the amount of something",
+    "example": "I'm trying to cut down on sugar.",
+    "level": "B1–B2",
+    "imageAsset": "pv_cut_down_on_line",
+    "imageAlt": "A spoonful of sugar becomes smaller."
+  },
+  {
+    "id": "cut-off",
+    "phrase": "cut off",
+    "meaning": "disconnect or separate",
+    "example": "The storm cut off the power.",
+    "level": "B1–B2",
+    "imageAsset": "pv_cut_off_line",
+    "imageAlt": "A storm breaks an electrical connection."
+  },
+  {
+    "id": "cut-back",
+    "phrase": "cut back",
+    "meaning": "reduce spending or use",
+    "example": "We need to cut back on fuel costs.",
+    "level": "B1–B2",
+    "imageAsset": "pv_cut_back_line",
+    "imageAlt": "A coin and fuel pump show spending falling."
+  },
+  {
+    "id": "cut-in",
+    "phrase": "cut in",
+    "meaning": "interrupt someone speaking",
+    "example": "Please don't cut in while she's talking.",
+    "level": "B1–B2",
+    "imageAsset": "pv_cut_in_line",
+    "imageAlt": "A second speaker interrupts a speech bubble."
+  },
+  {
+    "id": "drop-by",
+    "phrase": "drop by",
+    "meaning": "visit briefly",
+    "example": "Drop by for tea whenever you're nearby.",
+    "level": "B1–B2",
+    "imageAsset": "pv_drop_by_line",
+    "imageAlt": "A visitor makes a brief stop at a house."
+  },
+  {
+    "id": "drop-out",
+    "phrase": "drop out",
+    "meaning": "stop taking part",
+    "example": "He dropped out of the course in June.",
+    "level": "B1–B2",
+    "imageAsset": "pv_drop_out_line",
+    "imageAlt": "A student leaves a course before finishing."
+  },
+  {
+    "id": "fall-apart",
+    "phrase": "fall apart",
+    "meaning": "break into pieces",
+    "example": "My old suitcase is falling apart.",
+    "level": "B1–B2",
+    "imageAsset": "pv_fall_apart_line",
+    "imageAlt": "A worn suitcase separates into pieces."
+  },
+  {
+    "id": "fall-behind",
+    "phrase": "fall behind",
+    "meaning": "fail to stay at the same pace",
+    "example": "I fell behind with my homework.",
+    "level": "B1–B2",
+    "imageAsset": "pv_fall_behind_line",
+    "imageAlt": "A learner lags behind a stack of homework."
+  },
+  {
+    "id": "fall-for",
+    "phrase": "fall for",
+    "meaning": "be deceived by or attracted to",
+    "example": "He fell for the fake offer.",
+    "level": "B1–B2",
+    "imageAsset": "pv_fall_for_line",
+    "imageAlt": "A person reaches toward a tempting trap."
+  },
+  {
+    "id": "figure-out",
+    "phrase": "figure out",
+    "meaning": "understand or solve",
+    "example": "I figured out how the lock works.",
+    "level": "B1–B2",
+    "imageAsset": "pv_figure_out_line",
+    "imageAlt": "A person solves the mechanism of a lock."
+  },
+  {
+    "id": "work-out",
+    "phrase": "work out",
+    "meaning": "solve a problem",
+    "example": "We worked out the answer together.",
+    "level": "B1–B2",
+    "imageAsset": "pv_work_out_line",
+    "imageAlt": "A pencil turns a question into a solved answer."
+  },
+  {
+    "id": "work-through",
+    "phrase": "work through",
+    "meaning": "deal with step by step",
+    "example": "Let's work through these questions.",
+    "level": "B1–B2",
+    "imageAsset": "pv_work_through_line",
+    "imageAlt": "A page and check mark show completed steps."
+  },
+  {
+    "id": "work-towards",
+    "phrase": "work towards",
+    "meaning": "make progress toward a goal",
+    "example": "They are working towards a new school.",
+    "level": "B1–B2",
+    "imageAsset": "pv_work_towards_line",
+    "imageAlt": "Builders move steadily toward a school goal."
+  },
+  {
+    "id": "show-up",
+    "phrase": "show up",
+    "meaning": "arrive",
+    "example": "Only six guests showed up.",
+    "level": "B1–B2",
+    "imageAsset": "pv_show_up_line",
+    "imageAlt": "A guest appears at a party doorway."
+  },
+  {
+    "id": "show-off",
+    "phrase": "show off",
+    "meaning": "try to impress people",
+    "example": "He showed off his new bike.",
+    "level": "B1–B2",
+    "imageAsset": "pv_show_off_line",
+    "imageAlt": "A person proudly displays a bicycle."
+  },
+  {
+    "id": "show-around",
+    "phrase": "show around",
+    "meaning": "guide someone through a place",
+    "example": "I'll show you around the office.",
+    "level": "B1–B2",
+    "imageAsset": "pv_show_around_line",
+    "imageAlt": "A guide leads a visitor around a building."
+  },
+  {
+    "id": "stand-out",
+    "phrase": "stand out",
+    "meaning": "be easy to notice",
+    "example": "Her yellow umbrella stood out in the crowd.",
+    "level": "B1–B2",
+    "imageAsset": "pv_stand_out_line",
+    "imageAlt": "One umbrella is noticeable among a crowd."
+  },
+  {
+    "id": "stand-by",
+    "phrase": "stand by",
+    "meaning": "support someone",
+    "example": "I'll stand by you during the meeting.",
+    "level": "B1–B2",
+    "imageAsset": "pv_stand_by_line",
+    "imageAlt": "One person stands beside a friend in support."
+  },
+  {
+    "id": "stand-for",
+    "phrase": "stand for",
+    "meaning": "represent or mean",
+    "example": "The letters stand for our school name.",
+    "level": "B1–B2",
+    "imageAsset": "pv_stand_for_line",
+    "imageAlt": "Initial letters point to a school building."
+  },
+  {
+    "id": "stand-up-for",
+    "phrase": "stand up for",
+    "meaning": "defend someone or something",
+    "example": "She stood up for her friend.",
+    "level": "B1–B2",
+    "imageAsset": "pv_stand_up_for_line",
+    "imageAlt": "A person protects a friend from harm."
+  },
+  {
+    "id": "stay-over",
+    "phrase": "stay over",
+    "meaning": "spend the night as a guest",
+    "example": "My cousin stayed over on Saturday.",
+    "level": "B1–B2",
+    "imageAsset": "pv_stay_over_line",
+    "imageAlt": "A guest sleeps in a spare bed."
+  },
+  {
+    "id": "step-in",
+    "phrase": "step in",
+    "meaning": "intervene",
+    "example": "A teacher stepped in to stop the argument.",
+    "level": "B1–B2",
+    "imageAsset": "pv_step_in_line",
+    "imageAlt": "A teacher stands between two arguing people."
+  },
+  {
+    "id": "step-down",
+    "phrase": "step down",
+    "meaning": "leave a position of authority",
+    "example": "The chairperson stepped down in May.",
+    "level": "B1–B2",
+    "imageAsset": "pv_step_down_line",
+    "imageAlt": "A leader steps away from a podium."
+  },
+  {
+    "id": "step-up",
+    "phrase": "step up",
+    "meaning": "increase effort or activity",
+    "example": "The team stepped up its training.",
+    "level": "B1–B2",
+    "imageAsset": "pv_step_up_line",
+    "imageAlt": "A runner's training level rises."
+  },
+  {
+    "id": "step-back",
+    "phrase": "step back",
+    "meaning": "move away to see clearly",
+    "example": "Step back and look at the whole painting.",
+    "level": "B1–B2",
+    "imageAsset": "pv_step_back_line",
+    "imageAlt": "A viewer steps back from a painting."
+  },
+  {
+    "id": "throw-out",
+    "phrase": "throw out",
+    "meaning": "discard",
+    "example": "They threw out the old carpet.",
+    "level": "B1–B2",
+    "imageAsset": "pv_throw_out_line",
+    "imageAlt": "An old carpet is discarded in a bin."
+  },
+  {
+    "id": "throw-up",
+    "phrase": "throw up",
+    "meaning": "vomit",
+    "example": "The child threw up after the boat trip.",
+    "level": "B1–B2",
+    "imageAsset": "pv_throw_up_line",
+    "imageAlt": "A seasick child bends beside a boat."
+  },
+  {
+    "id": "try-out",
+    "phrase": "try out",
+    "meaning": "test something",
+    "example": "We tried out the new camera.",
+    "level": "B1–B2",
+    "imageAsset": "pv_try_out_line",
+    "imageAlt": "A person tests a new camera."
+  },
+  {
+    "id": "write-up",
+    "phrase": "write up",
+    "meaning": "prepare a full written report",
+    "example": "She wrote up the results after the test.",
+    "level": "B1–B2",
+    "imageAsset": "pv_write_up_line",
+    "imageAlt": "A pen completes a detailed report."
+  },
+  {
+    "id": "back-up",
+    "phrase": "back up",
+    "meaning": "make a safety copy",
+    "example": "Back up your photos before changing phones.",
+    "level": "B1–B2",
+    "imageAsset": "pv_back_up_line",
+    "imageAlt": "A phone is linked to a cloud for backup."
+  },
+  {
+    "id": "back-away",
+    "phrase": "back away",
+    "meaning": "move backwards from something",
+    "example": "She backed away from the angry dog.",
+    "level": "B1–B2",
+    "imageAsset": "pv_back_away_line",
+    "imageAlt": "A person steps backward from a dog."
+  },
+  {
+    "id": "back-out",
+    "phrase": "back out",
+    "meaning": "withdraw from a plan",
+    "example": "One investor backed out of the deal.",
+    "level": "B1–B2",
+    "imageAsset": "pv_back_out_line",
+    "imageAlt": "A person moves away from a signed contract."
+  },
+  {
+    "id": "blow-up",
+    "phrase": "blow up",
+    "meaning": "explode",
+    "example": "The balloon blew up with a loud pop.",
+    "level": "B1–B2",
+    "imageAsset": "pv_blow_up_line",
+    "imageAlt": "A balloon bursts into radiating pieces."
+  },
+  {
+    "id": "check-up-on",
+    "phrase": "check up on",
+    "meaning": "make sure someone is well",
+    "example": "I'll check up on Grandpa this evening.",
+    "level": "B1–B2",
+    "imageAsset": "pv_check_up_on_line",
+    "imageAlt": "A person phones an older relative to check on them."
+  },
+  {
+    "id": "clear-up",
+    "phrase": "clear up",
+    "meaning": "become less cloudy or confusing",
+    "example": "The sky cleared up by lunchtime.",
+    "level": "B1–B2",
+    "imageAsset": "pv_clear_up_line",
+    "imageAlt": "Clouds move away to reveal the sun."
+  },
+  {
+    "id": "clear-out",
+    "phrase": "clear out",
+    "meaning": "remove unwanted things",
+    "example": "We cleared out the old cupboard.",
+    "level": "B1–B2",
+    "imageAsset": "pv_clear_out_line",
+    "imageAlt": "Old boxes move out of a cupboard."
+  },
+  {
+    "id": "close-down",
+    "phrase": "close down",
+    "meaning": "stop operating permanently",
+    "example": "The small cinema closed down last year.",
+    "level": "B1–B2",
+    "imageAsset": "pv_close_down_line",
+    "imageAlt": "A cinema is locked after closing."
+  },
+  {
+    "id": "count-on",
+    "phrase": "count on",
+    "meaning": "rely on someone",
+    "example": "You can count on me to help.",
+    "level": "B1–B2",
+    "imageAsset": "pv_count_on_line",
+    "imageAlt": "One person supports teammates with a steady hand."
+  },
+  {
+    "id": "count-down",
+    "phrase": "count down",
+    "meaning": "count backward to an event",
+    "example": "The crowd counted down to midnight.",
+    "level": "B1–B2",
+    "imageAsset": "pv_count_down_line",
+    "imageAlt": "A crowd watches a clock approach midnight."
+  },
+  {
+    "id": "deal-with",
+    "phrase": "deal with",
+    "meaning": "handle a problem",
+    "example": "I'll deal with the broken printer later.",
+    "level": "B1–B2",
+    "imageAsset": "pv_deal_with_line",
+    "imageAlt": "A person repairs a troubled printer."
+  },
+  {
+    "id": "do-without",
+    "phrase": "do without",
+    "meaning": "manage in the absence of something",
+    "example": "We had to do without hot water.",
+    "level": "B1–B2",
+    "imageAsset": "pv_do_without_line",
+    "imageAlt": "A person copes with an empty water tap."
+  },
+  {
+    "id": "end-up",
+    "phrase": "end up",
+    "meaning": "finally be in a situation",
+    "example": "We ended up walking home in the rain.",
+    "level": "B1–B2",
+    "imageAsset": "pv_end_up_line",
+    "imageAlt": "Travelers unexpectedly walk home through rain."
+  },
+  {
+    "id": "follow-up",
+    "phrase": "follow up",
+    "meaning": "act after a first contact",
+    "example": "I'll follow up the email with a call.",
+    "level": "B1–B2",
+    "imageAsset": "pv_follow_up_line",
+    "imageAlt": "A phone call follows an earlier email."
+  },
+  {
+    "id": "get-around",
+    "phrase": "get around",
+    "meaning": "travel from place to place",
+    "example": "We got around the city by bike.",
+    "level": "B1–B2",
+    "imageAsset": "pv_get_around_line",
+    "imageAlt": "A bicycle circles several city streets."
+  },
+  {
+    "id": "get-away",
+    "phrase": "get away",
+    "meaning": "escape or take a short holiday",
+    "example": "They got away to the coast for two days.",
+    "level": "B1–B2",
+    "imageAsset": "pv_get_away_line",
+    "imageAlt": "A person travels toward the sea."
+  },
+  {
+    "id": "get-down",
+    "phrase": "get down",
+    "meaning": "feel sad or discouraged",
+    "example": "The bad news got him down.",
+    "level": "B1–B2",
+    "imageAsset": "pv_get_down_line",
+    "imageAlt": "A person droops beneath a gloomy cloud."
+  },
+  {
+    "id": "get-through",
+    "phrase": "get through",
+    "meaning": "finish something difficult",
+    "example": "She got through all her homework.",
+    "level": "B1–B2",
+    "imageAsset": "pv_get_through_line",
+    "imageAlt": "A learner reaches the end of a book stack."
+  },
+  {
+    "id": "get-across",
+    "phrase": "get across",
+    "meaning": "communicate an idea clearly",
+    "example": "He got his point across with a drawing.",
+    "level": "B1–B2",
+    "imageAsset": "pv_get_across_line",
+    "imageAlt": "An idea travels from one speaker to another."
+  },
+  {
+    "id": "get-away-with",
+    "phrase": "get away with",
+    "meaning": "avoid punishment for something",
+    "example": "The thief did not get away with it.",
+    "level": "B1–B2",
+    "imageAsset": "pv_get_away_with_line",
+    "imageAlt": "A thief is stopped beside a lock."
+  },
+  {
+    "id": "give-way",
+    "phrase": "give way",
+    "meaning": "yield to someone",
+    "example": "Cars must give way at this junction.",
+    "level": "B1–B2",
+    "imageAsset": "pv_give_way_line",
+    "imageAlt": "One car waits while another passes."
+  },
+  {
+    "id": "grow-out-of",
+    "phrase": "grow out of",
+    "meaning": "become too big for",
+    "example": "The baby grew out of those shoes.",
+    "level": "B1–B2",
+    "imageAsset": "pv_grow_out_of_line",
+    "imageAlt": "A growing child's foot no longer fits a shoe."
+  },
+  {
+    "id": "hand-out",
+    "phrase": "hand out",
+    "meaning": "distribute",
+    "example": "Volunteers handed out water at the race.",
+    "level": "B1–B2",
+    "imageAsset": "pv_hand_out_line",
+    "imageAlt": "A volunteer gives out water bottles."
+  },
+  {
+    "id": "hand-over",
+    "phrase": "hand over",
+    "meaning": "give control or possession",
+    "example": "She handed over the office keys.",
+    "level": "B1–B2",
+    "imageAsset": "pv_hand_over_line",
+    "imageAlt": "A key passes from one hand to another."
+  },
+  {
+    "id": "hang-around",
+    "phrase": "hang around",
+    "meaning": "wait or spend time without a plan",
+    "example": "We hung around outside the theater.",
+    "level": "B1–B2",
+    "imageAsset": "pv_hang_around_line",
+    "imageAlt": "A group waits outside a theater."
+  },
+  {
+    "id": "head-out",
+    "phrase": "head out",
+    "meaning": "leave a place",
+    "example": "We headed out just after breakfast.",
+    "level": "B1–B2",
+    "imageAsset": "pv_head_out_line",
+    "imageAlt": "A traveler sets off with a bag."
+  },
+  {
+    "id": "head-for",
+    "phrase": "head for",
+    "meaning": "move toward a destination",
+    "example": "The boat headed for the island.",
+    "level": "B1–B2",
+    "imageAsset": "pv_head_for_line",
+    "imageAlt": "A boat moves toward an island."
+  },
+  {
+    "id": "leave-out",
+    "phrase": "leave out",
+    "meaning": "omit",
+    "example": "You left out the last question.",
+    "level": "B1–B2",
+    "imageAsset": "pv_leave_out_line",
+    "imageAlt": "One question is missing from a page."
+  },
+  {
+    "id": "leave-behind",
+    "phrase": "leave behind",
+    "meaning": "forget or abandon something",
+    "example": "I left my scarf behind on the train.",
+    "level": "B1–B2",
+    "imageAsset": "pv_leave_behind_line",
+    "imageAlt": "A scarf remains on a train as someone leaves."
+  },
+  {
+    "id": "let-down",
+    "phrase": "let down",
+    "meaning": "disappoint someone",
+    "example": "I don't want to let my team down.",
+    "level": "B1–B2",
+    "imageAsset": "pv_let_down_line",
+    "imageAlt": "A person stands beside a team with a downward arrow."
+  },
+  {
+    "id": "let-go",
+    "phrase": "let go",
+    "meaning": "release something",
+    "example": "Let go of the rope when I say so.",
+    "level": "B1–B2",
+    "imageAsset": "pv_let_go_line",
+    "imageAlt": "A hand releases a rope."
+  },
+  {
+    "id": "live-on",
+    "phrase": "live on",
+    "meaning": "have money or food to survive",
+    "example": "They lived on a small pension.",
+    "level": "B1–B2",
+    "imageAsset": "pv_live_on_line",
+    "imageAlt": "A person manages with a few coins."
+  },
+  {
+    "id": "move-on",
+    "phrase": "move on",
+    "meaning": "continue to a new thing",
+    "example": "Let's move on to the next chapter.",
+    "level": "B1–B2",
+    "imageAsset": "pv_move_on_line",
+    "imageAlt": "A reader turns toward the next chapter."
+  },
+  {
+    "id": "open-up",
+    "phrase": "open up",
+    "meaning": "make something accessible",
+    "example": "The new bridge opened up the valley.",
+    "level": "B1–B2",
+    "imageAsset": "pv_open_up_line",
+    "imageAlt": "A bridge opens a route into a valley."
+  },
+  {
+    "id": "pass-away",
+    "phrase": "pass away",
+    "meaning": "die",
+    "example": "Her grandfather passed away peacefully.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pass_away_line",
+    "imageAlt": "A flower marks remembrance of a loved one."
+  },
+  {
+    "id": "pass-out",
+    "phrase": "pass out",
+    "meaning": "lose consciousness",
+    "example": "He passed out in the heat.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pass_out_line",
+    "imageAlt": "A person faints under a hot sun."
+  },
+  {
+    "id": "pass-on",
+    "phrase": "pass on",
+    "meaning": "give something to another person",
+    "example": "Please pass on this message to Sam.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pass_on_line",
+    "imageAlt": "A written message passes from hand to hand."
+  },
+  {
+    "id": "pay-back",
+    "phrase": "pay back",
+    "meaning": "return borrowed money",
+    "example": "I'll pay you back on Friday.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pay_back_line",
+    "imageAlt": "Coins return to the lender's hand."
+  },
+  {
+    "id": "pay-off",
+    "phrase": "pay off",
+    "meaning": "finish paying a debt",
+    "example": "They paid off the loan last month.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pay_off_line",
+    "imageAlt": "A loan paper is marked paid after final coins."
+  },
+  {
+    "id": "point-out",
+    "phrase": "point out",
+    "meaning": "draw attention to something",
+    "example": "She pointed out the spelling mistake.",
+    "level": "B1–B2",
+    "imageAsset": "pv_point_out_line",
+    "imageAlt": "A finger points to a mistake in a word."
+  },
+  {
+    "id": "pull-over",
+    "phrase": "pull over",
+    "meaning": "move a vehicle to the roadside",
+    "example": "The driver pulled over to read the map.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pull_over_line",
+    "imageAlt": "A car moves toward the side of a road."
+  },
+  {
+    "id": "pull-out",
+    "phrase": "pull out",
+    "meaning": "remove or leave",
+    "example": "The train pulled out of the station.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pull_out_line",
+    "imageAlt": "A train leaves a station platform."
+  },
+  {
+    "id": "pull-together",
+    "phrase": "pull together",
+    "meaning": "work as a team",
+    "example": "We need to pull together to finish today.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pull_together_line",
+    "imageAlt": "Several people pull one rope together."
+  },
+  {
+    "id": "push-back",
+    "phrase": "push back",
+    "meaning": "delay or resist",
+    "example": "The launch was pushed back a week.",
+    "level": "B1–B2",
+    "imageAsset": "pv_push_back_line",
+    "imageAlt": "A rocket launch shifts to a later calendar day."
+  },
+  {
+    "id": "push-on",
+    "phrase": "push on",
+    "meaning": "continue despite difficulty",
+    "example": "We pushed on through the heavy rain.",
+    "level": "B1–B2",
+    "imageAsset": "pv_push_on_line",
+    "imageAlt": "A walker continues through heavy rain."
+  },
+  {
+    "id": "rely-on",
+    "phrase": "rely on",
+    "meaning": "depend on someone or something",
+    "example": "We rely on the bus to get to work.",
+    "level": "B1–B2",
+    "imageAsset": "pv_rely_on_line",
+    "imageAlt": "A commuter depends on a bus route."
+  },
+  {
+    "id": "see-off",
+    "phrase": "see off",
+    "meaning": "say goodbye to someone leaving",
+    "example": "We saw our friends off at the airport.",
+    "level": "B1–B2",
+    "imageAsset": "pv_see_off_line",
+    "imageAlt": "Friends wave goodbye beside an airplane."
+  },
+  {
+    "id": "sell-out",
+    "phrase": "sell out",
+    "meaning": "sell all available items",
+    "example": "The concert sold out in an hour.",
+    "level": "B1–B2",
+    "imageAsset": "pv_sell_out_line",
+    "imageAlt": "All concert tickets are gone from a stand."
+  },
+  {
+    "id": "send-back",
+    "phrase": "send back",
+    "meaning": "return something by post",
+    "example": "I sent back the shoes that didn't fit.",
+    "level": "B1–B2",
+    "imageAsset": "pv_send_back_line",
+    "imageAlt": "A parcel travels back toward a shop."
+  },
+  {
+    "id": "send-off",
+    "phrase": "send off",
+    "meaning": "mail or dispatch",
+    "example": "I sent off the application yesterday.",
+    "level": "B1–B2",
+    "imageAsset": "pv_send_off_line",
+    "imageAlt": "An application enters a postbox."
+  },
+  {
+    "id": "settle-down",
+    "phrase": "settle down",
+    "meaning": "begin a calmer or stable life",
+    "example": "They settled down in a small town.",
+    "level": "B1–B2",
+    "imageAsset": "pv_settle_down_line",
+    "imageAlt": "A family makes a home in a quiet town."
+  },
+  {
+    "id": "shut-down",
+    "phrase": "shut down",
+    "meaning": "stop operating",
+    "example": "The computer shut down suddenly.",
+    "level": "B1–B2",
+    "imageAsset": "pv_shut_down_line",
+    "imageAlt": "A computer screen goes dark."
+  },
+  {
+    "id": "sit-back",
+    "phrase": "sit back",
+    "meaning": "relax without taking action",
+    "example": "Sit back and enjoy the music.",
+    "level": "B1–B2",
+    "imageAsset": "pv_sit_back_line",
+    "imageAlt": "A person leans back in a chair."
+  },
+  {
+    "id": "sleep-in",
+    "phrase": "sleep in",
+    "meaning": "wake later than usual",
+    "example": "I slept in on Sunday morning.",
+    "level": "B1–B2",
+    "imageAsset": "pv_sleep_in_line",
+    "imageAlt": "A sleeper remains in bed past the usual hour."
+  },
+  {
+    "id": "sort-out",
+    "phrase": "sort out",
+    "meaning": "organize or solve",
+    "example": "We sorted out the travel plans.",
+    "level": "B1–B2",
+    "imageAsset": "pv_sort_out_line",
+    "imageAlt": "Travel papers are sorted into a folder."
+  },
+  {
+    "id": "split-up",
+    "phrase": "split up",
+    "meaning": "separate into groups",
+    "example": "We split up to search the park.",
+    "level": "B1–B2",
+    "imageAsset": "pv_split_up_line",
+    "imageAlt": "A group divides along two park paths."
+  },
+  {
+    "id": "stick-to",
+    "phrase": "stick to",
+    "meaning": "continue following a plan",
+    "example": "Let's stick to the original schedule.",
+    "level": "B1–B2",
+    "imageAsset": "pv_stick_to_line",
+    "imageAlt": "A person follows a marked plan without leaving it."
+  },
+  {
+    "id": "think-over",
+    "phrase": "think over",
+    "meaning": "consider carefully",
+    "example": "I'll think over your suggestion tonight.",
+    "level": "B1–B2",
+    "imageAsset": "pv_think_over_line",
+    "imageAlt": "A person studies an idea carefully."
+  },
+  {
+    "id": "bring-down",
+    "phrase": "bring down",
+    "meaning": "reduce an amount",
+    "example": "Better insulation brought down our heating bill.",
+    "level": "B1–B2",
+    "imageAsset": "pv_bring_down_line",
+    "imageAlt": "A house is paired with a falling cost chart."
+  },
+  {
+    "id": "build-up",
+    "phrase": "build up",
+    "meaning": "increase gradually",
+    "example": "She built up her strength by walking daily.",
+    "level": "B1–B2",
+    "imageAsset": "pv_build_up_line",
+    "imageAlt": "A walker gains strength on a rising chart."
+  },
+  {
+    "id": "catch-up",
+    "phrase": "catch up",
+    "meaning": "reach the same position as someone",
+    "example": "I walked faster to catch up with my friends.",
+    "level": "B1–B2",
+    "imageAsset": "pv_catch_up_line",
+    "imageAlt": "A runner closes the gap to a group of friends."
+  },
+  {
+    "id": "come-off",
+    "phrase": "come off",
+    "meaning": "become detached",
+    "example": "The handle came off the old drawer.",
+    "level": "B1–B2",
+    "imageAsset": "pv_come_off_line",
+    "imageAlt": "A handle separates from an old drawer."
+  },
+  {
+    "id": "go-along",
+    "phrase": "go along",
+    "meaning": "agree with a plan",
+    "example": "The team went along with her idea.",
+    "level": "B1–B2",
+    "imageAsset": "pv_go_along_line",
+    "imageAlt": "A team agrees with a suggested idea."
+  },
+  {
+    "id": "go-around",
+    "phrase": "go around",
+    "meaning": "move around a place or obstacle",
+    "example": "We went around the lake on foot.",
+    "level": "B1–B2",
+    "imageAsset": "pv_go_around_line",
+    "imageAlt": "A walker circles a lake island."
+  },
+  {
+    "id": "lay-down",
+    "phrase": "lay down",
+    "meaning": "put something on a surface",
+    "example": "Lay down the map so we can read it.",
+    "level": "B1–B2",
+    "imageAsset": "pv_lay_down_line",
+    "imageAlt": "A map is laid flat on a table."
+  },
+  {
+    "id": "lay-out",
+    "phrase": "lay out",
+    "meaning": "arrange things for a purpose",
+    "example": "She laid out the tools before starting.",
+    "level": "B1–B2",
+    "imageAsset": "pv_lay_out_line",
+    "imageAlt": "Tools are arranged neatly across a table."
+  },
+  {
+    "id": "move-back",
+    "phrase": "move back",
+    "meaning": "return to an earlier position",
+    "example": "Move back from the edge of the platform.",
+    "level": "B1–B2",
+    "imageAsset": "pv_move_back_line",
+    "imageAlt": "A person steps back from a platform edge."
+  },
+  {
+    "id": "move-up",
+    "phrase": "move up",
+    "meaning": "advance to a higher place or level",
+    "example": "She moved up to the next class.",
+    "level": "B1–B2",
+    "imageAsset": "pv_move_up_line",
+    "imageAlt": "A pupil advances to a higher school level."
+  },
+  {
+    "id": "pull-up",
+    "phrase": "pull up",
+    "meaning": "stop a vehicle",
+    "example": "The taxi pulled up outside our house.",
+    "level": "B1–B2",
+    "imageAsset": "pv_pull_up_line",
+    "imageAlt": "A car stops outside a house."
+  },
+  {
+    "id": "reach-out",
+    "phrase": "reach out",
+    "meaning": "contact someone to offer support",
+    "example": "I reached out to my friend after the news.",
+    "level": "B1–B2",
+    "imageAsset": "pv_reach_out_line",
+    "imageAlt": "A hand reaches toward a phone to contact someone."
+  },
+  {
+    "id": "run-out",
+    "phrase": "run out",
+    "meaning": "be used up completely",
+    "example": "The paint ran out before we finished the wall.",
+    "level": "B1–B2",
+    "imageAsset": "pv_run_out_line",
+    "imageAlt": "An empty paint tin sits beside an unfinished wall."
+  },
+  {
+    "id": "send-out",
+    "phrase": "send out",
+    "meaning": "distribute to many people",
+    "example": "The office sent out invitations on Monday.",
+    "level": "B1–B2",
+    "imageAsset": "pv_send_out_line",
+    "imageAlt": "Invitations travel out to several people."
+  },
+  {
+    "id": "shut-up",
+    "phrase": "shut up",
+    "meaning": "stop speaking; often impolite",
+    "example": "He finally shut up when the film started.",
+    "level": "B1–B2",
+    "imageAsset": "pv_shut_up_line",
+    "imageAlt": "A speech bubble closes beside a person."
+  },
+  {
+    "id": "start-out",
+    "phrase": "start out",
+    "meaning": "begin a journey or activity",
+    "example": "We started out early to avoid traffic.",
+    "level": "B1–B2",
+    "imageAsset": "pv_start_out_line",
+    "imageAlt": "Travelers begin moving along an empty road."
+  },
+  {
+    "id": "take-down",
+    "phrase": "take down",
+    "meaning": "remove from a higher place",
+    "example": "They took down the old poster.",
+    "level": "B1–B2",
+    "imageAsset": "pv_take_down_line",
+    "imageAlt": "A hand lowers a framed picture."
+  },
+  {
+    "id": "take-in",
+    "phrase": "take in",
+    "meaning": "understand new information",
+    "example": "I needed time to take in the news.",
+    "level": "B1–B2",
+    "imageAsset": "pv_take_in_line",
+    "imageAlt": "A person absorbs information from a report."
+  },
+  {
+    "id": "walk-out",
+    "phrase": "walk out",
+    "meaning": "leave suddenly",
+    "example": "He walked out of the meeting in anger.",
+    "level": "B1–B2",
+    "imageAsset": "pv_walk_out_line",
+    "imageAlt": "A person suddenly leaves through a door."
+  },
+  {
+    "id": "bring-about",
+    "phrase": "bring about",
+    "meaning": "cause a change",
+    "example": "The new plan brought about better results.",
+    "level": "C1",
+    "imageAsset": "pv_bring_about_line",
+    "imageAlt": "A plan changes a flat chart into a rising one."
+  },
+  {
+    "id": "set-back",
+    "phrase": "set back",
+    "meaning": "delay progress",
+    "example": "The storm set back the building work.",
+    "level": "C1",
+    "imageAsset": "pv_set_back_line",
+    "imageAlt": "A storm delays work on a building."
+  },
+  {
+    "id": "work-up",
+    "phrase": "work up",
+    "meaning": "develop gradually",
+    "example": "She worked up the courage to speak.",
+    "level": "C1",
+    "imageAsset": "pv_work_up_line",
+    "imageAlt": "A speaker gathers courage before a microphone."
+  },
+  {
+    "id": "back-down",
+    "phrase": "back down",
+    "meaning": "stop insisting on an argument",
+    "example": "He backed down after seeing the evidence.",
+    "level": "C1",
+    "imageAsset": "pv_back_down_line",
+    "imageAlt": "A person lowers a raised argument after reading evidence."
+  },
+  {
+    "id": "face-up-to",
+    "phrase": "face up to",
+    "meaning": "accept a difficult fact",
+    "example": "He faced up to the mistake.",
+    "level": "C1",
+    "imageAsset": "pv_face_up_to_line",
+    "imageAlt": "A person faces a mirror showing a mistake."
+  },
+  {
+    "id": "opt-out",
+    "phrase": "opt out",
+    "meaning": "choose not to take part",
+    "example": "You can opt out of the survey.",
+    "level": "C1",
+    "imageAsset": "pv_opt_out_line",
+    "imageAlt": "A person steps away from an optional survey."
+  },
+  {
+    "id": "pull-off",
+    "phrase": "pull off",
+    "meaning": "succeed in something difficult",
+    "example": "They pulled off a surprise victory.",
+    "level": "C1",
+    "imageAsset": "pv_pull_off_line",
+    "imageAlt": "A team celebrates an unexpected trophy."
+  },
+  {
+    "id": "pull-through",
+    "phrase": "pull through",
+    "meaning": "recover from serious illness",
+    "example": "She pulled through after the operation.",
+    "level": "C1",
+    "imageAsset": "pv_pull_through_line",
+    "imageAlt": "A patient recovers beyond a hospital heart monitor."
+  },
+  {
+    "id": "roll-out",
+    "phrase": "roll out",
+    "meaning": "introduce a new product or plan",
+    "example": "The school rolled out a new timetable.",
+    "level": "C1",
+    "imageAsset": "pv_roll_out_line",
+    "imageAlt": "A new timetable spreads across a school."
+  },
+  {
+    "id": "rule-out",
+    "phrase": "rule out",
+    "meaning": "decide something is impossible",
+    "example": "The doctor ruled out an infection.",
+    "level": "C1",
+    "imageAsset": "pv_rule_out_line",
+    "imageAlt": "A doctor crosses out a possible infection."
+  },
+  {
+    "id": "see-through",
+    "phrase": "see through",
+    "meaning": "recognize that something is false",
+    "example": "She saw through his excuse.",
+    "level": "C1",
+    "imageAsset": "pv_see_through_line",
+    "imageAlt": "An eye sees past a false mask."
+  },
+  {
+    "id": "shake-off",
+    "phrase": "shake off",
+    "meaning": "free yourself from something unpleasant",
+    "example": "She shook off the cold and went to work.",
+    "level": "C1",
+    "imageAsset": "pv_shake_off_line",
+    "imageAlt": "A person leaves a cold-weather cloud behind."
+  },
+  {
+    "id": "sum-up",
+    "phrase": "sum up",
+    "meaning": "state the main points briefly",
+    "example": "Can you sum up the meeting in a sentence?",
+    "level": "C1",
+    "imageAsset": "pv_sum_up_line",
+    "imageAlt": "A long page becomes a short speech bubble."
+  },
+  {
+    "id": "come-about",
+    "phrase": "come about",
+    "meaning": "happen or develop",
+    "example": "How did this change come about?",
+    "level": "C1",
+    "imageAsset": "pv_come_about_line",
+    "imageAlt": "A question points toward a changing chart."
+  },
+  {
+    "id": "come-around",
+    "phrase": "come around",
+    "meaning": "change your opinion",
+    "example": "He came around after hearing the full plan.",
+    "level": "C1",
+    "imageAsset": "pv_come_around_line",
+    "imageAlt": "A listener turns back toward a new plan."
+  },
+  {
+    "id": "come-through",
+    "phrase": "come through",
+    "meaning": "survive a difficult experience",
+    "example": "She came through the difficult winter well.",
+    "level": "C1",
+    "imageAsset": "pv_come_through_line",
+    "imageAlt": "A person emerges beyond a difficult obstacle."
+  },
+  {
+    "id": "play-out",
+    "phrase": "play out",
+    "meaning": "develop to a conclusion",
+    "example": "Let's see how the story plays out.",
+    "level": "C1",
+    "imageAsset": "pv_play_out_line",
+    "imageAlt": "A story unfolds across the hands of a clock."
+  },
+  {
+    "id": "pull-back",
+    "phrase": "pull back",
+    "meaning": "withdraw from a position",
+    "example": "The cyclists pulled back when rain began.",
+    "level": "C1",
+    "imageAsset": "pv_pull_back_line",
+    "imageAlt": "Cyclists retreat as rain starts."
+  },
+  {
+    "id": "set-about",
+    "phrase": "set about",
+    "meaning": "start dealing with a task",
+    "example": "She set about repairing the gate.",
+    "level": "C1",
+    "imageAsset": "pv_set_about_line",
+    "imageAlt": "A person starts fixing a garden gate."
+  },
+  {
+    "id": "wind-up",
+    "phrase": "wind up",
+    "meaning": "end in an unexpected situation",
+    "example": "We wound up at the wrong station.",
+    "level": "C1",
+    "imageAsset": "pv_wind_up_line",
+    "imageAlt": "A traveler finds an unexpected station."
+  }
+]

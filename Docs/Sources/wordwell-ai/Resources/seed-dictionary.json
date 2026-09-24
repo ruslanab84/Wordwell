@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "lemma": "decide", "partOfSpeech": "verb", "cefrLevel": "B1",
+      "forms": ["decides", "decided", "deciding"],
+      "collocations": ["decide to do", "decide on", "decide against", "finally decide"],
+      "senses": [
+        { "id": "s1", "definition": "to choose what to do after thinking about the possibilities", "example": "We decided to leave early." },
+        { "id": "s2", "definition": "to be the reason for a particular result", "example": "One goal decided the match." }
+      ]
+    },
+    {
+      "lemma": "choose", "partOfSpeech": "verb", "cefrLevel": "A2",
+      "forms": ["chooses", "chose", "chosen", "choosing"],
+      "collocations": ["choose between", "choose from", "choose carefully"],
+      "senses": [
+        { "id": "s1", "definition": "to pick one person or thing from a group", "example": "Choose a card from the pile." }
+      ]
+    },
+    {
+      "lemma": "affect", "partOfSpeech": "verb", "cefrLevel": "B2",
+      "forms": ["affects", "affected", "affecting"],
+      "collocations": ["seriously affect", "directly affect", "be badly affected"],
+      "senses": [
+        { "id": "s1", "definition": "to change or influence someone or something", "example": "The rain affected our plans." }
+      ]
+    },
+    {
+      "lemma": "effect", "partOfSpeech": "noun", "cefrLevel": "B1",
+      "forms": ["effects"],
+      "collocations": ["have an effect on", "side effect", "long-term effect"],
+      "senses": [
+        { "id": "s1", "definition": "a change that is caused by something", "example": "The medicine had a quick effect." }
+      ]
+    },
+    {
+      "lemma": "borrow", "partOfSpeech": "verb", "cefrLevel": "A2",
+      "forms": ["borrows", "borrowed", "borrowing"],
+      "collocations": ["borrow from", "borrow money", "borrow a book"],
+      "senses": [
+        { "id": "s1", "definition": "to take something from someone and promise to give it back", "example": "Can I borrow your pen?" }
+      ]
+    },
+    {
+      "lemma": "lend", "partOfSpeech": "verb", "cefrLevel": "A2",
+      "forms": ["lends", "lent", "lending"],
+      "collocations": ["lend to", "lend money", "lend a hand"],
+      "senses": [
+        { "id": "s1", "definition": "to give something to someone for a short time, expecting to get it back", "example": "She lent me her bike." }
+      ]
+    },
+    {
+      "lemma": "suggest", "partOfSpeech": "verb", "cefrLevel": "B1",
+      "forms": ["suggests", "suggested", "suggesting"],
+      "collocations": ["suggest doing", "suggest that", "strongly suggest"],
+      "senses": [
+        { "id": "s1", "definition": "to offer an idea for someone to consider", "example": "I suggest taking a taxi." }
+      ]
+    }
+  ]
+}
