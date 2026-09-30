@@ -1,3 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(171 89) scale(0.9) translate(-171 -89)" fill="none"><g fill="none"><circle cx="116" cy="54" r="22" fill="none" /><circle cx="226" cy="54" r="22" fill="none" /><path d="M79 155v-47c0-22 15-34 37-34s37 12 37 34v47Zm110 0v-47c0-22 15-34 37-34s37 12 37 34v47Z" fill="none" /><path d="M150 55h43m-34-15h26m-26 30h26" fill="none" /></g></g>
-  </svg>
+  <g fill="none">
+    <circle cx="90" cy="86.5" r="16.5"/><path d="M59.2 166.8V128.3C59.2 115.1 70.2 106.3 81.2 106.3H98.8C109.8 106.3 120.8 115.1 120.8 128.3V166.8Z"/><path d="M79 166.8v26.4M101 166.8v26.4"/><path d="M73.5 84.3C73.5 61.8 106.5 61.8 106.5 84.3"/><circle cx="252" cy="86.5" r="16.5"/><path d="M221.2 166.8V128.3C221.2 115.1 232.2 106.3 243.2 106.3H260.8C271.8 106.3 282.8 115.1 282.8 128.3V166.8Z"/><path d="M241 166.8v26.4M263 166.8v26.4"/><path d="M235.5 84.3C235.5 61.8 268.5 61.8 268.5 84.3"/><path d="M56 24h96c8 0 12 4 12 12v22c0 8-4 12-12 12h-56l-16 14V70h-24c-8 0-12-4-12-12V36c0-8 4-12 12-12Z" transform="translate(6 0)"/><path d="M96 36c0-10 18-10 18 0 0 8-9 8-9 16M105 60v.1"/>
+  </g>
+</svg>

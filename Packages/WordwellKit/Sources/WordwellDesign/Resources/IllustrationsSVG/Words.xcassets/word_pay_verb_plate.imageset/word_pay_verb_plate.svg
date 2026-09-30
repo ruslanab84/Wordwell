@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(108 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><circle cx="171" cy="91" r="62" fill="none" /><circle cx="171" cy="91" r="49" fill="none" /><path d="M184 65c-10-10-32-8-38 4-14 27 47 16 43 43-3 17-32 23-49 9m31-69v76" fill="none" /></g></g>
-    <g transform="translate(234 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><path d="M125 153V96c0-10 13-13 17-3V51c0-13 17-13 17 0v31-43c0-13 17-13 17 0v43-35c0-13 17-13 17 0v39-24c0-13 17-13 17 0v53c0 19-16 38-39 38Z" fill="none" /></g></g>
-  </svg>
+  <g fill="none">
+    <g transform="rotate(-14 110 100)"><rect x="52" y="70" width="112" height="72" rx="8"/><path d="M52 90h112"/><rect x="66" y="108" width="24" height="16" rx="3"/></g><rect x="214" y="54" width="70" height="112" rx="8"/><rect x="226" y="68" width="46" height="26"/><path d="M228 112h.1M244 112h.1M260 112h.1M228 128h.1M244 128h.1M260 128h.1M228 144h.1M244 144h.1M260 144h.1"/><path d="M178 90c8 8 8 24 0 32M192 82c12 12 12 36 0 48"/>
+  </g>
+</svg>

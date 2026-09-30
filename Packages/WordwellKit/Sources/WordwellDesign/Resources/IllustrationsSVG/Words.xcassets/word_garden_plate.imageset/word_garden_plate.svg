@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(108 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><path d="M152 107h38v52h-38Z" fill="none" /><path d="M105 111c-31-10-27-47 0-56 1-30 34-41 52-24 22-22 55-9 58 19 33-3 50 35 24 57-18 16-111 18-134 4Z" fill="none" /><path d="M171 154V77m0 53-32-29m32 13 28-30" fill="none" /></g></g>
-    <g transform="translate(234 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none">
-    <path d="M171 88v68M169 124c-23-18-42-17-53 0 22 14 39 14 53 0Zm4 14c16-20 35-24 54-12-14 21-31 27-54 12Z" fill="none" /><circle cx="171" cy="66" r="18" fill="none" /><path d="M171 48c-19-34-40-20-27 4-34-18-43 8-16 20-28 13-15 34 11 20-9 29 17 35 32 10 16 25 42 19 33-10 26 14 39-7 11-20 27-12 18-38-16-20 13-24-8-38-28-4Z" fill="none" /><circle cx="171" cy="66" r="16" fill="none" />
-  </g></g>
-  </svg>
+  <g fill="none">
+    <path d="M92 92h68l-6 62c0 8-4 12-12 12h-32c-8 0-12-4-12-12Z"/><path d="M160 112l50-38M92 106c-30-4-30 40 2 40"/><path d="M210 74l12 6-6 14-14-6Z"/><path d="M234 150c12 2 22 6 30 14M246 132c10 0 20 6 24 14M236 168c14 0 24 4 32 10"/><path d="M290 176v-58"/><circle cx="290" cy="106" r="7"/><circle cx="290" cy="90" r="7"/><circle cx="276" cy="98" r="7"/><circle cx="304" cy="98" r="7"/><path d="M60 176h250"/>
+  </g>
+</svg>

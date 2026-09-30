@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(108 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><path d="M90 92c-24-9-11-41 13-36 9-29 55-39 72-10 30-17 66 6 60 34 24 3 29 34 5 42H102c-17 0-23-14-12-30Z" fill="none" /><path d="M116 141h16m-8-8v16m50-8h16m-8-8v16m48-8h16m-8-8v16" fill="none" /></g></g>
-    <g transform="translate(234 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><path d="M152 107h38v52h-38Z" fill="none" /><path d="M105 111c-31-10-27-47 0-56 1-30 34-41 52-24 22-22 55-9 58 19 33-3 50 35 24 57-18 16-111 18-134 4Z" fill="none" /><path d="M171 154V77m0 53-32-29m32 13 28-30" fill="none" /></g></g>
-  </svg>
+  <g fill="none">
+    <circle cx="171" cy="140" r="38"/><circle cx="171" cy="90" r="27"/><circle cx="171" cy="54" r="19"/><path d="M156 40h30M160 40V22h22v18M167 52h.1M175 52h.1M171 56l14 4-14 2"/><path d="M171 84h.1M171 100h.1M171 124h.1M171 142h.1"/><path d="M144 92l-34-22M198 92l34-22"/><path d="M60 60l14 14M60 74l14-14M270 110l12 12M270 122l12-12"/>
+  </g>
+</svg>

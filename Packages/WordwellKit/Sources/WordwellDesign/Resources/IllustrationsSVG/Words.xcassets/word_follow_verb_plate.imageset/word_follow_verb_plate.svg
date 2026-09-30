@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(108 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><circle cx="171" cy="34" r="18" fill="none" /><path d="M150 59h41l21 58-34 7-16-31-19 26-31-13Z" fill="none" /><path d="m166 113-40 44m58-44 50 43m-83-82-32 25m70-25 33 22" fill="none" /><path d="M77 159h200" fill="none" /></g></g>
-    <g transform="translate(234 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><circle cx="171" cy="34" r="18" fill="none" /><path d="M150 59h41l21 58-34 7-16-31-19 26-31-13Z" fill="none" /><path d="m166 113-40 44m58-44 50 43m-83-82-32 25m70-25 33 22" fill="none" /><path d="M77 159h200" fill="none" /></g></g>
-  </svg>
+  <g fill="none">
+    <circle cx="96" cy="75" r="15"/><path d="M68 148V113C68 101 78 93 88 93H104C114 93 124 101 124 113V148Z"/><path d="M86 148v24M106 148v24"/><path d="M81 73C81 52.5 111 52.5 111 73"/><circle cx="224" cy="59.5" r="19.5"/><path d="M187.6 154.4V108.9C187.6 93.3 200.6 82.9 213.6 82.9H234.4C247.4 82.9 260.4 93.3 260.4 108.9V154.4Z"/><path d="M211 154.4v31.2M237 154.4v31.2"/><path d="M204.5 56.9C204.5 30.2 243.5 30.2 243.5 56.9"/><path d="M132 130h50M170 120l14 10-14 10"/>
+  </g>
+</svg>

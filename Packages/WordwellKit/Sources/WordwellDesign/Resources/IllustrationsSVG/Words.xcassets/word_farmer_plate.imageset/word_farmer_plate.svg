@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(108 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><circle cx="171" cy="49" r="22" fill="none" /><path d="M146 43c2-19 13-27 29-26 17 1 25 12 24 28-14-7-34-9-53-2Z" fill="none" /><path d="M124 145v-34c0-23 17-40 40-40h14c23 0 40 17 40 40v34Z" fill="none" /><path d="M145 145v15m52-15v15" fill="none" /></g></g>
-    <g transform="translate(234 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><path d="M152 107h38v52h-38Z" fill="none" /><path d="M105 111c-31-10-27-47 0-56 1-30 34-41 52-24 22-22 55-9 58 19 33-3 50 35 24 57-18 16-111 18-134 4Z" fill="none" /><path d="M171 154V77m0 53-32-29m32 13 28-30" fill="none" /></g></g>
-  </svg>
+  <g fill="none">
+    <circle cx="112" cy="64.8" r="18.8"/><path d="M77 156V112.2C77 97.2 89.5 87.2 102 87.2H122C134.5 87.2 147 97.2 147 112.2V156Z"/><path d="M99.5 156v30M124.5 156v30"/><ellipse cx="112" cy="59" rx="34" ry="6"/><path d="M92 58c0-22 40-22 40 0"/><path d="M236 176V62M220 40v22q16 12 32 0V40M236 40v22"/><path d="M147 110l70-6"/>
+  </g>
+</svg>

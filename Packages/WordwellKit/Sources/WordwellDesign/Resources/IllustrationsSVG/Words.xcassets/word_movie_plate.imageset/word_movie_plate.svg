@@ -1,3 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(171 89) scale(0.9) translate(-171 -89)" fill="none"><g fill="none"><circle cx="171" cy="89" r="59" fill="none" /><circle cx="171" cy="89" r="10" fill="none" /><circle cx="171" cy="48" r="12" fill="none" /><circle cx="212" cy="89" r="12" fill="none" /><circle cx="171" cy="130" r="12" fill="none" /><circle cx="130" cy="89" r="12" fill="none" /><path d="M224 131h54v20h-97" fill="none" /></g></g>
-  </svg>
+  <g fill="none">
+    <path d="M112 100l10 76h98l10-76Z"/><path d="M144 100l6 76M171 100v76M198 100l-6 76"/><circle cx="128" cy="88" r="13"/><circle cx="152" cy="76" r="14"/><circle cx="182" cy="74" r="14"/><circle cx="208" cy="82" r="13"/><circle cx="224" cy="94" r="10"/>
+  </g>
+</svg>
