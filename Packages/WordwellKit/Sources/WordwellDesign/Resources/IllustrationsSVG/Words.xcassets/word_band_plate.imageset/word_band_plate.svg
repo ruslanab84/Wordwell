@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(108 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><path d="M209 27h37v77l-8 13-18-4-16-16-13 23c-18 28-46 39-70 25-22-13-20-43-2-61 17-17 38-18 53-9l29-28Z" fill="none" /><circle cx="152" cy="110" r="18" fill="none" /><path d="M154 106 232 33m-72 79 78-74m-72 80 78-75" fill="none" /></g></g>
-    <g transform="translate(234 90) scale(0.48) translate(-171 -89)" fill="none"><g fill="none"><rect x="143" y="24" width="56" height="79" rx="26" fill="none" /><path d="M126 77c0 31 17 49 45 49s45-18 45-49m-45 49v31m-29 0h58" fill="none" /><path d="M152 48h38m-38 16h38m-38 16h38" fill="none" /></g></g>
-  </svg>
+  <g fill="none">
+    <path d="M96 84c-12 0-20 8-20 18 0 8 4 12 4 18 0 4-8 10-8 20 0 16 12 26 24 26s24-10 24-26c0-10-8-16-8-20 0-6 4-10 4-18 0-10-8-18-20-18Z"/><circle cx="96" cy="142" r="8"/><path d="M91 84V36h10v48M89 36h14V22H89ZM86 150h20"/><ellipse cx="240" cy="112" rx="46" ry="12"/><path d="M194 112v40c0 7 20 14 46 14s46-7 46-14v-40"/><path d="M214 123v40M240 125v41M266 123v40M200 66l40 34M282 66l-42 34"/>
+  </g>
+</svg>
