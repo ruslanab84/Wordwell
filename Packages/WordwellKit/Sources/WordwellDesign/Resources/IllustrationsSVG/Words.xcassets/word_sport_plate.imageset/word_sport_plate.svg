@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <path d="M112 44h118v46c0 28-22 42-59 42s-59-14-59-42Z"/><path d="M112 58H88c0 30 12 40 28 44M230 58h24c0 30-12 40-28 44"/><path d="M171 132v22M138 154h66v18h-66Z"/><path d="M171 60l7 14 15 2-11 10 3 15-14-7-14 7 3-15-11-10 15-2Z"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><circle cx="110" cy="124" r="36" fill="#E5A648"/><path d="M74 124H146M110 88V160" fill="none" stroke="#2A1E16" stroke-width="3" stroke-linecap="round"/><circle cx="206" cy="142" r="18" fill="#5A7F4A"/><path d="M190 134C200 144 212 144 222 134" fill="none" stroke="#F6F1E7" stroke-width="3" stroke-linecap="round"/><circle cx="244" cy="118" r="28" fill="#F6F1E7"/><path d="M244 90V146M216 118H272" fill="none" stroke="#2A1E16" stroke-width="3" stroke-linecap="round"/><line x1="60" y1="180" x2="290" y2="180" stroke="#7A5535" stroke-width="4" stroke-linecap="round"/></svg>

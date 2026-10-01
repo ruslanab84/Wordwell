@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <path d="M66 28h210v16H66Z"/><path d="M72 44c30 0 50 20 50 66s-10 50-18 66H72Z"/><path d="M270 44c-30 0-50 20-50 66s10 50 18 66h32Z"/><path d="M66 176h210"/><path d="M171 92l7 14 15 2-11 10 3 15-14-7-14 7 3-15-11-10 15-2Z"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><rect x="40" y="24" width="56" height="152" rx="4" fill="#C27443"/><rect x="244" y="24" width="56" height="152" rx="4" fill="#C27443"/><rect x="40" y="24" width="260" height="14" fill="#1F4D4A"/><rect x="40" y="172" width="260" height="8" fill="#7A5535"/><path d="M170 66L178.8 87.9L202.3 89.5L184.3 104.6L190 127.5L170 115L150 127.5L155.7 104.6L137.7 89.5L161.2 87.9Z" fill="#E5A648"/></svg>

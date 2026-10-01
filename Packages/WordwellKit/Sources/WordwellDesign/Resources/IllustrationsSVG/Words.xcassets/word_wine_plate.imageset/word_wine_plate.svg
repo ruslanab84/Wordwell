@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <path d="M112 34h64c0 44-8 66-32 68-24-2-32-24-32-68Z"/><path d="M114 60h60M144 102v50M116 154h56"/><path d="M238 176V90c0-14 6-20 6-34V36h18v20c0 14 6 20 6 34v86Z"/><rect x="236" y="112" width="34" height="34"/><path d="M240 36h26"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><rect x="236" y="90" width="28" height="82" rx="8" fill="#5A7F4A"/><rect x="244" y="56" width="12" height="40" rx="4" fill="#5A7F4A"/><rect x="242" y="50" width="16" height="10" rx="3" fill="#7A5535"/><path d="M120 50H180C184 100 170 120 150 124C130 120 116 100 120 50Z" fill="#F6F1E7"/><path d="M122 82H178C178 106 168 118 150 122C132 118 122 106 122 82Z" fill="#C27443"/><rect x="146" y="122" width="8" height="40" fill="#F6F1E7"/><ellipse cx="150" cy="164" rx="30" ry="6" fill="#F6F1E7"/><line x1="60" y1="180" x2="280" y2="180" stroke="#7A5535" stroke-width="4" stroke-linecap="round"/></svg>

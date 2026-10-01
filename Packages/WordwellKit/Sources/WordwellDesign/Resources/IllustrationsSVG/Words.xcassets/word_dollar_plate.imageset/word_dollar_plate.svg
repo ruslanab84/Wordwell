@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <rect x="70" y="52" width="202" height="96" rx="8"/><circle cx="171" cy="100" r="28"/><path d="M181 90c-6-7-24-6-24 5 0 13 28 6 28 20 0 10-20 11-27 3M171 80v6M171 118v6"/><circle cx="94" cy="76" r="4"/><circle cx="248" cy="124" r="4"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><rect x="80" y="62" width="180" height="100" rx="6" fill="#5A7F4A"/><circle cx="170" cy="112" r="30" fill="none" stroke="#F6F1E7" stroke-width="4" stroke-linecap="round"/><circle cx="96" cy="78" r="5" fill="#F6F1E7"/><circle cx="244" cy="146" r="5" fill="#F6F1E7"/><path d="M180 96C170 88 156 94 160 104C164 114 182 108 180 120C178 130 162 132 158 124M170 86V138" fill="none" stroke="#F6F1E7" stroke-width="4" stroke-linecap="round"/></svg>

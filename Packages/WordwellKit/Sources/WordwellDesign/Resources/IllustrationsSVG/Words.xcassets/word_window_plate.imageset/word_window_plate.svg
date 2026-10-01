@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <rect x="106" y="34" width="130" height="122" rx="3"/><rect x="118" y="46" width="106" height="98"/><path d="M171 46v98M118 95h106"/><path d="M98 156h146v10H98Z"/><path d="M84 30c20 10 20 60 10 90M258 30c-20 10-20 60-10 90"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><path d="M96 36H126V150L96 166Z" fill="#E5A648"/><path d="M244 36H214V150L244 166Z" fill="#E5A648"/><rect x="116" y="36" width="108" height="128" rx="4" fill="#7A5535"/><rect x="124" y="44" width="44" height="54" rx="2" fill="#2E6F6A"/><rect x="172" y="44" width="44" height="54" rx="2" fill="#2E6F6A"/><rect x="124" y="104" width="44" height="52" rx="2" fill="#2E6F6A"/><rect x="172" y="104" width="44" height="52" rx="2" fill="#2E6F6A"/><ellipse cx="146" cy="64" rx="12" ry="6" fill="#F6F1E7"/><rect x="106" y="162" width="128" height="12" rx="3" fill="#7A5535"/></svg>

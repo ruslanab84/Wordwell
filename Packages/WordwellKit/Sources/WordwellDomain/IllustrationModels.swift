@@ -3,6 +3,7 @@ import Foundation
 public enum IllustrationStyle: String, Codable, Sendable {
     case monochromeLineArt = "monochrome_line_art"
     case colorSwatch = "color_swatch"
+    case flatColor = "flat_color"
 }
 
 public enum IllustrationContext: String, Codable, Sendable {

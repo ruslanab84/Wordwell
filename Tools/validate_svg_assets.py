@@ -37,8 +37,12 @@ def validate_svg(path, style):
     root = ET.fromstring(source)
     check(root.tag == SVG_NS + "svg", f"SVG root or namespace missing: {path}")
     check(root.get("viewBox") is not None, f"viewBox missing: {path}")
-    if path.stem.endswith("_plate"):
+    if style == "flat_color":
+        check(root.get("viewBox") == "0 0 340 200", f"flat colour illustration size must be 340x200: {path}")
+    elif path.stem.endswith("_plate"):
         check(root.get("viewBox") == "0 0 342 196", f"dictionary illustration size must be 342x196: {path}")
+    if style == "flat_color":
+        return  # palette, bounds and structure are enforced by Tools/svg-lint/svg_lint.py
     for element in root.iter():
         tag = element.tag.removeprefix(SVG_NS)
         check(element.tag.startswith(SVG_NS) and tag in ALLOWED_TAGS, f"unsupported SVG element {tag}: {path}")

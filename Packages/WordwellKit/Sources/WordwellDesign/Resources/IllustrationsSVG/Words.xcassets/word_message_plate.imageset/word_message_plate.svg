@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <path d="M84 40h174c9 0 16 7 16 16v60c0 9-7 16-16 16h-96l-34 30v-30H84c-9 0-16-7-16-16V56c0-9 7-16 16-16Z"/><circle cx="132" cy="86" r="6"/><circle cx="171" cy="86" r="6"/><circle cx="210" cy="86" r="6"/><circle cx="268" cy="38" r="16"/><path d="M268 30v16"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><ellipse cx="170" cy="92" rx="84" ry="52" fill="#2E6F6A"/><path d="M112 126L96 160L146 134Z" fill="#2E6F6A"/><circle cx="140" cy="92" r="7" fill="#F6F1E7"/><circle cx="170" cy="92" r="7" fill="#F6F1E7"/><circle cx="200" cy="92" r="7" fill="#F6F1E7"/></svg>

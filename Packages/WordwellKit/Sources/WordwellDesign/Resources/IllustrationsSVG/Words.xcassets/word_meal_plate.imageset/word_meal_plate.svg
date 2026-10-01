@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <circle cx="171" cy="100" r="66"/><circle cx="171" cy="100" r="50"/><path d="M128 92c-6-18 12-30 30-26 18 4 22 18 14 30-8 12-40 22-44-4Z"/><circle cx="196" cy="96" r="7"/><circle cx="210" cy="112" r="7"/><circle cx="192" cy="120" r="7"/><path d="M150 124c8-6 20-6 28 0"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><rect x="70" y="134" width="200" height="16" rx="6" fill="#7A5535"/><ellipse cx="150" cy="120" rx="62" ry="20" fill="#F6F1E7"/><ellipse cx="140" cy="118" rx="24" ry="11" fill="#7A5535"/><circle cx="172" cy="114" r="6" fill="#5A7F4A"/><circle cx="184" cy="120" r="6" fill="#5A7F4A"/><rect x="222" y="84" width="28" height="50" rx="6" fill="#F6F1E7"/><rect x="222" y="104" width="28" height="30" rx="3" fill="#2E6F6A"/><line x1="80" y1="116" x2="80" y2="134" stroke="#8E8A86" stroke-width="4" stroke-linecap="round"/></svg>

@@ -93,20 +93,119 @@ Never introduce a new accent color outside this list without a functional reason
 
 ## 4. SVG illustration guidelines
 
-Use the screenshot's quiet pictogram style for **all** word-meaning and phrasal-verb illustrations: thin, dark, rounded outlines on the card or page background. SVGs have no built-in plate, colored scene background, printed caption, or decorative border.
+Dictionary word illustrations (`*_plate`) use the **flat colour card** style below, enforced by `Tools/svg-lint/svg_lint.py`. If this section and the linter disagree, fix one of them in the same commit. Phrasal-verb and `_line` assets are still monochrome line art (thin `#3A362E` rounded outlines, `fill="none"`, tinted with ink in Dark Mode) until they are redrawn.
 
-- `fill="none"`, `stroke="#3A362E"` or `currentColor`, with round caps and joins. Tint the vector with the semantic ink color in Dark Mode.
-- Keep a consistent visible line weight: about **1.5–2px** at the displayed size. Increase source stroke width for drawings scaled down within a larger viewBox.
-- Draw only the subject and any second object needed to explain the meaning. Use a simple arrow between objects when direction or change is the meaning, as in the phrasal-verb cards.
-- Build from a few recognizable circles, lines, rectangles, and short paths. Leave generous empty space. Avoid shading, textures, gradients, tiny details, and photorealism.
-- Phrasal-verb card scenes use a **160×96** viewBox. Dictionary illustrations use **342×196**, centered above the headword. Header motifs are roughly **90–140px** wide.
-- A word that *names a color* may use one filled color swatch with a dark outline; this is the only fill exception for word illustrations. Keep its accessible description explicit.
-- UI icons remain SF Symbols or the shared icon set; an illustration should explain a word, not imitate an interface control.
+- Flat colour shapes on a sand card. No outlines, gradients, shadows, transparency or textures. One hero object per word, readable at 64 pt. No text in the picture.
+- Same card, frame and sun for every word; only the hero changes.
+- Dark mode: the card keeps its sand colours, like a printed picture. Only the UI around it adapts.
 
-### General SVG rules
-- Every element closed explicitly, every attribute quoted
-- No external images, no `<foreignObject>`, no animation
-- Reuse the same icon for the same meaning everywhere (magnifier = search, chevron = navigate forward, etc.) — icons are a shared component set, not redrawn per screen
+### Illustration palette (15 tokens, enforced)
+
+Only these colours may appear in an illustration, written as uppercase hex.
+
+| Token | Hex | Use |
+|---|---|---|
+| `sand` | `#EDD9AE` | card background |
+| `sandBorder` | `#BD9F66` | card border, inner frame, steps |
+| `halo` | `#E8C486` | the sun behind the hero |
+| `teal` | `#2E6F6A` | main cool colour: clothes, walls, plumage |
+| `deepTeal` | `#1F4D4A` | shade of teal, roofs, cuffs |
+| `orange` | `#E5A648` | small warm accent: belly, windows, flag |
+| `brown` | `#7A5535` | ground line, branches, doors, roofs |
+| `green` | `#5A7F4A` | leaves, trees |
+| `ink` | `#2A1E16` | eyes, beaks, hair, thin details |
+| `skin` | `#D98B57` | skin and warm walls |
+| `skinShade` | `#C27443` | shade of skin, ears, neck, darker walls |
+| `cream` | `#F6F1E7` | windows, tusks, highlights |
+| `grey` | `#8E8A86` | animals and stone |
+| `greyShade` | `#77736F` | far legs, ears, tail |
+| `earPink` | `#C98F7A` | inner ear |
+
+Rules: a shade token is used for parts that sit behind or below (far legs, neck under the chin), never for outlines. Add a colour only by editing `palette.json` and this table together; a test checks that they match.
+
+
+### Composition
+
+- Hero object centred on the sun. Side views face left, like the bird and the elephant.
+- Prefer concrete nouns and simple actions. For abstract words (however, although) do not force a picture: use a typographic card.
+- At most 90 shapes, usually 15 to 40. If a detail disappears at 64 pt, remove it.
+- A ground line (`brown`, 4 wide) and one or two `green` leaves or trees are optional, for objects that stand on something. Portraits and body parts may float.
+- No eyes on non-living objects. Living things get a single `ink` dot as an eye.
+
+### Illustration spec (enforced by lint)
+
+Canvas `viewBox="0 0 340 200"`. No `width` or `height` attributes: the app scales the artwork.
+
+Elements, in this exact order:
+
+1. Card: `rect x=1 y=1 width=338 height=198 rx=12`, fill `sand`, stroke `sandBorder`, stroke-width 2.
+2. Inner frame: `rect x=12 y=12 width=316 height=176 rx=5`, fill `none`, stroke `sandBorder`, stroke-width 1.2.
+3. Sun: `circle` filled `halo`, radius 66 to 74, centre within x 160 to 190 and y 94 to 106, fully inside the inner frame.
+4. Artwork: everything else.
+
+Content box: all artwork, including half of every stroke width, stays inside x 18 to 322 and y 18 to 182. The bottom-left corner is left free for the UI index overlay.
+
+Shapes: `rect`, `circle`, `ellipse`, `line`, `path`, `polygon`, `polyline`, grouped with `g`. Paths use `M L H V C Q Z` only, so bounds can be checked. Transforms are `translate`, `scale` and `rotate` only.
+
+Paint:
+- Every closed shape sets `fill` explicitly, to a palette colour or `none`.
+- Detail strokes are 2, 2.5, 3 or 4 wide.
+- Strokes 5 wide or more act as filled shapes (limbs, trunks, tails) and must use `stroke-linecap="round"`.
+- No `opacity`, `fill-opacity` or `stroke-opacity`. Use a palette colour instead.
+
+Forbidden: `text`, `image`, `style` and `class`, gradients, `filter`, `mask`, `clipPath`, `pattern`, `use`, `title`, `desc`, `metadata`, foreign namespaces.
+
+### Files
+
+- Location: `Design/Illustrations/<lemma>.svg`. In the app repo this is `Resources/IllustrationsSVG/`.
+- Name: lowercase ASCII lemma slug, letters, digits and hyphens: `elephant.svg`, `ice-cream.svg`.
+- Size: 4096 bytes at most, minified. `--fix` minifies.
+- No metadata. Some tools embed provenance or editor metadata; `--fix` strips it and the linter rejects it, because it can add several KB to a 2 KB file.
+- The word to picture link is `illustrationAssetName` on `WordEntry` and `assetName` in `IllustrationBinding`. Use the lemma slug as the asset name.
+
+### Lint
+
+```bash
+python3 Tools/svg-lint/svg_lint.py Design/Illustrations          # check
+python3 Tools/svg-lint/svg_lint.py Design/Illustrations --fix    # strip metadata, size attributes, uppercase hex, minify, then check
+python3 Tools/svg-lint/svg_lint.py Design/Illustrations --json   # machine-readable
+python3 -m unittest discover -s Tools/svg-lint                   # tests
+```
+
+Exit code 0 is clean, 1 means errors, 2 means a path was not found. Use the same command as a pre-commit hook and in CI.
+
+| Rule | Checks |
+|---|---|
+| `filename` | lowercase lemma slug |
+| `size`, `complexity` | at most 4096 bytes and 90 shapes |
+| `viewbox`, `root-size`, `root` | exact viewBox, no width or height |
+| `card`, `frame`, `sun`, `structure` | first three elements as in Illustration spec |
+| `element`, `attribute`, `foreign-namespace` | allowed elements and attributes only |
+| `palette`, `hex-case` | colours from `palette.json`, uppercase hex |
+| `implicit-fill`, `implicit-stroke` | nothing is left to default to black |
+| `opacity` | no transparency |
+| `stroke-width`, `tube-cap` | allowed widths, round caps on thick strokes |
+| `bounds` | artwork inside the content box, transforms and stroke width included |
+| `path-command`, `transform` | only supported commands, so bounds are checkable |
+| `empty-art` | at least three shapes after the sun |
+
+
+### Entry card anatomy
+1. Back link to Library.
+2. Illustration card.
+3. Headword (serif display style) with a round play button on the right.
+4. Part of speech (italic), IPA, CEFR badge.
+5. Definition, then an italic example.
+6. AI tutor note in a bordered box, with a chat icon and the label `AI tutor note`.
+7. Related words as chips.
+
+#### AI tutor note
+
+- English only for now. No hints written for speakers of a particular native language until the "Explain in my language" feature exists.
+- One or two sentences, about 30 words at most.
+- Useful kinds: an idiom, a usage or grammar point, a collocation, a common confusion.
+- Never adds a sense, level or example that is not in the dictionary data. Text comes from validated AI output.
+
 
 ---
 

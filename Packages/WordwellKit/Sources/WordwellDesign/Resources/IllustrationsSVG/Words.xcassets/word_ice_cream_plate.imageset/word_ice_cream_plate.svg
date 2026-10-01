@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <path d="M138 112l33 68 33-68Z"/><path d="M148 132l22-16M158 154l32-30M168 172l28-26"/><path d="M134 104c-10-32 14-52 37-52s47 20 37 52c-8 8-12 6-18-2-6 8-12 8-19 0-7 8-13 8-19 2-6 8-12 10-18 0Z"/><path d="M148 60c0-20 10-30 23-30s23 10 23 30"/><circle cx="171" cy="22" r="6"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><path d="M138 104H202L170 172Z" fill="#D98B57"/><line x1="152" y1="112" x2="176" y2="150" stroke="#C27443" stroke-width="3" stroke-linecap="round"/><line x1="186" y1="112" x2="164" y2="150" stroke="#C27443" stroke-width="3" stroke-linecap="round"/><circle cx="170" cy="96" r="32" fill="#C98F7A"/><circle cx="170" cy="66" r="26" fill="#F6F1E7"/><circle cx="170" cy="40" r="7" fill="#E5A648"/></svg>

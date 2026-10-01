@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <rect x="76" y="30" width="190" height="120" rx="4"/><rect x="90" y="44" width="162" height="92"/><path d="M90 120l40-38 30 26 24-20 68 40"/><circle cx="216" cy="70" r="12"/><path d="M110 150l-16 26M232 150l16 26M171 150v26"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><rect x="80" y="36" width="180" height="122" rx="5" fill="#7A5535"/><rect x="94" y="50" width="152" height="94" rx="3" fill="#F6F1E7"/><path d="M94 144C120 100 150 110 170 124C190 100 220 100 246 144Z" fill="#5A7F4A"/><circle cx="210" cy="76" r="12" fill="#E5A648"/><line x1="170" y1="36" x2="170" y2="22" stroke="#2A1E16" stroke-width="3" stroke-linecap="round"/><line x1="60" y1="180" x2="280" y2="180" stroke="#7A5535" stroke-width="4" stroke-linecap="round"/></svg>

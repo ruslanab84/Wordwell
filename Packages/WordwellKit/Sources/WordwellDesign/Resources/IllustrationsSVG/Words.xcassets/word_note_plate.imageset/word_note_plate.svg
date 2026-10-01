@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <path d="M112 34h118v90l-34 40H112Z"/><path d="M196 164v-40h34"/><path d="M130 62h82M130 84h82M130 106h50"/><circle cx="171" cy="34" r="6"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><rect x="110" y="50" width="120" height="118" rx="4" fill="#E5A648"/><path d="M200 168L230 138V168Z" fill="#C27443"/><line x1="126" y1="78" x2="214" y2="78" stroke="#C27443" stroke-width="3" stroke-linecap="round"/><line x1="126" y1="96" x2="214" y2="96" stroke="#C27443" stroke-width="3" stroke-linecap="round"/><line x1="126" y1="114" x2="214" y2="114" stroke="#C27443" stroke-width="3" stroke-linecap="round"/><line x1="126" y1="132" x2="214" y2="132" stroke="#C27443" stroke-width="3" stroke-linecap="round"/><circle cx="170" cy="56" r="7" fill="#2E6F6A"/></svg>

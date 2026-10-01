@@ -32,7 +32,7 @@
       "senseId": null,
       "assetName": "word_family_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_family_plate.imageset/word_family_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -77,7 +77,7 @@
       "senseId": null,
       "assetName": "word_branch_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_branch_plate.imageset/word_branch_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -99,7 +99,7 @@
       "senseId": null,
       "assetName": "word_apple_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_apple_plate.imageset/word_apple_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -120,7 +120,7 @@
       "senseId": null,
       "assetName": "word_bag_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bag_plate.imageset/word_bag_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -141,7 +141,7 @@
       "senseId": null,
       "assetName": "word_ball_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ball_plate.imageset/word_ball_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -162,7 +162,7 @@
       "senseId": null,
       "assetName": "word_banana_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_banana_plate.imageset/word_banana_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -183,7 +183,7 @@
       "senseId": null,
       "assetName": "word_bed_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bed_plate.imageset/word_bed_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -204,7 +204,7 @@
       "senseId": null,
       "assetName": "word_bicycle_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bicycle_plate.imageset/word_bicycle_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -225,7 +225,7 @@
       "senseId": null,
       "assetName": "word_bird_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bird_plate.imageset/word_bird_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -246,7 +246,7 @@
       "senseId": null,
       "assetName": "word_boat_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boat_plate.imageset/word_boat_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -267,7 +267,7 @@
       "senseId": null,
       "assetName": "word_book_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_book_plate.imageset/word_book_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -288,7 +288,7 @@
       "senseId": null,
       "assetName": "word_boot_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boot_plate.imageset/word_boot_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -309,7 +309,7 @@
       "senseId": null,
       "assetName": "word_bottle_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bottle_plate.imageset/word_bottle_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -330,7 +330,7 @@
       "senseId": null,
       "assetName": "word_box_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_box_plate.imageset/word_box_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -351,7 +351,7 @@
       "senseId": null,
       "assetName": "word_bread_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bread_plate.imageset/word_bread_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -372,7 +372,7 @@
       "senseId": null,
       "assetName": "word_bus_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bus_plate.imageset/word_bus_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -393,7 +393,7 @@
       "senseId": null,
       "assetName": "word_cake_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cake_plate.imageset/word_cake_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -414,7 +414,7 @@
       "senseId": null,
       "assetName": "word_camera_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_camera_plate.imageset/word_camera_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -435,7 +435,7 @@
       "senseId": null,
       "assetName": "word_car_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_car_plate.imageset/word_car_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -456,7 +456,7 @@
       "senseId": null,
       "assetName": "word_carrot_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_carrot_plate.imageset/word_carrot_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -477,7 +477,7 @@
       "senseId": null,
       "assetName": "word_cat_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cat_plate.imageset/word_cat_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -498,7 +498,7 @@
       "senseId": null,
       "assetName": "word_chair_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chair_plate.imageset/word_chair_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -519,7 +519,7 @@
       "senseId": null,
       "assetName": "word_cheese_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cheese_plate.imageset/word_cheese_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -540,7 +540,7 @@
       "senseId": null,
       "assetName": "word_chicken_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chicken_plate.imageset/word_chicken_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -561,7 +561,7 @@
       "senseId": null,
       "assetName": "word_clock_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clock_plate.imageset/word_clock_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -582,7 +582,7 @@
       "senseId": null,
       "assetName": "word_coat_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_coat_plate.imageset/word_coat_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -603,7 +603,7 @@
       "senseId": null,
       "assetName": "word_coffee_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_coffee_plate.imageset/word_coffee_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -624,7 +624,7 @@
       "senseId": null,
       "assetName": "word_computer_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_computer_plate.imageset/word_computer_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -645,7 +645,7 @@
       "senseId": null,
       "assetName": "word_cow_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cow_plate.imageset/word_cow_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -666,7 +666,7 @@
       "senseId": null,
       "assetName": "word_cup_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cup_plate.imageset/word_cup_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -687,7 +687,7 @@
       "senseId": null,
       "assetName": "word_desk_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_desk_plate.imageset/word_desk_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -708,7 +708,7 @@
       "senseId": null,
       "assetName": "word_dictionary_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dictionary_plate.imageset/word_dictionary_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -729,7 +729,7 @@
       "senseId": null,
       "assetName": "word_doctor_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_doctor_plate.imageset/word_doctor_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -750,7 +750,7 @@
       "senseId": null,
       "assetName": "word_dog_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dog_plate.imageset/word_dog_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -771,7 +771,7 @@
       "senseId": null,
       "assetName": "word_door_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_door_plate.imageset/word_door_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -792,7 +792,7 @@
       "senseId": null,
       "assetName": "word_egg_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_egg_plate.imageset/word_egg_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -813,7 +813,7 @@
       "senseId": null,
       "assetName": "word_elephant_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_elephant_plate.imageset/word_elephant_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -834,7 +834,7 @@
       "senseId": null,
       "assetName": "word_fish_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fish_plate.imageset/word_fish_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -855,7 +855,7 @@
       "senseId": null,
       "assetName": "word_flower_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flower_plate.imageset/word_flower_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -876,7 +876,7 @@
       "senseId": null,
       "assetName": "word_football_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_football_plate.imageset/word_football_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -897,7 +897,7 @@
       "senseId": null,
       "assetName": "word_house_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_house_plate.imageset/word_house_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -918,7 +918,7 @@
       "senseId": null,
       "assetName": "word_key_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_key_plate.imageset/word_key_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -939,7 +939,7 @@
       "senseId": null,
       "assetName": "word_actor_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_actor_plate.imageset/word_actor_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -960,7 +960,7 @@
       "senseId": null,
       "assetName": "word_actress_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_actress_plate.imageset/word_actress_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -981,7 +981,7 @@
       "senseId": null,
       "assetName": "word_adult_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_adult_plate.imageset/word_adult_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1002,7 +1002,7 @@
       "senseId": null,
       "assetName": "word_airport_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_airport_plate.imageset/word_airport_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1023,7 +1023,7 @@
       "senseId": null,
       "assetName": "word_animal_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_animal_plate.imageset/word_animal_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1044,7 +1044,7 @@
       "senseId": null,
       "assetName": "word_apartment_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_apartment_plate.imageset/word_apartment_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1065,7 +1065,7 @@
       "senseId": null,
       "assetName": "word_arm_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_arm_plate.imageset/word_arm_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1086,7 +1086,7 @@
       "senseId": null,
       "assetName": "word_art_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_art_plate.imageset/word_art_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1107,7 +1107,7 @@
       "senseId": null,
       "assetName": "word_artist_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_artist_plate.imageset/word_artist_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1128,7 +1128,7 @@
       "senseId": null,
       "assetName": "word_autumn_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_autumn_plate.imageset/word_autumn_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1149,7 +1149,7 @@
       "senseId": null,
       "assetName": "word_baby_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_baby_plate.imageset/word_baby_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1170,7 +1170,7 @@
       "senseId": null,
       "assetName": "word_back_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_back_plate.imageset/word_back_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1191,7 +1191,7 @@
       "senseId": null,
       "assetName": "word_band_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_band_plate.imageset/word_band_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1212,7 +1212,7 @@
       "senseId": null,
       "assetName": "word_bank_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bank_plate.imageset/word_bank_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1233,7 +1233,7 @@
       "senseId": null,
       "assetName": "word_bath_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bath_plate.imageset/word_bath_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1254,7 +1254,7 @@
       "senseId": null,
       "assetName": "word_bathroom_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bathroom_plate.imageset/word_bathroom_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1275,7 +1275,7 @@
       "senseId": null,
       "assetName": "word_beach_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beach_plate.imageset/word_beach_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1296,7 +1296,7 @@
       "senseId": null,
       "assetName": "word_bedroom_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bedroom_plate.imageset/word_bedroom_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1317,7 +1317,7 @@
       "senseId": null,
       "assetName": "word_beer_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beer_plate.imageset/word_beer_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1338,7 +1338,7 @@
       "senseId": null,
       "assetName": "word_bike_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bike_plate.imageset/word_bike_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1359,7 +1359,7 @@
       "senseId": null,
       "assetName": "word_bill_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bill_plate.imageset/word_bill_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1380,7 +1380,7 @@
       "senseId": null,
       "assetName": "word_birthday_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_birthday_plate.imageset/word_birthday_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1401,7 +1401,7 @@
       "senseId": null,
       "assetName": "word_blog_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blog_plate.imageset/word_blog_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1422,7 +1422,7 @@
       "senseId": null,
       "assetName": "word_body_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_body_plate.imageset/word_body_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1443,7 +1443,7 @@
       "senseId": null,
       "assetName": "word_boy_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boy_plate.imageset/word_boy_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1464,7 +1464,7 @@
       "senseId": null,
       "assetName": "word_boyfriend_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boyfriend_plate.imageset/word_boyfriend_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1485,7 +1485,7 @@
       "senseId": null,
       "assetName": "word_breakfast_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_breakfast_plate.imageset/word_breakfast_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1506,7 +1506,7 @@
       "senseId": null,
       "assetName": "word_brother_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_brother_plate.imageset/word_brother_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1527,7 +1527,7 @@
       "senseId": null,
       "assetName": "word_building_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_building_plate.imageset/word_building_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1548,7 +1548,7 @@
       "senseId": null,
       "assetName": "word_butter_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_butter_plate.imageset/word_butter_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1569,7 +1569,7 @@
       "senseId": null,
       "assetName": "word_cafe_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cafe_plate.imageset/word_cafe_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1590,7 +1590,7 @@
       "senseId": null,
       "assetName": "word_call_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_call_plate.imageset/word_call_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1611,7 +1611,7 @@
       "senseId": null,
       "assetName": "word_card_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_card_plate.imageset/word_card_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1632,7 +1632,7 @@
       "senseId": null,
       "assetName": "word_cent_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cent_plate.imageset/word_cent_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1653,7 +1653,7 @@
       "senseId": null,
       "assetName": "word_chart_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chart_plate.imageset/word_chart_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1674,7 +1674,7 @@
       "senseId": null,
       "assetName": "word_chocolate_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chocolate_plate.imageset/word_chocolate_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1695,7 +1695,7 @@
       "senseId": null,
       "assetName": "word_cinema_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cinema_plate.imageset/word_cinema_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1716,7 +1716,7 @@
       "senseId": null,
       "assetName": "word_city_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_city_plate.imageset/word_city_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1737,7 +1737,7 @@
       "senseId": null,
       "assetName": "word_class_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_class_plate.imageset/word_class_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1758,7 +1758,7 @@
       "senseId": null,
       "assetName": "word_classroom_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_classroom_plate.imageset/word_classroom_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1779,7 +1779,7 @@
       "senseId": null,
       "assetName": "word_clothes_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clothes_plate.imageset/word_clothes_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1800,7 +1800,7 @@
       "senseId": null,
       "assetName": "word_college_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_college_plate.imageset/word_college_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1821,7 +1821,7 @@
       "senseId": null,
       "assetName": "word_colour_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_colour_plate.imageset/word_colour_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1842,7 +1842,7 @@
       "senseId": null,
       "assetName": "word_concert_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_concert_plate.imageset/word_concert_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1863,7 +1863,7 @@
       "senseId": null,
       "assetName": "word_conversation_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_conversation_plate.imageset/word_conversation_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1884,7 +1884,7 @@
       "senseId": null,
       "assetName": "word_cooking_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cooking_plate.imageset/word_cooking_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1905,7 +1905,7 @@
       "senseId": null,
       "assetName": "word_country_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_country_plate.imageset/word_country_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1926,7 +1926,7 @@
       "senseId": null,
       "assetName": "word_cousin_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cousin_plate.imageset/word_cousin_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1947,7 +1947,7 @@
       "senseId": null,
       "assetName": "word_cream_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cream_plate.imageset/word_cream_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1968,7 +1968,7 @@
       "senseId": null,
       "assetName": "word_customer_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_customer_plate.imageset/word_customer_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -1989,7 +1989,7 @@
       "senseId": null,
       "assetName": "word_dad_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dad_plate.imageset/word_dad_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2010,7 +2010,7 @@
       "senseId": null,
       "assetName": "word_dance_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dance_plate.imageset/word_dance_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2031,7 +2031,7 @@
       "senseId": null,
       "assetName": "word_dancer_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dancer_plate.imageset/word_dancer_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2052,7 +2052,7 @@
       "senseId": null,
       "assetName": "word_dancing_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dancing_plate.imageset/word_dancing_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2073,7 +2073,7 @@
       "senseId": null,
       "assetName": "word_day_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_day_plate.imageset/word_day_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2094,7 +2094,7 @@
       "senseId": null,
       "assetName": "word_daughter_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_daughter_plate.imageset/word_daughter_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2115,7 +2115,7 @@
       "senseId": null,
       "assetName": "word_dinner_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dinner_plate.imageset/word_dinner_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2136,7 +2136,7 @@
       "senseId": null,
       "assetName": "word_dish_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dish_plate.imageset/word_dish_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2157,7 +2157,7 @@
       "senseId": null,
       "assetName": "word_dollar_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dollar_plate.imageset/word_dollar_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2178,7 +2178,7 @@
       "senseId": null,
       "assetName": "word_dress_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dress_plate.imageset/word_dress_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2199,7 +2199,7 @@
       "senseId": null,
       "assetName": "word_driver_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_driver_plate.imageset/word_driver_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2220,7 +2220,7 @@
       "senseId": null,
       "assetName": "word_dvd_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dvd_plate.imageset/word_dvd_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2241,7 +2241,7 @@
       "senseId": null,
       "assetName": "word_ear_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ear_plate.imageset/word_ear_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2262,7 +2262,7 @@
       "senseId": null,
       "assetName": "word_email_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_email_plate.imageset/word_email_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2283,7 +2283,7 @@
       "senseId": null,
       "assetName": "word_evening_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_evening_plate.imageset/word_evening_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2304,7 +2304,7 @@
       "senseId": null,
       "assetName": "word_exam_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_exam_plate.imageset/word_exam_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2325,7 +2325,7 @@
       "senseId": null,
       "assetName": "word_exercise_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_exercise_plate.imageset/word_exercise_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2346,7 +2346,7 @@
       "senseId": null,
       "assetName": "word_eye_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_eye_plate.imageset/word_eye_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2367,7 +2367,7 @@
       "senseId": null,
       "assetName": "word_face_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_face_plate.imageset/word_face_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2388,7 +2388,7 @@
       "senseId": null,
       "assetName": "word_farm_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_farm_plate.imageset/word_farm_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2409,7 +2409,7 @@
       "senseId": null,
       "assetName": "word_farmer_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_farmer_plate.imageset/word_farmer_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2430,7 +2430,7 @@
       "senseId": null,
       "assetName": "word_father_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_father_plate.imageset/word_father_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2451,7 +2451,7 @@
       "senseId": null,
       "assetName": "word_festival_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_festival_plate.imageset/word_festival_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2472,7 +2472,7 @@
       "senseId": null,
       "assetName": "word_film_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_film_plate.imageset/word_film_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2493,7 +2493,7 @@
       "senseId": null,
       "assetName": "word_fire_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fire_plate.imageset/word_fire_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2514,7 +2514,7 @@
       "senseId": null,
       "assetName": "word_flat_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flat_plate.imageset/word_flat_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2535,7 +2535,7 @@
       "senseId": null,
       "assetName": "word_flight_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flight_plate.imageset/word_flight_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2556,7 +2556,7 @@
       "senseId": null,
       "assetName": "word_floor_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_floor_plate.imageset/word_floor_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2577,7 +2577,7 @@
       "senseId": null,
       "assetName": "word_food_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_food_plate.imageset/word_food_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2598,7 +2598,7 @@
       "senseId": null,
       "assetName": "word_foot_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_foot_plate.imageset/word_foot_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2619,7 +2619,7 @@
       "senseId": null,
       "assetName": "word_friend_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_friend_plate.imageset/word_friend_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2640,7 +2640,7 @@
       "senseId": null,
       "assetName": "word_fruit_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fruit_plate.imageset/word_fruit_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2661,7 +2661,7 @@
       "senseId": null,
       "assetName": "word_game_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_game_plate.imageset/word_game_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2682,7 +2682,7 @@
       "senseId": null,
       "assetName": "word_garden_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_garden_plate.imageset/word_garden_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2703,7 +2703,7 @@
       "senseId": null,
       "assetName": "word_geography_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_geography_plate.imageset/word_geography_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2724,7 +2724,7 @@
       "senseId": null,
       "assetName": "word_girl_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_girl_plate.imageset/word_girl_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2745,7 +2745,7 @@
       "senseId": null,
       "assetName": "word_girlfriend_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_girlfriend_plate.imageset/word_girlfriend_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2766,7 +2766,7 @@
       "senseId": null,
       "assetName": "word_glass_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_glass_plate.imageset/word_glass_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2787,7 +2787,7 @@
       "senseId": null,
       "assetName": "word_grandfather_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_grandfather_plate.imageset/word_grandfather_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2808,7 +2808,7 @@
       "senseId": null,
       "assetName": "word_grandmother_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_grandmother_plate.imageset/word_grandmother_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2829,7 +2829,7 @@
       "senseId": null,
       "assetName": "word_grandparent_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_grandparent_plate.imageset/word_grandparent_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2850,7 +2850,7 @@
       "senseId": null,
       "assetName": "word_group_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_group_plate.imageset/word_group_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2871,7 +2871,7 @@
       "senseId": null,
       "assetName": "word_guitar_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_guitar_plate.imageset/word_guitar_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2892,7 +2892,7 @@
       "senseId": null,
       "assetName": "word_gym_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gym_plate.imageset/word_gym_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2913,7 +2913,7 @@
       "senseId": null,
       "assetName": "word_hair_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hair_plate.imageset/word_hair_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2934,7 +2934,7 @@
       "senseId": null,
       "assetName": "word_hand_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hand_plate.imageset/word_hand_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2955,7 +2955,7 @@
       "senseId": null,
       "assetName": "word_hat_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hat_plate.imageset/word_hat_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2976,7 +2976,7 @@
       "senseId": null,
       "assetName": "word_head_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_head_plate.imageset/word_head_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -2997,7 +2997,7 @@
       "senseId": null,
       "assetName": "word_holiday_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_holiday_plate.imageset/word_holiday_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3018,7 +3018,7 @@
       "senseId": null,
       "assetName": "word_home_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_home_plate.imageset/word_home_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3039,7 +3039,7 @@
       "senseId": null,
       "assetName": "word_homework_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_homework_plate.imageset/word_homework_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3060,7 +3060,7 @@
       "senseId": null,
       "assetName": "word_horse_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_horse_plate.imageset/word_horse_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3081,7 +3081,7 @@
       "senseId": null,
       "assetName": "word_hospital_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hospital_plate.imageset/word_hospital_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3102,7 +3102,7 @@
       "senseId": null,
       "assetName": "word_hotel_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hotel_plate.imageset/word_hotel_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3123,7 +3123,7 @@
       "senseId": null,
       "assetName": "word_husband_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_husband_plate.imageset/word_husband_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3144,7 +3144,7 @@
       "senseId": null,
       "assetName": "word_ice_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ice_plate.imageset/word_ice_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3165,7 +3165,7 @@
       "senseId": null,
       "assetName": "word_ice_cream_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ice_cream_plate.imageset/word_ice_cream_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3186,7 +3186,7 @@
       "senseId": null,
       "assetName": "word_internet_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_internet_plate.imageset/word_internet_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3207,7 +3207,7 @@
       "senseId": null,
       "assetName": "word_interview_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_interview_plate.imageset/word_interview_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3228,7 +3228,7 @@
       "senseId": null,
       "assetName": "word_island_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_island_plate.imageset/word_island_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3249,7 +3249,7 @@
       "senseId": null,
       "assetName": "word_jacket_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jacket_plate.imageset/word_jacket_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3270,7 +3270,7 @@
       "senseId": null,
       "assetName": "word_jeans_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jeans_plate.imageset/word_jeans_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3291,7 +3291,7 @@
       "senseId": null,
       "assetName": "word_journey_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_journey_plate.imageset/word_journey_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3312,7 +3312,7 @@
       "senseId": null,
       "assetName": "word_juice_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_juice_plate.imageset/word_juice_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3333,7 +3333,7 @@
       "senseId": null,
       "assetName": "word_kitchen_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kitchen_plate.imageset/word_kitchen_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3375,7 +3375,7 @@
       "senseId": null,
       "assetName": "word_laugh_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_laugh_plate.imageset/word_laugh_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3396,7 +3396,7 @@
       "senseId": null,
       "assetName": "word_leg_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_leg_plate.imageset/word_leg_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3417,7 +3417,7 @@
       "senseId": null,
       "assetName": "word_lesson_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lesson_plate.imageset/word_lesson_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3438,7 +3438,7 @@
       "senseId": null,
       "assetName": "word_letter_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_letter_plate.imageset/word_letter_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3459,7 +3459,7 @@
       "senseId": null,
       "assetName": "word_library_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_library_plate.imageset/word_library_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3480,7 +3480,7 @@
       "senseId": null,
       "assetName": "word_light_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_light_plate.imageset/word_light_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3522,7 +3522,7 @@
       "senseId": null,
       "assetName": "word_lion_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lion_plate.imageset/word_lion_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3564,7 +3564,7 @@
       "senseId": null,
       "assetName": "word_love_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_love_plate.imageset/word_love_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3585,7 +3585,7 @@
       "senseId": null,
       "assetName": "word_lunch_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lunch_plate.imageset/word_lunch_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3606,7 +3606,7 @@
       "senseId": null,
       "assetName": "word_machine_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_machine_plate.imageset/word_machine_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3627,7 +3627,7 @@
       "senseId": null,
       "assetName": "word_magazine_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_magazine_plate.imageset/word_magazine_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3648,7 +3648,7 @@
       "senseId": null,
       "assetName": "word_man_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_man_plate.imageset/word_man_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3669,7 +3669,7 @@
       "senseId": null,
       "assetName": "word_map_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_map_plate.imageset/word_map_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3690,7 +3690,7 @@
       "senseId": null,
       "assetName": "word_market_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_market_plate.imageset/word_market_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3711,7 +3711,7 @@
       "senseId": null,
       "assetName": "word_match_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_match_plate.imageset/word_match_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3732,7 +3732,7 @@
       "senseId": null,
       "assetName": "word_meal_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_meal_plate.imageset/word_meal_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3753,7 +3753,7 @@
       "senseId": null,
       "assetName": "word_meat_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_meat_plate.imageset/word_meat_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3774,7 +3774,7 @@
       "senseId": null,
       "assetName": "word_meeting_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_meeting_plate.imageset/word_meeting_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3795,7 +3795,7 @@
       "senseId": null,
       "assetName": "word_menu_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_menu_plate.imageset/word_menu_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3816,7 +3816,7 @@
       "senseId": null,
       "assetName": "word_message_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_message_plate.imageset/word_message_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3837,7 +3837,7 @@
       "senseId": null,
       "assetName": "word_milk_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_milk_plate.imageset/word_milk_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3858,7 +3858,7 @@
       "senseId": null,
       "assetName": "word_money_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_money_plate.imageset/word_money_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3879,7 +3879,7 @@
       "senseId": null,
       "assetName": "word_morning_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_morning_plate.imageset/word_morning_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3900,7 +3900,7 @@
       "senseId": null,
       "assetName": "word_mother_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mother_plate.imageset/word_mother_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3921,7 +3921,7 @@
       "senseId": null,
       "assetName": "word_mountain_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mountain_plate.imageset/word_mountain_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3942,7 +3942,7 @@
       "senseId": null,
       "assetName": "word_mouse_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mouse_plate.imageset/word_mouse_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3963,7 +3963,7 @@
       "senseId": null,
       "assetName": "word_mouth_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mouth_plate.imageset/word_mouth_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -3984,7 +3984,7 @@
       "senseId": null,
       "assetName": "word_movie_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_movie_plate.imageset/word_movie_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4005,7 +4005,7 @@
       "senseId": null,
       "assetName": "word_museum_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_museum_plate.imageset/word_museum_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4026,7 +4026,7 @@
       "senseId": null,
       "assetName": "word_music_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_music_plate.imageset/word_music_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4047,7 +4047,7 @@
       "senseId": null,
       "assetName": "word_neighbour_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_neighbour_plate.imageset/word_neighbour_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4068,7 +4068,7 @@
       "senseId": null,
       "assetName": "word_news_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_news_plate.imageset/word_news_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4089,7 +4089,7 @@
       "senseId": null,
       "assetName": "word_newspaper_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_newspaper_plate.imageset/word_newspaper_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4110,7 +4110,7 @@
       "senseId": null,
       "assetName": "word_night_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_night_plate.imageset/word_night_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4131,7 +4131,7 @@
       "senseId": null,
       "assetName": "word_nose_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_nose_plate.imageset/word_nose_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4152,7 +4152,7 @@
       "senseId": null,
       "assetName": "word_note_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_note_plate.imageset/word_note_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4173,7 +4173,7 @@
       "senseId": null,
       "assetName": "word_nurse_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_nurse_plate.imageset/word_nurse_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4194,7 +4194,7 @@
       "senseId": null,
       "assetName": "word_office_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_office_plate.imageset/word_office_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4215,7 +4215,7 @@
       "senseId": null,
       "assetName": "word_onion_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_onion_plate.imageset/word_onion_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4236,7 +4236,7 @@
       "senseId": null,
       "assetName": "word_orange_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_orange_plate.imageset/word_orange_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4257,7 +4257,7 @@
       "senseId": null,
       "assetName": "word_page_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_page_plate.imageset/word_page_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4278,7 +4278,7 @@
       "senseId": null,
       "assetName": "word_paint_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_paint_plate.imageset/word_paint_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4299,7 +4299,7 @@
       "senseId": null,
       "assetName": "word_painting_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_painting_plate.imageset/word_painting_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4320,7 +4320,7 @@
       "senseId": null,
       "assetName": "word_pair_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pair_plate.imageset/word_pair_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4341,7 +4341,7 @@
       "senseId": null,
       "assetName": "word_paper_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_paper_plate.imageset/word_paper_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4362,7 +4362,7 @@
       "senseId": null,
       "assetName": "word_parent_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_parent_plate.imageset/word_parent_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4383,7 +4383,7 @@
       "senseId": null,
       "assetName": "word_park_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_park_plate.imageset/word_park_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4404,7 +4404,7 @@
       "senseId": null,
       "assetName": "word_party_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_party_plate.imageset/word_party_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4425,7 +4425,7 @@
       "senseId": null,
       "assetName": "word_passport_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_passport_plate.imageset/word_passport_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4446,7 +4446,7 @@
       "senseId": null,
       "assetName": "word_pen_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pen_plate.imageset/word_pen_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4467,7 +4467,7 @@
       "senseId": null,
       "assetName": "word_pencil_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pencil_plate.imageset/word_pencil_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4488,7 +4488,7 @@
       "senseId": null,
       "assetName": "word_people_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_people_plate.imageset/word_people_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4509,7 +4509,7 @@
       "senseId": null,
       "assetName": "word_person_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_person_plate.imageset/word_person_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4530,7 +4530,7 @@
       "senseId": null,
       "assetName": "word_phone_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_phone_plate.imageset/word_phone_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4551,7 +4551,7 @@
       "senseId": null,
       "assetName": "word_photo_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_photo_plate.imageset/word_photo_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4572,7 +4572,7 @@
       "senseId": null,
       "assetName": "word_photograph_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_photograph_plate.imageset/word_photograph_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4593,7 +4593,7 @@
       "senseId": null,
       "assetName": "word_piano_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_piano_plate.imageset/word_piano_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4614,7 +4614,7 @@
       "senseId": null,
       "assetName": "word_picture_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_picture_plate.imageset/word_picture_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4635,7 +4635,7 @@
       "senseId": null,
       "assetName": "word_pig_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pig_plate.imageset/word_pig_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4656,7 +4656,7 @@
       "senseId": null,
       "assetName": "word_plane_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_plane_plate.imageset/word_plane_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4677,7 +4677,7 @@
       "senseId": null,
       "assetName": "word_plant_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_plant_plate.imageset/word_plant_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4698,7 +4698,7 @@
       "senseId": null,
       "assetName": "word_player_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_player_plate.imageset/word_player_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4719,7 +4719,7 @@
       "senseId": null,
       "assetName": "word_police_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_police_plate.imageset/word_police_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4740,7 +4740,7 @@
       "senseId": null,
       "assetName": "word_policeman_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_policeman_plate.imageset/word_policeman_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4761,7 +4761,7 @@
       "senseId": null,
       "assetName": "word_pool_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pool_plate.imageset/word_pool_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4782,7 +4782,7 @@
       "senseId": null,
       "assetName": "word_post_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_post_plate.imageset/word_post_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4803,7 +4803,7 @@
       "senseId": null,
       "assetName": "word_potato_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_potato_plate.imageset/word_potato_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4845,7 +4845,7 @@
       "senseId": null,
       "assetName": "word_radio_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_radio_plate.imageset/word_radio_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4866,7 +4866,7 @@
       "senseId": null,
       "assetName": "word_rain_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rain_plate.imageset/word_rain_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4887,7 +4887,7 @@
       "senseId": null,
       "assetName": "word_reader_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reader_plate.imageset/word_reader_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4929,7 +4929,7 @@
       "senseId": null,
       "assetName": "word_restaurant_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_restaurant_plate.imageset/word_restaurant_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4950,7 +4950,7 @@
       "senseId": null,
       "assetName": "word_rice_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rice_plate.imageset/word_rice_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4971,7 +4971,7 @@
       "senseId": null,
       "assetName": "word_river_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_river_plate.imageset/word_river_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -4992,7 +4992,7 @@
       "senseId": null,
       "assetName": "word_road_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_road_plate.imageset/word_road_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5013,7 +5013,7 @@
       "senseId": null,
       "assetName": "word_room_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_room_plate.imageset/word_room_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5034,7 +5034,7 @@
       "senseId": null,
       "assetName": "word_salad_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_salad_plate.imageset/word_salad_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5055,7 +5055,7 @@
       "senseId": null,
       "assetName": "word_salt_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_salt_plate.imageset/word_salt_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5076,7 +5076,7 @@
       "senseId": null,
       "assetName": "word_sandwich_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sandwich_plate.imageset/word_sandwich_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5097,7 +5097,7 @@
       "senseId": null,
       "assetName": "word_school_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_school_plate.imageset/word_school_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5118,7 +5118,7 @@
       "senseId": null,
       "assetName": "word_science_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_science_plate.imageset/word_science_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5139,7 +5139,7 @@
       "senseId": null,
       "assetName": "word_scientist_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scientist_plate.imageset/word_scientist_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5160,7 +5160,7 @@
       "senseId": null,
       "assetName": "word_sea_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sea_plate.imageset/word_sea_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5181,7 +5181,7 @@
       "senseId": null,
       "assetName": "word_sheep_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sheep_plate.imageset/word_sheep_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5202,7 +5202,7 @@
       "senseId": null,
       "assetName": "word_shirt_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shirt_plate.imageset/word_shirt_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5223,7 +5223,7 @@
       "senseId": null,
       "assetName": "word_shoe_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shoe_plate.imageset/word_shoe_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5244,7 +5244,7 @@
       "senseId": null,
       "assetName": "word_shop_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shop_plate.imageset/word_shop_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5265,7 +5265,7 @@
       "senseId": null,
       "assetName": "word_shopping_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shopping_plate.imageset/word_shopping_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5286,7 +5286,7 @@
       "senseId": null,
       "assetName": "word_show_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_show_plate.imageset/word_show_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5307,7 +5307,7 @@
       "senseId": null,
       "assetName": "word_shower_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shower_plate.imageset/word_shower_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5328,7 +5328,7 @@
       "senseId": null,
       "assetName": "word_singer_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_singer_plate.imageset/word_singer_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5349,7 +5349,7 @@
       "senseId": null,
       "assetName": "word_sister_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sister_plate.imageset/word_sister_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5370,7 +5370,7 @@
       "senseId": null,
       "assetName": "word_skirt_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_skirt_plate.imageset/word_skirt_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5391,7 +5391,7 @@
       "senseId": null,
       "assetName": "word_snake_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_snake_plate.imageset/word_snake_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5412,7 +5412,7 @@
       "senseId": null,
       "assetName": "word_snow_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_snow_plate.imageset/word_snow_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5433,7 +5433,7 @@
       "senseId": null,
       "assetName": "word_son_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_son_plate.imageset/word_son_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5454,7 +5454,7 @@
       "senseId": null,
       "assetName": "word_song_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_song_plate.imageset/word_song_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5475,7 +5475,7 @@
       "senseId": null,
       "assetName": "word_sound_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sound_plate.imageset/word_sound_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5496,7 +5496,7 @@
       "senseId": null,
       "assetName": "word_soup_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_soup_plate.imageset/word_soup_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5517,7 +5517,7 @@
       "senseId": null,
       "assetName": "word_sport_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sport_plate.imageset/word_sport_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5538,7 +5538,7 @@
       "senseId": null,
       "assetName": "word_spring_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_spring_plate.imageset/word_spring_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5559,7 +5559,7 @@
       "senseId": null,
       "assetName": "word_star_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_star_plate.imageset/word_star_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5580,7 +5580,7 @@
       "senseId": null,
       "assetName": "word_station_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_station_plate.imageset/word_station_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5601,7 +5601,7 @@
       "senseId": null,
       "assetName": "word_story_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_story_plate.imageset/word_story_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5622,7 +5622,7 @@
       "senseId": null,
       "assetName": "word_street_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_street_plate.imageset/word_street_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5643,7 +5643,7 @@
       "senseId": null,
       "assetName": "word_student_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_student_plate.imageset/word_student_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5685,7 +5685,7 @@
       "senseId": null,
       "assetName": "word_sugar_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sugar_plate.imageset/word_sugar_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5706,7 +5706,7 @@
       "senseId": null,
       "assetName": "word_summer_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_summer_plate.imageset/word_summer_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5727,7 +5727,7 @@
       "senseId": null,
       "assetName": "word_sun_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sun_plate.imageset/word_sun_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5748,7 +5748,7 @@
       "senseId": null,
       "assetName": "word_supermarket_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_supermarket_plate.imageset/word_supermarket_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5769,7 +5769,7 @@
       "senseId": null,
       "assetName": "word_sweater_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sweater_plate.imageset/word_sweater_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5790,7 +5790,7 @@
       "senseId": null,
       "assetName": "word_swimming_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_swimming_plate.imageset/word_swimming_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5811,7 +5811,7 @@
       "senseId": null,
       "assetName": "word_table_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_table_plate.imageset/word_table_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5832,7 +5832,7 @@
       "senseId": null,
       "assetName": "word_taxi_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_taxi_plate.imageset/word_taxi_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5853,7 +5853,7 @@
       "senseId": null,
       "assetName": "word_tea_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tea_plate.imageset/word_tea_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5874,7 +5874,7 @@
       "senseId": null,
       "assetName": "word_teacher_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_teacher_plate.imageset/word_teacher_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5895,7 +5895,7 @@
       "senseId": null,
       "assetName": "word_team_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_team_plate.imageset/word_team_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5916,7 +5916,7 @@
       "senseId": null,
       "assetName": "word_teenager_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_teenager_plate.imageset/word_teenager_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5937,7 +5937,7 @@
       "senseId": null,
       "assetName": "word_telephone_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_telephone_plate.imageset/word_telephone_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5958,7 +5958,7 @@
       "senseId": null,
       "assetName": "word_television_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_television_plate.imageset/word_television_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -5979,7 +5979,7 @@
       "senseId": null,
       "assetName": "word_tennis_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tennis_plate.imageset/word_tennis_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6021,7 +6021,7 @@
       "senseId": null,
       "assetName": "word_theatre_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_theatre_plate.imageset/word_theatre_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6042,7 +6042,7 @@
       "senseId": null,
       "assetName": "word_ticket_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ticket_plate.imageset/word_ticket_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6063,7 +6063,7 @@
       "senseId": null,
       "assetName": "word_toilet_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_toilet_plate.imageset/word_toilet_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6084,7 +6084,7 @@
       "senseId": null,
       "assetName": "word_tomato_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tomato_plate.imageset/word_tomato_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6105,7 +6105,7 @@
       "senseId": null,
       "assetName": "word_tooth_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tooth_plate.imageset/word_tooth_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6126,7 +6126,7 @@
       "senseId": null,
       "assetName": "word_tourist_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tourist_plate.imageset/word_tourist_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6168,7 +6168,7 @@
       "senseId": null,
       "assetName": "word_traffic_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_traffic_plate.imageset/word_traffic_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6189,7 +6189,7 @@
       "senseId": null,
       "assetName": "word_train_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_train_plate.imageset/word_train_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6210,7 +6210,7 @@
       "senseId": null,
       "assetName": "word_travel_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_travel_plate.imageset/word_travel_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6231,7 +6231,7 @@
       "senseId": null,
       "assetName": "word_tree_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tree_plate.imageset/word_tree_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6252,7 +6252,7 @@
       "senseId": null,
       "assetName": "word_trip_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trip_plate.imageset/word_trip_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6273,7 +6273,7 @@
       "senseId": null,
       "assetName": "word_trousers_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trousers_plate.imageset/word_trousers_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6294,7 +6294,7 @@
       "senseId": null,
       "assetName": "word_t_shirt_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_t_shirt_plate.imageset/word_t_shirt_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6315,7 +6315,7 @@
       "senseId": null,
       "assetName": "word_tv_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tv_plate.imageset/word_tv_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6336,7 +6336,7 @@
       "senseId": null,
       "assetName": "word_umbrella_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_umbrella_plate.imageset/word_umbrella_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6357,7 +6357,7 @@
       "senseId": null,
       "assetName": "word_uncle_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_uncle_plate.imageset/word_uncle_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6378,7 +6378,7 @@
       "senseId": null,
       "assetName": "word_university_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_university_plate.imageset/word_university_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6420,7 +6420,7 @@
       "senseId": null,
       "assetName": "word_vegetable_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_vegetable_plate.imageset/word_vegetable_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6441,7 +6441,7 @@
       "senseId": null,
       "assetName": "word_video_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_video_plate.imageset/word_video_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6483,7 +6483,7 @@
       "senseId": null,
       "assetName": "word_visitor_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_visitor_plate.imageset/word_visitor_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6504,7 +6504,7 @@
       "senseId": null,
       "assetName": "word_waiter_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_waiter_plate.imageset/word_waiter_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6546,7 +6546,7 @@
       "senseId": null,
       "assetName": "word_wall_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wall_plate.imageset/word_wall_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6588,7 +6588,7 @@
       "senseId": null,
       "assetName": "word_water_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_water_plate.imageset/word_water_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6609,7 +6609,7 @@
       "senseId": null,
       "assetName": "word_weather_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_weather_plate.imageset/word_weather_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6651,7 +6651,7 @@
       "senseId": null,
       "assetName": "word_wife_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wife_plate.imageset/word_wife_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6672,7 +6672,7 @@
       "senseId": null,
       "assetName": "word_window_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_window_plate.imageset/word_window_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6693,7 +6693,7 @@
       "senseId": null,
       "assetName": "word_wine_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wine_plate.imageset/word_wine_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6714,7 +6714,7 @@
       "senseId": null,
       "assetName": "word_winter_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_winter_plate.imageset/word_winter_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6735,7 +6735,7 @@
       "senseId": null,
       "assetName": "word_woman_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_woman_plate.imageset/word_woman_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6777,7 +6777,7 @@
       "senseId": null,
       "assetName": "word_worker_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_worker_plate.imageset/word_worker_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6819,7 +6819,7 @@
       "senseId": null,
       "assetName": "word_writer_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_writer_plate.imageset/word_writer_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6861,7 +6861,7 @@
       "senseId": null,
       "assetName": "word_afternoon_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_afternoon_plate.imageset/word_afternoon_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6882,7 +6882,7 @@
       "senseId": null,
       "assetName": "word_aunt_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_aunt_plate.imageset/word_aunt_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -6987,7 +6987,7 @@
       "senseId": null,
       "assetName": "word_cd_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cd_plate.imageset/word_cd_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7008,7 +7008,7 @@
       "senseId": null,
       "assetName": "word_child_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_child_plate.imageset/word_child_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7029,7 +7029,7 @@
       "senseId": null,
       "assetName": "word_cold_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cold_plate.imageset/word_cold_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7050,7 +7050,7 @@
       "senseId": null,
       "assetName": "word_drink_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drink_plate.imageset/word_drink_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7071,7 +7071,7 @@
       "senseId": null,
       "assetName": "word_euro_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_euro_plate.imageset/word_euro_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7218,7 +7218,7 @@
       "senseId": null,
       "assetName": "word_midnight_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_midnight_plate.imageset/word_midnight_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7239,7 +7239,7 @@
       "senseId": null,
       "assetName": "word_mum_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mum_plate.imageset/word_mum_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7260,7 +7260,7 @@
       "senseId": null,
       "assetName": "word_pepper_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pepper_plate.imageset/word_pepper_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7344,7 +7344,7 @@
       "senseId": null,
       "assetName": "word_pound_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pound_plate.imageset/word_pound_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7512,7 +7512,7 @@
       "senseId": null,
       "assetName": "word_arrive_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_arrive_verb_plate.imageset/word_arrive_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7533,7 +7533,7 @@
       "senseId": null,
       "assetName": "word_ask_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ask_verb_plate.imageset/word_ask_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7575,7 +7575,7 @@
       "senseId": null,
       "assetName": "word_bring_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bring_verb_plate.imageset/word_bring_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7596,7 +7596,7 @@
       "senseId": null,
       "assetName": "word_build_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_build_verb_plate.imageset/word_build_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7617,7 +7617,7 @@
       "senseId": null,
       "assetName": "word_buy_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_buy_verb_plate.imageset/word_buy_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7638,7 +7638,7 @@
       "senseId": null,
       "assetName": "word_call_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_call_plate.imageset/word_call_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7659,7 +7659,7 @@
       "senseId": null,
       "assetName": "word_carry_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_carry_verb_plate.imageset/word_carry_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7680,7 +7680,7 @@
       "senseId": null,
       "assetName": "word_check_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_check_verb_plate.imageset/word_check_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7701,7 +7701,7 @@
       "senseId": null,
       "assetName": "word_clean_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clean_verb_plate.imageset/word_clean_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7722,7 +7722,7 @@
       "senseId": null,
       "assetName": "word_climb_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_climb_verb_plate.imageset/word_climb_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7743,7 +7743,7 @@
       "senseId": null,
       "assetName": "word_close_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_close_verb_plate.imageset/word_close_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7764,7 +7764,7 @@
       "senseId": null,
       "assetName": "word_come_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_come_verb_plate.imageset/word_come_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7785,7 +7785,7 @@
       "senseId": null,
       "assetName": "word_cook_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cook_verb_plate.imageset/word_cook_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7806,7 +7806,7 @@
       "senseId": null,
       "assetName": "word_cut_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cut_verb_plate.imageset/word_cut_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7827,7 +7827,7 @@
       "senseId": null,
       "assetName": "word_dance_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dance_plate.imageset/word_dance_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7848,7 +7848,7 @@
       "senseId": null,
       "assetName": "word_draw_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_draw_verb_plate.imageset/word_draw_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7869,7 +7869,7 @@
       "senseId": null,
       "assetName": "word_dress_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dress_verb_plate.imageset/word_dress_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7890,7 +7890,7 @@
       "senseId": null,
       "assetName": "word_drink_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drink_verb_plate.imageset/word_drink_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7911,7 +7911,7 @@
       "senseId": null,
       "assetName": "word_drive_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drive_verb_plate.imageset/word_drive_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7932,7 +7932,7 @@
       "senseId": null,
       "assetName": "word_eat_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_eat_verb_plate.imageset/word_eat_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7953,7 +7953,7 @@
       "senseId": null,
       "assetName": "word_email_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_email_plate.imageset/word_email_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7974,7 +7974,7 @@
       "senseId": null,
       "assetName": "word_exercise_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_exercise_verb_plate.imageset/word_exercise_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -7995,7 +7995,7 @@
       "senseId": null,
       "assetName": "word_fall_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fall_verb_plate.imageset/word_fall_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8016,7 +8016,7 @@
       "senseId": null,
       "assetName": "word_fill_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fill_verb_plate.imageset/word_fill_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8037,7 +8037,7 @@
       "senseId": null,
       "assetName": "word_find_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_find_verb_plate.imageset/word_find_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8058,7 +8058,7 @@
       "senseId": null,
       "assetName": "word_fly_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fly_verb_plate.imageset/word_fly_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8079,7 +8079,7 @@
       "senseId": null,
       "assetName": "word_follow_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_follow_verb_plate.imageset/word_follow_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8100,7 +8100,7 @@
       "senseId": null,
       "assetName": "word_give_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_give_verb_plate.imageset/word_give_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8121,7 +8121,7 @@
       "senseId": null,
       "assetName": "word_go_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_go_verb_plate.imageset/word_go_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8142,7 +8142,7 @@
       "senseId": null,
       "assetName": "word_grow_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_grow_verb_plate.imageset/word_grow_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8163,7 +8163,7 @@
       "senseId": null,
       "assetName": "word_hear_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hear_verb_plate.imageset/word_hear_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8205,7 +8205,7 @@
       "senseId": null,
       "assetName": "word_join_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_join_verb_plate.imageset/word_join_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8226,7 +8226,7 @@
       "senseId": null,
       "assetName": "word_laugh_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_laugh_verb_plate.imageset/word_laugh_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8247,7 +8247,7 @@
       "senseId": null,
       "assetName": "word_learn_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_learn_verb_plate.imageset/word_learn_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8268,7 +8268,7 @@
       "senseId": null,
       "assetName": "word_leave_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_leave_verb_plate.imageset/word_leave_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8289,7 +8289,7 @@
       "senseId": null,
       "assetName": "word_listen_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_listen_verb_plate.imageset/word_listen_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8310,7 +8310,7 @@
       "senseId": null,
       "assetName": "word_look_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_look_verb_plate.imageset/word_look_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8331,7 +8331,7 @@
       "senseId": null,
       "assetName": "word_love_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_love_plate.imageset/word_love_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8352,7 +8352,7 @@
       "senseId": null,
       "assetName": "word_make_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_make_verb_plate.imageset/word_make_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8373,7 +8373,7 @@
       "senseId": null,
       "assetName": "word_meet_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_meet_verb_plate.imageset/word_meet_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8394,7 +8394,7 @@
       "senseId": null,
       "assetName": "word_move_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_move_verb_plate.imageset/word_move_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8415,7 +8415,7 @@
       "senseId": null,
       "assetName": "word_open_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_open_verb_plate.imageset/word_open_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8436,7 +8436,7 @@
       "senseId": null,
       "assetName": "word_order_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_order_verb_plate.imageset/word_order_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8457,7 +8457,7 @@
       "senseId": null,
       "assetName": "word_paint_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_paint_verb_plate.imageset/word_paint_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8478,7 +8478,7 @@
       "senseId": null,
       "assetName": "word_park_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_park_verb_plate.imageset/word_park_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8499,7 +8499,7 @@
       "senseId": null,
       "assetName": "word_pay_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pay_verb_plate.imageset/word_pay_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8520,7 +8520,7 @@
       "senseId": null,
       "assetName": "word_phone_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_phone_plate.imageset/word_phone_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8562,7 +8562,7 @@
       "senseId": null,
       "assetName": "word_post_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_post_plate.imageset/word_post_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8583,7 +8583,7 @@
       "senseId": null,
       "assetName": "word_put_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_put_verb_plate.imageset/word_put_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8604,7 +8604,7 @@
       "senseId": null,
       "assetName": "word_rain_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rain_plate.imageset/word_rain_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8625,7 +8625,7 @@
       "senseId": null,
       "assetName": "word_read_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_read_verb_plate.imageset/word_read_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8646,7 +8646,7 @@
       "senseId": null,
       "assetName": "word_relax_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_relax_verb_plate.imageset/word_relax_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8688,7 +8688,7 @@
       "senseId": null,
       "assetName": "word_ride_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ride_verb_plate.imageset/word_ride_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8709,7 +8709,7 @@
       "senseId": null,
       "assetName": "word_run_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_run_verb_plate.imageset/word_run_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8730,7 +8730,7 @@
       "senseId": null,
       "assetName": "word_say_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_say_verb_plate.imageset/word_say_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8751,7 +8751,7 @@
       "senseId": null,
       "assetName": "word_see_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_see_verb_plate.imageset/word_see_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8772,7 +8772,7 @@
       "senseId": null,
       "assetName": "word_sell_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sell_verb_plate.imageset/word_sell_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8793,7 +8793,7 @@
       "senseId": null,
       "assetName": "word_send_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_send_verb_plate.imageset/word_send_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8814,7 +8814,7 @@
       "senseId": null,
       "assetName": "word_share_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_share_verb_plate.imageset/word_share_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8835,7 +8835,7 @@
       "senseId": null,
       "assetName": "word_shop_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shop_verb_plate.imageset/word_shop_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8856,7 +8856,7 @@
       "senseId": null,
       "assetName": "word_show_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_show_verb_plate.imageset/word_show_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8877,7 +8877,7 @@
       "senseId": null,
       "assetName": "word_sing_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sing_verb_plate.imageset/word_sing_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8898,7 +8898,7 @@
       "senseId": null,
       "assetName": "word_sit_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sit_verb_plate.imageset/word_sit_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8919,7 +8919,7 @@
       "senseId": null,
       "assetName": "word_sleep_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sleep_verb_plate.imageset/word_sleep_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8940,7 +8940,7 @@
       "senseId": null,
       "assetName": "word_snow_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_snow_plate.imageset/word_snow_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8961,7 +8961,7 @@
       "senseId": null,
       "assetName": "word_speak_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_speak_verb_plate.imageset/word_speak_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -8982,7 +8982,7 @@
       "senseId": null,
       "assetName": "word_stand_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stand_verb_plate.imageset/word_stand_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9003,7 +9003,7 @@
       "senseId": null,
       "assetName": "word_stop_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stop_verb_plate.imageset/word_stop_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9024,7 +9024,7 @@
       "senseId": null,
       "assetName": "word_study_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_study_verb_plate.imageset/word_study_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9045,7 +9045,7 @@
       "senseId": null,
       "assetName": "word_swim_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_swim_verb_plate.imageset/word_swim_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9066,7 +9066,7 @@
       "senseId": null,
       "assetName": "word_take_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_take_verb_plate.imageset/word_take_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9087,7 +9087,7 @@
       "senseId": null,
       "assetName": "word_talk_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_talk_verb_plate.imageset/word_talk_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9108,7 +9108,7 @@
       "senseId": null,
       "assetName": "word_teach_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_teach_verb_plate.imageset/word_teach_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9129,7 +9129,7 @@
       "senseId": null,
       "assetName": "word_telephone_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_telephone_plate.imageset/word_telephone_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9150,7 +9150,7 @@
       "senseId": null,
       "assetName": "word_tell_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tell_verb_plate.imageset/word_tell_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9192,7 +9192,7 @@
       "senseId": null,
       "assetName": "word_travel_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_travel_plate.imageset/word_travel_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9213,7 +9213,7 @@
       "senseId": null,
       "assetName": "word_turn_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_turn_verb_plate.imageset/word_turn_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9255,7 +9255,7 @@
       "senseId": null,
       "assetName": "word_wait_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wait_verb_plate.imageset/word_wait_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9276,7 +9276,7 @@
       "senseId": null,
       "assetName": "word_wake_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wake_verb_plate.imageset/word_wake_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9297,7 +9297,7 @@
       "senseId": null,
       "assetName": "word_walk_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_walk_verb_plate.imageset/word_walk_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9318,7 +9318,7 @@
       "senseId": null,
       "assetName": "word_wash_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wash_verb_plate.imageset/word_wash_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9339,7 +9339,7 @@
       "senseId": null,
       "assetName": "word_watch_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_watch_verb_plate.imageset/word_watch_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9360,7 +9360,7 @@
       "senseId": null,
       "assetName": "word_wear_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wear_verb_plate.imageset/word_wear_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9381,7 +9381,7 @@
       "senseId": null,
       "assetName": "word_win_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_win_verb_plate.imageset/word_win_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9402,7 +9402,7 @@
       "senseId": null,
       "assetName": "word_work_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_work_verb_plate.imageset/word_work_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9423,7 +9423,7 @@
       "senseId": null,
       "assetName": "word_write_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_write_verb_plate.imageset/word_write_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9444,7 +9444,7 @@
       "senseId": null,
       "assetName": "word_afraid_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_afraid_adjective_plate.imageset/word_afraid_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9465,7 +9465,7 @@
       "senseId": null,
       "assetName": "word_angry_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_angry_adjective_plate.imageset/word_angry_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9486,7 +9486,7 @@
       "senseId": null,
       "assetName": "word_big_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_big_adjective_plate.imageset/word_big_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9570,7 +9570,7 @@
       "senseId": null,
       "assetName": "word_bored_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bored_adjective_plate.imageset/word_bored_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9612,7 +9612,7 @@
       "senseId": null,
       "assetName": "word_busy_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_busy_adjective_plate.imageset/word_busy_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9633,7 +9633,7 @@
       "senseId": null,
       "assetName": "word_clean_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clean_adjective_plate.imageset/word_clean_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9654,7 +9654,7 @@
       "senseId": null,
       "assetName": "word_cold_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cold_plate.imageset/word_cold_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9675,7 +9675,7 @@
       "senseId": null,
       "assetName": "word_cool_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cool_adjective_plate.imageset/word_cool_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9696,7 +9696,7 @@
       "senseId": null,
       "assetName": "word_dangerous_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dangerous_adjective_plate.imageset/word_dangerous_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9717,7 +9717,7 @@
       "senseId": null,
       "assetName": "word_dark_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dark_adjective_plate.imageset/word_dark_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9738,7 +9738,7 @@
       "senseId": null,
       "assetName": "word_delicious_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_delicious_adjective_plate.imageset/word_delicious_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9759,7 +9759,7 @@
       "senseId": null,
       "assetName": "word_different_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_different_adjective_plate.imageset/word_different_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9780,7 +9780,7 @@
       "senseId": null,
       "assetName": "word_dirty_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dirty_adjective_plate.imageset/word_dirty_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9801,7 +9801,7 @@
       "senseId": null,
       "assetName": "word_excited_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_excited_adjective_plate.imageset/word_excited_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9822,7 +9822,7 @@
       "senseId": null,
       "assetName": "word_fast_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fast_adjective_plate.imageset/word_fast_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9843,7 +9843,7 @@
       "senseId": null,
       "assetName": "word_friendly_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_friendly_adjective_plate.imageset/word_friendly_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9864,7 +9864,7 @@
       "senseId": null,
       "assetName": "word_full_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_full_adjective_plate.imageset/word_full_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9885,7 +9885,7 @@
       "senseId": null,
       "assetName": "word_funny_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_funny_adjective_plate.imageset/word_funny_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9948,7 +9948,7 @@
       "senseId": null,
       "assetName": "word_happy_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_happy_adjective_plate.imageset/word_happy_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9969,7 +9969,7 @@
       "senseId": null,
       "assetName": "word_healthy_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_healthy_adjective_plate.imageset/word_healthy_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -9990,7 +9990,7 @@
       "senseId": null,
       "assetName": "word_high_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_high_adjective_plate.imageset/word_high_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10032,7 +10032,7 @@
       "senseId": null,
       "assetName": "word_hungry_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hungry_adjective_plate.imageset/word_hungry_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10053,7 +10053,7 @@
       "senseId": null,
       "assetName": "word_large_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_large_adjective_plate.imageset/word_large_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10074,7 +10074,7 @@
       "senseId": null,
       "assetName": "word_late_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_late_adjective_plate.imageset/word_late_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10095,7 +10095,7 @@
       "senseId": null,
       "assetName": "word_little_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_little_adjective_plate.imageset/word_little_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10116,7 +10116,7 @@
       "senseId": null,
       "assetName": "word_long_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_long_adjective_plate.imageset/word_long_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10137,7 +10137,7 @@
       "senseId": null,
       "assetName": "word_married_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_married_adjective_plate.imageset/word_married_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10158,7 +10158,7 @@
       "senseId": null,
       "assetName": "word_modern_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_modern_adjective_plate.imageset/word_modern_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10179,7 +10179,7 @@
       "senseId": null,
       "assetName": "word_new_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_new_adjective_plate.imageset/word_new_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10200,7 +10200,7 @@
       "senseId": null,
       "assetName": "word_old_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_old_adjective_plate.imageset/word_old_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10221,7 +10221,7 @@
       "senseId": null,
       "assetName": "word_open_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_open_adjective_plate.imageset/word_open_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10263,7 +10263,7 @@
       "senseId": null,
       "assetName": "word_pretty_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pretty_adjective_plate.imageset/word_pretty_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10305,7 +10305,7 @@
       "senseId": null,
       "assetName": "word_quick_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_quick_adjective_plate.imageset/word_quick_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10326,7 +10326,7 @@
       "senseId": null,
       "assetName": "word_quiet_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_quiet_adjective_plate.imageset/word_quiet_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10368,7 +10368,7 @@
       "senseId": null,
       "assetName": "word_sad_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sad_adjective_plate.imageset/word_sad_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10389,7 +10389,7 @@
       "senseId": null,
       "assetName": "word_short_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_short_adjective_plate.imageset/word_short_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10410,7 +10410,7 @@
       "senseId": null,
       "assetName": "word_sick_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sick_adjective_plate.imageset/word_sick_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10452,7 +10452,7 @@
       "senseId": null,
       "assetName": "word_slow_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slow_adjective_plate.imageset/word_slow_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10473,7 +10473,7 @@
       "senseId": null,
       "assetName": "word_small_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_small_adjective_plate.imageset/word_small_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10494,7 +10494,7 @@
       "senseId": null,
       "assetName": "word_strong_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_strong_adjective_plate.imageset/word_strong_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10515,7 +10515,7 @@
       "senseId": null,
       "assetName": "word_tall_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tall_adjective_plate.imageset/word_tall_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10536,7 +10536,7 @@
       "senseId": null,
       "assetName": "word_thirsty_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thirsty_adjective_plate.imageset/word_thirsty_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10557,7 +10557,7 @@
       "senseId": null,
       "assetName": "word_tired_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tired_adjective_plate.imageset/word_tired_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10578,7 +10578,7 @@
       "senseId": null,
       "assetName": "word_warm_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_warm_adjective_plate.imageset/word_warm_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10620,7 +10620,7 @@
       "senseId": null,
       "assetName": "word_wonderful_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wonderful_adjective_plate.imageset/word_wonderful_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10662,7 +10662,7 @@
       "senseId": null,
       "assetName": "word_young_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_young_adjective_plate.imageset/word_young_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10683,7 +10683,7 @@
       "senseId": null,
       "assetName": "word_across_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_across_adverb_plate.imageset/word_across_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10704,7 +10704,7 @@
       "senseId": null,
       "assetName": "word_around_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_around_adverb_plate.imageset/word_around_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10725,7 +10725,7 @@
       "senseId": null,
       "assetName": "word_behind_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_behind_adverb_plate.imageset/word_behind_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10746,7 +10746,7 @@
       "senseId": null,
       "assetName": "word_below_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_below_adverb_plate.imageset/word_below_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10767,7 +10767,7 @@
       "senseId": null,
       "assetName": "word_between_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_between_adverb_plate.imageset/word_between_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10788,7 +10788,7 @@
       "senseId": null,
       "assetName": "word_down_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_down_adverb_plate.imageset/word_down_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10809,7 +10809,7 @@
       "senseId": null,
       "assetName": "word_in_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_in_adverb_plate.imageset/word_in_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10830,7 +10830,7 @@
       "senseId": null,
       "assetName": "word_near_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_near_adverb_plate.imageset/word_near_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10851,7 +10851,7 @@
       "senseId": null,
       "assetName": "word_opposite_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_opposite_adverb_plate.imageset/word_opposite_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10872,7 +10872,7 @@
       "senseId": null,
       "assetName": "word_over_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_over_adverb_plate.imageset/word_over_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10893,7 +10893,7 @@
       "senseId": null,
       "assetName": "word_through_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_through_adverb_plate.imageset/word_through_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10914,7 +10914,7 @@
       "senseId": null,
       "assetName": "word_up_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_up_adverb_plate.imageset/word_up_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -10977,7 +10977,7 @@
       "senseId": null,
       "assetName": "word_capital_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_capital_plate.imageset/word_capital_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11124,7 +11124,7 @@
       "senseId": null,
       "assetName": "word_hour_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hour_plate.imageset/word_hour_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11187,7 +11187,7 @@
       "senseId": null,
       "assetName": "word_minute_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_minute_plate.imageset/word_minute_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11691,7 +11691,7 @@
       "senseId": null,
       "assetName": "word_choose_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_choose_verb_plate.imageset/word_choose_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11733,7 +11733,7 @@
       "senseId": null,
       "assetName": "word_create_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_create_verb_plate.imageset/word_create_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11754,7 +11754,7 @@
       "senseId": null,
       "assetName": "word_enjoy_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_enjoy_verb_plate.imageset/word_enjoy_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11775,7 +11775,7 @@
       "senseId": null,
       "assetName": "word_finish_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_finish_verb_plate.imageset/word_finish_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11796,7 +11796,7 @@
       "senseId": null,
       "assetName": "word_lie_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lie_verb_plate.imageset/word_lie_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11817,7 +11817,7 @@
       "senseId": null,
       "assetName": "word_live_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_live_verb_plate.imageset/word_live_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11838,7 +11838,7 @@
       "senseId": null,
       "assetName": "word_practise_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_practise_verb_plate.imageset/word_practise_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11859,7 +11859,7 @@
       "senseId": null,
       "assetName": "word_prepare_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_prepare_verb_plate.imageset/word_prepare_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11880,7 +11880,7 @@
       "senseId": null,
       "assetName": "word_repeat_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_repeat_verb_plate.imageset/word_repeat_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11901,7 +11901,7 @@
       "senseId": null,
       "assetName": "word_start_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_start_verb_plate.imageset/word_start_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11922,7 +11922,7 @@
       "senseId": null,
       "assetName": "word_stay_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stay_verb_plate.imageset/word_stay_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11943,7 +11943,7 @@
       "senseId": null,
       "assetName": "word_think_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_think_verb_plate.imageset/word_think_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -11964,7 +11964,7 @@
       "senseId": null,
       "assetName": "word_try_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_try_verb_plate.imageset/word_try_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12006,7 +12006,7 @@
       "senseId": null,
       "assetName": "word_welcome_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_welcome_verb_plate.imageset/word_welcome_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12027,7 +12027,7 @@
       "senseId": null,
       "assetName": "word_complete_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_complete_adjective_plate.imageset/word_complete_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12048,7 +12048,7 @@
       "senseId": null,
       "assetName": "word_correct_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_correct_adjective_plate.imageset/word_correct_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12069,7 +12069,7 @@
       "senseId": null,
       "assetName": "word_early_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_early_adjective_plate.imageset/word_early_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12090,7 +12090,7 @@
       "senseId": null,
       "assetName": "word_few_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_few_adjective_plate.imageset/word_few_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12111,7 +12111,7 @@
       "senseId": null,
       "assetName": "word_near_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_near_adjective_plate.imageset/word_near_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12132,7 +12132,7 @@
       "senseId": null,
       "assetName": "word_opposite_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_opposite_adjective_plate.imageset/word_opposite_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12195,7 +12195,7 @@
       "senseId": null,
       "assetName": "word_wrong_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wrong_adjective_plate.imageset/word_wrong_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12216,7 +12216,7 @@
       "senseId": null,
       "assetName": "word_air_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_air_plate.imageset/word_air_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12237,7 +12237,7 @@
       "senseId": null,
       "assetName": "word_article_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_article_plate.imageset/word_article_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12279,7 +12279,7 @@
       "senseId": null,
       "assetName": "word_company_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_company_plate.imageset/word_company_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12300,7 +12300,7 @@
       "senseId": null,
       "assetName": "word_cost_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cost_plate.imageset/word_cost_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12405,7 +12405,7 @@
       "senseId": null,
       "assetName": "word_month_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_month_plate.imageset/word_month_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12447,7 +12447,7 @@
       "senseId": null,
       "assetName": "word_opposite_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_opposite_plate.imageset/word_opposite_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12552,7 +12552,7 @@
       "senseId": null,
       "assetName": "word_add_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_add_verb_plate.imageset/word_add_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12594,7 +12594,7 @@
       "senseId": null,
       "assetName": "word_begin_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_begin_verb_plate.imageset/word_begin_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12615,7 +12615,7 @@
       "senseId": null,
       "assetName": "word_change_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_change_verb_plate.imageset/word_change_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12699,7 +12699,7 @@
       "senseId": null,
       "assetName": "word_design_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_design_verb_plate.imageset/word_design_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12720,7 +12720,7 @@
       "senseId": null,
       "assetName": "word_die_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_die_verb_plate.imageset/word_die_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12741,7 +12741,7 @@
       "senseId": null,
       "assetName": "word_end_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_end_verb_plate.imageset/word_end_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12867,7 +12867,7 @@
       "senseId": null,
       "assetName": "word_lose_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lose_verb_plate.imageset/word_lose_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12888,7 +12888,7 @@
       "senseId": null,
       "assetName": "word_match_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_match_verb_plate.imageset/word_match_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12930,7 +12930,7 @@
       "senseId": null,
       "assetName": "word_sound_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sound_plate.imageset/word_sound_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12951,7 +12951,7 @@
       "senseId": null,
       "assetName": "word_spend_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_spend_verb_plate.imageset/word_spend_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12972,7 +12972,7 @@
       "senseId": null,
       "assetName": "word_thank_verb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thank_verb_plate.imageset/word_thank_verb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -12993,7 +12993,7 @@
       "senseId": null,
       "assetName": "word_beautiful_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beautiful_adjective_plate.imageset/word_beautiful_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13014,7 +13014,7 @@
       "senseId": null,
       "assetName": "word_best_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_best_adjective_plate.imageset/word_best_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13035,7 +13035,7 @@
       "senseId": null,
       "assetName": "word_better_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_better_adjective_plate.imageset/word_better_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13056,7 +13056,7 @@
       "senseId": null,
       "assetName": "word_boring_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boring_adjective_plate.imageset/word_boring_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13077,7 +13077,7 @@
       "senseId": null,
       "assetName": "word_cheap_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cheap_adjective_plate.imageset/word_cheap_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13098,7 +13098,7 @@
       "senseId": null,
       "assetName": "word_difficult_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_difficult_adjective_plate.imageset/word_difficult_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13119,7 +13119,7 @@
       "senseId": null,
       "assetName": "word_easy_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_easy_adjective_plate.imageset/word_easy_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13140,7 +13140,7 @@
       "senseId": null,
       "assetName": "word_exciting_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_exciting_adjective_plate.imageset/word_exciting_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13161,7 +13161,7 @@
       "senseId": null,
       "assetName": "word_expensive_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_expensive_adjective_plate.imageset/word_expensive_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13182,7 +13182,7 @@
       "senseId": null,
       "assetName": "word_famous_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_famous_adjective_plate.imageset/word_famous_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13203,7 +13203,7 @@
       "senseId": null,
       "assetName": "word_favourite_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_favourite_adjective_plate.imageset/word_favourite_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13245,7 +13245,7 @@
       "senseId": null,
       "assetName": "word_good_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_good_adjective_plate.imageset/word_good_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13266,7 +13266,7 @@
       "senseId": null,
       "assetName": "word_great_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_great_adjective_plate.imageset/word_great_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13287,7 +13287,7 @@
       "senseId": null,
       "assetName": "word_interested_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_interested_adjective_plate.imageset/word_interested_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13308,7 +13308,7 @@
       "senseId": null,
       "assetName": "word_left_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_left_adjective_plate.imageset/word_left_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13350,7 +13350,7 @@
       "senseId": null,
       "assetName": "word_next_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_next_adjective_plate.imageset/word_next_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13371,7 +13371,7 @@
       "senseId": null,
       "assetName": "word_ready_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ready_adjective_plate.imageset/word_ready_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13392,7 +13392,7 @@
       "senseId": null,
       "assetName": "word_right_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_right_adjective_plate.imageset/word_right_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13413,7 +13413,7 @@
       "senseId": null,
       "assetName": "word_special_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_special_adjective_plate.imageset/word_special_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13434,7 +13434,7 @@
       "senseId": null,
       "assetName": "word_true_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_true_adjective_plate.imageset/word_true_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13455,7 +13455,7 @@
       "senseId": null,
       "assetName": "word_useful_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_useful_adjective_plate.imageset/word_useful_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13476,7 +13476,7 @@
       "senseId": null,
       "assetName": "word_welcome_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_welcome_adjective_plate.imageset/word_welcome_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13539,7 +13539,7 @@
       "senseId": null,
       "assetName": "word_online_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_online_adjective_plate.imageset/word_online_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13560,7 +13560,7 @@
       "senseId": null,
       "assetName": "word_above_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_above_adverb_plate.imageset/word_above_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13581,7 +13581,7 @@
       "senseId": null,
       "assetName": "word_away_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_away_adverb_plate.imageset/word_away_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13602,7 +13602,7 @@
       "senseId": null,
       "assetName": "word_downstairs_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_downstairs_adverb_plate.imageset/word_downstairs_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13623,7 +13623,7 @@
       "senseId": null,
       "assetName": "word_off_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_off_adverb_plate.imageset/word_off_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13644,7 +13644,7 @@
       "senseId": null,
       "assetName": "word_on_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_on_adverb_plate.imageset/word_on_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13665,7 +13665,7 @@
       "senseId": null,
       "assetName": "word_out_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_out_adverb_plate.imageset/word_out_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13707,7 +13707,7 @@
       "senseId": null,
       "assetName": "word_together_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_together_adverb_plate.imageset/word_together_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13728,7 +13728,7 @@
       "senseId": null,
       "assetName": "word_under_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_under_adverb_plate.imageset/word_under_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13749,7 +13749,7 @@
       "senseId": null,
       "assetName": "word_upstairs_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_upstairs_adverb_plate.imageset/word_upstairs_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13770,7 +13770,7 @@
       "senseId": null,
       "assetName": "word_east_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_east_plate.imageset/word_east_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13812,7 +13812,7 @@
       "senseId": null,
       "assetName": "word_north_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_north_plate.imageset/word_north_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13833,7 +13833,7 @@
       "senseId": null,
       "assetName": "word_south_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_south_plate.imageset/word_south_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13959,7 +13959,7 @@
       "senseId": null,
       "assetName": "word_false_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_false_adjective_plate.imageset/word_false_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -13980,7 +13980,7 @@
       "senseId": null,
       "assetName": "word_fat_adjective_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fat_adjective_plate.imageset/word_fat_adjective_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14022,7 +14022,7 @@
       "senseId": null,
       "assetName": "word_east_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_east_plate.imageset/word_east_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14043,7 +14043,7 @@
       "senseId": null,
       "assetName": "word_north_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_north_plate.imageset/word_north_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14064,7 +14064,7 @@
       "senseId": null,
       "assetName": "word_south_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_south_plate.imageset/word_south_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14127,7 +14127,7 @@
       "senseId": null,
       "assetName": "word_east_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_east_plate.imageset/word_east_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14148,7 +14148,7 @@
       "senseId": null,
       "assetName": "word_fast_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fast_adverb_plate.imageset/word_fast_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14190,7 +14190,7 @@
       "senseId": null,
       "assetName": "word_north_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_north_plate.imageset/word_north_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14211,7 +14211,7 @@
       "senseId": null,
       "assetName": "word_quickly_adverb_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_quickly_adverb_plate.imageset/word_quickly_adverb_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14232,7 +14232,7 @@
       "senseId": null,
       "assetName": "word_south_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_south_plate.imageset/word_south_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14358,7 +14358,7 @@
       "senseId": null,
       "assetName": "word_gift_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gift_plate.imageset/word_gift_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14379,7 +14379,7 @@
       "senseId": null,
       "assetName": "word_knife_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_knife_plate.imageset/word_knife_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14400,7 +14400,7 @@
       "senseId": null,
       "assetName": "word_lamp_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lamp_plate.imageset/word_lamp_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14421,7 +14421,7 @@
       "senseId": null,
       "assetName": "word_moon_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_moon_plate.imageset/word_moon_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14442,7 +14442,7 @@
       "senseId": null,
       "assetName": "word_forest_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_forest_plate.imageset/word_forest_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14463,7 +14463,7 @@
       "senseId": null,
       "assetName": "word_ocean_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ocean_plate.imageset/word_ocean_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14484,7 +14484,7 @@
       "senseId": null,
       "assetName": "word_pilot_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pilot_plate.imageset/word_pilot_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14505,7 +14505,7 @@
       "senseId": null,
       "assetName": "word_bridge_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bridge_plate.imageset/word_bridge_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14526,7 +14526,7 @@
       "senseId": null,
       "assetName": "word_frog_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_frog_plate.imageset/word_frog_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14547,7 +14547,7 @@
       "senseId": null,
       "assetName": "word_fridge_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fridge_plate.imageset/word_fridge_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14568,7 +14568,7 @@
       "senseId": null,
       "assetName": "word_coin_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_coin_plate.imageset/word_coin_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14589,7 +14589,7 @@
       "senseId": null,
       "assetName": "word_flag_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flag_plate.imageset/word_flag_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14610,7 +14610,7 @@
       "senseId": null,
       "assetName": "word_leaf_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_leaf_plate.imageset/word_leaf_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14631,7 +14631,7 @@
       "senseId": null,
       "assetName": "word_bee_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bee_plate.imageset/word_bee_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14652,7 +14652,7 @@
       "senseId": null,
       "assetName": "word_bell_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bell_plate.imageset/word_bell_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14673,7 +14673,7 @@
       "senseId": null,
       "assetName": "word_diamond_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_diamond_plate.imageset/word_diamond_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14694,7 +14694,7 @@
       "senseId": null,
       "assetName": "word_drum_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drum_plate.imageset/word_drum_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14715,7 +14715,7 @@
       "senseId": null,
       "assetName": "word_rope_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rope_plate.imageset/word_rope_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14736,7 +14736,7 @@
       "senseId": null,
       "assetName": "word_robot_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_robot_plate.imageset/word_robot_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14757,7 +14757,7 @@
       "senseId": null,
       "assetName": "word_tent_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tent_plate.imageset/word_tent_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14778,7 +14778,7 @@
       "senseId": null,
       "assetName": "word_ambulance_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ambulance_plate.imageset/word_ambulance_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14799,7 +14799,7 @@
       "senseId": null,
       "assetName": "word_basket_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_basket_plate.imageset/word_basket_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14820,7 +14820,7 @@
       "senseId": null,
       "assetName": "word_blanket_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blanket_plate.imageset/word_blanket_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14841,7 +14841,7 @@
       "senseId": null,
       "assetName": "word_brick_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_brick_plate.imageset/word_brick_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14862,7 +14862,7 @@
       "senseId": null,
       "assetName": "word_candle_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_candle_plate.imageset/word_candle_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14883,7 +14883,7 @@
       "senseId": null,
       "assetName": "word_cave_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cave_plate.imageset/word_cave_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14904,7 +14904,7 @@
       "senseId": null,
       "assetName": "word_cliff_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cliff_plate.imageset/word_cliff_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14925,7 +14925,7 @@
       "senseId": null,
       "assetName": "word_ladder_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ladder_plate.imageset/word_ladder_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14946,7 +14946,7 @@
       "senseId": null,
       "assetName": "word_rocket_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rocket_plate.imageset/word_rocket_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14967,7 +14967,7 @@
       "senseId": null,
       "assetName": "word_worm_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_worm_plate.imageset/word_worm_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -14988,7 +14988,7 @@
       "senseId": null,
       "assetName": "word_anchor_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_anchor_plate.imageset/word_anchor_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -15009,7 +15009,7 @@
       "senseId": null,
       "assetName": "word_crystal_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crystal_plate.imageset/word_crystal_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -15051,7 +15051,7 @@
       "senseId": null,
       "assetName": "word_dawn_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dawn_plate.imageset/word_dawn_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -15093,7 +15093,7 @@
       "senseId": null,
       "assetName": "word_kidney_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kidney_plate.imageset/word_kidney_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -15114,7 +15114,7 @@
       "senseId": null,
       "assetName": "word_nest_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_nest_plate.imageset/word_nest_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -15135,7 +15135,7 @@
       "senseId": null,
       "assetName": "word_radar_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_radar_plate.imageset/word_radar_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],
@@ -15156,7 +15156,7 @@
       "senseId": null,
       "assetName": "word_sword_plate",
       "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sword_plate.imageset/word_sword_plate.svg",
-      "style": "monochrome_line_art",
+      "style": "flat_color",
       "contexts": [
         "dictionary_entry"
       ],

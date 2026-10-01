@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <path d="M172 59c-12-15-31-15-43-4-16 15-8 51 10 69 11 11 20 8 31 5 11-3 19 6 31-5 21-19 25-56 9-71-11-10-27-9-38 6Z" fill="none" /><path d="M172 59c-2-19 6-30 20-36" fill="none" /><path d="M178 42c15-20 31-21 42-12-9 16-22 22-42 12Z" fill="none" /><path d="M145 69c-7 6-10 15-10 23" fill="none" />
-  </g>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><circle cx="154" cy="112" r="36" fill="#5A7F4A"/><circle cx="186" cy="112" r="36" fill="#5A7F4A"/><rect x="154" y="80" width="32" height="30" fill="#5A7F4A"/><line x1="170" y1="76" x2="174" y2="52" stroke="#7A5535" stroke-width="5" stroke-linecap="round"/><ellipse cx="192" cy="58" rx="16" ry="7" fill="#2E6F6A" transform="rotate(-25 192 58)"/><ellipse cx="146" cy="100" rx="6" ry="12" fill="#F6F1E7" transform="rotate(20 146 100)"/><line x1="110" y1="180" x2="230" y2="180" stroke="#7A5535" stroke-width="4" stroke-linecap="round"/></svg>

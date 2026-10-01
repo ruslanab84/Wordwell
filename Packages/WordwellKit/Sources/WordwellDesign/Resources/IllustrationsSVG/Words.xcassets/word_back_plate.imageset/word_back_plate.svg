@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="342" height="196" viewBox="0 0 342 196" fill="none" stroke="#3A362E" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
-  <g fill="none">
-    <circle cx="171" cy="38" r="18"/><path d="M164 56v10h14V56"/><path d="M112 176v-72c0-20 14-32 34-36l18-2h14l18 2c20 4 34 16 34 36v72"/><path d="M171 72v98M163 90h16M163 108h16M163 126h16M163 144h16M163 162h16"/><path d="M140 92c-8 14-6 30 6 40M202 92c8 14 6 30-6 40"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200"><rect x="1" y="1" width="338" height="198" rx="12" fill="#EDD9AE" stroke="#BD9F66" stroke-width="2"/><rect x="12" y="12" width="316" height="176" rx="5" fill="none" stroke="#BD9F66" stroke-width="1.2"/><circle cx="170" cy="102" r="70" fill="#E8C486"/><rect x="112" y="76" width="116" height="100" rx="36" fill="#D98B57"/><circle cx="170" cy="52" r="26" fill="#2A1E16"/><circle cx="142" cy="58" r="5" fill="#D98B57"/><circle cx="198" cy="58" r="5" fill="#D98B57"/><ellipse cx="146" cy="112" rx="14" ry="20" fill="#C27443" transform="rotate(15 146 112)"/><ellipse cx="194" cy="112" rx="14" ry="20" fill="#C27443" transform="rotate(-15 194 112)"/><line x1="170" y1="82" x2="170" y2="148" stroke="#C27443" stroke-width="4" stroke-linecap="round"/><rect x="112" y="152" width="116" height="24" rx="6" fill="#1F4D4A"/></svg>

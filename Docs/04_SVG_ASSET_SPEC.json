@@ -89,7 +89,8 @@
           "type": "string",
           "enum": [
             "monochrome_line_art",
-            "color_swatch"
+            "color_swatch",
+            "flat_color"
           ]
         },
         "contexts": {
