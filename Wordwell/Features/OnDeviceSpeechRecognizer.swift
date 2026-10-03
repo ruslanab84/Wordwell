@@ -19,7 +19,7 @@ enum SpeakingCaptureError: LocalizedError {
 @MainActor
 @Observable
 final class OnDeviceSpeechRecognizer {
-    private let recognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
+    private var recognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
     private let engine = AVAudioEngine()
     private var request: SFSpeechAudioBufferRecognitionRequest?
     private var task: SFSpeechRecognitionTask?
@@ -29,8 +29,13 @@ final class OnDeviceSpeechRecognizer {
     private(set) var isRecording = false
     private(set) var errorMessage: String?
 
-    func start() async throws {
+    func start(locale: Locale = Locale(identifier: "en-US")) async throws {
         stop()
+        if recognizer?.locale != locale {
+            let candidate = SFSpeechRecognizer(locale: locale)
+            // Not every locale ships an on-device model; keep the en-US default rather than fail.
+            if candidate?.supportsOnDeviceRecognition == true { recognizer = candidate }
+        }
         let speechStatus = await withCheckedContinuation { continuation in
             SFSpeechRecognizer.requestAuthorization { continuation.resume(returning: $0) }
         }

@@ -1,6 +1,7 @@
 import Foundation
 
 public struct SkillsCheckPack: Sendable {
+    /// Bump whenever any question, passage or task text changes: saved drafts are matched by this id.
     public let id = "original-1"
     public let reading: ExamReadingSet
     public let listening: ExamReadingSet
@@ -55,6 +56,9 @@ public struct SkillsCheckPack: Sendable {
             "Explain why you think it is useful.",
         ])
     }
+
+    /// Suggested minutes per part: reading, listening, writing, speaking.
+    public var suggestedMinutes: [Int] { [6, 5, writing.suggestedMinutes, 3] }
 
     public func validate(policy: RestrictedTermsPolicy) throws {
         let validator = ExamValidator(policy: policy)
@@ -112,9 +116,12 @@ public struct SkillsCheckDraftStore {
     }
 
     public func load(pack: SkillsCheckPack = .standard) -> SkillsCheckDraft? {
-        guard let data = defaults.data(forKey: key),
-              let draft = try? JSONDecoder().decode(SkillsCheckDraft.self, from: data),
-              draft.isValid(for: pack) else { return nil }
+        guard let data = defaults.data(forKey: key) else { return nil }
+        guard let draft = try? JSONDecoder().decode(SkillsCheckDraft.self, from: data),
+              draft.isValid(for: pack) else {
+            clear()
+            return nil
+        }
         return draft
     }
 

@@ -108,8 +108,16 @@ final class SkillsCheckTests: XCTestCase {
         draft.section = 4
         store.save(draft)
         XCTAssertNil(store.load())
+        // Invalid draft is dropped, not left in defaults.
+        XCTAssertNil(defaults.data(forKey: "wordwell.skillsCheck.draft"))
         store.clear()
         XCTAssertNil(store.load())
+    }
+
+    func test_suggestedMinutesFollowWritingTask() {
+        let pack = SkillsCheckPack.standard
+        XCTAssertEqual(pack.suggestedMinutes.count, 4)
+        XCTAssertEqual(pack.suggestedMinutes[2], pack.writing.suggestedMinutes)
     }
 }
 

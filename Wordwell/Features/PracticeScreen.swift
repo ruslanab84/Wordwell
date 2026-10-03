@@ -74,7 +74,7 @@ struct PracticeScreen: View {
 
                 Button(action: onStartSkillsCheck) {
                     WordwellListRow(title: "English Skills Check",
-                                    detail: hasSkillsCheckDraft ? "Continue your four-part session" : "Read, listen, write, and speak · about 25 minutes") {
+                                    detail: hasSkillsCheckDraft ? "Continue your four-part session" : "Read, listen, write, and speak · about \(SkillsCheckPack.standard.suggestedMinutes.reduce(0, +)) minutes") {
                         Image(systemName: "checklist")
                     }
                 }
@@ -83,7 +83,9 @@ struct PracticeScreen: View {
 
                 if let latestSkillsCheck {
                     WordwellBodyText("Latest check: \(latestSkillsCheck.readingCorrect)/5 reading · " +
-                                     (latestSkillsCheck.listeningCorrect.map { "\($0)/5 listening" } ?? "listening unavailable"),
+                                     (latestSkillsCheck.listeningCorrect.map { "\($0)/5 listening" } ?? "listening unavailable") +
+                                     (latestSkillsCheck.writingLevel.map { " · writing \($0)" } ?? "") +
+                                     (latestSkillsCheck.speakingLevel.map { " · speaking \($0)" } ?? ""),
                                      secondary: true)
                 }
 
@@ -118,9 +120,9 @@ struct PracticeScreen: View {
     }
 
     private func loadSummary() async {
+        latestSkillsCheck = try? await progress.latestSkillsCheck()
         do {
             summary = try await progress.practiceSummary()
-            latestSkillsCheck = try? await progress.latestSkillsCheck()
             activityUnavailable = false
         } catch {
             activityUnavailable = true

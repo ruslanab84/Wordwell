@@ -20,6 +20,8 @@ struct SkillsCheckScreen: View {
     @State private var activeSince: Date?
     @State private var recordingStartedAt: Date?
     @State private var recordingTimeout: Task<Void, Never>?
+    @State private var finishTask: Task<Void, Never>?
+    @State private var confirmShortWriting = false
     @State private var playedListening = false
     @State private var voiceUnavailable = false
     @State private var message: String?
@@ -33,7 +35,7 @@ struct SkillsCheckScreen: View {
     private let pack = SkillsCheckPack.standard
     private let store = SkillsCheckDraftStore()
     private let sectionNames = ["Reading", "Listening", "Writing", "Speaking"]
-    private let suggestedMinutes = [6, 5, 12, 3]
+    private var suggestedMinutes: [Int] { pack.suggestedMinutes }
 
     init(progress: any ProgressRepository, settings: any LearningSettingsRepository,
          exam: (any ExamPracticeService)?, recorder: OnDeviceSpeechRecognizer,
@@ -83,7 +85,8 @@ struct SkillsCheckScreen: View {
                 activeSince = .now
             } else {
                 pauseClock()
-                if phase != .active {
+                // .inactive also fires for Control Center / notification pulls; keep the take then.
+                if phase == .background {
                     player.stop()
                     recordingTimeout?.cancel()
                     recorder.discard()
@@ -94,6 +97,7 @@ struct SkillsCheckScreen: View {
         .onDisappear {
             pauseClock()
             player.stop()
+            finishTask?.cancel()
             recordingTimeout?.cancel()
             recorder.discard()
         }
@@ -105,6 +109,10 @@ struct SkillsCheckScreen: View {
                 .font(WordwellType.screenTitle)
                 .foregroundStyle(WordwellColor.ink)
                 .accessibilityAddTraits(.isHeader)
+            ProgressView(value: Double(draft.section), total: 4)
+                .tint(WordwellColor.ink)
+                .accessibilityLabel("Progress")
+                .accessibilityValue("Part \(draft.section + 1) of 4")
             TimelineView(.periodic(from: .now, by: 1)) { context in
                 let active = activeSince.map { max(0, Int(context.date.timeIntervalSince($0))) } ?? 0
                 WordwellBodyText("Suggested: \(suggestedMinutes[draft.section]) min · Elapsed: \((draft.elapsedSeconds[draft.section] + active) / 60) min",
@@ -203,9 +211,22 @@ struct SkillsCheckScreen: View {
                     if text.count > 4_000 { draft.writingText = String(text.prefix(4_000)) }
                     store.save(draft)
                 }
-            WordwellBodyText("\(WordCounter.count(draft.writingText)) words", secondary: true)
-            Button("Continue to speaking") { advance() }
-                .buttonStyle(WordwellButtonStyle(.primary))
+            WordwellBodyText("\(WordCounter.count(draft.writingText)) of \(pack.writing.minimumWords) words", secondary: true)
+            Button("Continue to speaking") {
+                if WordCounter.count(draft.writingText) < pack.writing.minimumWords {
+                    confirmShortWriting = true
+                } else {
+                    advance()
+                }
+            }
+            .buttonStyle(WordwellButtonStyle(.primary))
+            .confirmationDialog("Your answer is below the suggested length", isPresented: $confirmShortWriting,
+                                titleVisibility: .visible) {
+                Button("Continue anyway") { advance() }
+                Button("Keep writing", role: .cancel) {}
+            } message: {
+                Text("The target is \(pack.writing.minimumWords) words. You can still continue.")
+            }
         }
     }
 
@@ -222,6 +243,7 @@ struct SkillsCheckScreen: View {
             if recorder.isRecording {
                 Label("Recording on this device", systemImage: "waveform")
                     .font(WordwellType.meta)
+                    .accessibilityAddTraits(.updatesFrequently)
                 Button("Stop speaking") { stopRecording() }
                     .buttonStyle(WordwellButtonStyle(.secondary))
             } else {
@@ -238,7 +260,7 @@ struct SkillsCheckScreen: View {
             }
             if let error = recorder.errorMessage { WordwellBodyText(error, secondary: true) }
             Button(recorder.transcript.isEmpty ? "Finish without speaking" : "See results") {
-                Task { await finish() }
+                finishTask = Task { await finish() }
             }
             .buttonStyle(WordwellButtonStyle(.primary))
             .disabled(saving || recorder.isRecording)
@@ -252,15 +274,23 @@ struct SkillsCheckScreen: View {
                 Text("\(index + 1). \(set.questions[index].statement)")
                     .font(WordwellType.body)
                     .foregroundStyle(WordwellColor.ink)
-                HStack(spacing: 8) {
-                    ForEach(ReadingAnswer.allCases, id: \.self) { answer in
-                        Button(answer.label) { choose(index, answer) }
-                            .buttonStyle(WordwellButtonStyle(answers[index] == answer ? .primary : .secondary))
-                            .accessibilityAddTraits(answers[index] == answer ? .isSelected : [])
-                    }
+                ViewThatFits(in: .horizontal) {
+                    HStack(spacing: 8) { answerButtons(index, answers, choose) }
+                    VStack(spacing: 8) { answerButtons(index, answers, choose) }
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
+        }
+    }
+
+    @ViewBuilder
+    private func answerButtons(_ index: Int, _ answers: [ReadingAnswer?],
+                               _ choose: @escaping (Int, ReadingAnswer) -> Void) -> some View {
+        ForEach(ReadingAnswer.allCases, id: \.self) { answer in
+            Button(answer.label) { choose(index, answer) }
+                .buttonStyle(WordwellButtonStyle(answers[index] == answer ? .primary : .secondary))
+                .accessibilityLabel("Question \(index + 1), \(answer.label)")
+                .accessibilityAddTraits(answers[index] == answer ? .isSelected : [])
         }
     }
 
@@ -300,6 +330,7 @@ struct SkillsCheckScreen: View {
             if let message { WordwellBodyText(message, secondary: true) }
             Button("Done") { dismiss() }
                 .buttonStyle(WordwellButtonStyle(.primary))
+                .disabled(assessing)
             Button("Start again") { restart() }
                 .buttonStyle(WordwellButtonStyle(.secondary))
                 .disabled(assessing)
@@ -323,6 +354,21 @@ struct SkillsCheckScreen: View {
             if value.isUnderLength {
                 WordwellBodyText("This answer is below the suggested word count.", secondary: true)
             }
+            if !value.strengths.isEmpty {
+                Text("What worked")
+                    .font(WordwellType.sectionLabel)
+                    .accessibilityAddTraits(.isHeader)
+                ForEach(value.strengths, id: \.self) { WordwellBodyText("• \($0)") }
+            }
+            if !value.improvements.isEmpty {
+                Text("To improve")
+                    .font(WordwellType.sectionLabel)
+                    .accessibilityAddTraits(.isHeader)
+                ForEach(value.improvements, id: \.fragment) { issue in
+                    WordwellBodyText("“\(issue.fragment)”, try: “\(issue.fix)”")
+                    WordwellBodyText(issue.explanation, secondary: true)
+                }
+            }
         }
     }
 
@@ -333,8 +379,11 @@ struct SkillsCheckScreen: View {
                 .accessibilityAddTraits(.isHeader)
             ForEach(set.questions.indices, id: \.self) { index in
                 let question = set.questions[index]
-                WordwellBodyText("\(index + 1). \(question.statement)")
-                WordwellBodyText("Your answer: \(answers[index]?.label ?? "No answer") · Correct: \(question.answer.label)",
+                let correct = answers[index] == question.answer
+                Label("\(index + 1). \(question.statement)", systemImage: correct ? "checkmark.circle" : "xmark.circle")
+                    .font(WordwellType.body)
+                    .foregroundStyle(WordwellColor.ink)
+                WordwellBodyText("\(correct ? "Correct" : "Incorrect") · Your answer: \(answers[index]?.label ?? "No answer") · Correct: \(question.answer.label)",
                                  secondary: true)
                 if let evidence = question.evidence {
                     WordwellBodyText("From the text: “\(evidence)”", secondary: true)
@@ -350,7 +399,11 @@ struct SkillsCheckScreen: View {
             materialUnavailable = true
             return
         }
-        if let saved = store.load(pack: pack) { draft = saved }
+        if let saved = store.load(pack: pack) {
+            draft = saved
+            // Audio state is not persisted; answered questions mean it was played.
+            playedListening = saved.listeningAnswers.contains { $0 != nil }
+        }
         profile = try? await settings.profile()
         if profile?.aiEnabled == true, let exam {
             aiAvailable = await exam.availability(languageCode: "en") == .available
@@ -377,7 +430,7 @@ struct SkillsCheckScreen: View {
         message = nil
         recordingTimeout?.cancel()
         do {
-            try await recorder.start()
+            try await recorder.start(locale: Locale(identifier: profile?.preferredEnglishVariant == .uk ? "en-GB" : "en-US"))
             recordingStartedAt = .now
             recordingTimeout = Task {
                 try? await Task.sleep(for: .seconds(120))
@@ -427,6 +480,7 @@ struct SkillsCheckScreen: View {
         if !transcript.isEmpty {
             speakingAssessment = try? await exam.assess(speakingTranscript: transcript, task: pack.speaking, learner: learner)
         }
+        guard !Task.isCancelled else { return }
         let updated = SkillsCheckResult(id: initial.id, completedAt: initial.completedAt,
                                         durationSeconds: initial.durationSeconds,
                                         readingCorrect: initial.readingCorrect,
