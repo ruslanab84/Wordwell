@@ -42,6 +42,13 @@ The existing Fraunces/Work Sans files and basic tokens are isolated in `Wordwell
 - The app shell uses five independent navigation stacks and the native Liquid Glass tab bar, kept visible while scrolling. SwiftUI supplies tab labels, selection state, and accessibility behavior.
 - The current SF Symbol tab icons remain navigation vectors; word illustrations use shared SVG rendering.
 
+## Grammar
+
+- **Content:** the bundled `Packages/WordwellKit/Sources/WordwellData/Resources/Grammar.json` holds every lesson: category, CEFR step (A1–C1), rule text, examples, diagram, a wrong/right/why mistake, related lesson ids, and multiple-choice exercises. `GrammarCatalog` (in `WordwellData/Grammar/`) decodes it and orders lessons by category, then CEFR step. A missing or broken file gives an empty catalog, never invented content. The three display bands (`GrammarLevel`) are derived from the CEFR step.
+- **Progress:** `GrammarProgressStore` keeps each lesson's best exercise score in `UserDefaults` and picks the weakest lesson for the Practice tab. It is not behind a repository contract yet; move it to `WordwellDomain` + a local repository if grammar progress needs to sync or feed Profile statistics.
+- **UI:** `GrammarScreen.swift` in the app target holds the category list, level filter, lesson search, the common-mistakes index, lesson detail with practice, and the on-device "Explain with AI" action (`GrammarAI` in `Docs/`). `AppRoute.grammarLesson(id:)` opens a lesson from other tabs.
+- **Tests:** `GrammarTests` in `WordwellArchitectureTests` check catalog integrity (ids, counts, CEFR order, related ids), exercise validity (answer index, distinct options), mistake completeness, and the progress store. They cannot judge whether the English in an exercise is correct.
+
 ## Ordered phases
 
 1. Architecture (this foundation)
@@ -57,4 +64,4 @@ The existing Fraunces/Work Sans files and basic tokens are isolated in `Wordwell
 11. SVG illustration binding
 12. Listening, Quiz, and remaining features
 
-The current five tab views are placeholders inherited from the initial project skeleton. They do not count as completed feature phases. The dictionary core is implemented; the search and entry screens remain Phase 4 and Phase 5 work.
+This list is the original build order, not current status. The dictionary core, search, entry, Library, Practice (review, quiz, listening, speaking, skills check), Profile, and Grammar screens now exist in the app target.

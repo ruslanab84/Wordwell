@@ -7,26 +7,134 @@ import WordwellDomain
 
 struct GrammarScreen: View {
     let settings: any LearningSettingsRepository
+    @State private var level: GrammarCEFR?
+    @State private var query = ""
+
+    private var results: [GrammarLesson] {
+        let q = query.trimmingCharacters(in: .whitespaces)
+        return GrammarCatalog.all.filter {
+            $0.title.localizedCaseInsensitiveContains(q) || $0.summary.localizedCaseInsensitiveContains(q)
+        }
+    }
+
+    private var categories: [GrammarCategory] {
+        GrammarCategory.allCases.filter { !GrammarCatalog.lessons(in: $0, level: level).isEmpty }
+    }
 
     var body: some View {
         FeaturePage(title: "Grammar", subtitle: "Clear explanations, examples, and pictures") {
-            ForEach(GrammarCategory.allCases) { category in
+            if !query.trimmingCharacters(in: .whitespaces).isEmpty {
+                if results.isEmpty {
+                    WordwellBodyText("No lessons match “\(query)”.", secondary: true)
+                }
+                ForEach(results) { lesson in
+                    NavigationLink {
+                        GrammarLessonScreen(lesson: lesson, settings: settings)
+                    } label: {
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(lesson.title)
+                                .font(WordwellType.body.weight(.semibold))
+                                .foregroundStyle(WordwellColor.ink)
+                            Text(lesson.summary)
+                                .font(WordwellType.meta)
+                                .foregroundStyle(WordwellColor.secondaryText)
+                        }
+                        .frame(maxWidth: .infinity, minHeight: WordwellLayout.minimumTouchTarget, alignment: .leading)
+                        .padding(.vertical, WordwellLayout.rowPadding)
+                        .overlay(alignment: .bottom) { WordwellColor.border.frame(height: 1) }
+                        .accessibilityElement(children: .combine)
+                    }
+                    .buttonStyle(.plain)
+                }
+            } else {
+            Picker("Level", selection: $level) {
+                Text("All").tag(GrammarCEFR?.none)
+                ForEach(GrammarCEFR.allCases, id: \.self) { Text($0.label).tag(GrammarCEFR?.some($0)) }
+            }
+            .pickerStyle(.segmented)
+
+            NavigationLink {
+                GrammarMistakesScreen(settings: settings)
+            } label: {
+                WordwellListRow(title: "Common mistakes",
+                                detail: "Quick fixes from every lesson, searchable") {
+                    Image(systemName: "exclamationmark.bubble")
+                }
+            }
+            .buttonStyle(.plain)
+
+            ForEach(categories) { category in
                 NavigationLink {
-                    GrammarCategoryScreen(category: category, settings: settings)
+                    GrammarCategoryScreen(category: category, level: level, settings: settings)
                 } label: {
+                    let count = GrammarCatalog.lessons(in: category, level: level).count
                     WordwellListRow(title: category.rawValue,
-                                    detail: "\(category.expectedLessonCount) lessons · \(category.summary)") {
+                                    detail: "\(count) \(count == 1 ? "lesson" : "lessons") · \(category.summary)") {
                         Image(systemName: category.symbol)
                     }
                 }
                 .buttonStyle(.plain)
             }
+            }
         }
+        .searchable(text: $query, prompt: "Search lessons")
+    }
+}
+
+/// Entry point for `AppRoute.grammarLesson`.
+struct GrammarLessonRoute: View {
+    let id: String
+    let settings: any LearningSettingsRepository
+
+    var body: some View {
+        if let lesson = GrammarCatalog.all.first(where: { $0.id == id }) {
+            GrammarLessonScreen(lesson: lesson, settings: settings)
+        } else {
+            ContentUnavailableView("Lesson unavailable", systemImage: "text.book.closed")
+        }
+    }
+}
+
+private struct GrammarMistakesScreen: View {
+    let settings: any LearningSettingsRepository
+    @State private var query = ""
+
+    private var lessons: [GrammarLesson] {
+        let q = query.trimmingCharacters(in: .whitespaces)
+        return q.isEmpty ? GrammarCatalog.all : GrammarCatalog.all.filter {
+            let m = $0.mistake
+            return [m.wrong, m.right, m.why, $0.title].contains { $0.localizedCaseInsensitiveContains(q) }
+        }
+    }
+
+    var body: some View {
+        FeaturePage(title: "Common mistakes", subtitle: "Tap a mistake to open its lesson") {
+            ForEach(lessons) { lesson in
+                NavigationLink {
+                    GrammarLessonScreen(lesson: lesson, settings: settings)
+                } label: {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(lesson.title)
+                            .font(WordwellType.body.weight(.semibold))
+                            .foregroundStyle(WordwellColor.ink)
+                        GrammarMistakeView(mistake: lesson.mistake)
+                    }
+                    .frame(maxWidth: .infinity, minHeight: WordwellLayout.minimumTouchTarget, alignment: .leading)
+                    .padding(.vertical, WordwellLayout.rowPadding)
+                    .overlay(alignment: .bottom) { WordwellColor.border.frame(height: 1) }
+                    .accessibilityElement(children: .combine)
+                }
+                .buttonStyle(.plain)
+            }
+        }
+        .searchable(text: $query, prompt: "Search mistakes")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 private struct GrammarCategoryScreen: View {
     let category: GrammarCategory
+    let level: GrammarCEFR?
     let settings: any LearningSettingsRepository
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
@@ -41,7 +149,7 @@ private struct GrammarCategoryScreen: View {
                 .foregroundStyle(WordwellColor.ink)
                 .accessibilityAddTraits(.isHeader)
 
-            ForEach(GrammarCatalog.lessons(in: category)) { lesson in
+            ForEach(Array(GrammarCatalog.lessons(in: category, level: level).enumerated()), id: \.element.id) { _, lesson in
                 NavigationLink {
                     GrammarLessonScreen(lesson: lesson, settings: settings)
                 } label: {
@@ -61,6 +169,11 @@ private struct GrammarCategoryScreen: View {
                                 .foregroundStyle(WordwellColor.secondaryText)
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
+                        if GrammarProgressStore().isDone(lesson.id) {
+                            Image(systemName: "checkmark.circle")
+                                .foregroundStyle(WordwellColor.ink)
+                                .accessibilityLabel("Practice completed")
+                        }
                         Image(systemName: "chevron.right")
                             .font(.system(size: 12, weight: .medium))
                             .foregroundStyle(WordwellColor.mutedIcon)
@@ -79,11 +192,12 @@ private struct GrammarCategoryScreen: View {
 
     @ViewBuilder
     private func lessonHeading(_ lesson: GrammarLesson) -> some View {
-        Text(lesson.title)
+        let unit = (GrammarCatalog.lessons(in: category).firstIndex { $0.id == lesson.id } ?? 0) + 1
+        Text("\(unit). \(lesson.title)")
             .font(WordwellType.body)
             .foregroundStyle(WordwellColor.ink)
             .frame(maxWidth: .infinity, alignment: .leading)
-        levelBadge(for: lesson.level)
+        levelBadge(for: lesson.cefr)
     }
 }
 
@@ -99,7 +213,7 @@ private struct GrammarLessonScreen: View {
 
     var body: some View {
         FeaturePage(title: lesson.title, subtitle: lesson.summary) {
-            levelBadge(for: lesson.level)
+            levelBadge(for: lesson.cefr)
 
             WordwellCard {
                 VStack(alignment: .leading, spacing: 12) {
@@ -132,9 +246,11 @@ private struct GrammarLessonScreen: View {
                     Text("Common mistake")
                         .font(WordwellType.sectionLabel)
                         .foregroundStyle(WordwellColor.secondaryText)
-                    WordwellBodyText(lesson.commonMistake)
+                    GrammarMistakeView(mistake: lesson.mistake)
                 }
             }
+            GrammarPractice(lessonID: lesson.id)
+            related
             aiExplanation
             if lesson.id == "phrasal-verbs" {
                 PhrasalVerbGallery()
@@ -143,6 +259,35 @@ private struct GrammarLessonScreen: View {
         .navigationBarTitleDisplayMode(.inline)
         .task { await loadAIAccess() }
         .onDisappear { stopAI() }
+    }
+
+    @ViewBuilder
+    private var related: some View {
+        let ids = GrammarCatalog.related[lesson.id] ?? []
+        let lessons = ids.compactMap { id in GrammarCatalog.all.first { $0.id == id } }
+        if !lessons.isEmpty {
+            section("Related lessons") {
+                ForEach(lessons) { other in
+                    NavigationLink {
+                        GrammarLessonScreen(lesson: other, settings: settings)
+                    } label: {
+                        HStack {
+                            Text(other.title)
+                                .font(WordwellType.body)
+                                .foregroundStyle(WordwellColor.ink)
+                            Spacer()
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 12, weight: .medium))
+                                .foregroundStyle(WordwellColor.mutedIcon)
+                                .accessibilityHidden(true)
+                        }
+                        .frame(minHeight: WordwellLayout.minimumTouchTarget)
+                        .overlay(alignment: .bottom) { WordwellColor.border.frame(height: 1) }
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
     }
 
     private var aiExplanation: some View {
@@ -200,7 +345,7 @@ private struct GrammarLessonScreen: View {
             await loadAIAccess()
             guard aiAccess == .ready, !Task.isCancelled else { aiPhase = .idle; return }
             let context = GrammarLessonContext(
-                id: lesson.id, title: lesson.title, level: lesson.level.label,
+                id: lesson.id, title: lesson.title, level: lesson.cefr.label,
                 use: lesson.use, form: lesson.form,
                 examples: lesson.examples.map { "\($0.sentence) — \($0.meaning)" },
                 commonMistake: lesson.commonMistake
@@ -236,6 +381,125 @@ private struct GrammarLessonScreen: View {
                 .foregroundStyle(WordwellColor.ink)
                 .accessibilityAddTraits(.isHeader)
             content()
+        }
+    }
+}
+
+/// Wrong / right / why. Meaning is carried by icon and label, not colour.
+private struct GrammarMistakeView: View {
+    let mistake: GrammarMistake
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            line("xmark", "Wrong", mistake.wrong, strike: true)
+            line("checkmark", "Right", mistake.right, strike: false)
+            Text(mistake.why)
+                .font(WordwellType.meta)
+                .foregroundStyle(WordwellColor.secondaryText)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .accessibilityElement(children: .combine)
+    }
+
+    private func line(_ symbol: String, _ label: String, _ text: String, strike: Bool) -> some View {
+        HStack(alignment: .firstTextBaseline, spacing: 8) {
+            Image(systemName: symbol)
+                .font(.system(size: 12, weight: .semibold))
+                .frame(width: 16)
+                .accessibilityLabel(label)
+            Text(text)
+                .font(WordwellType.body.weight(strike ? .regular : .semibold))
+                .strikethrough(strike)
+                .foregroundStyle(WordwellColor.ink)
+        }
+    }
+}
+
+private struct GrammarPractice: View {
+    let lessonID: String
+    private let store = GrammarProgressStore()
+    @State private var index = 0
+    @State private var picked: Int?
+    @State private var score = 0
+    @State private var finished = false
+
+    private var items: [GrammarExercise] { GrammarExercises.items(for: lessonID) }
+
+    var body: some View {
+        if !items.isEmpty {
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Practice")
+                    .font(WordwellType.sectionLabel)
+                    .foregroundStyle(WordwellColor.ink)
+                    .accessibilityAddTraits(.isHeader)
+                WordwellCard {
+                    VStack(alignment: .leading, spacing: 12) {
+                        if finished { summary } else { question(items[index]) }
+                    }
+                }
+            }
+        }
+    }
+
+    @ViewBuilder
+    private func question(_ item: GrammarExercise) -> some View {
+        Text("Question \(index + 1) of \(items.count)")
+            .font(WordwellType.meta)
+            .foregroundStyle(WordwellColor.secondaryText)
+        Text(item.prompt)
+            .font(WordwellType.body.weight(.semibold))
+            .foregroundStyle(WordwellColor.ink)
+        ForEach(item.options.indices, id: \.self) { option in
+            Button { choose(option, in: item) } label: {
+                HStack {
+                    Text(item.options[option])
+                    Spacer()
+                    if let picked, option == item.answer || option == picked {
+                        Image(systemName: option == item.answer ? "checkmark" : "xmark")
+                            .accessibilityLabel(option == item.answer ? "Correct answer" : "Wrong answer")
+                    }
+                }
+                .font(WordwellType.body)
+                .foregroundStyle(WordwellColor.ink)
+                .padding(.horizontal, 14)
+                .frame(maxWidth: .infinity, minHeight: WordwellLayout.minimumTouchTarget, alignment: .leading)
+                .overlay {
+                    RoundedRectangle(cornerRadius: 10)
+                        .strokeBorder(WordwellColor.ink, lineWidth: picked != nil && option == item.answer ? 2 : 1)
+                }
+            }
+            .buttonStyle(.plain)
+            .disabled(picked != nil)
+        }
+        if picked != nil {
+            WordwellBodyText(item.explanation, secondary: true)
+            Button(index + 1 < items.count ? "Next" : "See result") { advance() }
+                .buttonStyle(WordwellButtonStyle(.primary))
+        }
+    }
+
+    private var summary: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("\(score) of \(items.count) correct")
+                .font(WordwellType.cardHeadline)
+                .foregroundStyle(WordwellColor.ink)
+            Button("Try again") { index = 0; picked = nil; score = 0; finished = false }
+                .buttonStyle(WordwellButtonStyle(.secondary))
+        }
+    }
+
+    private func choose(_ option: Int, in item: GrammarExercise) {
+        picked = option
+        if option == item.answer { score += 1 }
+    }
+
+    private func advance() {
+        picked = nil
+        if index + 1 < items.count {
+            index += 1
+        } else {
+            store.record(lessonID, score: score)
+            finished = true
         }
     }
 }
@@ -384,13 +648,14 @@ private struct GrammarPicture: View {
     }
 }
 
-private func levelBadge(for level: GrammarLevel) -> some View {
+private func levelBadge(for cefr: GrammarCEFR) -> some View {
+    let level = cefr.band
     let band: WordwellCEFRBand = switch level {
     case .foundation: .beginner
     case .intermediate: .intermediate
     case .advanced: .advanced
     }
-    return WordwellCEFRBadge(level: level.label, band: band)
+    return WordwellCEFRBadge(level: cefr.label, band: band)
 }
 
 #Preview {

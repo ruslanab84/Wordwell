@@ -1,0 +1,5859 @@
+{
+  "lessons" : [
+    {
+      "category" : "Tenses",
+      "cefr" : "A1",
+      "commonMistake" : "After does or doesn’t, drop the -s: Does she work?",
+      "diagram" : {
+        "kind" : "timeline",
+        "moment" : "repeated"
+      },
+      "diagramCaption" : "An action that repeats over time",
+      "examples" : [
+        {
+          "meaning" : "A regular habit",
+          "sentence" : "I walk to work every day."
+        },
+        {
+          "meaning" : "Doesn’t + base verb",
+          "sentence" : "She doesn’t drink coffee."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "he/she/it + verb-s.",
+          "options" : [
+            "work",
+            "works",
+            "is work"
+          ],
+          "prompt" : "She ___ in a bank."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Questions with he/she/it use does.",
+          "options" : [
+            "Do",
+            "Does",
+            "Is"
+          ],
+          "prompt" : "___ he like tea?"
+        },
+        {
+          "answer" : 2,
+          "explanation" : "don’t + base verb.",
+          "options" : [
+            "doesn’t eat",
+            "don’t eats",
+            "don’t eat"
+          ],
+          "prompt" : "They ___ meat."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "A daily routine uses Present Simple.",
+          "options" : [
+            "go",
+            "am going",
+            "goes"
+          ],
+          "prompt" : "I ___ to school by bus every day."
+        }
+      ],
+      "form" : "I/you/we/they + verb · he/she/it + verb-s. For questions and negatives, use do or does + base verb.",
+      "id" : "present-simple",
+      "mistake" : {
+        "right" : "Does she work here?",
+        "why" : "After does or doesn’t the verb loses its -s.",
+        "wrong" : "Does she works here?"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Habits and things that are generally true",
+      "title" : "Present Simple",
+      "use" : "Use it for routines, facts, and regular actions."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "A1",
+      "commonMistake" : "Use Present Simple for routines: I read every evening.",
+      "diagram" : {
+        "kind" : "timeline",
+        "moment" : "now"
+      },
+      "diagramCaption" : "An action in progress now",
+      "examples" : [
+        {
+          "meaning" : "Happening at this moment",
+          "sentence" : "I’m reading a book now."
+        },
+        {
+          "meaning" : "Temporary situation",
+          "sentence" : "They’re staying with friends this week."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Happening now: am/is/are + verb-ing.",
+          "options" : [
+            "rains",
+            "is raining",
+            "rain"
+          ],
+          "prompt" : "Look! It ___ ."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "An action in progress now.",
+          "options" : [
+            "watch",
+            "are watching",
+            "watches"
+          ],
+          "prompt" : "We ___ TV at the moment."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Put is before she.",
+          "options" : [
+            "Is",
+            "Does",
+            "Are"
+          ],
+          "prompt" : "___ she working today?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "is not + verb-ing.",
+          "options" : [
+            "isn’t driving",
+            "doesn’t driving",
+            "not driving"
+          ],
+          "prompt" : "He ___ a car now."
+        }
+      ],
+      "form" : "am/is/are + verb-ing. For questions, put am/is/are before the subject.",
+      "id" : "present-continuous",
+      "mistake" : {
+        "right" : "I read every evening.",
+        "why" : "Routines use Present Simple, not Present Continuous.",
+        "wrong" : "I am reading every evening."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Something happening now or around now",
+      "title" : "Present Continuous",
+      "use" : "Use it for an action in progress now or a temporary situation."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "A2",
+      "commonMistake" : "After did or didn’t, use the base verb: She didn’t go.",
+      "diagram" : {
+        "kind" : "timeline",
+        "moment" : "past"
+      },
+      "diagramCaption" : "A finished point before now",
+      "examples" : [
+        {
+          "meaning" : "Finished at a known past time",
+          "sentence" : "We visited London last year."
+        },
+        {
+          "meaning" : "Did + base verb, not saw",
+          "sentence" : "Did you see the film?"
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Finished time (last year): Past Simple, and go is irregular.",
+          "options" : [
+            "go",
+            "went",
+            "have gone"
+          ],
+          "prompt" : "We ___ to Rome last year."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Regular verbs add -ed.",
+          "options" : [
+            "opened",
+            "opend",
+            "openned"
+          ],
+          "prompt" : "She ___ the door."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "didn’t + base verb.",
+          "options" : [
+            "didn’t see",
+            "didn’t saw",
+            "not saw"
+          ],
+          "prompt" : "I ___ him yesterday."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Past questions use did + base verb.",
+          "options" : [
+            "Did",
+            "Do",
+            "Were"
+          ],
+          "prompt" : "___ you enjoy the film?"
+        }
+      ],
+      "form" : "Regular verbs: verb-ed. Irregular verbs: past form. Questions and negatives: did + base verb.",
+      "id" : "past-simple",
+      "mistake" : {
+        "right" : "She didn’t go home.",
+        "why" : "After did or didn’t, use the base verb.",
+        "wrong" : "She didn’t went home."
+      },
+      "related" : [
+        "present-perfect-vs-past-simple",
+        "for-since-ago"
+      ],
+      "summary" : "A finished action at a past time",
+      "title" : "Past Simple",
+      "use" : "Use it when an event is complete and its time is in the past."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "A2",
+      "commonMistake" : "The shorter interrupting action often uses Past Simple.",
+      "diagram" : {
+        "kind" : "timeline",
+        "moment" : "pastPeriod"
+      },
+      "diagramCaption" : "A stretch of time before now",
+      "examples" : [
+        {
+          "meaning" : "The cooking was already in progress",
+          "sentence" : "I was cooking when you called."
+        },
+        {
+          "meaning" : "In progress at a past time",
+          "sentence" : "They were walking at 6 pm."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "An action in progress at a past moment: was/were + verb-ing.",
+          "options" : [
+            "watched",
+            "was watching",
+            "am watching"
+          ],
+          "prompt" : "At 8 o’clock last night, I ___ TV."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "The longer action in progress uses Past Continuous; the short event uses Past Simple.",
+          "options" : [
+            "slept",
+            "was sleeping",
+            "sleeps"
+          ],
+          "prompt" : "She ___ when the phone rang."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "they + were + verb-ing.",
+          "options" : [
+            "were playing",
+            "was playing",
+            "played"
+          ],
+          "prompt" : "They ___ football when it started to rain."
+        }
+      ],
+      "form" : "was/were + verb-ing.",
+      "id" : "past-continuous",
+      "mistake" : {
+        "right" : "I was walking home when I saw an accident.",
+        "why" : "The shorter interrupting action usually uses Past Simple.",
+        "wrong" : "I was walking home when I was seeing an accident."
+      },
+      "related" : [
+
+      ],
+      "summary" : "An action in progress in the past",
+      "title" : "Past Continuous",
+      "use" : "Use it for background activity or an action interrupted by another event."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "A2",
+      "commonMistake" : "After will and going to, use the base verb.",
+      "diagram" : {
+        "kind" : "timeline",
+        "moment" : "future"
+      },
+      "diagramCaption" : "An event after now",
+      "examples" : [
+        {
+          "meaning" : "A decision made now",
+          "sentence" : "I’ll answer the phone."
+        },
+        {
+          "meaning" : "Evidence is visible",
+          "sentence" : "It’s going to rain."
+        },
+        {
+          "meaning" : "An arranged meeting",
+          "sentence" : "I’m meeting Ana tomorrow."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Evidence now: be going to.",
+          "options" : [
+            "will",
+            "is going to",
+            "is"
+          ],
+          "prompt" : "Look at those clouds. It ___ rain."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "A decision made at the moment of speaking: will.",
+          "options" : [
+            "will",
+            "am going to",
+            "close"
+          ],
+          "prompt" : "I’m cold. I ___ close the window."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "A plan already made: be going to or present continuous.",
+          "options" : [
+            "will go",
+            "are going",
+            "go to"
+          ],
+          "prompt" : "We ___ to Spain next month. We’ve booked the flights."
+        }
+      ],
+      "form" : "will + base verb · am/is/are going to + base verb · am/is/are + verb-ing.",
+      "id" : "future",
+      "mistake" : {
+        "right" : "She will call you.",
+        "why" : "After will and going to, use the base verb.",
+        "wrong" : "She will to call you."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Will, going to, and present arrangements",
+      "title" : "Talking about the future",
+      "use" : "Choose will for a decision made now or a prediction; going to for a plan or visible evidence; Present Continuous for a fixed arrangement."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B1",
+      "commonMistake" : "With a finished time such as yesterday, use Past Simple: I lost them yesterday.",
+      "diagram" : {
+        "kind" : "timeline",
+        "moment" : "pastToNow"
+      },
+      "diagramCaption" : "Something in the past with a link to now",
+      "examples" : [
+        {
+          "meaning" : "I don’t have them now",
+          "sentence" : "I’ve lost my keys."
+        },
+        {
+          "meaning" : "An experience; no exact time",
+          "sentence" : "She has visited Japan."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "have + past participle (seen).",
+          "options" : [
+            "have seen",
+            "saw",
+            "have saw"
+          ],
+          "prompt" : "I ___ this film three times."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Since + a starting point needs Present Perfect.",
+          "options" : [
+            "lives",
+            "has lived",
+            "lived"
+          ],
+          "prompt" : "She ___ here since 2020."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Life experience: Have you ever…?",
+          "options" : [
+            "Did",
+            "Have",
+            "Are"
+          ],
+          "prompt" : "___ you ever been to Spain?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "lose → lost → lost.",
+          "options" : [
+            "lose",
+            "lost",
+            "losed"
+          ],
+          "prompt" : "He has ___ his keys."
+        }
+      ],
+      "form" : "have/has + past participle.",
+      "id" : "present-perfect",
+      "mistake" : {
+        "right" : "I lost it yesterday.",
+        "why" : "A finished time such as yesterday needs Past Simple.",
+        "wrong" : "I have lost it yesterday."
+      },
+      "related" : [
+        "present-perfect-vs-past-simple",
+        "for-since-ago"
+      ],
+      "summary" : "A past action connected to now",
+      "title" : "Present Perfect",
+      "use" : "Use it for experience or a past action whose result matters now. The exact past time is not stated."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B1",
+      "commonMistake" : "Use for with a duration and since with a starting point, not the reverse.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Started earlier",
+          "Still happening or just stopped",
+          "Result now"
+        ]
+      },
+      "diagramCaption" : "Activity over time with a present connection",
+      "examples" : [
+        {
+          "meaning" : "The activity began earlier and continues",
+          "sentence" : "I’ve been studying for two hours."
+        },
+        {
+          "meaning" : "Recent activity explains the result",
+          "sentence" : "She’s been painting; her hands are blue."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Activity that continued up to now: have/has been + verb-ing.",
+          "options" : [
+            "work",
+            "have been working",
+            "was working"
+          ],
+          "prompt" : "I’m tired. I ___ all day."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "How long + have you been + verb-ing.",
+          "options" : [
+            "are",
+            "have",
+            "did"
+          ],
+          "prompt" : "How long ___ you been waiting?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "For + period with an activity continuing now.",
+          "options" : [
+            "has been learning",
+            "is learning",
+            "learned"
+          ],
+          "prompt" : "She ___ English for two years."
+        }
+      ],
+      "form" : "have/has been + verb-ing; often with for or since.",
+      "id" : "present-perfect-continuous",
+      "mistake" : {
+        "right" : "I’ve been waiting for two hours.",
+        "why" : "Use for with a duration and since with a starting point.",
+        "wrong" : "I’ve been waiting since two hours."
+      },
+      "related" : [
+
+      ],
+      "summary" : "An activity continuing up to now",
+      "title" : "Present Perfect Continuous",
+      "use" : "Use it to stress the duration or recent activity behind a present result."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B1",
+      "commonMistake" : "Do not use would for a former state: I would live there is not the same as I used to live there.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "used to: habits or states",
+          "would: repeated actions"
+        ]
+      },
+      "diagramCaption" : "Used to and would have different ranges of meaning",
+      "examples" : [
+        {
+          "meaning" : "A former state",
+          "sentence" : "I used to live by the sea."
+        },
+        {
+          "meaning" : "A repeated past action",
+          "sentence" : "Every summer, we would swim at dawn."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "would + base verb for repeated past actions.",
+          "options" : [
+            "would",
+            "am used to",
+            "will"
+          ],
+          "prompt" : "When I was a child, I ___ play outside every day."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "used to + base verb for a past state.",
+          "options" : [
+            "used to",
+            "use to",
+            "would to"
+          ],
+          "prompt" : "We ___ live in a small village."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "A past habit that no longer continues.",
+          "options" : [
+            "used to",
+            "uses to",
+            "is used to"
+          ],
+          "prompt" : "She ___ smoke, but she stopped."
+        }
+      ],
+      "form" : "used to + base verb · would + base verb · past simple.",
+      "id" : "past-habits",
+      "mistake" : {
+        "right" : "I used to live in Rome when I was young.",
+        "why" : "Would cannot describe a former state; use used to.",
+        "wrong" : "I would live in Rome when I was young."
+      },
+      "related" : [
+        "be-used-to"
+      ],
+      "summary" : "Used to, would, and past routines",
+      "title" : "Past habits",
+      "use" : "Use used to for past habits or states that are no longer true. Would can describe repeated past actions, but usually not past states."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B1",
+      "commonMistake" : "Don’t use Present Perfect with a finished time: say I saw him yesterday, not I have seen him yesterday.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "Past Simple: finished time",
+          "Present Perfect: connected to now"
+        ]
+      },
+      "diagramCaption" : "Finished time or link to the present",
+      "examples" : [
+        {
+          "meaning" : "Finished time: Past Simple",
+          "sentence" : "I saw that film last week."
+        },
+        {
+          "meaning" : "No time given: Present Perfect",
+          "sentence" : "I have seen that film."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Yesterday is a finished time: Past Simple.",
+          "options" : [
+            "saw",
+            "have seen",
+            "have saw"
+          ],
+          "prompt" : "I ___ him yesterday."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "The result matters now: Present Perfect.",
+          "options" : [
+            "lost",
+            "have lost",
+            "was losing"
+          ],
+          "prompt" : "I ___ my phone. Can you help me look?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Life experience, no time given: Have you ever…?",
+          "options" : [
+            "Did",
+            "Have",
+            "Do"
+          ],
+          "prompt" : "___ you ever eaten sushi?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "In 2019 is a finished time: Past Simple.",
+          "options" : [
+            "has moved",
+            "moved",
+            "has been moving"
+          ],
+          "prompt" : "She ___ to Paris in 2019."
+        }
+      ],
+      "form" : "Past Simple: I lost my keys yesterday. Present Perfect: I have lost my keys (I still can’t find them).",
+      "id" : "present-perfect-vs-past-simple",
+      "mistake" : {
+        "right" : "I saw him yesterday.",
+        "why" : "A finished time word needs Past Simple.",
+        "wrong" : "I have seen him yesterday."
+      },
+      "related" : [
+        "present-perfect",
+        "past-simple"
+      ],
+      "summary" : "Connected to now, or finished and over",
+      "title" : "Present Perfect or Past Simple?",
+      "use" : "Use Past Simple for a finished time (yesterday, in 2019, last week). Use Present Perfect when the time is not given or the result matters now."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B1",
+      "commonMistake" : "Don’t mix them: I have known her since three years is wrong. Say for three years.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "for + length",
+          "since + start",
+          "ago + Past Simple"
+        ]
+      },
+      "diagramCaption" : "Three ways to talk about time",
+      "examples" : [
+        {
+          "meaning" : "A length of time",
+          "sentence" : "I’ve lived here for five years."
+        },
+        {
+          "meaning" : "A starting point",
+          "sentence" : "I’ve lived here since 2021."
+        },
+        {
+          "meaning" : "Counted back from now",
+          "sentence" : "I moved here five years ago."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "2018 is a starting point: since.",
+          "options" : [
+            "for",
+            "since",
+            "ago"
+          ],
+          "prompt" : "He has worked here ___ 2018."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Ten years is a length of time: for.",
+          "options" : [
+            "for",
+            "since",
+            "ago"
+          ],
+          "prompt" : "We’ve been friends ___ ten years."
+        },
+        {
+          "answer" : 2,
+          "explanation" : "Counted back from now: ago.",
+          "options" : [
+            "for",
+            "since",
+            "ago"
+          ],
+          "prompt" : "I met her three years ___ ."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Monday is a starting point: since.",
+          "options" : [
+            "for",
+            "since",
+            "ago"
+          ],
+          "prompt" : "I haven’t seen him ___ Monday."
+        }
+      ],
+      "form" : "for + period (for two years) · since + point (since 2022) · period + ago (two years ago, with Past Simple).",
+      "id" : "for-since-ago",
+      "mistake" : {
+        "right" : "I have known her for three years.",
+        "why" : "Use for with a length of time and since with a starting point.",
+        "wrong" : "I have known her since three years."
+      },
+      "related" : [
+        "present-perfect",
+        "past-simple"
+      ],
+      "summary" : "Length of time, starting point, and time back from now",
+      "title" : "For, Since and Ago",
+      "use" : "Use for with a length of time, since with a starting point, and ago with a past time counted back from now."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B2",
+      "commonMistake" : "Do not use had with a past form: had went is wrong; had gone is right.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Train left",
+          "We arrived",
+          "Now"
+        ]
+      },
+      "diagramCaption" : "One past action precedes another",
+      "examples" : [
+        {
+          "meaning" : "Leaving happened first",
+          "sentence" : "The train had left when we arrived."
+        },
+        {
+          "meaning" : "Experience before a past point",
+          "sentence" : "I had never flown before that trip."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "The earlier past action uses had + past participle.",
+          "options" : [
+            "already started",
+            "had already started",
+            "has already started"
+          ],
+          "prompt" : "When I arrived, the film ___ ."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "The loss happened before she was sad.",
+          "options" : [
+            "lost",
+            "had lost",
+            "has lost"
+          ],
+          "prompt" : "She was sad because she ___ her keys."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "had never + past participle.",
+          "options" : [
+            "has",
+            "had",
+            "did"
+          ],
+          "prompt" : "He ___ never seen snow before he moved to Canada."
+        }
+      ],
+      "form" : "had + past participle.",
+      "id" : "past-perfect-simple",
+      "mistake" : {
+        "right" : "She had gone out.",
+        "why" : "Had is followed by the past participle, not the Past Simple form.",
+        "wrong" : "She had went out."
+      },
+      "related" : [
+
+      ],
+      "summary" : "The earlier of two past events",
+      "title" : "Past Perfect Simple",
+      "use" : "Use it to make clear that one past event happened before another."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B2",
+      "commonMistake" : "Use had been, not have been, when both reference points are in the past.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Activity starts",
+          "Activity continues",
+          "Past event"
+        ]
+      },
+      "diagramCaption" : "Ongoing activity before another past event",
+      "examples" : [
+        {
+          "meaning" : "Walking continued before the rain",
+          "sentence" : "We had been walking for hours when it rained."
+        },
+        {
+          "meaning" : "Earlier activity explains a past result",
+          "sentence" : "Her eyes were tired because she had been reading."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "had been + verb-ing for an activity before a past moment.",
+          "options" : [
+            "had been running",
+            "has been running",
+            "was run"
+          ],
+          "prompt" : "She was tired because she ___ for hours."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Waiting continued up to a past moment.",
+          "options" : [
+            "had been waiting",
+            "have been waiting",
+            "waited"
+          ],
+          "prompt" : "They ___ for an hour when the bus finally came."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Past evidence of an earlier activity.",
+          "options" : [
+            "had been raining",
+            "is raining",
+            "rains"
+          ],
+          "prompt" : "The ground was wet. It ___ ."
+        }
+      ],
+      "form" : "had been + verb-ing.",
+      "id" : "past-perfect-continuous",
+      "mistake" : {
+        "right" : "When I arrived, they had been waiting for an hour.",
+        "why" : "Use had been when both points are in the past.",
+        "wrong" : "When I arrived, they have been waiting for an hour."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Duration before a past moment",
+      "title" : "Past Perfect Continuous",
+      "use" : "Use it to show how long an activity had been continuing before another past event."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B2",
+      "commonMistake" : "Do not leave out be: will working is wrong.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Now",
+          "Activity begins",
+          "Future point during activity"
+        ]
+      },
+      "diagramCaption" : "A future point inside an ongoing action",
+      "examples" : [
+        {
+          "meaning" : "Work will be in progress then",
+          "sentence" : "At nine, I’ll be working."
+        },
+        {
+          "meaning" : "The flight will be underway",
+          "sentence" : "This time tomorrow, we’ll be flying."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "will be + verb-ing for an action in progress in the future.",
+          "options" : [
+            "will lie",
+            "will be lying",
+            "am lie"
+          ],
+          "prompt" : "This time tomorrow, I ___ on a beach."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Action in progress at a future time.",
+          "options" : [
+            "will cook",
+            "will be cooking",
+            "cooked"
+          ],
+          "prompt" : "Don’t call at 8. I ___ dinner."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Will you be + verb-ing?",
+          "options" : [
+            "Will",
+            "Do",
+            "Are"
+          ],
+          "prompt" : "___ you be using the car tonight?"
+        }
+      ],
+      "form" : "will be + verb-ing.",
+      "id" : "future-continuous",
+      "mistake" : {
+        "right" : "This time tomorrow I will be working.",
+        "why" : "Will be is needed before the -ing form.",
+        "wrong" : "This time tomorrow I will working."
+      },
+      "related" : [
+
+      ],
+      "summary" : "In progress at a future time",
+      "title" : "Future Continuous",
+      "use" : "Use it for an activity expected to be underway at a specified future moment."
+    },
+    {
+      "category" : "Tenses",
+      "cefr" : "B2",
+      "commonMistake" : "After will have, use the past participle: will have written.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Now",
+          "Action completed",
+          "Future deadline"
+        ]
+      },
+      "diagramCaption" : "Completion comes before a future deadline",
+      "examples" : [
+        {
+          "meaning" : "Completion before Friday",
+          "sentence" : "By Friday, I’ll have finished the report."
+        },
+        {
+          "meaning" : "Their departure comes first",
+          "sentence" : "They’ll have left by the time we arrive."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "will have + past participle: done before a future time.",
+          "options" : [
+            "will finish",
+            "will have finished",
+            "finishes"
+          ],
+          "prompt" : "By 2030, she ___ her degree."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Completed before the deadline.",
+          "options" : [
+            "will have written",
+            "will be writing",
+            "wrote"
+          ],
+          "prompt" : "I ___ the report by Friday."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "will have been shows duration up to a future time.",
+          "options" : [
+            "will have been",
+            "are",
+            "have"
+          ],
+          "prompt" : "They ___ married for ten years next June."
+        }
+      ],
+      "form" : "will have + past participle; often with by.",
+      "id" : "future-perfect",
+      "mistake" : {
+        "right" : "By June I will have written it.",
+        "why" : "After will have, use the past participle.",
+        "wrong" : "By June I will have wrote it."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Finished before a future point",
+      "title" : "Future Perfect",
+      "use" : "Use it to say an action will be complete by a future deadline."
+    },
+    {
+      "category" : "Conditionals & wishes",
+      "cefr" : "A2",
+      "commonMistake" : "Do not add will to the if-clause for a general fact.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "If this happens",
+          "This usually happens"
+        ]
+      },
+      "diagramCaption" : "A general condition leads to a general result",
+      "examples" : [
+        {
+          "meaning" : "A repeated result",
+          "sentence" : "If I skip breakfast, I get hungry early."
+        },
+        {
+          "meaning" : "A general fact",
+          "sentence" : "When ice warms up, it melts."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "General truths use if + present, present.",
+          "options" : [
+            "melts",
+            "will melt",
+            "melted"
+          ],
+          "prompt" : "If you heat ice, it ___ ."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Both parts use Present Simple.",
+          "options" : [
+            "drink",
+            "will drink",
+            "drank"
+          ],
+          "prompt" : "If I ___ coffee late, I can’t sleep."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Water is singular: freezes.",
+          "options" : [
+            "freeze",
+            "freezes",
+            "froze"
+          ],
+          "prompt" : "Water ___ if the temperature falls below zero."
+        }
+      ],
+      "form" : "If + present simple, present simple. When can replace if for a predictable result.",
+      "id" : "zero-conditional",
+      "mistake" : {
+        "right" : "If you heat ice, it melts.",
+        "why" : "A general fact uses the present in both parts.",
+        "wrong" : "If you heat ice, it will melt."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Results that generally follow",
+      "title" : "Zero Conditional",
+      "use" : "Use it for general facts, instructions, and repeated results."
+    },
+    {
+      "category" : "Conditionals & wishes",
+      "cefr" : "B1",
+      "commonMistake" : "Use present, not will, after if: If it rains, we’ll stay in.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "If + present",
+          "Possible future result"
+        ]
+      },
+      "diagramCaption" : "A realistic condition points to a future result",
+      "examples" : [
+        {
+          "meaning" : "A real future possibility",
+          "sentence" : "If the bus is late, I’ll walk."
+        },
+        {
+          "meaning" : "Unless = if it does not rain",
+          "sentence" : "We’ll go outside unless it rains."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "If + present, will + base verb.",
+          "options" : [
+            "will stay",
+            "would stay",
+            "stayed"
+          ],
+          "prompt" : "If it rains, we ___ at home."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "No will after if in the condition part.",
+          "options" : [
+            "will study",
+            "study",
+            "studied"
+          ],
+          "prompt" : "If you ___ hard, you will pass."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Present Simple in the if-part.",
+          "options" : [
+            "has",
+            "will have",
+            "had"
+          ],
+          "prompt" : "She will call you if she ___ time."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Real possibility: if + present.",
+          "options" : [
+            "is",
+            "will be",
+            "would be"
+          ],
+          "prompt" : "If he ___ late, we’ll start without him."
+        }
+      ],
+      "form" : "If + present simple, will + base verb. The clauses can change order; add a comma when if comes first.",
+      "id" : "first-conditional",
+      "mistake" : {
+        "right" : "If it rains, we’ll stay in.",
+        "why" : "Use the present, not will, after if.",
+        "wrong" : "If it will rain, we’ll stay in."
+      },
+      "related" : [
+
+      ],
+      "summary" : "A realistic future possibility",
+      "title" : "First Conditional",
+      "use" : "Use it for a possible future condition and its likely result. Unless means if not."
+    },
+    {
+      "category" : "Conditionals & wishes",
+      "cefr" : "B1",
+      "commonMistake" : "Past form here expresses distance from reality, not necessarily past time.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Imagined condition now",
+          "Imagined result"
+        ]
+      },
+      "diagramCaption" : "An unreal or unlikely condition creates an imagined result",
+      "examples" : [
+        {
+          "meaning" : "I do not have enough time now",
+          "sentence" : "If I had more time, I’d learn Italian."
+        },
+        {
+          "meaning" : "She is not here",
+          "sentence" : "If she were here, she would know what to do."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Imaginary: if + past (were).",
+          "options" : [
+            "am",
+            "were",
+            "will be"
+          ],
+          "prompt" : "If I ___ rich, I would travel."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "would + base verb in the result.",
+          "options" : [
+            "will",
+            "would",
+            "did"
+          ],
+          "prompt" : "She ___ help if she knew."
+        },
+        {
+          "answer" : 2,
+          "explanation" : "Advice: If I were you…",
+          "options" : [
+            "am",
+            "was going to be",
+            "were"
+          ],
+          "prompt" : "If I ___ you, I’d wait."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Imagined situation: would.",
+          "options" : [
+            "will",
+            "would",
+            "did"
+          ],
+          "prompt" : "What ___ you do if you won?"
+        }
+      ],
+      "form" : "If + past simple, would + base verb. Were is common with I/he/she/it in careful style.",
+      "id" : "second-conditional",
+      "mistake" : {
+        "right" : "If I won, I’d travel.",
+        "why" : "The past form in the if-part shows an unreal situation.",
+        "wrong" : "If I would win, I’d travel."
+      },
+      "related" : [
+
+      ],
+      "summary" : "An imagined present or future",
+      "title" : "Second Conditional",
+      "use" : "Use it for a situation that is unlikely or not true now and imagine its result."
+    },
+    {
+      "category" : "Conditionals & wishes",
+      "cefr" : "B2",
+      "commonMistake" : "Keep would out of the if-clause: If I had known, not if I would have known.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Past event did not happen",
+          "Imagine a different past result"
+        ]
+      },
+      "diagramCaption" : "Both the condition and result are imagined in the past",
+      "examples" : [
+        {
+          "meaning" : "We left late and missed it",
+          "sentence" : "If we had left earlier, we would have caught the train."
+        },
+        {
+          "meaning" : "She did not know",
+          "sentence" : "She would have joined us if she had known."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "if + past perfect, would have + past participle.",
+          "options" : [
+            "studied",
+            "had studied",
+            "would study"
+          ],
+          "prompt" : "If I ___ harder, I would have passed."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Past unreal condition: had + past participle.",
+          "options" : [
+            "knew",
+            "had known",
+            "has known"
+          ],
+          "prompt" : "She would have come if she ___ about it."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "would have + past participle for the imagined result.",
+          "options" : [
+            "would catch",
+            "would have caught",
+            "caught"
+          ],
+          "prompt" : "If we had left earlier, we ___ the train."
+        }
+      ],
+      "form" : "If + past perfect, would have + past participle.",
+      "id" : "third-conditional",
+      "mistake" : {
+        "right" : "If I had known, I would have called.",
+        "why" : "Keep would out of the if-clause.",
+        "wrong" : "If I would have known, I would have called."
+      },
+      "related" : [
+
+      ],
+      "summary" : "An alternative to a finished past",
+      "title" : "Third Conditional",
+      "use" : "Use it to imagine how a past result could have changed."
+    },
+    {
+      "category" : "Conditionals & wishes",
+      "cefr" : "B2",
+      "commonMistake" : "Choose each verb form by its own time reference; do not force both clauses into the same time.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "Past condition → present result",
+          "Present condition → past result"
+        ]
+      },
+      "diagramCaption" : "The two clauses can refer to different times",
+      "examples" : [
+        {
+          "meaning" : "Past cause, present result",
+          "sentence" : "If I had slept more, I wouldn’t be tired now."
+        },
+        {
+          "meaning" : "Present ability, past result",
+          "sentence" : "If she spoke French, she would have taken that job."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Past condition, present result: would + base verb.",
+          "options" : [
+            "would live",
+            "would have lived",
+            "lived"
+          ],
+          "prompt" : "If I had taken that job, I ___ in London now."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "A general present quality (were) with a past result.",
+          "options" : [
+            "were",
+            "was being",
+            "will be"
+          ],
+          "prompt" : "If she ___ more careful, she wouldn’t have broken it."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Past condition, present result: would + base verb.",
+          "options" : [
+            "would be",
+            "would have been",
+            "was"
+          ],
+          "prompt" : "If I had studied medicine, I ___ a doctor now."
+        }
+      ],
+      "form" : "If + past perfect, would + base verb for a present result; if + past simple, would have + participle for a past result.",
+      "id" : "mixed-conditionals",
+      "mistake" : {
+        "right" : "If I had taken the job, I would live in London now.",
+        "why" : "Choose each verb form by its own time reference.",
+        "wrong" : "If I had taken the job, I would have lived in London now."
+      },
+      "related" : [
+
+      ],
+      "summary" : "A past cause with a present result, or the reverse",
+      "title" : "Mixed Conditionals",
+      "use" : "Use mixed forms when the imagined condition and result belong to different times."
+    },
+    {
+      "category" : "Conditionals & wishes",
+      "cefr" : "B2",
+      "commonMistake" : "Do not use wish + would for your own deliberate action: say I wish I could leave.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "wish + past: now",
+          "wish + past perfect: past",
+          "wish + would: change"
+        ]
+      },
+      "diagramCaption" : "Verb form shows whether the wish concerns now, the past, or change",
+      "examples" : [
+        {
+          "meaning" : "I do not know it now",
+          "sentence" : "I wish I knew the answer."
+        },
+        {
+          "meaning" : "We regret a past choice",
+          "sentence" : "If only we had booked earlier."
+        },
+        {
+          "meaning" : "I want the situation to change",
+          "sentence" : "I wish the noise would stop."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "A present wish uses the past form.",
+          "options" : [
+            "have",
+            "had",
+            "will have"
+          ],
+          "prompt" : "I wish I ___ more free time."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "A past regret uses had + past participle.",
+          "options" : [
+            "knew",
+            "had known",
+            "know"
+          ],
+          "prompt" : "I wish I ___ the answer yesterday."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "wish/if only + would for annoying things we want to change.",
+          "options" : [
+            "stopped",
+            "would stop",
+            "stops"
+          ],
+          "prompt" : "If only it ___ raining!"
+        }
+      ],
+      "form" : "wish + past simple · wish + past perfect · wish + would + base verb.",
+      "id" : "wish-if-only",
+      "mistake" : {
+        "right" : "I wish I could leave early.",
+        "why" : "Wish + would is for other people or things, not your own choice.",
+        "wrong" : "I wish I would leave early."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Regret and desired change",
+      "title" : "Wish and if only",
+      "use" : "Use a past form for a present wish, past perfect for a past regret, and would for a change you want another person or situation to make."
+    },
+    {
+      "category" : "Modal verbs",
+      "cefr" : "A1",
+      "commonMistake" : "Do not add to after can or could: can swim, not can to swim.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "can: now",
+          "could: past or polite",
+          "be able to: other forms"
+        ]
+      },
+      "diagramCaption" : "Different forms express ability and permission",
+      "examples" : [
+        {
+          "meaning" : "Present ability",
+          "sentence" : "My brother can swim well."
+        },
+        {
+          "meaning" : "Polite permission request",
+          "sentence" : "Could I borrow your pen?"
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "can + base verb, no -s.",
+          "options" : [
+            "can",
+            "cans",
+            "is can"
+          ],
+          "prompt" : "She ___ speak three languages."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Can I…? asks for permission.",
+          "options" : [
+            "Can",
+            "Do",
+            "Am"
+          ],
+          "prompt" : "___ I use your phone, please?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "couldn’t is the past of can’t for general ability.",
+          "options" : [
+            "can’t",
+            "couldn’t",
+            "can"
+          ],
+          "prompt" : "When I was five, I ___ swim."
+        }
+      ],
+      "form" : "can/could + base verb · be able to + base verb.",
+      "id" : "ability-permission",
+      "mistake" : {
+        "right" : "She can swim.",
+        "why" : "No to after can or could.",
+        "wrong" : "She can to swim."
+      },
+      "related" : [
+        "may-might"
+      ],
+      "summary" : "Can, could, and be able to",
+      "title" : "Ability and permission",
+      "use" : "Use can for present ability or informal permission; could can describe general past ability or make a polite request."
+    },
+    {
+      "category" : "Modal verbs",
+      "cefr" : "A2",
+      "commonMistake" : "Mustn’t means forbidden; don’t have to means optional.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "must: required",
+          "mustn’t: forbidden",
+          "don’t have to: optional"
+        ]
+      },
+      "diagramCaption" : "Prohibition and lack of necessity are different",
+      "examples" : [
+        {
+          "meaning" : "It is required",
+          "sentence" : "You must wear a helmet here."
+        },
+        {
+          "meaning" : "Coming early is optional",
+          "sentence" : "You don’t have to come early."
+        },
+        {
+          "meaning" : "Parking is forbidden",
+          "sentence" : "You mustn’t park here."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "must = strong obligation.",
+          "options" : [
+            "should",
+            "must",
+            "might"
+          ],
+          "prompt" : "You ___ wear a seatbelt. It’s the law."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "should = advice.",
+          "options" : [
+            "should",
+            "must to",
+            "can’t"
+          ],
+          "prompt" : "You ___ see a doctor. You look ill."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "mustn’t = it is not allowed.",
+          "options" : [
+            "don’t have to",
+            "mustn’t",
+            "should"
+          ],
+          "prompt" : "You ___ park here. It’s forbidden."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "don’t have to = not necessary.",
+          "options" : [
+            "mustn’t",
+            "don’t have to",
+            "must"
+          ],
+          "prompt" : "You ___ come early. We start late."
+        }
+      ],
+      "form" : "modal + base verb · have to + base verb.",
+      "id" : "obligation-advice",
+      "mistake" : {
+        "right" : "You mustn’t park here. It’s forbidden.",
+        "why" : "Mustn’t means forbidden; don’t have to means not necessary.",
+        "wrong" : "You don’t have to park here. It’s forbidden."
+      },
+      "related" : [
+        "should-had-better"
+      ],
+      "summary" : "Must, have to, mustn’t, and should",
+      "title" : "Obligation, prohibition, and advice",
+      "use" : "Use must/have to for necessity, mustn’t for prohibition, don’t have to for no necessity, and should for advice."
+    },
+    {
+      "category" : "Modal verbs",
+      "cefr" : "B1",
+      "commonMistake" : "Would you like to help? asks about willingness; Shall I help? offers your help.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "Could you…? request",
+          "Shall I…? offer",
+          "May I…? permission"
+        ]
+      },
+      "diagramCaption" : "The subject and modal show who will act",
+      "examples" : [
+        {
+          "meaning" : "A polite request",
+          "sentence" : "Could you close the window?"
+        },
+        {
+          "meaning" : "An offer of help",
+          "sentence" : "Shall I carry your bag?"
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Could you…? is a polite request.",
+          "options" : [
+            "Could",
+            "Do",
+            "Are"
+          ],
+          "prompt" : "___ you pass the salt, please?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Shall I…? offers help.",
+          "options" : [
+            "Shall",
+            "Will",
+            "Do"
+          ],
+          "prompt" : "___ I help you with your bags?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Offers use some.",
+          "options" : [
+            "some",
+            "any",
+            "a few"
+          ],
+          "prompt" : "Would you like ___ tea?"
+        }
+      ],
+      "form" : "Could you + base verb? · Would you like + noun/to-infinitive? · Shall I + base verb?",
+      "id" : "requests-offers",
+      "mistake" : {
+        "right" : "Shall I help you?",
+        "why" : "Shall I offers help; would you like asks about willingness.",
+        "wrong" : "Would I help you?"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Could, would, shall, and may",
+      "title" : "Requests and offers",
+      "use" : "Choose a modal to make a request, offer help, or ask permission with the right degree of politeness."
+    },
+    {
+      "category" : "Modal verbs",
+      "cefr" : "B1",
+      "commonMistake" : "Mustn’t expresses prohibition, not a negative deduction; use can’t be.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "might: possible",
+          "must: very likely",
+          "can’t: nearly impossible"
+        ]
+      },
+      "diagramCaption" : "Modal choice reflects the strength of evidence",
+      "examples" : [
+        {
+          "meaning" : "Possible, not certain",
+          "sentence" : "She might be at the library."
+        },
+        {
+          "meaning" : "Strong evidence",
+          "sentence" : "The lights are on; they must be home."
+        },
+        {
+          "meaning" : "Evidence against it",
+          "sentence" : "He can’t be asleep; I can hear him talking."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "must = a strong conclusion.",
+          "options" : [
+            "must",
+            "can",
+            "would"
+          ],
+          "prompt" : "He’s not answering. He ___ be asleep."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "can’t = sure it is not true.",
+          "options" : [
+            "can’t",
+            "must",
+            "might"
+          ],
+          "prompt" : "That ___ be true. It’s impossible."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "might = a weak possibility.",
+          "options" : [
+            "might",
+            "must",
+            "can’t"
+          ],
+          "prompt" : "She ___ be at home, but I’m not sure."
+        }
+      ],
+      "form" : "modal + base verb; for an action happening now, modal + be + verb-ing.",
+      "id" : "possibility-deduction",
+      "mistake" : {
+        "right" : "He can’t be at home. The lights are off.",
+        "why" : "Mustn’t is prohibition; can’t is a negative deduction.",
+        "wrong" : "He mustn’t be at home. The lights are off."
+      },
+      "related" : [
+        "may-might"
+      ],
+      "summary" : "How certain are you now?",
+      "title" : "Possibility and deduction",
+      "use" : "Use might/may/could for possibility, must for a strong positive deduction, and can’t for a strong negative one."
+    },
+    {
+      "category" : "Modal verbs",
+      "cefr" : "B1",
+      "commonMistake" : "Don’t add to or -s: She might comes is wrong. Say She might come.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "will: certain",
+          "may / might: possible",
+          "won’t: certain no"
+        ]
+      },
+      "diagramCaption" : "From certain to possible",
+      "examples" : [
+        {
+          "meaning" : "Possible, not certain",
+          "sentence" : "It might rain later."
+        },
+        {
+          "meaning" : "Possible past event",
+          "sentence" : "She may have missed the bus."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "might + base verb.",
+          "options" : [
+            "might",
+            "might to",
+            "is might"
+          ],
+          "prompt" : "Take a coat. It ___ rain later."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "may has no -s and no to.",
+          "options" : [
+            "may",
+            "mays",
+            "may to"
+          ],
+          "prompt" : "I’m not sure. She ___ come tonight."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "might + have + past participle.",
+          "options" : [
+            "might",
+            "might to",
+            "may to"
+          ],
+          "prompt" : "He ___ have forgotten the meeting."
+        }
+      ],
+      "form" : "may / might + base verb. Negative: may not / might not. Past possibility: may / might + have + past participle.",
+      "id" : "may-might",
+      "mistake" : {
+        "right" : "She might come later.",
+        "why" : "No -s and no to after may or might.",
+        "wrong" : "She might comes later."
+      },
+      "related" : [
+        "possibility-deduction"
+      ],
+      "summary" : "Things that are possible but not certain",
+      "title" : "May and Might",
+      "use" : "Use may or might for something that is possible. Might often sounds a little less sure than may."
+    },
+    {
+      "category" : "Modal verbs",
+      "cefr" : "B1",
+      "commonMistake" : "Had better has no to and is not past: You had better go now, not You had better to go.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "should: advice",
+          "had better: urgent advice"
+        ]
+      },
+      "diagramCaption" : "Strength of advice",
+      "examples" : [
+        {
+          "meaning" : "Ordinary advice",
+          "sentence" : "You should drink more water."
+        },
+        {
+          "meaning" : "Urgent advice with a warning",
+          "sentence" : "You’d better leave now, or you’ll miss the train."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "should + base verb.",
+          "options" : [
+            "should",
+            "had better to",
+            "must to"
+          ],
+          "prompt" : "You ___ see a dentist about that tooth."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "had better + base verb, no to.",
+          "options" : [
+            "had better",
+            "had better to",
+            "better to"
+          ],
+          "prompt" : "You ___ hurry, or you’ll miss the train."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Negative advice: shouldn’t.",
+          "options" : [
+            "shouldn’t",
+            "don’t should",
+            "not should"
+          ],
+          "prompt" : "You ___ eat so much sugar. It’s bad for you."
+        }
+      ],
+      "form" : "should / ought to / had better + base verb. Negative: shouldn’t, ought not to, had better not.",
+      "id" : "should-had-better",
+      "mistake" : {
+        "right" : "You had better go now.",
+        "why" : "Had better is followed by the base verb, without to.",
+        "wrong" : "You had better to go now."
+      },
+      "related" : [
+        "obligation-advice"
+      ],
+      "summary" : "Advice from gentle to urgent",
+      "title" : "Should, Ought to and Had Better",
+      "use" : "Use should or ought to for advice. Use had better for strong advice when something bad may happen otherwise."
+    },
+    {
+      "category" : "Modal verbs",
+      "cefr" : "B2",
+      "commonMistake" : "Use have + participle after the modal: might have gone, not might went.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Evidence now",
+          "Modal + have",
+          "Conclusion about past"
+        ]
+      },
+      "diagramCaption" : "Present evidence supports a conclusion about the past",
+      "examples" : [
+        {
+          "meaning" : "A strong past deduction",
+          "sentence" : "The floor is wet; it must have rained."
+        },
+        {
+          "meaning" : "One possible explanation",
+          "sentence" : "She might have missed the bus."
+        },
+        {
+          "meaning" : "Evidence against departure",
+          "sentence" : "They can’t have left yet; their car is here."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "must have + past participle for a past conclusion.",
+          "options" : [
+            "must have",
+            "must",
+            "can have"
+          ],
+          "prompt" : "The ground is wet. It ___ rained."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "can’t have = sure it didn’t happen.",
+          "options" : [
+            "can’t",
+            "mustn’t",
+            "needn’t"
+          ],
+          "prompt" : "He ___ have left yet. His coat is here."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "might have = a past possibility.",
+          "options" : [
+            "might",
+            "must",
+            "can’t"
+          ],
+          "prompt" : "She ___ have missed the bus, but I don’t know."
+        }
+      ],
+      "form" : "must/might/could/can’t + have + past participle.",
+      "id" : "past-deduction",
+      "mistake" : {
+        "right" : "She might have gone home.",
+        "why" : "After a modal, use have + past participle for the past.",
+        "wrong" : "She might went home."
+      },
+      "related" : [
+
+      ],
+      "summary" : "What probably happened?",
+      "title" : "Deductions about the past",
+      "use" : "Use modal perfect forms to judge an earlier event from evidence you have now."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A1",
+      "commonMistake" : "Do not use a before an uncountable noun: say some advice, not an advice.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "one orange → three oranges",
+          "some rice → an amount"
+        ]
+      },
+      "diagramCaption" : "Countable nouns take numbers; uncountable nouns name amounts",
+      "examples" : [
+        {
+          "meaning" : "Oranges can be counted",
+          "sentence" : "I bought three oranges."
+        },
+        {
+          "meaning" : "Rice is treated as an amount",
+          "sentence" : "We need some rice."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Advice is uncountable.",
+          "options" : [
+            "advices",
+            "advice",
+            "an advice"
+          ],
+          "prompt" : "I need some ___ ."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "much with uncountable nouns.",
+          "options" : [
+            "many",
+            "much",
+            "a few"
+          ],
+          "prompt" : "How ___ water do you drink?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "many + plural countable noun.",
+          "options" : [
+            "apples",
+            "apple",
+            "bread"
+          ],
+          "prompt" : "There aren’t many ___ in the bag."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "some works with uncountable nouns.",
+          "options" : [
+            "a",
+            "some",
+            "many"
+          ],
+          "prompt" : "Can I have ___ milk?"
+        }
+      ],
+      "form" : "a/an + singular countable noun · some + plural or uncountable noun.",
+      "id" : "countable-uncountable",
+      "mistake" : {
+        "right" : "She gave me some advice.",
+        "why" : "Advice is uncountable, so it takes no a/an and has no plural.",
+        "wrong" : "She gave me an advice."
+      },
+      "related" : [
+        "some-any"
+      ],
+      "summary" : "One, many, or an amount",
+      "title" : "Countable and uncountable nouns",
+      "use" : "Countable nouns can have a singular and plural form. Uncountable nouns are normally treated as a mass."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A1",
+      "commonMistake" : "Do not use an apostrophe for an ordinary plural: books, not book’s.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "books: plural",
+          "Maya’s book: possession",
+          "students’ books: plural possession"
+        ]
+      },
+      "diagramCaption" : "Plural -s and possessive apostrophes do different jobs",
+      "examples" : [
+        {
+          "meaning" : "Irregular plural",
+          "sentence" : "Two children are playing outside."
+        },
+        {
+          "meaning" : "The jacket belongs to Maya",
+          "sentence" : "This is Maya’s jacket."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Child has an irregular plural: children.",
+          "options" : [
+            "childs",
+            "children",
+            "childrens"
+          ],
+          "prompt" : "There are two ___ in the garden."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "One owner: noun + ’s.",
+          "options" : [
+            "sister’s",
+            "sisters’s",
+            "sisters"
+          ],
+          "prompt" : "This is my ___ car."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Several owners: plural noun + ’.",
+          "options" : [
+            "boys’",
+            "boy’s",
+            "boys"
+          ],
+          "prompt" : "The ___ toys are on the floor."
+        }
+      ],
+      "form" : "one book → two books · child → children · Sara’s book · the students’ books.",
+      "id" : "plurals-possessive",
+      "mistake" : {
+        "right" : "Two books are here.",
+        "why" : "An ordinary plural takes no apostrophe.",
+        "wrong" : "Two book’s are here."
+      },
+      "related" : [
+
+      ],
+      "summary" : "More than one, and who owns it",
+      "title" : "Plurals and possessive ’s",
+      "use" : "Use plural forms for more than one; use possessive ’s to connect a person or animal to something they have."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A1",
+      "commonMistake" : "Choose a or an by sound: an hour, a university.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "a book",
+          "an old book",
+          "the book"
+        ]
+      },
+      "diagramCaption" : "A new thing becomes the known thing",
+      "examples" : [
+        {
+          "meaning" : "One dog, introduced for the first time",
+          "sentence" : "I saw a dog."
+        },
+        {
+          "meaning" : "The same dog, now known",
+          "sentence" : "The dog was friendly."
+        },
+        {
+          "meaning" : "An before a vowel sound",
+          "sentence" : "She ate an apple."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "an before a vowel sound.",
+          "options" : [
+            "a",
+            "an",
+            "the"
+          ],
+          "prompt" : "I saw ___ elephant at the zoo."
+        },
+        {
+          "answer" : 2,
+          "explanation" : "We both know which door.",
+          "options" : [
+            "a",
+            "an",
+            "the"
+          ],
+          "prompt" : "Close ___ door, please."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "A job with a vowel sound: an.",
+          "options" : [
+            "a",
+            "an",
+            "the"
+          ],
+          "prompt" : "She is ___ engineer."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "First mention: an. Second mention: the.",
+          "options" : [
+            "an / The",
+            "the / An",
+            "an / An"
+          ],
+          "prompt" : "I have ___ umbrella. ___ umbrella is red."
+        }
+      ],
+      "form" : "a + consonant sound · an + vowel sound · the + specific noun.",
+      "id" : "articles",
+      "mistake" : {
+        "right" : "I waited for an hour.",
+        "why" : "Choose a or an by the sound, and hour starts with a vowel sound.",
+        "wrong" : "I waited for a hour."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Introducing and identifying a noun",
+      "title" : "A, an, and the",
+      "use" : "Use a/an for one non-specific countable thing; use the for something specific or already known."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A1",
+      "commonMistake" : "Match number: these books, not this books.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "near: this / these",
+          "far: that / those"
+        ]
+      },
+      "diagramCaption" : "Distance and number determine the demonstrative",
+      "examples" : [
+        {
+          "meaning" : "One chair nearby",
+          "sentence" : "This chair is comfortable."
+        },
+        {
+          "meaning" : "Several trees farther away",
+          "sentence" : "Those trees are very tall."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "this = singular and near.",
+          "options" : [
+            "This",
+            "That",
+            "Those"
+          ],
+          "prompt" : "___ book here is mine."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "those = plural and far.",
+          "options" : [
+            "these",
+            "those",
+            "this"
+          ],
+          "prompt" : "Look at ___ birds over there!"
+        },
+        {
+          "answer" : 2,
+          "explanation" : "these = plural and near.",
+          "options" : [
+            "that",
+            "this",
+            "these"
+          ],
+          "prompt" : "Who are ___ people next to you?"
+        }
+      ],
+      "form" : "this/that + singular noun · these/those + plural noun.",
+      "id" : "demonstratives",
+      "mistake" : {
+        "right" : "These books are mine.",
+        "why" : "Match number: this/that with singular, these/those with plural.",
+        "wrong" : "This books are mine."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Pointing to near and far things",
+      "title" : "This, that, these, and those",
+      "use" : "Use this/these for something near the speaker and that/those for something farther away."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A1",
+      "commonMistake" : "Use I as the subject and me as the object: He helped me.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "She",
+          "called",
+          "me"
+        ]
+      },
+      "diagramCaption" : "Subject, action, and object occupy different positions",
+      "examples" : [
+        {
+          "meaning" : "She acts; me receives the call",
+          "sentence" : "She called me yesterday."
+        },
+        {
+          "meaning" : "Them follows a preposition",
+          "sentence" : "We sat beside them."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Subject pronoun before the verb.",
+          "options" : [
+            "Him",
+            "He",
+            "His"
+          ],
+          "prompt" : "___ is my brother. He lives in Rome."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Object pronoun after a verb.",
+          "options" : [
+            "I",
+            "me",
+            "my"
+          ],
+          "prompt" : "Can you help ___ ?"
+        },
+        {
+          "answer" : 2,
+          "explanation" : "them is the object form of they.",
+          "options" : [
+            "they",
+            "their",
+            "them"
+          ],
+          "prompt" : "We saw ___ at the cinema."
+        }
+      ],
+      "form" : "I/me · he/him · she/her · we/us · they/them.",
+      "id" : "subject-object-pronouns",
+      "mistake" : {
+        "right" : "He helped me.",
+        "why" : "Use I as the subject and me as the object.",
+        "wrong" : "Him helped I."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Who acts and who receives an action",
+      "title" : "Subject and object pronouns",
+      "use" : "A subject pronoun usually comes before the verb; an object pronoun follows a verb or preposition."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A1",
+      "commonMistake" : "Don’t use any in a simple positive sentence: I have any money is wrong. Say I have some money.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "+ some",
+          "− any",
+          "? any (offer: some)"
+        ]
+      },
+      "diagramCaption" : "Where each word fits",
+      "examples" : [
+        {
+          "meaning" : "Positive sentence",
+          "sentence" : "I have some friends in Paris."
+        },
+        {
+          "meaning" : "Question",
+          "sentence" : "Do you have any questions?"
+        },
+        {
+          "meaning" : "Offer",
+          "sentence" : "Would you like some tea?"
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Requests use some.",
+          "options" : [
+            "some",
+            "any",
+            "many"
+          ],
+          "prompt" : "I’d like ___ water, please."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Negatives use any.",
+          "options" : [
+            "some",
+            "any",
+            "a"
+          ],
+          "prompt" : "We don’t have ___ bread."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Questions usually use any.",
+          "options" : [
+            "some",
+            "any",
+            "an"
+          ],
+          "prompt" : "Is there ___ milk in the fridge?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Positive sentence: some.",
+          "options" : [
+            "some",
+            "any",
+            "much"
+          ],
+          "prompt" : "She bought ___ apples."
+        }
+      ],
+      "form" : "some + plural or uncountable noun · any + plural or uncountable noun. Any can also mean “it doesn’t matter which”.",
+      "id" : "some-any",
+      "mistake" : {
+        "right" : "I have some money.",
+        "why" : "Any is used in negatives and questions, some in positive statements.",
+        "wrong" : "I have any money."
+      },
+      "related" : [
+        "quantifiers",
+        "countable-uncountable"
+      ],
+      "summary" : "Unspecified amounts in statements, questions, and negatives",
+      "title" : "Some and Any",
+      "use" : "Use some in positive sentences and in offers or requests. Use any in negatives and most questions."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A2",
+      "commonMistake" : "Do not add the before a general plural: Dogs need exercise.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "Music: general",
+          "The music: specific"
+        ]
+      },
+      "diagramCaption" : "The narrows a general idea to a known one",
+      "examples" : [
+        {
+          "meaning" : "Music in general",
+          "sentence" : "Music helps me focus."
+        },
+        {
+          "meaning" : "Specific music",
+          "sentence" : "The music next door is loud."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 2,
+          "explanation" : "General plural or uncountable nouns need no article.",
+          "options" : [
+            "the",
+            "a",
+            "no article"
+          ],
+          "prompt" : "I like ___ music."
+        },
+        {
+          "answer" : 2,
+          "explanation" : "School as an institution: no article.",
+          "options" : [
+            "the",
+            "a",
+            "no article"
+          ],
+          "prompt" : "She goes to ___ school by bus."
+        },
+        {
+          "answer" : 2,
+          "explanation" : "Meals usually take no article.",
+          "options" : [
+            "the",
+            "a",
+            "no article"
+          ],
+          "prompt" : "We had dinner at ___ 7 o’clock."
+        }
+      ],
+      "form" : "Books are useful. · The books on this shelf are mine.",
+      "id" : "zero-article",
+      "mistake" : {
+        "right" : "Dogs need exercise.",
+        "why" : "Do not add the before a general plural.",
+        "wrong" : "The dogs need exercise."
+      },
+      "related" : [
+
+      ],
+      "summary" : "General things and named places",
+      "title" : "The or no article",
+      "use" : "Leave out an article when speaking generally about plural or uncountable nouns; use the when a specific group or item is clear."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A2",
+      "commonMistake" : "Use many with countable plurals and much with uncountable nouns.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "many books / a few books",
+          "much water / a little water"
+        ]
+      },
+      "diagramCaption" : "Quantity words depend on countability",
+      "examples" : [
+        {
+          "meaning" : "A small but useful number",
+          "sentence" : "There are a few seats left."
+        },
+        {
+          "meaning" : "A small amount",
+          "sentence" : "We have very little time."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "many + plural countable noun.",
+          "options" : [
+            "many",
+            "much",
+            "a little"
+          ],
+          "prompt" : "How ___ people came to the party?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "little = not much (uncountable, negative).",
+          "options" : [
+            "a few",
+            "little",
+            "many"
+          ],
+          "prompt" : "I have ___ time. Let’s hurry."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "a few = some (countable, positive).",
+          "options" : [
+            "a few",
+            "a little",
+            "much"
+          ],
+          "prompt" : "There are ___ eggs left. We can make an omelette."
+        }
+      ],
+      "form" : "many/few + plural countable · much/little + uncountable · some/any + either type.",
+      "id" : "quantifiers",
+      "mistake" : {
+        "right" : "How many people came?",
+        "why" : "Many goes with countable plurals; much goes with uncountable nouns.",
+        "wrong" : "How much people came?"
+      },
+      "related" : [
+        "some-any",
+        "all-every-each-both-either-neither"
+      ],
+      "summary" : "Some, any, much, many, few, and little",
+      "title" : "Quantifiers",
+      "use" : "Choose quantity words according to whether the noun is countable and how much is meant."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "A2",
+      "commonMistake" : "A possessive pronoun stands alone: mine, not mine book.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "my bag → mine",
+          "he taught → himself"
+        ]
+      },
+      "diagramCaption" : "One form shows ownership; another points back to the subject",
+      "examples" : [
+        {
+          "meaning" : "Mine replaces my bag",
+          "sentence" : "That red bag is mine."
+        },
+        {
+          "meaning" : "He and himself refer to one person",
+          "sentence" : "He taught himself to cook."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Mine stands alone, without a noun.",
+          "options" : [
+            "my",
+            "mine",
+            "me"
+          ],
+          "prompt" : "This pen is ___ ."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Subject and object are the same person: herself.",
+          "options" : [
+            "her",
+            "herself",
+            "she"
+          ],
+          "prompt" : "She taught ___ to swim."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "enjoy + reflexive pronoun.",
+          "options" : [
+            "themselves",
+            "them",
+            "theirs"
+          ],
+          "prompt" : "They enjoyed ___ at the party."
+        }
+      ],
+      "form" : "my book → mine · her book → hers · she → herself.",
+      "id" : "possessive-reflexive-pronouns",
+      "mistake" : {
+        "right" : "This is my book.",
+        "why" : "Mine stands alone; before a noun, use my.",
+        "wrong" : "This is mine book."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Ownership and action back to the subject",
+      "title" : "Possessive and reflexive pronouns",
+      "use" : "Use possessive forms to show who owns something and reflexive forms when the object refers back to the subject."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "B1",
+      "commonMistake" : "Avoid a second negative in standard English: I didn’t see anyone, not I didn’t see nobody.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "someone: an unspecified person",
+          "anyone: open choice",
+          "no one: zero people"
+        ]
+      },
+      "diagramCaption" : "Prefixes change how definite the reference is",
+      "examples" : [
+        {
+          "meaning" : "The person is not identified",
+          "sentence" : "Someone left a note for you."
+        },
+        {
+          "meaning" : "Any person in a negative sentence",
+          "sentence" : "I didn’t see anyone outside."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Positive statement: someone.",
+          "options" : [
+            "Someone",
+            "Anyone",
+            "Everyone’s"
+          ],
+          "prompt" : "___ called while you were out."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Negative verb + anybody.",
+          "options" : [
+            "somebody",
+            "anybody",
+            "nobody"
+          ],
+          "prompt" : "I didn’t see ___ at the shop."
+        },
+        {
+          "answer" : 2,
+          "explanation" : "nothing = not anything.",
+          "options" : [
+            "something",
+            "anything",
+            "nothing"
+          ],
+          "prompt" : "There is ___ in the box. It’s empty."
+        }
+      ],
+      "form" : "some-/any-/no-/every- + one/body/thing/where.",
+      "id" : "indefinite-pronouns",
+      "mistake" : {
+        "right" : "I didn’t see anybody.",
+        "why" : "Standard English avoids a second negative.",
+        "wrong" : "I didn’t see nobody."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Someone, anything, nobody, and more",
+      "title" : "Indefinite pronouns",
+      "use" : "Use these pronouns when a person or thing is not named or not known."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "B1",
+      "commonMistake" : "Every takes a singular verb: Every student are late is wrong. Say Every student is late.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "three or more: all, every, each",
+          "two: both, either, neither"
+        ]
+      },
+      "diagramCaption" : "How many are you talking about?",
+      "examples" : [
+        {
+          "meaning" : "Singular verb after every",
+          "sentence" : "Every student has a book."
+        },
+        {
+          "meaning" : "Exactly two",
+          "sentence" : "Both of my parents work."
+        },
+        {
+          "meaning" : "Not one of the two",
+          "sentence" : "Neither answer is correct."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "every + singular noun.",
+          "options" : [
+            "All",
+            "Every",
+            "Both"
+          ],
+          "prompt" : "___ student in the class has a laptop."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Both = exactly two.",
+          "options" : [
+            "Both",
+            "All",
+            "Every"
+          ],
+          "prompt" : "I have two sisters. ___ of them live in Paris."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Negative verb + either.",
+          "options" : [
+            "neither",
+            "either",
+            "both"
+          ],
+          "prompt" : "I don’t like ___ of the two films."
+        }
+      ],
+      "form" : "all + plural · every / each + singular noun and singular verb · both + plural · either / neither + singular noun.",
+      "id" : "all-every-each-both-either-neither",
+      "mistake" : {
+        "right" : "Every student is late.",
+        "why" : "Every takes a singular verb.",
+        "wrong" : "Every student are late."
+      },
+      "related" : [
+        "quantifiers"
+      ],
+      "summary" : "Words for whole groups and pairs",
+      "title" : "All, Every, Each, Both, Either, Neither",
+      "use" : "All, every, and each talk about three or more. Both, either, and neither talk about exactly two."
+    },
+    {
+      "category" : "Nouns, articles & pronouns",
+      "cefr" : "C1",
+      "commonMistake" : "The modifier normally stays singular: shoe shop, not shoes shop.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "city",
+          "transport",
+          "plan: main noun"
+        ]
+      },
+      "diagramCaption" : "The last noun is the head; earlier nouns narrow its meaning",
+      "examples" : [
+        {
+          "meaning" : "A ticket for a train",
+          "sentence" : "She bought a train ticket."
+        },
+        {
+          "meaning" : "The plan is the main noun",
+          "sentence" : "The city transport plan changed."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "A noun used as a modifier is singular.",
+          "options" : [
+            "shoes",
+            "shoe",
+            "shoe’s"
+          ],
+          "prompt" : "She works in a ___ shop."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "In compounds, the number noun stays singular.",
+          "options" : [
+            "three-hours",
+            "three-hour",
+            "three hour’s"
+          ],
+          "prompt" : "It was a ___ journey."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "The modifying noun comes first: coffee cup.",
+          "options" : [
+            "coffee cup",
+            "cups coffee",
+            "cup’s coffee"
+          ],
+          "prompt" : "I bought a ___ ."
+        }
+      ],
+      "form" : "modifier noun + head noun; a longer phrase may contain several modifiers.",
+      "id" : "noun-modifiers",
+      "mistake" : {
+        "right" : "a shoe shop",
+        "why" : "A noun used as a modifier stays singular.",
+        "wrong" : "a shoes shop"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Nouns that describe other nouns",
+      "title" : "Noun modifiers",
+      "use" : "Put a noun before another noun to classify it; the final noun names the main thing."
+    },
+    {
+      "category" : "Adjectives & adverbs",
+      "cefr" : "A2",
+      "commonMistake" : "I am boring means I make others bored; use I am bored for your feeling.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "boring film",
+          "makes me feel",
+          "bored"
+        ]
+      },
+      "diagramCaption" : "The -ing thing causes the -ed feeling",
+      "examples" : [
+        {
+          "meaning" : "My feeling",
+          "sentence" : "I’m bored by this film."
+        },
+        {
+          "meaning" : "What causes the feeling",
+          "sentence" : "The film is boring."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "-ing describes the thing that causes the feeling.",
+          "options" : [
+            "bored",
+            "boring",
+            "bore"
+          ],
+          "prompt" : "The film was ___ ."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "-ed describes the person’s feeling.",
+          "options" : [
+            "tiring",
+            "tired",
+            "tire"
+          ],
+          "prompt" : "I felt ___ after the long walk."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "The news causes the feeling: shocking.",
+          "options" : [
+            "shocked",
+            "shocking",
+            "shock"
+          ],
+          "prompt" : "The news was ___ ."
+        }
+      ],
+      "form" : "interested person · interesting subject.",
+      "id" : "ed-ing-adjectives",
+      "mistake" : {
+        "right" : "I am bored in this class.",
+        "why" : "-ing describes what causes the feeling; -ed describes the person feeling it.",
+        "wrong" : "I am boring in this class."
+      },
+      "related" : [
+
+      ],
+      "summary" : "A feeling or what causes it",
+      "title" : "-ed and -ing adjectives",
+      "use" : "Use -ed to describe how someone feels and -ing to describe the thing that produces that feeling."
+    },
+    {
+      "category" : "Adjectives & adverbs",
+      "cefr" : "A2",
+      "commonMistake" : "With be, put a frequency adverb after be: She is often late.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "quietly: how",
+          "usually: how often"
+        ]
+      },
+      "diagramCaption" : "Different adverbs answer different questions",
+      "examples" : [
+        {
+          "meaning" : "How she spoke",
+          "sentence" : "She spoke quietly."
+        },
+        {
+          "meaning" : "How often we do it",
+          "sentence" : "We usually eat at home."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Adverb of manner: adjective + -ly.",
+          "options" : [
+            "beautiful",
+            "beautifully",
+            "beauty"
+          ],
+          "prompt" : "She sings ___ ."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "hard is both an adjective and an adverb.",
+          "options" : [
+            "hard",
+            "hardly",
+            "harder"
+          ],
+          "prompt" : "He works very ___ ."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "often is a frequency adverb with no -ly form.",
+          "options" : [
+            "often",
+            "oftenly",
+            "oft"
+          ],
+          "prompt" : "They ___ go to the cinema."
+        }
+      ],
+      "form" : "verb + manner adverb · frequency adverb before a main verb, but after be.",
+      "id" : "adverbs",
+      "mistake" : {
+        "right" : "She is often late.",
+        "why" : "A frequency adverb goes after be.",
+        "wrong" : "She often is late."
+      },
+      "related" : [
+        "so-such"
+      ],
+      "summary" : "How and how often",
+      "title" : "Adverbs of manner and frequency",
+      "use" : "Manner adverbs describe an action; frequency adverbs say how regularly it happens."
+    },
+    {
+      "category" : "Adjectives & adverbs",
+      "cefr" : "A2",
+      "commonMistake" : "Do not double the comparison: more easier is wrong; easier is enough.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "shorter than: two",
+          "the shortest: a group",
+          "as short as: equal"
+        ]
+      },
+      "diagramCaption" : "Comparison form depends on what is being compared",
+      "examples" : [
+        {
+          "meaning" : "A comparison of two routes",
+          "sentence" : "This route is shorter than the old one."
+        },
+        {
+          "meaning" : "One room among several",
+          "sentence" : "It is the quietest room here."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Short adjectives add -er.",
+          "options" : [
+            "cheaper",
+            "more cheap",
+            "cheapest"
+          ],
+          "prompt" : "This bag is ___ than that one."
+        },
+        {
+          "answer" : 2,
+          "explanation" : "the + superlative: -est.",
+          "options" : [
+            "more clever",
+            "cleverer",
+            "cleverest"
+          ],
+          "prompt" : "She is the ___ student in class."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Long adjectives use more.",
+          "options" : [
+            "more interesting",
+            "interestinger",
+            "most interesting"
+          ],
+          "prompt" : "This book is ___ than the film."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "as … as for equality.",
+          "options" : [
+            "than",
+            "as",
+            "like"
+          ],
+          "prompt" : "He is as tall ___ his brother."
+        }
+      ],
+      "form" : "-er / more + adjective + than · the -est / the most + adjective · as + adjective + as.",
+      "id" : "comparisons",
+      "mistake" : {
+        "right" : "This is easier.",
+        "why" : "Do not double the comparison.",
+        "wrong" : "This is more easier."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Comparing two or more things",
+      "title" : "Comparatives and superlatives",
+      "use" : "Use a comparative for two things and a superlative to identify one at an extreme within a group."
+    },
+    {
+      "category" : "Adjectives & adverbs",
+      "cefr" : "B1",
+      "commonMistake" : "Do not force a long adjective chain; two clear adjectives often sound more natural.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "beautiful",
+          "old",
+          "wooden table"
+        ]
+      },
+      "diagramCaption" : "Typical adjective order moves from opinion toward type",
+      "examples" : [
+        {
+          "meaning" : "Opinion, age, material",
+          "sentence" : "She found a beautiful old wooden table."
+        },
+        {
+          "meaning" : "Size before colour",
+          "sentence" : "He bought a small blue bag."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Opinion comes before colour.",
+          "options" : [
+            "red beautiful",
+            "beautiful red",
+            "red beauty"
+          ],
+          "prompt" : "She has a ___ dress."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Size comes before age.",
+          "options" : [
+            "big old",
+            "old big",
+            "big oldly"
+          ],
+          "prompt" : "He bought a ___ car."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Shape comes before material.",
+          "options" : [
+            "wooden round",
+            "round wooden",
+            "wood round"
+          ],
+          "prompt" : "It’s a ___ table."
+        }
+      ],
+      "form" : "opinion → size → age → colour → origin/material → noun.",
+      "id" : "adjective-order",
+      "mistake" : {
+        "right" : "a beautiful red dress",
+        "why" : "Opinion comes before colour.",
+        "wrong" : "a red beautiful dress"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Putting descriptions before a noun",
+      "title" : "Adjective order",
+      "use" : "When several adjectives come before a noun, opinion usually comes before size, age, colour, origin, and material."
+    },
+    {
+      "category" : "Adjectives & adverbs",
+      "cefr" : "B1",
+      "commonMistake" : "Enough follows an adjective but precedes a noun: warm enough; enough space.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "not warm enough",
+          "warm enough",
+          "too hot"
+        ]
+      },
+      "diagramCaption" : "Enough marks a useful threshold; too goes beyond it",
+      "examples" : [
+        {
+          "meaning" : "Excessive heat",
+          "sentence" : "The tea is too hot to drink."
+        },
+        {
+          "meaning" : "Sufficient warmth",
+          "sentence" : "The room is warm enough."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "too = more than is acceptable.",
+          "options" : [
+            "a bit",
+            "too",
+            "enough"
+          ],
+          "prompt" : "The soup is ___ hot. I can’t eat it."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "adjective + enough.",
+          "options" : [
+            "too",
+            "enough",
+            "very"
+          ],
+          "prompt" : "The room isn’t big ___ for ten people."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "rather + adjective = quite.",
+          "options" : [
+            "rather",
+            "enough",
+            "too much"
+          ],
+          "prompt" : "I’m ___ tired. I think I’ll go to bed."
+        }
+      ],
+      "form" : "very + adjective · too + adjective · adjective + enough · enough + noun.",
+      "id" : "degree-intensifiers",
+      "mistake" : {
+        "right" : "We have enough space.",
+        "why" : "Enough goes before a noun but after an adjective.",
+        "wrong" : "We have space enough."
+      },
+      "related" : [
+        "so-such"
+      ],
+      "summary" : "Strengthening or limiting a description",
+      "title" : "Degree, too, and enough",
+      "use" : "Use intensifiers to change degree, too for more than is acceptable, and enough for a sufficient amount."
+    },
+    {
+      "category" : "Adjectives & adverbs",
+      "cefr" : "B1",
+      "commonMistake" : "Don’t say so a long film. Use such a long film.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "so + adjective",
+          "such + noun"
+        ]
+      },
+      "diagramCaption" : "Adjective or noun?",
+      "examples" : [
+        {
+          "meaning" : "so + adjective",
+          "sentence" : "The film was so long."
+        },
+        {
+          "meaning" : "such a + adjective + noun",
+          "sentence" : "It was such a long film."
+        },
+        {
+          "meaning" : "Result with that",
+          "sentence" : "It was so cold that we stayed in."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "such a + adjective + noun.",
+          "options" : [
+            "so",
+            "such",
+            "very"
+          ],
+          "prompt" : "It was ___ a hot day."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "so + adjective.",
+          "options" : [
+            "so",
+            "such",
+            "such a"
+          ],
+          "prompt" : "The soup is ___ delicious."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "so + adverb.",
+          "options" : [
+            "such",
+            "so",
+            "such a"
+          ],
+          "prompt" : "He speaks ___ quickly that I can’t follow."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "such + plural noun.",
+          "options" : [
+            "so",
+            "such",
+            "such a"
+          ],
+          "prompt" : "They are ___ nice people."
+        }
+      ],
+      "form" : "so + adjective / adverb · such + (a/an) + (adjective) + noun. Add that to show a result.",
+      "id" : "so-such",
+      "mistake" : {
+        "right" : "It was such a long film.",
+        "why" : "Use such before a noun phrase, so before an adjective alone.",
+        "wrong" : "It was so a long film."
+      },
+      "related" : [
+        "degree-intensifiers"
+      ],
+      "summary" : "Making a description stronger",
+      "title" : "So and Such",
+      "use" : "Use so before an adjective or adverb. Use such before a noun, with or without an adjective before it."
+    },
+    {
+      "category" : "Prepositions",
+      "cefr" : "A1",
+      "commonMistake" : "Say on the table for something resting on its surface.",
+      "diagram" : {
+        "kind" : "place"
+      },
+      "diagramCaption" : "The ball is in, on, or under the box",
+      "examples" : [
+        {
+          "meaning" : "Inside the box",
+          "sentence" : "The ball is in the box."
+        },
+        {
+          "meaning" : "Touching the top",
+          "sentence" : "The ball is on the box."
+        },
+        {
+          "meaning" : "Below the box",
+          "sentence" : "The ball is under the box."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "on = touching a surface.",
+          "options" : [
+            "in",
+            "on",
+            "at"
+          ],
+          "prompt" : "The book is ___ the table."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "in for cities and countries.",
+          "options" : [
+            "in",
+            "on",
+            "at"
+          ],
+          "prompt" : "She lives ___ London."
+        },
+        {
+          "answer" : 2,
+          "explanation" : "at for a point or place.",
+          "options" : [
+            "in",
+            "on",
+            "at"
+          ],
+          "prompt" : "I’ll meet you ___ the bus stop."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "under = lower than, covered by.",
+          "options" : [
+            "under",
+            "on",
+            "at"
+          ],
+          "prompt" : "The shoes are ___ the bed, not on it."
+        }
+      ],
+      "form" : "preposition + place or object.",
+      "id" : "place",
+      "mistake" : {
+        "right" : "The book is on the table.",
+        "why" : "On is for something resting on a surface.",
+        "wrong" : "The book is in the table."
+      },
+      "related" : [
+        "to-at-in-arrive"
+      ],
+      "summary" : "In, on, and under",
+      "title" : "Prepositions of place",
+      "use" : "In means inside; on means touching a surface; under means below something."
+    },
+    {
+      "category" : "Prepositions",
+      "cefr" : "A1",
+      "commonMistake" : "Say in the morning, but at night.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "at 8:00",
+          "on Monday",
+          "in July"
+        ]
+      },
+      "diagramCaption" : "At points to a time, on to a day, and in to a longer period",
+      "examples" : [
+        {
+          "meaning" : "A precise time",
+          "sentence" : "The class starts at 8:00."
+        },
+        {
+          "meaning" : "A day",
+          "sentence" : "We meet on Monday."
+        },
+        {
+          "meaning" : "A month",
+          "sentence" : "My birthday is in July."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 2,
+          "explanation" : "at for clock times.",
+          "options" : [
+            "in",
+            "on",
+            "at"
+          ],
+          "prompt" : "The class starts ___ 9 o’clock."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "in for months and years.",
+          "options" : [
+            "in",
+            "on",
+            "at"
+          ],
+          "prompt" : "My birthday is ___ June."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "on for days and dates.",
+          "options" : [
+            "in",
+            "on",
+            "at"
+          ],
+          "prompt" : "We meet ___ Monday."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "in the morning / afternoon / evening.",
+          "options" : [
+            "in",
+            "on",
+            "at"
+          ],
+          "prompt" : "I wake up early ___ the morning."
+        }
+      ],
+      "form" : "at + time · on + day/date · in + month/year/season.",
+      "id" : "time",
+      "mistake" : {
+        "right" : "I sleep at night.",
+        "why" : "Say in the morning but at night.",
+        "wrong" : "I sleep in night."
+      },
+      "related" : [
+        "by-until",
+        "for-since-ago"
+      ],
+      "summary" : "At, on, and in",
+      "title" : "Prepositions of time",
+      "use" : "Use at for a clock time, on for a day or date, and in for a month, year, season, or long period."
+    },
+    {
+      "category" : "Prepositions",
+      "cefr" : "A2",
+      "commonMistake" : "Use in for position and into for movement toward the inside.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "outside",
+          "into",
+          "inside"
+        ]
+      },
+      "diagramCaption" : "Into describes a change of position",
+      "examples" : [
+        {
+          "meaning" : "Movement from outside to inside",
+          "sentence" : "She walked into the room."
+        },
+        {
+          "meaning" : "Movement from one side to the other",
+          "sentence" : "We ran across the field."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "over = from one side to the other.",
+          "options" : [
+            "over",
+            "at",
+            "in"
+          ],
+          "prompt" : "The cat jumped ___ the wall."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "through = inside from one side to the other.",
+          "options" : [
+            "through",
+            "at",
+            "on"
+          ],
+          "prompt" : "We walked ___ the park."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "to = direction toward a place.",
+          "options" : [
+            "to",
+            "at",
+            "on"
+          ],
+          "prompt" : "The train goes ___ London."
+        }
+      ],
+      "form" : "move + to a destination · into a space · onto a surface · through an interior · across an area.",
+      "id" : "movement-prepositions",
+      "mistake" : {
+        "right" : "She ran into the room.",
+        "why" : "Into shows movement toward the inside; in shows position.",
+        "wrong" : "She ran in the room."
+      },
+      "related" : [
+        "to-at-in-arrive"
+      ],
+      "summary" : "To, into, onto, through, and across",
+      "title" : "Prepositions of movement",
+      "use" : "Choose a preposition that shows the direction or path of movement."
+    },
+    {
+      "category" : "Prepositions",
+      "cefr" : "A2",
+      "commonMistake" : "Don’t say arrive to: I arrived to the airport is wrong. Say I arrived at the airport.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "go to",
+          "arrive in a city",
+          "arrive at a place"
+        ]
+      },
+      "diagramCaption" : "Choose by the kind of place",
+      "examples" : [
+        {
+          "meaning" : "Movement to a place",
+          "sentence" : "We went to Spain."
+        },
+        {
+          "meaning" : "Arrive in a city",
+          "sentence" : "They arrived in Madrid."
+        },
+        {
+          "meaning" : "Arrive at a point",
+          "sentence" : "They arrived at the hotel."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "arrive at a place.",
+          "options" : [
+            "to",
+            "at",
+            "in"
+          ],
+          "prompt" : "We arrived ___ the airport at noon."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "arrive in a city.",
+          "options" : [
+            "at",
+            "in",
+            "to"
+          ],
+          "prompt" : "They arrived ___ Tokyo last night."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "went to + place.",
+          "options" : [
+            "to",
+            "at",
+            "in"
+          ],
+          "prompt" : "I went ___ the shop."
+        }
+      ],
+      "form" : "go / come / return to + place · arrive in + city / country · arrive at + station / airport / hotel · get to + place.",
+      "id" : "to-at-in-arrive",
+      "mistake" : {
+        "right" : "We arrived at the airport.",
+        "why" : "Arrive is followed by at or in, not to.",
+        "wrong" : "We arrived to the airport."
+      },
+      "related" : [
+        "place",
+        "movement-prepositions"
+      ],
+      "summary" : "Prepositions with movement and arrival",
+      "title" : "Go to, Arrive at, Arrive in",
+      "use" : "Use to after verbs of movement. Use arrive in for towns and countries, and arrive at for smaller places and points."
+    },
+    {
+      "category" : "Prepositions",
+      "cefr" : "B1",
+      "commonMistake" : "Do not translate the preposition word for word from another language.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "interested → in",
+          "depend → on",
+          "listen → to"
+        ]
+      },
+      "diagramCaption" : "The main word selects its usual preposition",
+      "examples" : [
+        {
+          "meaning" : "Interested pairs with in",
+          "sentence" : "I’m interested in astronomy."
+        },
+        {
+          "meaning" : "Depend pairs with on",
+          "sentence" : "The result depends on the weather."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "good at.",
+          "options" : [
+            "at",
+            "in",
+            "on"
+          ],
+          "prompt" : "She is good ___ maths."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "afraid of.",
+          "options" : [
+            "of",
+            "from",
+            "at"
+          ],
+          "prompt" : "I’m afraid ___ spiders."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "depend on.",
+          "options" : [
+            "on",
+            "of",
+            "from"
+          ],
+          "prompt" : "He depends ___ his parents."
+        }
+      ],
+      "form" : "interested in · depend on · listen to · proud of.",
+      "id" : "dependent-prepositions",
+      "mistake" : {
+        "right" : "I’m afraid of dogs.",
+        "why" : "Many adjectives and verbs need a fixed preposition; learn them together.",
+        "wrong" : "I’m afraid from dogs."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Words that regularly pair with a preposition",
+      "title" : "Dependent prepositions",
+      "use" : "Many adjectives and verbs take a particular preposition. Learn the pair as one phrase."
+    },
+    {
+      "category" : "Prepositions",
+      "cefr" : "B1",
+      "commonMistake" : "Don’t use until for a deadline: I must finish until Friday is wrong. Say by Friday.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "by: deadline",
+          "until: continues up to"
+        ]
+      },
+      "diagramCaption" : "Deadline or duration",
+      "examples" : [
+        {
+          "meaning" : "Finished at or before 5",
+          "sentence" : "Please finish by 5 o’clock."
+        },
+        {
+          "meaning" : "Working continues till 5",
+          "sentence" : "I’ll work until 5 o’clock."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Deadline: by.",
+          "options" : [
+            "by",
+            "until",
+            "at"
+          ],
+          "prompt" : "Please send the report ___ Friday. It’s the deadline."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Waiting continues up to 6: until.",
+          "options" : [
+            "by",
+            "until",
+            "in"
+          ],
+          "prompt" : "I’ll wait here ___ 6 o’clock."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Continues up to 9 p.m.: until.",
+          "options" : [
+            "by",
+            "until",
+            "since"
+          ],
+          "prompt" : "The shop is open ___ 9 p.m."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "No later than midnight: by.",
+          "options" : [
+            "by",
+            "until",
+            "for"
+          ],
+          "prompt" : "I must be home ___ midnight."
+        }
+      ],
+      "form" : "by + time (send it by Friday) · until + time (wait until Friday).",
+      "id" : "by-until",
+      "mistake" : {
+        "right" : "Finish it by Friday.",
+        "why" : "By is a deadline; until is how long something continues.",
+        "wrong" : "Finish it until Friday."
+      },
+      "related" : [
+        "time"
+      ],
+      "summary" : "A deadline or a time something continues",
+      "title" : "By and Until",
+      "use" : "Use by for a deadline: no later than that time. Use until (or till) for something that continues up to that time."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "A1",
+      "commonMistake" : "Do not normally omit a subject in an English statement: It is raining.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Mina: subject",
+          "reads: verb",
+          "novels: object"
+        ]
+      },
+      "diagramCaption" : "A basic English statement moves from subject to verb to object",
+      "examples" : [
+        {
+          "meaning" : "Subject, verb, object",
+          "sentence" : "Mina reads novels."
+        },
+        {
+          "meaning" : "Subject, verb, complement",
+          "sentence" : "The garden looks beautiful."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Subject + verb + object.",
+          "options" : [
+            "Likes she tea.",
+            "She likes tea.",
+            "Tea likes she."
+          ],
+          "prompt" : "Which sentence is correct?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Time expressions often go at the end.",
+          "options" : [
+            "I every day walk.",
+            "I walk every day.",
+            "Every day walk I."
+          ],
+          "prompt" : "Which sentence is correct?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Frequency adverbs go after be.",
+          "options" : [
+            "She always is late.",
+            "She is always late.",
+            "She late is always."
+          ],
+          "prompt" : "Which sentence is correct?"
+        }
+      ],
+      "form" : "subject + verb + object/complement.",
+      "id" : "basic-word-order",
+      "mistake" : {
+        "right" : "It is raining.",
+        "why" : "English statements normally need a subject.",
+        "wrong" : "Is raining."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Subject, verb, and object",
+      "title" : "Basic word order",
+      "use" : "In a basic statement, say who or what acts, then the action, then its object if there is one."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "A1",
+      "commonMistake" : "Do not use do with have got: Have you got a pen?",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "be → identity or state",
+          "have (got) → possession"
+        ]
+      },
+      "diagramCaption" : "Be and have got answer different questions",
+      "examples" : [
+        {
+          "meaning" : "Identity",
+          "sentence" : "She is a doctor."
+        },
+        {
+          "meaning" : "Possession",
+          "sentence" : "We’ve got two tickets."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "he/she/it + has got.",
+          "options" : [
+            "have got",
+            "has got",
+            "is got"
+          ],
+          "prompt" : "She ___ a new bike."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "they + are.",
+          "options" : [
+            "is",
+            "are",
+            "have"
+          ],
+          "prompt" : "They ___ at home now."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Have you got…? asks about possession.",
+          "options" : [
+            "Have",
+            "Are",
+            "Do got"
+          ],
+          "prompt" : "___ you got a pen?"
+        }
+      ],
+      "form" : "I am / she is / they are · I have / she has · I’ve got / she’s got.",
+      "id" : "be-have-got",
+      "mistake" : {
+        "right" : "Have you got a pen?",
+        "why" : "Have got forms questions without do.",
+        "wrong" : "Do you have got a pen?"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Identity, state, and possession",
+      "title" : "Be and have got",
+      "use" : "Use be for identity or state and have/have got for possession. Have got is especially common in conversation."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "A1",
+      "commonMistake" : "Match the verb to what follows: There are two chairs, not there is two chairs.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "one → there is",
+          "many → there are"
+        ]
+      },
+      "diagramCaption" : "The noun that follows determines is or are",
+      "examples" : [
+        {
+          "meaning" : "One café exists there",
+          "sentence" : "There is a café nearby."
+        },
+        {
+          "meaning" : "Several windows exist",
+          "sentence" : "There are three windows."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Singular noun: there is.",
+          "options" : [
+            "is",
+            "are",
+            "have"
+          ],
+          "prompt" : "There ___ a book on the table."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Plural noun: there are.",
+          "options" : [
+            "is",
+            "are",
+            "have"
+          ],
+          "prompt" : "There ___ three chairs in the room."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Milk is uncountable: Is there…?",
+          "options" : [
+            "Is there",
+            "Are there",
+            "There is"
+          ],
+          "prompt" : "___ any milk in the fridge?"
+        }
+      ],
+      "form" : "there is + singular/uncountable · there are + plural.",
+      "id" : "there-is-are",
+      "mistake" : {
+        "right" : "There are two chairs.",
+        "why" : "The verb agrees with the noun that follows.",
+        "wrong" : "There is two chairs."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Saying that something exists",
+      "title" : "There is and there are",
+      "use" : "Use there is to introduce one thing or an uncountable amount, and there are for plural things."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "A1",
+      "commonMistake" : "After did, use the base verb: Where did she go?, not did she went?",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Where",
+          "did you",
+          "find it?"
+        ]
+      },
+      "diagramCaption" : "Question word and auxiliary come before the main verb",
+      "examples" : [
+        {
+          "meaning" : "A yes–no question",
+          "sentence" : "Do they live nearby?"
+        },
+        {
+          "meaning" : "An information question",
+          "sentence" : "Where did you find it?"
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Question word + auxiliary + subject + verb.",
+          "options" : [
+            "you do",
+            "do you",
+            "you"
+          ],
+          "prompt" : "Where ___ live?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Question word + does + subject + base verb.",
+          "options" : [
+            "does",
+            "do",
+            "is"
+          ],
+          "prompt" : "What time ___ the film start?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Does with she + base verb.",
+          "options" : [
+            "Does",
+            "Do",
+            "Is"
+          ],
+          "prompt" : "___ she come to the party?"
+        }
+      ],
+      "form" : "auxiliary + subject + base verb? · question word + auxiliary + subject + base verb?",
+      "id" : "questions",
+      "mistake" : {
+        "right" : "Where did she go?",
+        "why" : "After did, use the base verb.",
+        "wrong" : "Where did she went?"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Yes–no and information questions",
+      "title" : "Question forms",
+      "use" : "Put an auxiliary before the subject in most questions; add a question word when asking for specific information."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "A1",
+      "commonMistake" : "Do not use two finite auxiliaries: She doesn’t can go is wrong; She can’t go is right.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "subject",
+          "auxiliary + not",
+          "main verb"
+        ]
+      },
+      "diagramCaption" : "The negative attaches to an auxiliary",
+      "examples" : [
+        {
+          "meaning" : "Present Simple negative",
+          "sentence" : "He doesn’t work on Sundays."
+        },
+        {
+          "meaning" : "Negative after have",
+          "sentence" : "We haven’t finished yet."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "I + don’t + base verb.",
+          "options" : [
+            "don’t",
+            "doesn’t",
+            "am not"
+          ],
+          "prompt" : "I ___ like coffee."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "be verb: isn’t.",
+          "options" : [
+            "don’t",
+            "isn’t",
+            "doesn’t"
+          ],
+          "prompt" : "She ___ at home."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "didn’t + base verb.",
+          "options" : [
+            "knew",
+            "know",
+            "known"
+          ],
+          "prompt" : "He didn’t ___ the answer."
+        }
+      ],
+      "form" : "am/is/are not · do/does/did not + base verb · modal + not + base verb.",
+      "id" : "negatives",
+      "mistake" : {
+        "right" : "She can’t go.",
+        "why" : "Do not combine do with a modal verb.",
+        "wrong" : "She doesn’t can go."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Saying that something is not true",
+      "title" : "Negatives and auxiliaries",
+      "use" : "Add not to an auxiliary or be. Use do/does/did when a simple-tense statement has no other auxiliary."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "A2",
+      "commonMistake" : "Use a before a singular countable noun after what: What a surprise!",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "Close the door: instruction",
+          "What a view!: reaction"
+        ]
+      },
+      "diagramCaption" : "Different sentence shapes express instructions and reactions",
+      "examples" : [
+        {
+          "meaning" : "A polite instruction",
+          "sentence" : "Please close the door."
+        },
+        {
+          "meaning" : "An exclamation about a noun",
+          "sentence" : "What a lovely view!"
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Imperatives use the base verb.",
+          "options" : [
+            "Closing",
+            "Close",
+            "To close"
+          ],
+          "prompt" : "___ the door, please."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Be + adjective in an imperative.",
+          "options" : [
+            "Be",
+            "Are",
+            "Is"
+          ],
+          "prompt" : "___ quiet!"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "What + a + adjective + noun.",
+          "options" : [
+            "What",
+            "How",
+            "So"
+          ],
+          "prompt" : "___ a beautiful day!"
+        }
+      ],
+      "form" : "base verb + rest · don’t + base verb · what + (a/an) + noun! · how + adjective/adverb!",
+      "id" : "imperatives-exclamations",
+      "mistake" : {
+        "right" : "What a surprise!",
+        "why" : "After what, use a before a singular countable noun.",
+        "wrong" : "What surprise!"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Instructions and strong reactions",
+      "title" : "Imperatives and exclamations",
+      "use" : "Use a base verb for an instruction; use what or how to express a strong reaction."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "B1",
+      "commonMistake" : "Do not match the verb to the nearest noun: The box of pencils is here.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "The list",
+          "of names",
+          "is long"
+        ]
+      },
+      "diagramCaption" : "The head of the subject controls the verb",
+      "examples" : [
+        {
+          "meaning" : "List is the singular subject",
+          "sentence" : "The list of names is long."
+        },
+        {
+          "meaning" : "Players is the plural subject",
+          "sentence" : "The players on the team are ready."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "News is uncountable and takes a singular verb.",
+          "options" : [
+            "is",
+            "are",
+            "were"
+          ],
+          "prompt" : "The news ___ good today."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Plural subject: are.",
+          "options" : [
+            "is",
+            "are",
+            "was"
+          ],
+          "prompt" : "My friends ___ coming tonight."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Neither of + noun usually takes a singular verb.",
+          "options" : [
+            "is",
+            "are",
+            "were"
+          ],
+          "prompt" : "Neither of the answers ___ correct."
+        }
+      ],
+      "form" : "singular subject + singular verb · plural subject + plural verb.",
+      "id" : "subject-verb-agreement",
+      "mistake" : {
+        "right" : "The box of pencils is here.",
+        "why" : "The verb agrees with the head noun, box, not the nearest noun.",
+        "wrong" : "The box of pencils are here."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Matching the verb to the subject",
+      "title" : "Subject–verb agreement",
+      "use" : "The verb agrees with the grammatical subject, even if other words appear between them."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "B1",
+      "commonMistake" : "Repeat the matching auxiliary in the tag: He can swim, can’t he?",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "positive → negative tag",
+          "negative → positive tag"
+        ]
+      },
+      "diagramCaption" : "The tag usually reverses the statement’s polarity",
+      "examples" : [
+        {
+          "meaning" : "Positive statement, negative tag",
+          "sentence" : "You’re coming, aren’t you?"
+        },
+        {
+          "meaning" : "Negative statement, positive tag",
+          "sentence" : "She hasn’t left, has she?"
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Positive statement: negative tag.",
+          "options" : [
+            "don’t you",
+            "do you",
+            "aren’t you"
+          ],
+          "prompt" : "You like pizza, ___ ?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Negative statement: positive tag.",
+          "options" : [
+            "isn’t she",
+            "is she",
+            "does she"
+          ],
+          "prompt" : "She isn’t here, ___ ?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Let’s… takes shall we?",
+          "options" : [
+            "shall we",
+            "will we",
+            "don’t we"
+          ],
+          "prompt" : "Let’s go, ___ ?"
+        }
+      ],
+      "form" : "positive statement + negative tag · negative statement + positive tag.",
+      "id" : "question-tags",
+      "mistake" : {
+        "right" : "He can swim, can’t he?",
+        "why" : "The tag repeats the same auxiliary with the opposite polarity.",
+        "wrong" : "He can swim, isn’t he?"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Checking or inviting agreement",
+      "title" : "Question tags",
+      "use" : "Add a short question after a statement to check information or invite a response."
+    },
+    {
+      "category" : "Building sentences",
+      "cefr" : "B1",
+      "commonMistake" : "Its is possessive; it’s means it is or it has.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "its colour: possession",
+          "it’s blue: it is"
+        ]
+      },
+      "diagramCaption" : "An apostrophe can change the meaning of it’s",
+      "examples" : [
+        {
+          "meaning" : "Capital, possessive apostrophe, question mark",
+          "sentence" : "Is Daniel’s bike outside?"
+        },
+        {
+          "meaning" : "Contraction and capitalised day",
+          "sentence" : "We’re meeting on Tuesday."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Capitalise I and place names.",
+          "options" : [
+            "i live in london.",
+            "I live in London.",
+            "I live in london."
+          ],
+          "prompt" : "Which sentence is correct?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "It’s = it is, with an apostrophe.",
+          "options" : [
+            "its a nice day",
+            "It’s a nice day.",
+            "Its a nice day."
+          ],
+          "prompt" : "Which is correct?"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Separate list items with commas.",
+          "options" : [
+            "I bought eggs, milk and bread.",
+            "I bought, eggs milk and bread.",
+            "I bought eggs milk, and, bread."
+          ],
+          "prompt" : "Which is correct?"
+        }
+      ],
+      "form" : "Capital + sentence · ? for a direct question · ’ for possession/contraction.",
+      "id" : "writing-conventions",
+      "mistake" : {
+        "right" : "The dog wagged its tail.",
+        "why" : "Its shows possession; it’s means it is or it has.",
+        "wrong" : "The dog wagged it’s tail."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Clear written sentences",
+      "title" : "Capital letters and punctuation",
+      "use" : "Start a sentence and proper name with a capital letter; use punctuation to mark endings, questions, and possession."
+    },
+    {
+      "category" : "Verb patterns",
+      "cefr" : "A2",
+      "commonMistake" : "Do not use for + base verb to express purpose: say to ask, not for ask.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "action",
+          "to + verb",
+          "purpose"
+        ]
+      },
+      "diagramCaption" : "The infinitive explains the purpose of the first action",
+      "examples" : [
+        {
+          "meaning" : "The reason for calling",
+          "sentence" : "I called to ask a question."
+        },
+        {
+          "meaning" : "The reason for going outside",
+          "sentence" : "She went outside to get some air."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "to + base verb shows purpose.",
+          "options" : [
+            "buy",
+            "to buy",
+            "for buy"
+          ],
+          "prompt" : "I went to the shop ___ some milk."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Purpose: to + verb.",
+          "options" : [
+            "for take",
+            "to take",
+            "taking"
+          ],
+          "prompt" : "She uses her phone ___ photos."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "stop to do = stop in order to do something.",
+          "options" : [
+            "to have",
+            "have",
+            "to having"
+          ],
+          "prompt" : "We stopped ___ coffee."
+        }
+      ],
+      "form" : "main action + to + base verb.",
+      "id" : "infinitive-purpose",
+      "mistake" : {
+        "right" : "I use it to ask questions.",
+        "why" : "Purpose with a verb uses to + base verb, not for.",
+        "wrong" : "I use it for ask questions."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Saying why you do something",
+      "title" : "Infinitive of purpose",
+      "use" : "Use to + base verb to explain the purpose of an action."
+    },
+    {
+      "category" : "Verb patterns",
+      "cefr" : "A2",
+      "commonMistake" : "Say make a mistake and do homework, not do a mistake or make homework.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "do: tasks and activities",
+          "make: create or produce"
+        ]
+      },
+      "diagramCaption" : "Activity or product",
+      "examples" : [
+        {
+          "meaning" : "A task",
+          "sentence" : "I do my homework after school."
+        },
+        {
+          "meaning" : "Created something",
+          "sentence" : "She made a cake."
+        },
+        {
+          "meaning" : "Fixed phrase",
+          "sentence" : "Don’t make a mistake."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "do a favour is a fixed phrase.",
+          "options" : [
+            "do",
+            "make",
+            "have"
+          ],
+          "prompt" : "Can you ___ me a favour?"
+        },
+        {
+          "answer" : 1,
+          "explanation" : "make a phone call.",
+          "options" : [
+            "do",
+            "make",
+            "take"
+          ],
+          "prompt" : "I need to ___ a phone call."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "do homework.",
+          "options" : [
+            "makes",
+            "does",
+            "is making"
+          ],
+          "prompt" : "She ___ her homework every evening."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "make a mistake.",
+          "options" : [
+            "do",
+            "make",
+            "take"
+          ],
+          "prompt" : "Don’t ___ a mistake."
+        }
+      ],
+      "form" : "do homework / the dishes / a job / your best · make a cake / a mistake / a decision / a phone call.",
+      "id" : "do-vs-make",
+      "mistake" : {
+        "right" : "She made a mistake.",
+        "why" : "Mistake goes with make; homework goes with do.",
+        "wrong" : "She did a mistake."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Two common verbs that are easy to confuse",
+      "title" : "Do or Make?",
+      "use" : "Use do for tasks, work, and activities. Use make for creating or producing something and for many fixed phrases."
+    },
+    {
+      "category" : "Verb patterns",
+      "cefr" : "B1",
+      "commonMistake" : "Stop doing means end an action; stop to do means pause for another purpose.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "enjoy → doing",
+          "decide → to do",
+          "stop doing ≠ stop to do"
+        ]
+      },
+      "diagramCaption" : "The first verb determines the next verb form",
+      "examples" : [
+        {
+          "meaning" : "Enjoy takes an -ing form",
+          "sentence" : "We enjoy hiking."
+        },
+        {
+          "meaning" : "Decide takes a to-infinitive",
+          "sentence" : "She decided to leave."
+        },
+        {
+          "meaning" : "He paused another action in order to rest",
+          "sentence" : "He stopped to rest."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "enjoy + verb-ing.",
+          "options" : [
+            "to swim",
+            "swimming",
+            "swim"
+          ],
+          "prompt" : "I enjoy ___ ."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "decide + to-infinitive.",
+          "options" : [
+            "finding",
+            "to find",
+            "find"
+          ],
+          "prompt" : "She decided ___ a new job."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "avoid + verb-ing.",
+          "options" : [
+            "answering",
+            "to answer",
+            "answer"
+          ],
+          "prompt" : "He avoided ___ the question."
+        }
+      ],
+      "form" : "enjoy + verb-ing · decide + to-infinitive · stop + verb-ing / to-infinitive.",
+      "id" : "gerund-infinitive",
+      "mistake" : {
+        "right" : "He stopped smoking.",
+        "why" : "Stop doing ends an action; stop to do pauses for another purpose.",
+        "wrong" : "He stopped to smoke. (meaning he quit)"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Choosing what follows a verb",
+      "title" : "-ing forms and infinitives",
+      "use" : "Some verbs take an -ing form, some take to + verb, and some allow both with a change in meaning."
+    },
+    {
+      "category" : "Verb patterns",
+      "cefr" : "B1",
+      "commonMistake" : "Say turn it off, not turn off it. Look after is not separated.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "turn it off: separable",
+          "look after it: inseparable"
+        ]
+      },
+      "diagramCaption" : "Object position depends on the phrasal verb",
+      "examples" : [
+        {
+          "meaning" : "Off completes a separable phrasal verb",
+          "sentence" : "Please turn the lamp off."
+        },
+        {
+          "meaning" : "Look after means care for",
+          "sentence" : "Can you look after my cat?"
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "take off = remove clothes.",
+          "options" : [
+            "take off",
+            "take out",
+            "take up"
+          ],
+          "prompt" : "Please ___ your shoes before you come in."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "look for = search.",
+          "options" : [
+            "for",
+            "at",
+            "after"
+          ],
+          "prompt" : "I’m looking ___ my keys."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "call off = cancel.",
+          "options" : [
+            "called off",
+            "called on",
+            "called up"
+          ],
+          "prompt" : "The meeting was ___ because of the rain."
+        }
+      ],
+      "form" : "turn on the light / turn the light on · turn it on · look after someone.",
+      "id" : "phrasal-verbs",
+      "mistake" : {
+        "right" : "Turn it off.",
+        "why" : "With a pronoun, put the object between the verb and the particle.",
+        "wrong" : "Turn off it."
+      },
+      "related" : [
+
+      ],
+      "summary" : "A verb plus a particle",
+      "title" : "Phrasal verbs",
+      "use" : "A particle can change a verb’s meaning. With a separable phrasal verb, a pronoun object goes between the verb and particle."
+    },
+    {
+      "category" : "Verb patterns",
+      "cefr" : "B1",
+      "commonMistake" : "I’m knowing is not the usual form for a state; say I know.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "know: state → simple",
+          "have lunch: action → continuous"
+        ]
+      },
+      "diagramCaption" : "Meaning determines whether a continuous form is natural",
+      "examples" : [
+        {
+          "meaning" : "A belief, normally simple",
+          "sentence" : "I believe you."
+        },
+        {
+          "meaning" : "Have means eat here, an action",
+          "sentence" : "She’s having lunch."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Stative verbs like understand rarely take the continuous.",
+          "options" : [
+            "am understanding",
+            "understand",
+            "understanding"
+          ],
+          "prompt" : "I ___ you."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "have meaning possess is stative.",
+          "options" : [
+            "is having",
+            "has",
+            "have"
+          ],
+          "prompt" : "She ___ a new car. She loves it."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "taste with this meaning is stative.",
+          "options" : [
+            "is tasting",
+            "tastes",
+            "taste"
+          ],
+          "prompt" : "This soup ___ delicious."
+        }
+      ],
+      "form" : "I know the answer. · I’m thinking about it.",
+      "id" : "stative-verbs",
+      "mistake" : {
+        "right" : "I know the answer.",
+        "why" : "Verbs of state usually avoid the continuous form.",
+        "wrong" : "I’m knowing the answer."
+      },
+      "related" : [
+
+      ],
+      "summary" : "States and actions",
+      "title" : "Stative verbs",
+      "use" : "Verbs of belief, possession, and feeling often describe a state and usually use a simple form; some change meaning in a continuous form."
+    },
+    {
+      "category" : "Verb patterns",
+      "cefr" : "B2",
+      "commonMistake" : "After be used to, use -ing: I’m used to get up early is wrong. Say I’m used to getting up early.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "used to + verb: past habit",
+          "be used to + -ing: familiar"
+        ]
+      },
+      "diagramCaption" : "Past habit or familiar now",
+      "examples" : [
+        {
+          "meaning" : "Past habit, not now",
+          "sentence" : "I used to live in Rome."
+        },
+        {
+          "meaning" : "It’s normal for me",
+          "sentence" : "I’m used to getting up early."
+        },
+        {
+          "meaning" : "It’s becoming normal",
+          "sentence" : "She is getting used to the cold."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "be used to + verb-ing.",
+          "options" : [
+            "get",
+            "getting",
+            "got"
+          ],
+          "prompt" : "I’m used to ___ up early."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "used to + base verb for a past state.",
+          "options" : [
+            "used to live",
+            "is used to live",
+            "gets used to live"
+          ],
+          "prompt" : "She ___ in a big city, but now she lives in a village."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "get used to + verb-ing.",
+          "options" : [
+            "drive",
+            "driving",
+            "drove"
+          ],
+          "prompt" : "It took a while to get used to ___ on the left."
+        }
+      ],
+      "form" : "used to + base verb · am/is/are used to + verb-ing or noun · get used to + verb-ing or noun.",
+      "id" : "be-used-to",
+      "mistake" : {
+        "right" : "I’m used to getting up early.",
+        "why" : "After be used to or get used to, use -ing or a noun.",
+        "wrong" : "I’m used to get up early."
+      },
+      "related" : [
+        "past-habits"
+      ],
+      "summary" : "Past habits versus being accustomed",
+      "title" : "Used to, Be Used to and Get Used to",
+      "use" : "Use used to + verb for a past habit that has stopped. Use be used to + -ing for something familiar. Use get used to + -ing for becoming familiar."
+    },
+    {
+      "category" : "Clauses & linking",
+      "cefr" : "A2",
+      "commonMistake" : "Use despite + noun or -ing, not despite + full clause without the fact that.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "because → reason",
+          "so → result",
+          "although/despite → contrast"
+        ]
+      },
+      "diagramCaption" : "Linking words tell the reader how ideas relate",
+      "examples" : [
+        {
+          "meaning" : "A reason",
+          "sentence" : "We stayed inside because it was cold."
+        },
+        {
+          "meaning" : "A contrast",
+          "sentence" : "Although it was cold, we went out."
+        },
+        {
+          "meaning" : "Contrast before a noun",
+          "sentence" : "Despite the rain, we walked."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "so introduces a result.",
+          "options" : [
+            "so",
+            "because",
+            "but"
+          ],
+          "prompt" : "I was tired, ___ I went to bed."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "because gives a reason.",
+          "options" : [
+            "because",
+            "so",
+            "but"
+          ],
+          "prompt" : "She stayed at home ___ she was ill."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "but shows contrast.",
+          "options" : [
+            "and",
+            "but",
+            "so"
+          ],
+          "prompt" : "I like tea, ___ I don’t like coffee."
+        }
+      ],
+      "form" : "because + clause · so + result clause · although + clause · despite + noun/-ing.",
+      "id" : "linking-ideas",
+      "mistake" : {
+        "right" : "Despite the rain, we went out.",
+        "why" : "Despite takes a noun or -ing form, not a full clause.",
+        "wrong" : "Despite it was raining, we went out."
+      },
+      "related" : [
+        "although-in-case"
+      ],
+      "summary" : "Because, so, although, and despite",
+      "title" : "Reason, result, and contrast",
+      "use" : "Join ideas by showing why something happened, what followed, or how two facts contrast."
+    },
+    {
+      "category" : "Clauses & linking",
+      "cefr" : "B1",
+      "commonMistake" : "Do not normally use will in the future time clause: when I arrive, not when I will arrive.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Arrive",
+          "Then call"
+        ]
+      },
+      "diagramCaption" : "The time clause places one event before another",
+      "examples" : [
+        {
+          "meaning" : "The arrival is in the future",
+          "sentence" : "I’ll call when I arrive."
+        },
+        {
+          "meaning" : "The waiting ends then",
+          "sentence" : "Wait until the rain stops."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Use the present after when for the future.",
+          "options" : [
+            "get",
+            "will get",
+            "got"
+          ],
+          "prompt" : "I’ll call you when I ___ home."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Present Simple after until.",
+          "options" : [
+            "comes",
+            "will come",
+            "came"
+          ],
+          "prompt" : "Please wait here until she ___ back."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Present Simple for future time after as soon as.",
+          "options" : [
+            "arrive",
+            "will arrive",
+            "arrived"
+          ],
+          "prompt" : "As soon as we ___ , we’ll have lunch."
+        }
+      ],
+      "form" : "when/before/after/until + clause, main clause.",
+      "id" : "time-clauses",
+      "mistake" : {
+        "right" : "When I arrive, I’ll call you.",
+        "why" : "Use the present, not will, in a future time clause.",
+        "wrong" : "When I will arrive, I’ll call you."
+      },
+      "related" : [
+
+      ],
+      "summary" : "When, before, after, and until",
+      "title" : "Time clauses",
+      "use" : "Use a time clause to place one event in relation to another. A future meaning normally takes a present verb after when or until."
+    },
+    {
+      "category" : "Clauses & linking",
+      "cefr" : "B1",
+      "commonMistake" : "Do not put commas around information needed to identify the noun.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "the woman",
+          "who lives upstairs",
+          "is a nurse"
+        ]
+      },
+      "diagramCaption" : "The relative clause identifies which woman is meant",
+      "examples" : [
+        {
+          "meaning" : "Identifies the woman",
+          "sentence" : "The woman who lives upstairs is a nurse."
+        },
+        {
+          "meaning" : "Identifies the book",
+          "sentence" : "I found the book that you wanted."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "who for people.",
+          "options" : [
+            "who",
+            "which",
+            "what"
+          ],
+          "prompt" : "The woman ___ lives next door is a doctor."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "that for things in a defining clause.",
+          "options" : [
+            "who",
+            "that",
+            "whose"
+          ],
+          "prompt" : "The book ___ I bought is great."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "whose shows possession.",
+          "options" : [
+            "who",
+            "whose",
+            "which"
+          ],
+          "prompt" : "That is the man ___ car was stolen."
+        }
+      ],
+      "form" : "noun + who/which/that + defining clause; no separating commas.",
+      "id" : "defining-relatives",
+      "mistake" : {
+        "right" : "The man who lives next door is a doctor.",
+        "why" : "No commas around information needed to identify the noun.",
+        "wrong" : "The man, who lives next door, is a doctor. (more than one man)"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Identifying which person or thing",
+      "title" : "Defining relative clauses",
+      "use" : "Add essential information that identifies the noun. Who refers to people; which to things; that can refer to either in this kind of clause."
+    },
+    {
+      "category" : "Clauses & linking",
+      "cefr" : "B1",
+      "commonMistake" : "Don’t use but with although: Although it was cold, but we went out is wrong.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "although: contrast",
+          "in case: be prepared"
+        ]
+      },
+      "diagramCaption" : "Contrast or preparation",
+      "examples" : [
+        {
+          "meaning" : "Contrast",
+          "sentence" : "Although it was cold, we went out."
+        },
+        {
+          "meaning" : "Be ready for a possibility",
+          "sentence" : "Take an umbrella in case it rains."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Although shows contrast.",
+          "options" : [
+            "Although",
+            "Because",
+            "In case"
+          ],
+          "prompt" : "___ it was raining, we went for a walk."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "in case = be ready for a possibility.",
+          "options" : [
+            "in case",
+            "although",
+            "unless"
+          ],
+          "prompt" : "Take your phone ___ you need to call us."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "even though = contrast.",
+          "options" : [
+            "even though",
+            "in case",
+            "because"
+          ],
+          "prompt" : "He passed the exam ___ he hadn’t studied much."
+        }
+      ],
+      "form" : "although / though / even though + subject + verb · in case + subject + present verb.",
+      "id" : "although-in-case",
+      "mistake" : {
+        "right" : "Although it was cold, we went out.",
+        "why" : "Do not use but with although.",
+        "wrong" : "Although it was cold, but we went out."
+      },
+      "related" : [
+        "linking-ideas"
+      ],
+      "summary" : "Showing contrast and preparing for a possibility",
+      "title" : "Although, Though, Even Though and In Case",
+      "use" : "Use although, though, or even though for a contrast. Use in case for something you do to be ready for a possible problem."
+    },
+    {
+      "category" : "Clauses & linking",
+      "cefr" : "B2",
+      "commonMistake" : "Do not use that in a non-defining relative clause; use who or which.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "known noun",
+          ", extra information,",
+          "main idea continues"
+        ]
+      },
+      "diagramCaption" : "Commas mark information that can be removed",
+      "examples" : [
+        {
+          "meaning" : "The location is extra information",
+          "sentence" : "My aunt, who lives in Cork, is visiting."
+        },
+        {
+          "meaning" : "Opening date is extra information",
+          "sentence" : "The museum, which opened last year, is free."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Non-defining clauses cannot use that.",
+          "options" : [
+            "who",
+            "that",
+            "what"
+          ],
+          "prompt" : "My brother, ___ lives in Rome, is a chef."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "which for things in a non-defining clause.",
+          "options" : [
+            "which",
+            "that",
+            "who"
+          ],
+          "prompt" : "London, ___ is the capital, is huge."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Extra information goes between commas.",
+          "options" : [
+            "Tom, who is tall, plays basketball.",
+            "The man who is tall plays basketball.",
+            "The man that is tall plays basketball."
+          ],
+          "prompt" : "Which sentence needs commas?"
+        }
+      ],
+      "form" : "known noun, who/which/whose + extra clause, rest of sentence.",
+      "id" : "nondefining-relatives",
+      "mistake" : {
+        "right" : "My sister, who lives in Rome, is a nurse.",
+        "why" : "Non-defining clauses use who or which, not that.",
+        "wrong" : "My sister, that lives in Rome, is a nurse."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Adding extra information",
+      "title" : "Non-defining relative clauses",
+      "use" : "Add information about a noun already identified; the sentence still identifies it if the clause is removed."
+    },
+    {
+      "category" : "Clauses & linking",
+      "cefr" : "C1",
+      "commonMistake" : "Keep the understood subject clear: Walking home, the café caught my eye wrongly makes the café the walker.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "same subject",
+          "shortened clause",
+          "main clause"
+        ]
+      },
+      "diagramCaption" : "The participle clause shares its subject with the main clause",
+      "examples" : [
+        {
+          "meaning" : "I was walking and I noticed it",
+          "sentence" : "Walking home, I noticed a new café."
+        },
+        {
+          "meaning" : "The bridge was built then",
+          "sentence" : "Built in 1900, the bridge still stands."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Present participle for an earlier action by the same subject.",
+          "options" : [
+            "Hearing",
+            "Heard",
+            "To hear"
+          ],
+          "prompt" : "___ the news, she called her mother."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Past participle has a passive meaning.",
+          "options" : [
+            "writing",
+            "written",
+            "wrote"
+          ],
+          "prompt" : "The book ___ by Orwell is famous."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Present participle shows a reason or situation.",
+          "options" : [
+            "Living",
+            "Lived",
+            "To live"
+          ],
+          "prompt" : "___ in Paris, he speaks French well."
+        }
+      ],
+      "form" : "verb-ing clause, main clause · past participle clause, main clause.",
+      "id" : "participle-clauses",
+      "mistake" : {
+        "right" : "Walking home, I noticed the café.",
+        "why" : "The understood subject must be the same as the main subject.",
+        "wrong" : "Walking home, the café caught my eye."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Adding information more compactly",
+      "title" : "Participle clauses",
+      "use" : "Use an -ing or past-participle clause to link related actions or states, usually with the same understood subject as the main clause."
+    },
+    {
+      "category" : "Passive & reported speech",
+      "cefr" : "B1",
+      "commonMistake" : "Keep the tense on be: is built (present), was built (past).",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "active object",
+          "be + participle",
+          "passive subject"
+        ]
+      },
+      "diagramCaption" : "The receiver of the action becomes the subject",
+      "examples" : [
+        {
+          "meaning" : "The actor is unknown",
+          "sentence" : "The window was broken last night."
+        },
+        {
+          "meaning" : "The process matters",
+          "sentence" : "The invitations are sent by email."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "is/are + past participle.",
+          "options" : [
+            "speaks",
+            "is spoken",
+            "is speaking"
+          ],
+          "prompt" : "English ___ all over the world."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Past passive: was/were + past participle.",
+          "options" : [
+            "broke",
+            "was broken",
+            "is broken"
+          ],
+          "prompt" : "The window ___ yesterday."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Plural subject: are + past participle.",
+          "options" : [
+            "are delivered",
+            "delivers",
+            "deliver"
+          ],
+          "prompt" : "The letters ___ every day."
+        }
+      ],
+      "form" : "be in the needed tense + past participle; optional by + actor.",
+      "id" : "passive-basics",
+      "mistake" : {
+        "right" : "The bridge was built in 1990.",
+        "why" : "Keep be in the passive, in the right tense.",
+        "wrong" : "The bridge built in 1990."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Focusing on the action or receiver",
+      "title" : "The passive voice",
+      "use" : "Use the passive when the action or its receiver matters more than who did it, or when the actor is unknown."
+    },
+    {
+      "category" : "Passive & reported speech",
+      "cefr" : "B1",
+      "commonMistake" : "When a that-clause follows told, name the listener: She told me that she was tired.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "original speaker",
+          "said / told someone",
+          "reported clause"
+        ]
+      },
+      "diagramCaption" : "A report changes viewpoint from the original speaker",
+      "examples" : [
+        {
+          "meaning" : "Pronoun and tense shift",
+          "sentence" : "‘I’m tired,’ Lea said. → Lea said she was tired."
+        },
+        {
+          "meaning" : "An earlier event is reported",
+          "sentence" : "He told us he had already eaten."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Backshift: present becomes past.",
+          "options" : [
+            "is",
+            "was",
+            "will be"
+          ],
+          "prompt" : "“I am tired,” she said. → She said she ___ tired."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "will changes to would.",
+          "options" : [
+            "will",
+            "would",
+            "can"
+          ],
+          "prompt" : "“I will help,” he said. → He said he ___ help."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Present simple becomes past simple.",
+          "options" : [
+            "live",
+            "lived",
+            "are living"
+          ],
+          "prompt" : "“We live here,” they said. → They said they ___ there."
+        }
+      ],
+      "form" : "said (that) + reported clause · told + person + (that) + reported clause.",
+      "id" : "reported-statements",
+      "mistake" : {
+        "right" : "She told me that she was tired.",
+        "why" : "Tell needs a listener; say does not.",
+        "wrong" : "She told that she was tired."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Retelling what someone said",
+      "title" : "Reported statements",
+      "use" : "Report another person’s statement. When the reporting verb is in the past, verb forms often shift back if the situation is viewed from that past point."
+    },
+    {
+      "category" : "Passive & reported speech",
+      "cefr" : "B2",
+      "commonMistake" : "Do not keep question inversion: asked where I was, not asked where was I.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "direct: Where are you?",
+          "reported: where I was"
+        ]
+      },
+      "diagramCaption" : "Reported questions use statement word order",
+      "examples" : [
+        {
+          "meaning" : "Reported question word order",
+          "sentence" : "‘Where are you?’ → She asked where I was."
+        },
+        {
+          "meaning" : "Reported request",
+          "sentence" : "‘Please wait.’ → He asked us to wait."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Statement word order and backshift.",
+          "options" : [
+            "live",
+            "lived",
+            "do live"
+          ],
+          "prompt" : "“Where do you live?” → She asked where I ___ ."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "told + object + to-infinitive.",
+          "options" : [
+            "close",
+            "to close",
+            "closing"
+          ],
+          "prompt" : "“Close the door.” → He told me ___ the door."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "Yes/no questions use if or whether.",
+          "options" : [
+            "that",
+            "if",
+            "what"
+          ],
+          "prompt" : "“Are you ready?” → She asked ___ I was ready."
+        }
+      ],
+      "form" : "asked + if/whether or question word + subject + verb · told + person + to + verb.",
+      "id" : "reported-questions-commands",
+      "mistake" : {
+        "right" : "She asked where I was.",
+        "why" : "Reported questions use statement word order.",
+        "wrong" : "She asked where was I."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Retelling a question or instruction",
+      "title" : "Reported questions and commands",
+      "use" : "Report a question with statement word order; report an instruction with told/asked + person + to-infinitive."
+    },
+    {
+      "category" : "Passive & reported speech",
+      "cefr" : "C1",
+      "commonMistake" : "Do not drop being from an ongoing passive: is being repaired.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "is repaired: general",
+          "is being repaired: now",
+          "is said to: report"
+        ]
+      },
+      "diagramCaption" : "The auxiliary pattern changes passive meaning",
+      "examples" : [
+        {
+          "meaning" : "An ongoing passive action",
+          "sentence" : "The bridge is being repaired."
+        },
+        {
+          "meaning" : "A reported claim with passive reporting",
+          "sentence" : "The artist is said to live abroad."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "Present continuous passive: is being + past participle.",
+          "options" : [
+            "is painting",
+            "is being painted",
+            "is painted"
+          ],
+          "prompt" : "The house ___ at the moment."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Future perfect passive.",
+          "options" : [
+            "will have been finished",
+            "will finish",
+            "finished"
+          ],
+          "prompt" : "The report ___ by Friday."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "It is said / He is said to…",
+          "options" : [
+            "is said",
+            "says",
+            "is saying"
+          ],
+          "prompt" : "He ___ to be a good teacher."
+        }
+      ],
+      "form" : "to be + participle · being + participle · it is said that / subject is said to.",
+      "id" : "advanced-passive",
+      "mistake" : {
+        "right" : "The road is being repaired right now.",
+        "why" : "An ongoing passive needs being.",
+        "wrong" : "The road is repaired right now."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Reporting and multi-word passive patterns",
+      "title" : "Advanced passive forms",
+      "use" : "Use passive infinitives, continuous forms, and reporting patterns when the action or claim is more important than its actor."
+    },
+    {
+      "category" : "Passive & reported speech",
+      "cefr" : "C1",
+      "commonMistake" : "Do not use one pattern for every reporting verb: deny doing, not deny to do.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "advise → person + to",
+          "deny → -ing",
+          "promise → to"
+        ]
+      },
+      "diagramCaption" : "Each reporting verb selects its own complement pattern",
+      "examples" : [
+        {
+          "meaning" : "Advice directed at a person",
+          "sentence" : "She advised me to rest."
+        },
+        {
+          "meaning" : "Deny followed by -ing",
+          "sentence" : "He denied taking the keys."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "offer + to-infinitive.",
+          "options" : [
+            "suggested",
+            "offered",
+            "advised me"
+          ],
+          "prompt" : "She ___ to help me."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "deny + verb-ing.",
+          "options" : [
+            "denied",
+            "refused",
+            "promised"
+          ],
+          "prompt" : "He ___ stealing the money."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "advise + object + to-infinitive.",
+          "options" : [
+            "suggested",
+            "advised",
+            "admitted"
+          ],
+          "prompt" : "They ___ us to leave early."
+        }
+      ],
+      "form" : "advise + person + to + verb · deny + verb-ing · promise + to + verb · insist + that-clause.",
+      "id" : "reporting-verbs",
+      "mistake" : {
+        "right" : "He denied taking it.",
+        "why" : "Reporting verbs follow different patterns; deny takes -ing.",
+        "wrong" : "He denied to take it."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Advise, deny, promise, and insist",
+      "title" : "Reporting verb patterns",
+      "use" : "Choose the complement pattern required by the reporting verb; different verbs take a person, an -ing form, an infinitive, or a that-clause."
+    },
+    {
+      "category" : "Advanced structures",
+      "cefr" : "C1",
+      "commonMistake" : "Invert the auxiliary, not the main verb: Never have I seen, not Never seen I.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "Never",
+          "have I",
+          "seen this"
+        ]
+      },
+      "diagramCaption" : "Fronting a negative expression moves the auxiliary before the subject",
+      "examples" : [
+        {
+          "meaning" : "Never is emphasised",
+          "sentence" : "Never had I heard such silence."
+        },
+        {
+          "meaning" : "Understanding came later",
+          "sentence" : "Only later did we understand why."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "After a negative adverb at the start, invert auxiliary and subject.",
+          "options" : [
+            "I have seen",
+            "have I seen",
+            "I saw"
+          ],
+          "prompt" : "Never ___ such a beautiful place."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Rarely + auxiliary + subject.",
+          "options" : [
+            "does she arrive",
+            "she arrives",
+            "arrives she"
+          ],
+          "prompt" : "Rarely ___ late."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Not only + inversion.",
+          "options" : [
+            "was he",
+            "he was",
+            "he is"
+          ],
+          "prompt" : "Not only ___ late, but he also forgot the tickets."
+        }
+      ],
+      "form" : "negative adverbial + auxiliary + subject + main verb.",
+      "id" : "negative-inversion",
+      "mistake" : {
+        "right" : "Never have I seen it.",
+        "why" : "After a negative adverb at the start, invert the auxiliary and the subject.",
+        "wrong" : "Never I have seen it."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Formal emphasis with reversed word order",
+      "title" : "Inversion after negative adverbials",
+      "use" : "Place a negative or restrictive adverbial first to add emphasis, then put the auxiliary before the subject."
+    },
+    {
+      "category" : "Advanced structures",
+      "cefr" : "C1",
+      "commonMistake" : "Do not keep if after inversion: Had I known, not If had I known.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "If I had known",
+          "Had I known"
+        ]
+      },
+      "diagramCaption" : "Formal inversion replaces if in the condition",
+      "examples" : [
+        {
+          "meaning" : "If I had known",
+          "sentence" : "Had I known, I would have called."
+        },
+        {
+          "meaning" : "If you need help",
+          "sentence" : "Should you need help, contact us."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "Had I known = If I had known.",
+          "options" : [
+            "Had",
+            "Have",
+            "If"
+          ],
+          "prompt" : "___ I known, I would have helped."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Should you need = If you need.",
+          "options" : [
+            "Should",
+            "Would",
+            "Do"
+          ],
+          "prompt" : "___ you need help, call me."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "Were I you = If I were you.",
+          "options" : [
+            "Were",
+            "Am",
+            "Had"
+          ],
+          "prompt" : "___ I you, I’d apologise."
+        }
+      ],
+      "form" : "Had + subject + participle · Were + subject + complement/to-infinitive · Should + subject + base verb.",
+      "id" : "conditional-inversion",
+      "mistake" : {
+        "right" : "Had I known, I’d have called.",
+        "why" : "Inversion replaces if; do not keep both.",
+        "wrong" : "If had I known, I’d have called."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Formal alternatives without if",
+      "title" : "Inversion in conditionals",
+      "use" : "In formal style, omit if and put had, were, or should before the subject."
+    },
+    {
+      "category" : "Advanced structures",
+      "cefr" : "C1",
+      "commonMistake" : "Do not add a second subject: It was Nia who found it, not It was Nia who she found it.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "It was",
+          "Nia: focus",
+          "who found the key"
+        ]
+      },
+      "diagramCaption" : "A cleft sentence places one element in focus",
+      "examples" : [
+        {
+          "meaning" : "Nia is the focus",
+          "sentence" : "It was Nia who found the key."
+        },
+        {
+          "meaning" : "A quiet hour is the focus",
+          "sentence" : "What I need is a quiet hour."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "What-clause emphasises the object.",
+          "options" : [
+            "What",
+            "That",
+            "Which"
+          ],
+          "prompt" : "___ I need is a holiday."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "It was + person + who.",
+          "options" : [
+            "who",
+            "what",
+            "whose"
+          ],
+          "prompt" : "It was Anna ___ called me."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "that for things.",
+          "options" : [
+            "that",
+            "who",
+            "whom"
+          ],
+          "prompt" : "The thing ___ annoys me is the noise."
+        }
+      ],
+      "form" : "It is/was + focus + that/who + clause · What + clause + is/was + focus.",
+      "id" : "cleft-sentences",
+      "mistake" : {
+        "right" : "It was Nia who found it.",
+        "why" : "Who already acts as the subject, so do not add another.",
+        "wrong" : "It was Nia who she found it."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Putting one part in focus",
+      "title" : "Cleft sentences",
+      "use" : "Use a cleft structure to highlight a person, time, place, or reason rather than present every part equally."
+    },
+    {
+      "category" : "Advanced structures",
+      "cefr" : "C1",
+      "commonMistake" : "Only omit words when the listener can identify what is missing.",
+      "diagram" : {
+        "kind" : "compare",
+        "labels" : [
+          "ordered tea → did too",
+          "a charger → one"
+        ]
+      },
+      "diagramCaption" : "A shorter form points back to a known idea",
+      "examples" : [
+        {
+          "meaning" : "Did replaces ordered tea",
+          "sentence" : "I ordered tea, and Noor did too."
+        },
+        {
+          "meaning" : "One replaces a charger",
+          "sentence" : "Need a charger? I have one."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 0,
+          "explanation" : "The auxiliary replaces the whole verb phrase.",
+          "options" : [
+            "do",
+            "like",
+            "am"
+          ],
+          "prompt" : "“Do you like tea?” “Yes, I ___ .”"
+        },
+        {
+          "answer" : 0,
+          "explanation" : "one replaces a countable noun.",
+          "options" : [
+            "one",
+            "it",
+            "that"
+          ],
+          "prompt" : "I don’t like this shirt. I’ll buy the red ___ ."
+        },
+        {
+          "answer" : 0,
+          "explanation" : "So + auxiliary + subject agrees with a positive statement.",
+          "options" : [
+            "So",
+            "Neither",
+            "Too"
+          ],
+          "prompt" : "“I’m tired.” “___ am I.”"
+        }
+      ],
+      "form" : "full idea → recoverable gap or substitute word.",
+      "id" : "ellipsis-substitution",
+      "mistake" : {
+        "right" : "“Do you like tea?” “Yes, I do.”",
+        "why" : "Use an auxiliary to stand in for the omitted verb phrase.",
+        "wrong" : "“Do you like tea?” “Yes, I like.”"
+      },
+      "related" : [
+
+      ],
+      "summary" : "Avoiding needless repetition",
+      "title" : "Ellipsis and substitution",
+      "use" : "Omit words that are clear from context or replace them with a short form such as one, so, or an auxiliary."
+    },
+    {
+      "category" : "Advanced structures",
+      "cefr" : "C1",
+      "commonMistake" : "The past form does not mean past time here; it shows distance from the current reality.",
+      "diagram" : {
+        "kind" : "flow",
+        "labels" : [
+          "past verb form",
+          "unreal meaning",
+          "present situation"
+        ]
+      },
+      "diagramCaption" : "A past form can express an unreal present preference",
+      "examples" : [
+        {
+          "meaning" : "Leaving is due now",
+          "sentence" : "It’s time we left."
+        },
+        {
+          "meaning" : "I prefer you to stay now",
+          "sentence" : "I’d rather you stayed."
+        }
+      ],
+      "exercises" : [
+        {
+          "answer" : 1,
+          "explanation" : "It’s time + past form for a present or future need.",
+          "options" : [
+            "go",
+            "went",
+            "will go"
+          ],
+          "prompt" : "It’s time we ___ home."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "would rather + past for a preference about someone else.",
+          "options" : [
+            "don’t smoke",
+            "didn’t smoke",
+            "won’t smoke"
+          ],
+          "prompt" : "I’d rather you ___ here."
+        },
+        {
+          "answer" : 1,
+          "explanation" : "as if + past shows an unreal comparison.",
+          "options" : [
+            "knows",
+            "knew",
+            "will know"
+          ],
+          "prompt" : "He talks as if he ___ everything."
+        }
+      ],
+      "form" : "It’s time + subject + past simple · I’d rather + subject + past simple.",
+      "id" : "unreal-time",
+      "mistake" : {
+        "right" : "It’s time we went home.",
+        "why" : "The past form shows distance from reality, not past time.",
+        "wrong" : "It’s time we go home."
+      },
+      "related" : [
+
+      ],
+      "summary" : "Past forms for present wishes and preferences",
+      "title" : "Unreal time",
+      "use" : "Use a past form after expressions such as it’s time or I’d rather to show that the idea is unreal, preferred, or overdue now."
+    }
+  ],
+  "version" : 1
+}

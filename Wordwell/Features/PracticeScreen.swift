@@ -1,6 +1,7 @@
 import SwiftUI
 import WordwellAICore
 import WordwellDesign
+import WordwellData
 import WordwellDomain
 
 struct PracticeScreen: View {
@@ -10,6 +11,7 @@ struct PracticeScreen: View {
     let onStartListening: () -> Void
     let onStartQuiz: () -> Void
     let onStartSkillsCheck: () -> Void
+    let onStartGrammar: () -> Void
 
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
     @State private var summary: PracticeSummary?
@@ -68,6 +70,12 @@ struct PracticeScreen: View {
                 Button(action: onStartQuiz) {
                     WordwellListRow(title: "Quick quiz", detail: "Test your understanding") {
                         Image(systemName: "list.bullet.rectangle")
+                    }
+                }
+                .buttonStyle(.plain)
+                Button(action: onStartGrammar) {
+                    WordwellListRow(title: "Grammar practice", detail: "Exercises for the lesson you know least") {
+                        Image(systemName: "text.book.closed")
                     }
                 }
                 .buttonStyle(.plain)

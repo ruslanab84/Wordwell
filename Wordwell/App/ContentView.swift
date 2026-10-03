@@ -69,7 +69,8 @@ struct ContentView: View {
                                    onStartSpeaking: { router.startSpeaking() },
                                    onStartListening: { router.startListening() },
                                    onStartQuiz: { router.startQuiz() },
-                                   onStartSkillsCheck: { router.startSkillsCheck() })
+                                   onStartSkillsCheck: { router.startSkillsCheck() },
+                                   onStartGrammar: { router.openGrammarLesson(id: GrammarProgressStore().nextLessonID()) })
                         .navigationDestination(for: AppRoute.self, destination: routeDestination)
                 }
             }
@@ -120,6 +121,8 @@ struct ContentView: View {
             DictionaryEntryScreen(wordID: wordID, repository: dictionaryRepository, library: libraryRepository,
                                   settings: settingsRepository, illustrations: illustrationRepository,
                                   player: pronunciationPlayer, ai: aiService)
+        case .grammarLesson(let id):
+            GrammarLessonRoute(id: id, settings: settingsRepository)
         case .vocabularyReview:
             VocabularyReviewScreen(dictionary: dictionaryRepository, library: libraryRepository,
                                    progress: progressRepository, illustrations: illustrationRepository)

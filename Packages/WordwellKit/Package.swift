@@ -23,6 +23,7 @@ let package = Package(
             resources: [
                 .copy("Resources/Dictionary.sqlite"),
                 .copy("Resources/ATTRIBUTION.txt"),
+                .copy("Resources/Grammar.json"),
                 .copy("Resources/OEWN_LICENSE.md"),
                 .copy("Resources/WNDB_License.txt"),
                 .copy("Resources/IllustrationsSVG"),
