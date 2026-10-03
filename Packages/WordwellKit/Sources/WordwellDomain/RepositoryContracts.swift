@@ -32,6 +32,8 @@ public protocol ProgressRepository: Sendable {
     func recordSpeaking(_ event: SpeakingEvent) async throws
     func recordListening(_ event: ListeningEvent) async throws
     func recordQuizAnswer(_ event: QuizAnswerEvent) async throws
+    /// Word IDs whose latest quiz answer was wrong, most recently missed first.
+    func weakQuizWordIDs(limit: Int) async throws -> [String]
     func recordSkillsCheck(_ result: SkillsCheckResult) async throws
     func latestSkillsCheck() async throws -> SkillsCheckResult?
     func mastery(for wordID: String) async throws -> MasterySnapshot?

@@ -147,6 +147,16 @@ public actor LocalProgressRepository: ProgressRepository {
         try context.save()
     }
 
+    public func weakQuizWordIDs(limit: Int) throws -> [String] {
+        var latest: [String: QuizAnswerRecord] = [:]
+        for record in try allQuizAnswers() where record.answeredAt >= latest[record.wordID]?.answeredAt ?? .distantPast {
+            latest[record.wordID] = record
+        }
+        return latest.values.filter { !$0.isCorrect }
+            .sorted { $0.answeredAt > $1.answeredAt }
+            .prefix(max(limit, 0)).map(\.wordID)
+    }
+
     public func recordSkillsCheck(_ result: SkillsCheckResult) throws {
         let id = result.id
         if let existing = try context.fetch(FetchDescriptor<SkillsCheckRecord>(
@@ -306,6 +316,7 @@ public struct UnavailableProgressRepository: ProgressRepository {
     public func recordSpeaking(_ event: SpeakingEvent) throws { throw ProgressRepositoryError.unavailable }
     public func recordListening(_ event: ListeningEvent) throws { throw ProgressRepositoryError.unavailable }
     public func recordQuizAnswer(_ event: QuizAnswerEvent) throws { throw ProgressRepositoryError.unavailable }
+    public func weakQuizWordIDs(limit: Int) throws -> [String] { throw ProgressRepositoryError.unavailable }
     public func recordSkillsCheck(_ result: SkillsCheckResult) throws { throw ProgressRepositoryError.unavailable }
     public func latestSkillsCheck() throws -> SkillsCheckResult? { throw ProgressRepositoryError.unavailable }
     public func mastery(for wordID: String) throws -> MasterySnapshot? { throw ProgressRepositoryError.unavailable }

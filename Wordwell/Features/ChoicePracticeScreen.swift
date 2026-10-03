@@ -17,6 +17,7 @@ struct ChoicePracticeScreen: View {
     @State private var selected: Int?
     @State private var played = false
     @State private var correct = 0
+    @State private var missed: [QuizQuestion] = []
     @State private var startedAt = Date.now
     @State private var variant: EnglishVariant = .us
     @State private var loading = true
@@ -42,7 +43,9 @@ struct ChoicePracticeScreen: View {
                 }
             } else if questions.isEmpty {
                 ContentUnavailableView("Not enough words", systemImage: "book.closed",
-                                       description: Text("Four distinct dictionary words are needed for this activity."))
+                                       description: Text(mode == .quiz
+                                           ? "Save at least one word from the dictionary to start a quiz."
+                                           : "Four distinct dictionary words are needed for this activity."))
             } else if index == questions.count {
                 completion
             } else {
@@ -97,6 +100,9 @@ struct ChoicePracticeScreen: View {
                             if selected != nil && choice == item.correctChoiceIndex {
                                 Image(systemName: "checkmark.circle.fill")
                                     .accessibilityHidden(true)
+                            } else if choice == selected {
+                                Image(systemName: "xmark.circle.fill")
+                                    .accessibilityHidden(true)
                             }
                         }
                         .font(WordwellType.body)
@@ -144,11 +150,33 @@ struct ChoicePracticeScreen: View {
                 .foregroundStyle(WordwellColor.ink)
                 .accessibilityAddTraits(.isHeader)
             WordwellBodyText("\(correct) of \(questions.count) correct")
+            if !missed.isEmpty {
+                Text("To review")
+                    .font(WordwellType.cardHeadline)
+                    .foregroundStyle(WordwellColor.ink)
+                    .accessibilityAddTraits(.isHeader)
+                ForEach(missed) { item in
+                    WordwellBodyText(words[item.wordID]?.word ?? item.wordID, secondary: true)
+                }
+                if mode == .quiz {
+                    Button("Practice mistakes") { retryMissed() }
+                        .buttonStyle(WordwellButtonStyle(.primary))
+                }
+            }
             Button("Done") { dismiss() }
-                .buttonStyle(WordwellButtonStyle(.primary))
+                .buttonStyle(WordwellButtonStyle(mode == .quiz && !missed.isEmpty ? .secondary : .primary))
         }
         .padding(WordwellLayout.screenPadding)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+    }
+
+    private func retryMissed() {
+        questions = missed
+        missed = []
+        index = 0
+        correct = 0
+        selected = nil
+        startedAt = .now
     }
 
     private func load() async {
@@ -156,20 +184,31 @@ struct ChoicePracticeScreen: View {
         failed = false
         do {
             variant = (try? await settings.profile().preferredEnglishVariant) ?? .us
-            let saved = try await library.allSavedWords()
+            let savedIDs = try await library.allSavedWords().map(\.wordID)
+            let weak = Set((try? await progress.weakQuizWordIDs(limit: 5)) ?? [])
+            // Weakest saved words first, then a random sample of the rest.
+            // ponytail: no recency weighting; add last-asked date to rank stale words higher.
+            let targetIDs = (savedIDs.filter(weak.contains) + savedIDs.filter { !weak.contains($0) }.shuffled())
+                .prefix(5).map { $0 }
             var entries: [WordEntry] = []
-            for state in saved.prefix(5) {
-                if let entry = try await dictionary.entry(id: state.wordID) { entries.append(entry) }
+            func add(_ entry: WordEntry?) {
+                if let entry, !entries.contains(where: { $0.id == entry.id }) { entries.append(entry) }
             }
-            let targets = entries.map(\.id)
-            for lemma in ["family", "happy", "garden", "journey", "book", "learn", "listen", "speak", "river", "music"] {
-                if let entry = try await dictionary.entry(lemma: lemma), !entries.contains(where: { $0.id == entry.id }) {
-                    entries.append(entry)
+            for id in targetIDs { add(try await dictionary.entry(id: id)) }
+            // Distractor pool: other saved words, then fixed lemmas only while the pool is small.
+            for id in savedIDs.filter({ !targetIDs.contains($0) }).shuffled().prefix(10) {
+                add(try await dictionary.entry(id: id))
+            }
+            if entries.count < 14 {
+                for lemma in ["family", "happy", "garden", "journey", "book", "learn", "listen", "speak", "river", "music"] {
+                    add(try await dictionary.entry(lemma: lemma))
                 }
             }
             guard !Task.isCancelled else { return }
             words = Dictionary(uniqueKeysWithValues: entries.map { ($0.id, $0) })
-            questions = DeterministicPractice.questions(from: entries, targetIDs: targets, mode: mode)
+            questions = mode == .quiz && targetIDs.isEmpty
+                ? [] : DeterministicPractice.questions(from: entries, targetIDs: targetIDs, mode: mode)
+            missed = []
             index = 0
             selected = nil
             correct = 0
@@ -197,7 +236,7 @@ struct ChoicePracticeScreen: View {
             }
             player.stop()
             selected = choice
-            if choice == item.correctChoiceIndex { correct += 1 }
+            if choice == item.correctChoiceIndex { correct += 1 } else { missed.append(item) }
         } catch {
             saveFailed = true
         }

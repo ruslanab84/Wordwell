@@ -89,7 +89,15 @@ import WordwellDomain
     }
 }
 
-@Test func offlineQuizAndListeningAreDeterministicAndPersistProgress() async throws {
+private struct SeededRNG: RandomNumberGenerator {
+    var state: UInt64
+    mutating func next() -> UInt64 {
+        state = state &* 6364136223846793005 &+ 1442695040888963407
+        return state
+    }
+}
+
+@Test func offlineQuizAndListeningVaryAndPersistProgress() async throws {
     let dictionary: any DictionaryRepository = try LocalDictionaryRepository()
     var entries: [WordEntry] = []
     for lemma in ["family", "happy", "garden", "journey", "book", "learn", "listen", "speak", "river", "music"] {
@@ -98,17 +106,26 @@ import WordwellDomain
     #expect(entries.count == 10)
 
     let targetIDs = entries.prefix(5).map(\.id)
-    let quiz = DeterministicPractice.questions(from: entries, targetIDs: targetIDs, mode: .quiz)
-    let reordered = DeterministicPractice.questions(from: entries.reversed(), targetIDs: targetIDs, mode: .quiz)
-    #expect(quiz == reordered)
+    var rng = SeededRNG(state: 1)
+    let quiz = DeterministicPractice.questions(from: entries, targetIDs: targetIDs, mode: .quiz, using: &rng)
     #expect(quiz.count == 5)
+    #expect(Set(quiz.map(\.wordID)) == Set(targetIDs))
     #expect(quiz.allSatisfy { $0.choices.count == 4 && Set($0.choices).count == 4 })
-    #expect(zip(quiz, quiz.dropFirst()).allSatisfy { Set($0.choices).isDisjoint(with: $1.choices) })
+    #expect(quiz.allSatisfy { $0.choices.indices.contains($0.correctChoiceIndex) })
 
-    let listening = DeterministicPractice.questions(from: entries, targetIDs: [], mode: .listening)
+    var same = SeededRNG(state: 1)
+    #expect(DeterministicPractice.questions(from: entries.reversed(), targetIDs: targetIDs, mode: .quiz, using: &same) == quiz)
+    let slots = Set((0..<20).flatMap { seed -> [Int] in
+        var rng = SeededRNG(state: UInt64(seed))
+        return DeterministicPractice.questions(from: entries, targetIDs: targetIDs, mode: .quiz, using: &rng)
+            .map(\.correctChoiceIndex)
+    })
+    #expect(slots.count == 4)
+
+    var listeningRNG = SeededRNG(state: 7)
+    let listening = DeterministicPractice.questions(from: entries, targetIDs: [], mode: .listening, using: &listeningRNG)
     #expect(listening.count == 5)
-    #expect(listening.allSatisfy { $0.prompt == "Which word do you hear?" })
-    #expect(zip(listening, listening.dropFirst()).allSatisfy { Set($0.choices).isDisjoint(with: $1.choices) })
+    #expect(listening.allSatisfy { $0.prompt == "Which word do you hear?" && Set($0.choices).count == 4 })
 
     let progress: any ProgressRepository = try LocalProgressRepository(inMemory: true)
     try await progress.recordQuizAnswer(QuizAnswerEvent(wordID: quiz[0].wordID, isCorrect: true, durationSeconds: 20))
@@ -121,6 +138,21 @@ import WordwellDomain
     #expect(try await progress.mastery(for: quiz[0].wordID)?.status == .learning)
     #expect(try await progress.mastery(for: quiz[1].wordID)?.status == .needsReview)
     #expect(try await progress.practiceSummary().minutesToday == 3)
+    #expect(try await progress.weakQuizWordIDs(limit: 5) == [quiz[1].wordID])
+}
+
+@Test func quizPracticesOrderedTargetsAndMasksHeadword() {
+    func entry(_ id: String, _ definition: String) -> WordEntry {
+        WordEntry(id: id, word: id, lemma: id, partOfSpeech: .noun,
+                  senses: [DefinitionSense(id: "\(id).1", definition: definition, examples: [])])
+    }
+    let entries = zip(["cat", "dog", "pen", "cup", "sun"], ["small pet", "loyal pet", "writing tool", "drinking vessel", "bright star"])
+        .map { entry($0, "\($0): \($1)") }
+    var rng = SeededRNG(state: 3)
+    let quiz = DeterministicPractice.questions(from: entries, targetIDs: ["sun", "cup"], mode: .quiz, limit: 2, using: &rng)
+    #expect(Set(quiz.map(\.wordID)) == ["sun", "cup"])
+    #expect(quiz.allSatisfy { $0.choices.allSatisfy { !$0.contains("cat") && !$0.contains("sun") } })
+    #expect(DeterministicPractice.questions(from: Array(entries.prefix(3)), targetIDs: [], mode: .quiz).isEmpty)
 }
 
 @Test func learningSettingsPersistLocally() async throws {
