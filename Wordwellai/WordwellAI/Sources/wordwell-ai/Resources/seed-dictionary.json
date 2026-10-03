@@ -1,0 +1,598 @@
+{
+  "entries": [
+    {
+      "lemma": "decide",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "forms": [
+        "decides",
+        "decided",
+        "deciding"
+      ],
+      "collocations": [
+        "decide to do",
+        "decide on",
+        "decide against",
+        "finally decide"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to choose what to do after thinking about the possibilities",
+          "example": "We decided to leave early."
+        },
+        {
+          "id": "s2",
+          "definition": "to be the reason for a particular result",
+          "example": "One goal decided the match."
+        }
+      ]
+    },
+    {
+      "lemma": "choose",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "chooses",
+        "chose",
+        "chosen",
+        "choosing"
+      ],
+      "collocations": [
+        "choose between",
+        "choose from",
+        "choose carefully"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to pick one person or thing from a group",
+          "example": "Choose a card from the pile."
+        }
+      ]
+    },
+    {
+      "lemma": "affect",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B2",
+      "forms": [
+        "affects",
+        "affected",
+        "affecting"
+      ],
+      "collocations": [
+        "seriously affect",
+        "directly affect",
+        "be badly affected"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to change or influence someone or something",
+          "example": "The rain affected our plans."
+        }
+      ]
+    },
+    {
+      "lemma": "effect",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "forms": [
+        "effects"
+      ],
+      "collocations": [
+        "have an effect on",
+        "side effect",
+        "long-term effect"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "a change that is caused by something",
+          "example": "The medicine had a quick effect."
+        }
+      ]
+    },
+    {
+      "lemma": "borrow",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "borrows",
+        "borrowed",
+        "borrowing"
+      ],
+      "collocations": [
+        "borrow from",
+        "borrow money",
+        "borrow a book"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to take something from someone and promise to give it back",
+          "example": "Can I borrow your pen?"
+        }
+      ]
+    },
+    {
+      "lemma": "lend",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "lends",
+        "lent",
+        "lending"
+      ],
+      "collocations": [
+        "lend to",
+        "lend money",
+        "lend a hand"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to give something to someone for a short time, expecting to get it back",
+          "example": "She lent me her bike."
+        }
+      ]
+    },
+    {
+      "lemma": "suggest",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "forms": [
+        "suggests",
+        "suggested",
+        "suggesting"
+      ],
+      "collocations": [
+        "suggest doing",
+        "suggest that",
+        "strongly suggest"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to offer an idea for someone to consider",
+          "example": "I suggest taking a taxi."
+        }
+      ]
+    },
+    {
+      "lemma": "journey",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "forms": [
+        "journeys"
+      ],
+      "collocations": [
+        "a long journey",
+        "begin a journey",
+        "train journey"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "the act of travelling from one place to another, especially a long way",
+          "example": "The journey to the coast takes three hours."
+        }
+      ]
+    },
+    {
+      "lemma": "luggage",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A2",
+      "forms": [],
+      "collocations": [
+        "carry luggage",
+        "lost luggage",
+        "hand luggage"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "the bags and cases that you take with you when you travel",
+          "example": "She left her luggage at the station."
+        }
+      ]
+    },
+    {
+      "lemma": "delay",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "forms": [
+        "delays",
+        "delayed",
+        "delaying"
+      ],
+      "collocations": [
+        "long delay",
+        "flight delay",
+        "without delay"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "a period of time when something is late or has to wait",
+          "example": "There was a two-hour delay at the airport."
+        }
+      ]
+    },
+    {
+      "lemma": "ticket",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "forms": [
+        "tickets"
+      ],
+      "collocations": [
+        "buy a ticket",
+        "train ticket",
+        "return ticket"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "a piece of paper or a code that lets you travel or enter a place",
+          "example": "I bought two tickets for the concert."
+        }
+      ]
+    },
+    {
+      "lemma": "passenger",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A2",
+      "forms": [
+        "passengers"
+      ],
+      "collocations": [
+        "train passenger",
+        "passenger seat"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "a person who travels in a vehicle but is not driving it",
+          "example": "The passengers waited on the platform."
+        }
+      ]
+    },
+    {
+      "lemma": "arrive",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "arrives",
+        "arrived",
+        "arriving"
+      ],
+      "collocations": [
+        "arrive at",
+        "arrive in",
+        "arrive late"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to reach a place at the end of a journey",
+          "example": "We arrived at the hotel after midnight."
+        }
+      ]
+    },
+    {
+      "lemma": "forget",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "forgets",
+        "forgot",
+        "forgotten",
+        "forgetting"
+      ],
+      "collocations": [
+        "forget to do",
+        "forget about",
+        "never forget"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to be unable to remember something",
+          "example": "I forgot my umbrella on the bus."
+        }
+      ]
+    },
+    {
+      "lemma": "remember",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "remembers",
+        "remembered",
+        "remembering"
+      ],
+      "collocations": [
+        "remember to do",
+        "remember that",
+        "clearly remember"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to keep something in your mind or bring it back to your mind",
+          "example": "Do you remember her name?"
+        }
+      ]
+    },
+    {
+      "lemma": "polite",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "forms": [
+        "politely"
+      ],
+      "collocations": [
+        "polite request",
+        "be polite to"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "behaving in a way that is respectful and considerate towards other people",
+          "example": "He gave a polite answer."
+        }
+      ]
+    },
+    {
+      "lemma": "improve",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "forms": [
+        "improves",
+        "improved",
+        "improving"
+      ],
+      "collocations": [
+        "improve your skills",
+        "greatly improve",
+        "improve on"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to become better, or to make something better",
+          "example": "Reading every day improved her vocabulary."
+        }
+      ]
+    },
+    {
+      "lemma": "vertigo",
+      "partOfSpeech": "noun",
+      "cefrLevel": "C1",
+      "forms": [],
+      "collocations": [
+        "suffer from vertigo",
+        "feel vertigo"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "a feeling of dizziness caused by looking down from a great height, or a fear of heights",
+          "example": "Looking over the edge gave him vertigo."
+        }
+      ]
+    },
+    {
+      "lemma": "acrophobia",
+      "partOfSpeech": "noun",
+      "cefrLevel": "C2",
+      "forms": [],
+      "collocations": [
+        "suffer from acrophobia"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "an extreme fear of high places",
+          "example": "Her acrophobia stopped her from using the glass lift."
+        }
+      ]
+    },
+    {
+      "lemma": "brave",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "B1",
+      "forms": [
+        "braver",
+        "bravest",
+        "bravely"
+      ],
+      "collocations": [
+        "brave decision",
+        "very brave"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "ready to face danger or pain without showing fear",
+          "example": "The brave girl called for help."
+        }
+      ]
+    },
+    {
+      "lemma": "nervous",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "B1",
+      "forms": [
+        "nervously"
+      ],
+      "collocations": [
+        "feel nervous",
+        "nervous about"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "worried or a little afraid about something that is going to happen",
+          "example": "He felt nervous before the interview."
+        }
+      ]
+    },
+    {
+      "lemma": "argue",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "forms": [
+        "argues",
+        "argued",
+        "arguing"
+      ],
+      "collocations": [
+        "argue with",
+        "argue about",
+        "argue that"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to speak angrily to someone because you disagree",
+          "example": "They argued about who should drive."
+        },
+        {
+          "id": "s2",
+          "definition": "to give reasons to show that something is true",
+          "example": "She argued that the plan was too expensive."
+        }
+      ]
+    },
+    {
+      "lemma": "agree",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "agrees",
+        "agreed",
+        "agreeing"
+      ],
+      "collocations": [
+        "agree with",
+        "agree to do",
+        "strongly agree"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to have the same opinion as someone",
+          "example": "I agree with you about the film."
+        }
+      ]
+    },
+    {
+      "lemma": "complain",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "forms": [
+        "complains",
+        "complained",
+        "complaining"
+      ],
+      "collocations": [
+        "complain about",
+        "complain to"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to say that you are not satisfied with something",
+          "example": "Guests complained about the noise."
+        }
+      ]
+    },
+    {
+      "lemma": "recommend",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "forms": [
+        "recommends",
+        "recommended",
+        "recommending"
+      ],
+      "collocations": [
+        "highly recommend",
+        "recommend doing"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to say that something or someone is good and suggest it to others",
+          "example": "Can you recommend a good restaurant?"
+        }
+      ]
+    },
+    {
+      "lemma": "avoid",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "forms": [
+        "avoids",
+        "avoided",
+        "avoiding"
+      ],
+      "collocations": [
+        "avoid doing",
+        "narrowly avoid",
+        "avoid traffic"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to stay away from someone or something, or to prevent something happening",
+          "example": "We left early to avoid the traffic."
+        }
+      ]
+    },
+    {
+      "lemma": "enjoy",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "enjoys",
+        "enjoyed",
+        "enjoying"
+      ],
+      "collocations": [
+        "enjoy doing",
+        "enjoy yourself"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to get pleasure from something",
+          "example": "She enjoys walking in the rain."
+        }
+      ]
+    },
+    {
+      "lemma": "prefer",
+      "partOfSpeech": "verb",
+      "cefrLevel": "A2",
+      "forms": [
+        "prefers",
+        "preferred",
+        "preferring"
+      ],
+      "collocations": [
+        "prefer to do",
+        "prefer A to B"
+      ],
+      "senses": [
+        {
+          "id": "s1",
+          "definition": "to like one thing or person better than another",
+          "example": "I prefer tea to coffee."
+        }
+      ]
+    }
+  ]
+}
