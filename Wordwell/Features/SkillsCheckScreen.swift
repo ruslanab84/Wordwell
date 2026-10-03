@@ -152,7 +152,7 @@ struct SkillsCheckScreen: View {
             if voiceUnavailable {
                 WordwellBodyText("An English voice is unavailable on this device. You can skip listening and complete the other parts.", secondary: true)
             }
-            if heardListening {
+            if draft.listeningPlays > 0 {
                 questions(pack.listening, answers: draft.listeningAnswers) { index, answer in
                     draft.listeningAnswers[index] = answer
                     store.save(draft)
@@ -432,6 +432,7 @@ struct SkillsCheckScreen: View {
             if draft.listeningPlays == 0, draft.listeningAnswers.contains(where: { $0 != nil }) {
                 draft.listeningPlays = 1
             }
+            voiceUnavailable = draft.listeningUnavailable && draft.listeningPlays == 0
         }
         profile = try? await settings.profile()
         if profile?.aiEnabled == true, let exam {

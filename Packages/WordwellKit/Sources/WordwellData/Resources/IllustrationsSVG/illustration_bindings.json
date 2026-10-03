@@ -15189,6 +15189,2595 @@
       "altText": "A large warehouse with stacked storage crates.",
       "isDecorative": false,
       "notes": null
+    },
+    {
+      "id": "illustration.accident.noun.plate",
+      "word": "accident",
+      "lemma": "accident",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_accident_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_accident_plate.imageset/word_accident_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "transport",
+        "events"
+      ],
+      "altText": "Two cars that have crashed into each other.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.accept.verb.plate",
+      "word": "accept",
+      "lemma": "accept",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_accept_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_accept_plate.imageset/word_accept_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "actions"
+      ],
+      "altText": "An open hand receiving a gift, with a green tick.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.active.adjective.plate",
+      "word": "active",
+      "lemma": "active",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_active_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_active_plate.imageset/word_active_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing"
+      ],
+      "altText": "A person jumping with arms raised and energy lines.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.adventure.noun.plate",
+      "word": "adventure",
+      "lemma": "adventure",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_adventure_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_adventure_plate.imageset/word_adventure_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "travel",
+        "events"
+      ],
+      "altText": "A mountain trail leading to a flag on the summit.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.advertisement.noun.plate",
+      "word": "advertisement",
+      "lemma": "advertisement",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_advertisement_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_advertisement_plate.imageset/word_advertisement_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "media",
+        "work"
+      ],
+      "altText": "A roadside billboard with a bright picture and lines.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.airline.noun.plate",
+      "word": "airline",
+      "lemma": "airline",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_airline_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_airline_plate.imageset/word_airline_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "travel",
+        "transport"
+      ],
+      "altText": "A passenger aeroplane with a teal tail and stripe.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.alive.adjective.plate",
+      "word": "alive",
+      "lemma": "alive",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_alive_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alive_plate.imageset/word_alive_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "nature"
+      ],
+      "altText": "A small green seedling growing from soil with a heart.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.alone.adjective.plate",
+      "word": "alone",
+      "lemma": "alone",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_alone_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alone_plate.imageset/word_alone_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "feelings"
+      ],
+      "altText": "One person standing alone in a wide empty space.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.ancient.adjective.plate",
+      "word": "ancient",
+      "lemma": "ancient",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_ancient_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ancient_plate.imageset/word_ancient_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "history"
+      ],
+      "altText": "Old stone columns, one of them broken, on steps.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.ankle.noun.plate",
+      "word": "ankle",
+      "lemma": "ankle",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_ankle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ankle_plate.imageset/word_ankle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "body"
+      ],
+      "altText": "A foot and lower leg with the ankle joint circled.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.architect.noun.plate",
+      "word": "architect",
+      "lemma": "architect",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_architect_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_architect_plate.imageset/word_architect_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "work"
+      ],
+      "altText": "A person with a house blueprint and a pencil.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.argue.verb.plate",
+      "word": "argue",
+      "lemma": "argue",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_argue_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_argue_plate.imageset/word_argue_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "communication",
+        "feelings"
+      ],
+      "altText": "Two people facing each other with angry speech bubbles.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.army.noun.plate",
+      "word": "army",
+      "lemma": "army",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_army_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_army_plate.imageset/word_army_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "people",
+        "work"
+      ],
+      "altText": "Three soldiers in green uniforms and helmets standing in a row.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.asleep.adjective.plate",
+      "word": "asleep",
+      "lemma": "asleep",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_asleep_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_asleep_plate.imageset/word_asleep_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "home"
+      ],
+      "altText": "A person sleeping in bed at night with a moon and Z letters.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.athlete.noun.plate",
+      "word": "athlete",
+      "lemma": "athlete",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_athlete_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_athlete_plate.imageset/word_athlete_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport",
+        "people"
+      ],
+      "altText": "A winner standing on a podium with a medal on the chest.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.attack.verb.plate",
+      "word": "attack",
+      "lemma": "attack",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_attack_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_attack_plate.imageset/word_attack_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "conflict",
+        "actions"
+      ],
+      "altText": "Arrows flying toward a castle wall.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.audience.noun.plate",
+      "word": "audience",
+      "lemma": "audience",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_audience_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_audience_plate.imageset/word_audience_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "people",
+        "events"
+      ],
+      "altText": "Rows of people seen from behind, watching a lit stage.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.author.noun.plate",
+      "word": "author",
+      "lemma": "author",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_author_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_author_plate.imageset/word_author_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "books"
+      ],
+      "altText": "A person beside a large book, holding a pen.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.award.noun.plate",
+      "word": "award",
+      "lemma": "award",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_award_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_award_plate.imageset/word_award_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport",
+        "events"
+      ],
+      "altText": "A golden trophy cup with handles and a star.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.awful.adjective.plate",
+      "word": "awful",
+      "lemma": "awful",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_awful_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_awful_plate.imageset/word_awful_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "feelings"
+      ],
+      "altText": "A sad sick face with a frown and a sweat drop.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.baseball.noun.plate",
+      "word": "baseball",
+      "lemma": "baseball",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_baseball_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_baseball_plate.imageset/word_baseball_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport"
+      ],
+      "altText": "A white baseball with red stitches and a wooden bat.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.basketball.noun.plate",
+      "word": "basketball",
+      "lemma": "basketball",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_basketball_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_basketball_plate.imageset/word_basketball_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport"
+      ],
+      "altText": "An orange basketball above a hoop with a net.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.bean.noun.plate",
+      "word": "bean",
+      "lemma": "bean",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bean_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bean_plate.imageset/word_bean_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "food",
+        "plants"
+      ],
+      "altText": "A green bean pod split open showing round beans.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.beef.noun.plate",
+      "word": "beef",
+      "lemma": "beef",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_beef_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beef_plate.imageset/word_beef_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "food"
+      ],
+      "altText": "A raw steak with a white fat edge and a bone.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.belt.noun.plate",
+      "word": "belt",
+      "lemma": "belt",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_belt_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_belt_plate.imageset/word_belt_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "clothes"
+      ],
+      "altText": "A brown leather belt with a metal buckle and holes.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.bin.noun.plate",
+      "word": "bin",
+      "lemma": "bin",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bin_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bin_plate.imageset/word_bin_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "home",
+        "outdoors"
+      ],
+      "altText": "A grey rubbish bin with a lid and crumpled paper.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.biology.noun.plate",
+      "word": "biology",
+      "lemma": "biology",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_biology_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_biology_plate.imageset/word_biology_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "school",
+        "science"
+      ],
+      "altText": "A microscope with a small green leaf.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.birth.noun.plate",
+      "word": "birth",
+      "lemma": "birth",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_birth_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_birth_plate.imageset/word_birth_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "life",
+        "family"
+      ],
+      "altText": "A chick hatching from a cracked egg.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.biscuit.noun.plate",
+      "word": "biscuit",
+      "lemma": "biscuit",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_biscuit_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_biscuit_plate.imageset/word_biscuit_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "food"
+      ],
+      "altText": "Two round biscuits with chocolate chips.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.blood.noun.plate",
+      "word": "blood",
+      "lemma": "blood",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_blood_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blood_plate.imageset/word_blood_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "body",
+        "health"
+      ],
+      "altText": "A large red-brown blood drop with two small drops.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.blow.verb.plate",
+      "word": "blow",
+      "lemma": "blow",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_blow_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blow_plate.imageset/word_blow_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "actions"
+      ],
+      "altText": "A face blowing air toward a candle, with smoke rising.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.board.noun.plate",
+      "word": "board",
+      "lemma": "board",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_board_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_board_plate.imageset/word_board_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "school"
+      ],
+      "altText": "A classroom board with chalk writing and a ledge.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.boil.verb.plate",
+      "word": "boil",
+      "lemma": "boil",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_boil_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boil_plate.imageset/word_boil_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "cooking"
+      ],
+      "altText": "A pot of bubbling water with steam on a flame.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.bone.noun.plate",
+      "word": "bone",
+      "lemma": "bone",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bone_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bone_plate.imageset/word_bone_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "body"
+      ],
+      "altText": "A white bone with rounded ends.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.borrow.verb.plate",
+      "word": "borrow",
+      "lemma": "borrow",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_borrow_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_borrow_plate.imageset/word_borrow_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "actions"
+      ],
+      "altText": "One person handing a book to another to borrow it.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.boss.noun.plate",
+      "word": "boss",
+      "lemma": "boss",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_boss_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boss_plate.imageset/word_boss_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "work"
+      ],
+      "altText": "A person in a suit and tie leading two smaller people.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.bottom.noun.plate",
+      "word": "bottom",
+      "lemma": "bottom",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bottom_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bottom_plate.imageset/word_bottom_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "position"
+      ],
+      "altText": "A stack of three boxes with the lowest one highlighted and an arrow.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.bowl.noun.plate",
+      "word": "bowl",
+      "lemma": "bowl",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bowl_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bowl_plate.imageset/word_bowl_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "kitchen",
+        "food"
+      ],
+      "altText": "A bowl of hot soup with steam.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.brain.noun.plate",
+      "word": "brain",
+      "lemma": "brain",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_brain_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_brain_plate.imageset/word_brain_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "body"
+      ],
+      "altText": "A pink brain with folds and a stem.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.bright.adjective.plate",
+      "word": "bright",
+      "lemma": "bright",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_bright_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bright_plate.imageset/word_bright_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing"
+      ],
+      "altText": "A glowing light bulb with rays.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.broken.adjective.plate",
+      "word": "broken",
+      "lemma": "broken",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_broken_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_broken_plate.imageset/word_broken_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing"
+      ],
+      "altText": "A cup broken into two pieces with small shards.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.brush.noun.plate",
+      "word": "brush",
+      "lemma": "brush",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_brush_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_brush_plate.imageset/word_brush_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "art",
+        "tools"
+      ],
+      "altText": "A paintbrush with orange paint and a paint stroke.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.burn.verb.plate",
+      "word": "burn",
+      "lemma": "burn",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_burn_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_burn_plate.imageset/word_burn_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "actions"
+      ],
+      "altText": "A burning match with a flame and smoke.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.businessman.noun.plate",
+      "word": "businessman",
+      "lemma": "businessman",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_businessman_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_businessman_plate.imageset/word_businessman_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "work"
+      ],
+      "altText": "A man in a suit with a tie and a briefcase.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.button.noun.plate",
+      "word": "button",
+      "lemma": "button",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_button_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_button_plate.imageset/word_button_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "clothes"
+      ],
+      "altText": "A round teal button with four holes and orange thread.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.camp.verb.plate",
+      "word": "camp",
+      "lemma": "camp",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_camp_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_camp_plate.imageset/word_camp_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "travel",
+        "outdoors"
+      ],
+      "altText": "An orange tent beside a pine tree.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.carpet.noun.plate",
+      "word": "carpet",
+      "lemma": "carpet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_carpet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_carpet_plate.imageset/word_carpet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "home"
+      ],
+      "altText": "A patterned rug with fringe on a floor.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cartoon.noun.plate",
+      "word": "cartoon",
+      "lemma": "cartoon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cartoon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cartoon_plate.imageset/word_cartoon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "media"
+      ],
+      "altText": "A television showing a smiling cartoon character.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cash.noun.plate",
+      "word": "cash",
+      "lemma": "cash",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cash_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cash_plate.imageset/word_cash_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "money"
+      ],
+      "altText": "Banknotes and a coin.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.castle.noun.plate",
+      "word": "castle",
+      "lemma": "castle",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_castle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_castle_plate.imageset/word_castle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "buildings",
+        "history"
+      ],
+      "altText": "A grey castle with two towers, a gate and a flag.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.catch.verb.plate",
+      "word": "catch",
+      "lemma": "catch",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_catch_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_catch_plate.imageset/word_catch_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport",
+        "actions"
+      ],
+      "altText": "A brown glove catching a ball.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.celebrate.verb.plate",
+      "word": "celebrate",
+      "lemma": "celebrate",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_celebrate_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_celebrate_plate.imageset/word_celebrate_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "events",
+        "actions"
+      ],
+      "altText": "A person with a party hat, balloons and confetti.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.chef.noun.plate",
+      "word": "chef",
+      "lemma": "chef",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chef_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chef_plate.imageset/word_chef_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "food"
+      ],
+      "altText": "A cook in a tall white hat beside a steaming pot.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.chemistry.noun.plate",
+      "word": "chemistry",
+      "lemma": "chemistry",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chemistry_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chemistry_plate.imageset/word_chemistry_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "school",
+        "science"
+      ],
+      "altText": "A glass flask with green liquid and bubbles.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.chip.noun.plate",
+      "word": "chip",
+      "lemma": "chip",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chip_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chip_plate.imageset/word_chip_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "food"
+      ],
+      "altText": "Golden chips in a teal paper carton.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.church.noun.plate",
+      "word": "church",
+      "lemma": "church",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_church_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_church_plate.imageset/word_church_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "buildings"
+      ],
+      "altText": "A church with a tower, steeple and cross.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.circle.noun.plate",
+      "word": "circle",
+      "lemma": "circle",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_circle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_circle_plate.imageset/word_circle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "shapes"
+      ],
+      "altText": "A round teal circle with its centre and radius.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cloud.noun.plate",
+      "word": "cloud",
+      "lemma": "cloud",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cloud_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cloud_plate.imageset/word_cloud_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "weather",
+        "nature"
+      ],
+      "altText": "Two fluffy clouds, one grey and one white.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.coach.noun.plate",
+      "word": "coach",
+      "lemma": "coach",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_coach_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_coach_plate.imageset/word_coach_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport",
+        "jobs"
+      ],
+      "altText": "A sports coach with a clipboard and a whistle.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.coast.noun.plate",
+      "word": "coast",
+      "lemma": "coast",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_coast_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_coast_plate.imageset/word_coast_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "nature",
+        "travel"
+      ],
+      "altText": "A grassy cliff beside the sea.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.collect.verb.plate",
+      "word": "collect",
+      "lemma": "collect",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_collect_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_collect_plate.imageset/word_collect_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "actions"
+      ],
+      "altText": "A glass jar filling with coins, with one more coin dropping in.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.column.noun.plate",
+      "word": "column",
+      "lemma": "column",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_column_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_column_plate.imageset/word_column_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "buildings",
+        "history"
+      ],
+      "altText": "A stone column with a top, grooves and a base.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.comedy.noun.plate",
+      "word": "comedy",
+      "lemma": "comedy",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_comedy_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_comedy_plate.imageset/word_comedy_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "media",
+        "theatre"
+      ],
+      "altText": "A laughing theatre mask.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.compete.verb.plate",
+      "word": "compete",
+      "lemma": "compete",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_compete_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_compete_plate.imageset/word_compete_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport",
+        "actions"
+      ],
+      "altText": "Two runners racing toward a finish tape.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.complain.verb.plate",
+      "word": "complain",
+      "lemma": "complain",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_complain_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_complain_plate.imageset/word_complain_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "communication"
+      ],
+      "altText": "A person with a speech bubble showing a frown.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.connect.verb.plate",
+      "word": "connect",
+      "lemma": "connect",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_connect_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_connect_plate.imageset/word_connect_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "technology"
+      ],
+      "altText": "A plug about to join a socket, with a spark between.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.continent.noun.plate",
+      "word": "continent",
+      "lemma": "continent",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_continent_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_continent_plate.imageset/word_continent_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "geography"
+      ],
+      "altText": "A globe with green continents on blue-green sea.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cooker.noun.plate",
+      "word": "cooker",
+      "lemma": "cooker",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cooker_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cooker_plate.imageset/word_cooker_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "kitchen",
+        "home"
+      ],
+      "altText": "A kitchen cooker with an oven door and hob.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.copy.noun.plate",
+      "word": "copy",
+      "lemma": "copy",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_copy_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_copy_plate.imageset/word_copy_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "school",
+        "work"
+      ],
+      "altText": "Two sheets of paper, one a copy of the other, with an arrow.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.corner.noun.plate",
+      "word": "corner",
+      "lemma": "corner",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_corner_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_corner_plate.imageset/word_corner_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "home",
+        "places"
+      ],
+      "altText": "The corner of a room where two walls meet, marked with a dot.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.count.verb.plate",
+      "word": "count",
+      "lemma": "count",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_count_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_count_plate.imageset/word_count_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "school",
+        "numbers"
+      ],
+      "altText": "Three cards showing one, two and three dots.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.couple.noun.plate",
+      "word": "couple",
+      "lemma": "couple",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_couple_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_couple_plate.imageset/word_couple_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "people",
+        "family"
+      ],
+      "altText": "A man and a woman holding hands with a heart above.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.crazy.adjective.plate",
+      "word": "crazy",
+      "lemma": "crazy",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_crazy_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crazy_plate.imageset/word_crazy_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "feelings"
+      ],
+      "altText": "A wild face with spiral eyes and spiky hair.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.crime.noun.plate",
+      "word": "crime",
+      "lemma": "crime",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_crime_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crime_plate.imageset/word_crime_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "law"
+      ],
+      "altText": "A pair of handcuffs.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.crowd.noun.plate",
+      "word": "crowd",
+      "lemma": "crowd",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_crowd_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crowd_plate.imageset/word_crowd_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "people"
+      ],
+      "altText": "A crowd of many people standing together.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cry.verb.plate",
+      "word": "cry",
+      "lemma": "cry",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_cry_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cry_plate.imageset/word_cry_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "feelings"
+      ],
+      "altText": "A sad face with closed eyes and tears running down.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cupboard.noun.plate",
+      "word": "cupboard",
+      "lemma": "cupboard",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cupboard_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cupboard_plate.imageset/word_cupboard_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "home"
+      ],
+      "altText": "A wooden cupboard with two doors and handles.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.curly.adjective.plate",
+      "word": "curly",
+      "lemma": "curly",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_curly_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_curly_plate.imageset/word_curly_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "appearance"
+      ],
+      "altText": "A face framed by curly brown hair.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cycle.verb.plate",
+      "word": "cycle",
+      "lemma": "cycle",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_cycle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cycle_plate.imageset/word_cycle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "transport",
+        "sport"
+      ],
+      "altText": "A person riding a bicycle.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.danger.noun.plate",
+      "word": "danger",
+      "lemma": "danger",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_danger_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_danger_plate.imageset/word_danger_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "signs"
+      ],
+      "altText": "A triangular warning sign with an exclamation mark.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.dead.adjective.plate",
+      "word": "dead",
+      "lemma": "dead",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_dead_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dead_plate.imageset/word_dead_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "nature"
+      ],
+      "altText": "A bare tree with no leaves and fallen leaves on the ground.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.dentist.noun.plate",
+      "word": "dentist",
+      "lemma": "dentist",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_dentist_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dentist_plate.imageset/word_dentist_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "health"
+      ],
+      "altText": "A clean white tooth with a toothbrush.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.desert.noun.plate",
+      "word": "desert",
+      "lemma": "desert",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_desert_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_desert_plate.imageset/word_desert_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "geography",
+        "nature"
+      ],
+      "altText": "Sand dunes with a cactus under a hot sun.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.detective.noun.plate",
+      "word": "detective",
+      "lemma": "detective",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_detective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_detective_plate.imageset/word_detective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "law"
+      ],
+      "altText": "A magnifying glass over a footprint.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.diary.noun.plate",
+      "word": "diary",
+      "lemma": "diary",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_diary_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_diary_plate.imageset/word_diary_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "books",
+        "writing"
+      ],
+      "altText": "A closed diary with a clasp and a heart.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.digital.adjective.plate",
+      "word": "digital",
+      "lemma": "digital",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_digital_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_digital_plate.imageset/word_digital_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "technology"
+      ],
+      "altText": "A smartphone showing a pattern of digital bits.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.document.noun.plate",
+      "word": "document",
+      "lemma": "document",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_document_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_document_plate.imageset/word_document_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "work",
+        "writing"
+      ],
+      "altText": "A sheet of paper with a folded corner, text lines and a clip.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.download.verb.plate",
+      "word": "download",
+      "lemma": "download",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_download_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_download_plate.imageset/word_download_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "technology"
+      ],
+      "altText": "A green arrow pointing down into a tray.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.drama.noun.plate",
+      "word": "drama",
+      "lemma": "drama",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_drama_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drama_plate.imageset/word_drama_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "media",
+        "theatre"
+      ],
+      "altText": "Two theatre masks, one happy and one sad.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.dream.noun.plate",
+      "word": "dream",
+      "lemma": "dream",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_dream_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dream_plate.imageset/word_dream_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sleep"
+      ],
+      "altText": "A sleeping person with a dream cloud holding a star.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.drop.noun.plate",
+      "word": "drop",
+      "lemma": "drop",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_drop_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drop_plate.imageset/word_drop_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "nature"
+      ],
+      "altText": "A falling water drop with ripples below.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.drug.noun.plate",
+      "word": "drug",
+      "lemma": "drug",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_drug_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drug_plate.imageset/word_drug_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "health"
+      ],
+      "altText": "A medicine bottle with a cross and a capsule.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.dry.adjective.plate",
+      "word": "dry",
+      "lemma": "dry",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_dry_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dry_plate.imageset/word_dry_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing",
+        "weather"
+      ],
+      "altText": "Cracked dry ground under a hot sun.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.earth.noun.plate",
+      "word": "earth",
+      "lemma": "earth",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_earth_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_earth_plate.imageset/word_earth_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "space",
+        "geography"
+      ],
+      "altText": "The planet Earth with the Moon and stars.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.electricity.noun.plate",
+      "word": "electricity",
+      "lemma": "electricity",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_electricity_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_electricity_plate.imageset/word_electricity_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "science"
+      ],
+      "altText": "A bright lightning bolt with sparks.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.empty.adjective.plate",
+      "word": "empty",
+      "lemma": "empty",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_empty_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_empty_plate.imageset/word_empty_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing"
+      ],
+      "altText": "An open empty box with nothing inside.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.employee.noun.plate",
+      "word": "employee",
+      "lemma": "employee",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_employee_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_employee_plate.imageset/word_employee_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "work"
+      ],
+      "altText": "A worker at a desk with a name badge.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.engine.noun.plate",
+      "word": "engine",
+      "lemma": "engine",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_engine_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_engine_plate.imageset/word_engine_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "transport",
+        "machines"
+      ],
+      "altText": "A metal engine with pistons and a pipe.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.engineer.noun.plate",
+      "word": "engineer",
+      "lemma": "engineer",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_engineer_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_engineer_plate.imageset/word_engineer_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "work"
+      ],
+      "altText": "A worker in an orange hard hat beside a large gear.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.enormous.adjective.plate",
+      "word": "enormous",
+      "lemma": "enormous",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_enormous_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_enormous_plate.imageset/word_enormous_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "describing"
+      ],
+      "altText": "A tiny person standing next to a gigantic tree.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.error.noun.plate",
+      "word": "error",
+      "lemma": "error",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_error_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_error_plate.imageset/word_error_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "technology"
+      ],
+      "altText": "A computer window with a red-brown cross showing an error.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.essay.noun.plate",
+      "word": "essay",
+      "lemma": "essay",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_essay_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_essay_plate.imageset/word_essay_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "school",
+        "writing"
+      ],
+      "altText": "Lined paper with writing and a pencil.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.factory.noun.plate",
+      "word": "factory",
+      "lemma": "factory",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_factory_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_factory_plate.imageset/word_factory_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "buildings",
+        "work"
+      ],
+      "altText": "A factory with chimneys, windows and smoke.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.fan.noun.plate",
+      "word": "fan",
+      "lemma": "fan",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fan_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fan_plate.imageset/word_fan_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "home",
+        "machines"
+      ],
+      "altText": "An electric fan with three blades on a stand.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.farming.noun.plate",
+      "word": "farming",
+      "lemma": "farming",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_farming_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_farming_plate.imageset/word_farming_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "jobs",
+        "outdoors"
+      ],
+      "altText": "A green tractor on a field.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.fashion.noun.plate",
+      "word": "fashion",
+      "lemma": "fashion",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fashion_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fashion_plate.imageset/word_fashion_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "clothes"
+      ],
+      "altText": "A stylish high-heeled shoe with a star.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.fear.noun.plate",
+      "word": "fear",
+      "lemma": "fear",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fear_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fear_plate.imageset/word_fear_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "feelings"
+      ],
+      "altText": "A frightened face with wide eyes and open mouth.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.field.noun.plate",
+      "word": "field",
+      "lemma": "field",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_field_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_field_plate.imageset/word_field_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "nature",
+        "farm"
+      ],
+      "altText": "A green field with rows of crops under the sun.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.fight.verb.plate",
+      "word": "fight",
+      "lemma": "fight",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_fight_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fight_plate.imageset/word_fight_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "conflict",
+        "sport"
+      ],
+      "altText": "Two boxing gloves hitting each other with a burst.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.finger.noun.plate",
+      "word": "finger",
+      "lemma": "finger",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_finger_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_finger_plate.imageset/word_finger_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "body"
+      ],
+      "altText": "A hand with one finger pointing up.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.fishing.noun.plate",
+      "word": "fishing",
+      "lemma": "fishing",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fishing_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fishing_plate.imageset/word_fishing_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport",
+        "outdoors"
+      ],
+      "altText": "A fishing rod with a line and a fish in the water.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.flu.noun.plate",
+      "word": "flu",
+      "lemma": "flu",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_flu_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flu_plate.imageset/word_flu_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "health"
+      ],
+      "altText": "A sick face with a red nose and a thermometer.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.fork.noun.plate",
+      "word": "fork",
+      "lemma": "fork",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fork_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fork_plate.imageset/word_fork_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "kitchen"
+      ],
+      "altText": "A silver fork with four tines.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.furniture.noun.plate",
+      "word": "furniture",
+      "lemma": "furniture",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_furniture_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_furniture_plate.imageset/word_furniture_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "home"
+      ],
+      "altText": "A sofa with a lamp and a small table.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.gallery.noun.plate",
+      "word": "gallery",
+      "lemma": "gallery",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gallery_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gallery_plate.imageset/word_gallery_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "art",
+        "places"
+      ],
+      "altText": "Two framed pictures on a wall and a bench.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.gas.noun.plate",
+      "word": "gas",
+      "lemma": "gas",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gas_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gas_plate.imageset/word_gas_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "home",
+        "science"
+      ],
+      "altText": "A gas cylinder with a valve and a flame.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.gate.noun.plate",
+      "word": "gate",
+      "lemma": "gate",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gate_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gate_plate.imageset/word_gate_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "outdoors",
+        "home"
+      ],
+      "altText": "A wooden garden gate between two posts.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.goal.noun.plate",
+      "word": "goal",
+      "lemma": "goal",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_goal_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_goal_plate.imageset/word_goal_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport"
+      ],
+      "altText": "A football goal with a net and a ball.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.gold.noun.plate",
+      "word": "gold",
+      "lemma": "gold",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gold_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gold_plate.imageset/word_gold_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "money",
+        "materials"
+      ],
+      "altText": "A stack of shiny gold bars with sparkles.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.golf.noun.plate",
+      "word": "golf",
+      "lemma": "golf",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_golf_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_golf_plate.imageset/word_golf_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "a2",
+        "sport"
+      ],
+      "altText": "A golf ball near a flag on a green.",
+      "isDecorative": false,
+      "notes": null
     }
   ]
 }

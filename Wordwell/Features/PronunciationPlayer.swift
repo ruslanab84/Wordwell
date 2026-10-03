@@ -62,6 +62,11 @@ final class PronunciationPlayer: NSObject, AVSpeechSynthesizerDelegate {
         synthesizer.stopSpeaking(at: .immediate)
         state = .idle
         progress = 0
+        releaseSession()
+    }
+
+    private func releaseSession() {
+        try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
     }
 
     /// Installed premium/enhanced voices sound far better than the default compact one.
@@ -91,6 +96,28 @@ final class PronunciationPlayer: NSObject, AVSpeechSynthesizerDelegate {
             guard current == id else { return }
             progress = 1
             state = .finished
+            releaseSession()
+        }
+    }
+
+    // Keep state truthful when the system pauses/cancels speech (interruptions) without our call.
+    nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didPause utterance: AVSpeechUtterance) {
+        let id = ObjectIdentifier(utterance)
+        Task { @MainActor in if current == id, state == .playing { state = .paused } }
+    }
+
+    nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didContinue utterance: AVSpeechUtterance) {
+        let id = ObjectIdentifier(utterance)
+        Task { @MainActor in if current == id, state == .paused { state = .playing } }
+    }
+
+    nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
+        let id = ObjectIdentifier(utterance)
+        Task { @MainActor in
+            guard current == id else { return }
+            current = nil
+            state = .idle
+            progress = 0
         }
     }
 }
