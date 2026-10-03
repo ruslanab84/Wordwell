@@ -22,7 +22,6 @@ struct SkillsCheckScreen: View {
     @State private var recordingTimeout: Task<Void, Never>?
     @State private var finishTask: Task<Void, Never>?
     @State private var confirmShortWriting = false
-    @State private var playedListening = false
     @State private var voiceUnavailable = false
     @State private var message: String?
     @State private var saving = false
@@ -36,6 +35,11 @@ struct SkillsCheckScreen: View {
     private let store = SkillsCheckDraftStore()
     private let sectionNames = ["Reading", "Listening", "Writing", "Speaking"]
     private var suggestedMinutes: [Int] { pack.suggestedMinutes }
+    private var playsLeft: Int { SkillsCheckDraft.maxListeningPlays - draft.listeningPlays }
+    /// True once the announcement was started and is no longer being spoken (finished or cut off).
+    private var heardListening: Bool {
+        draft.listeningPlays > 0 && player.state != .playing && player.state != .paused
+    }
 
     init(progress: any ProgressRepository, settings: any LearningSettingsRepository,
          exam: (any ExamPracticeService)?, recorder: OnDeviceSpeechRecognizer,
@@ -142,41 +146,64 @@ struct SkillsCheckScreen: View {
             Text(pack.listening.title)
                 .font(WordwellType.cardHeadline)
                 .accessibilityAddTraits(.isHeader)
-            WordwellBodyText("Listen to the announcement, then answer five questions. The transcript appears after you finish.", secondary: true)
-            Button(playedListening ? "Play again" : "Play announcement") {
-                let variant = profile?.preferredEnglishVariant == .uk ? EnglishVariant.uk : .us
-                if player.speak(pack.listening.passage, variant: variant) {
-                    playedListening = true
-                    voiceUnavailable = false
-                    draft.listeningUnavailable = false
-                    store.save(draft)
-                } else {
-                    voiceUnavailable = true
-                    if !playedListening {
-                        draft.listeningUnavailable = true
-                        store.save(draft)
-                    }
-                }
-            }
-            .buttonStyle(WordwellButtonStyle(.primary))
+            WordwellBodyText("Listen to the announcement, then answer five questions. You can play it \(SkillsCheckDraft.maxListeningPlays) times. The transcript appears after you finish.", secondary: true)
+            listeningControls
 
             if voiceUnavailable {
                 WordwellBodyText("An English voice is unavailable on this device. You can skip listening and complete the other parts.", secondary: true)
             }
-            if playedListening {
+            if heardListening {
                 questions(pack.listening, answers: draft.listeningAnswers) { index, answer in
                     draft.listeningAnswers[index] = answer
                     store.save(draft)
                 }
             }
-            Button(voiceUnavailable && !playedListening ? "Skip listening" : "Continue to writing") {
-                if !playedListening { draft.listeningUnavailable = true }
+            Button(voiceUnavailable && draft.listeningPlays == 0 ? "Skip listening" : "Continue to writing") {
+                if draft.listeningPlays == 0 { draft.listeningUnavailable = true }
                 player.stop()
                 advance()
             }
             .buttonStyle(WordwellButtonStyle(.secondary))
-            .disabled(!playedListening && !voiceUnavailable)
+            .disabled(!heardListening && !voiceUnavailable)
         }
+    }
+
+    @ViewBuilder
+    private var listeningControls: some View {
+        switch player.state {
+        case .playing:
+            Button("Pause") { player.pause() }
+                .buttonStyle(WordwellButtonStyle(.primary))
+        case .paused:
+            Button("Resume") { player.resume() }
+                .buttonStyle(WordwellButtonStyle(.primary))
+        case .idle, .finished:
+            Button(draft.listeningPlays == 0 ? "Play announcement" : "Play again") { playListening() }
+                .buttonStyle(WordwellButtonStyle(.primary))
+                .disabled(playsLeft <= 0)
+        }
+        if player.state == .playing || player.state == .paused {
+            ProgressView(value: player.progress)
+                .tint(WordwellColor.ink)
+                .accessibilityLabel("Listening progress")
+                .accessibilityValue("\(Int(player.progress * 100)) percent")
+        }
+        if draft.listeningPlays > 0 {
+            WordwellBodyText(playsLeft > 0 ? "Plays left: \(playsLeft)" : "No plays left", secondary: true)
+        }
+    }
+
+    private func playListening() {
+        let variant = profile?.preferredEnglishVariant == .uk ? EnglishVariant.uk : .us
+        if player.speak(pack.listening.passage, variant: variant) {
+            voiceUnavailable = false
+            draft.listeningUnavailable = false
+            draft.listeningPlays += 1
+        } else {
+            voiceUnavailable = true
+            if draft.listeningPlays == 0 { draft.listeningUnavailable = true }
+        }
+        store.save(draft)
     }
 
     private var writing: some View {
@@ -401,8 +428,10 @@ struct SkillsCheckScreen: View {
         }
         if let saved = store.load(pack: pack) {
             draft = saved
-            // Audio state is not persisted; answered questions mean it was played.
-            playedListening = saved.listeningAnswers.contains { $0 != nil }
+            // Drafts from before the play counter: answered questions mean it was played.
+            if draft.listeningPlays == 0, draft.listeningAnswers.contains(where: { $0 != nil }) {
+                draft.listeningPlays = 1
+            }
         }
         profile = try? await settings.profile()
         if profile?.aiEnabled == true, let exam {
@@ -503,7 +532,6 @@ struct SkillsCheckScreen: View {
         result = nil
         writingAssessment = nil
         speakingAssessment = nil
-        playedListening = false
         voiceUnavailable = false
         recordingStartedAt = nil
         message = nil

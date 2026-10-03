@@ -86,7 +86,25 @@ public struct SkillsCheckDraft: Codable, Sendable, Equatable {
     public var listeningAnswers: [ReadingAnswer?]
     public var writingText: String
     public var listeningUnavailable: Bool
+    /// Times the announcement was started; capped by `SkillsCheckDraft.maxListeningPlays`.
+    public var listeningPlays: Int
     public var elapsedSeconds: [Int]
+
+    public static let maxListeningPlays = 2
+
+    public init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id = try c.decode(UUID.self, forKey: .id)
+        packID = try c.decode(String.self, forKey: .packID)
+        section = try c.decode(Int.self, forKey: .section)
+        readingAnswers = try c.decode([ReadingAnswer?].self, forKey: .readingAnswers)
+        listeningAnswers = try c.decode([ReadingAnswer?].self, forKey: .listeningAnswers)
+        writingText = try c.decode(String.self, forKey: .writingText)
+        listeningUnavailable = try c.decode(Bool.self, forKey: .listeningUnavailable)
+        // Drafts saved before the play cap existed have no counter.
+        listeningPlays = try c.decodeIfPresent(Int.self, forKey: .listeningPlays) ?? 0
+        elapsedSeconds = try c.decode([Int].self, forKey: .elapsedSeconds)
+    }
 
     public init(pack: SkillsCheckPack = .standard) {
         id = UUID()
@@ -96,6 +114,7 @@ public struct SkillsCheckDraft: Codable, Sendable, Equatable {
         listeningAnswers = Array(repeating: nil, count: pack.listening.questions.count)
         writingText = ""
         listeningUnavailable = false
+        listeningPlays = 0
         elapsedSeconds = [0, 0, 0, 0]
     }
 
@@ -103,6 +122,7 @@ public struct SkillsCheckDraft: Codable, Sendable, Equatable {
         packID == pack.id && (0...3).contains(section)
             && readingAnswers.count == pack.reading.questions.count
             && listeningAnswers.count == pack.listening.questions.count
+            && (0...Self.maxListeningPlays).contains(listeningPlays)
             && elapsedSeconds.count == 4 && elapsedSeconds.allSatisfy { $0 >= 0 }
     }
 }

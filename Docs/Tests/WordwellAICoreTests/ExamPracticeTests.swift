@@ -114,6 +114,19 @@ final class SkillsCheckTests: XCTestCase {
         XCTAssertNil(store.load())
     }
 
+    func test_draftPlayCounterDefaultsForOldDraftsAndIsBounded() throws {
+        var draft = SkillsCheckDraft()
+        draft.listeningPlays = 2
+        let decoded = try JSONDecoder().decode(SkillsCheckDraft.self, from: JSONEncoder().encode(draft))
+        XCTAssertEqual(decoded.listeningPlays, 2)
+        var json = try XCTUnwrap(JSONSerialization.jsonObject(with: JSONEncoder().encode(draft)) as? [String: Any])
+        json.removeValue(forKey: "listeningPlays")
+        let old = try JSONDecoder().decode(SkillsCheckDraft.self, from: JSONSerialization.data(withJSONObject: json))
+        XCTAssertEqual(old.listeningPlays, 0)
+        draft.listeningPlays = SkillsCheckDraft.maxListeningPlays + 1
+        XCTAssertFalse(draft.isValid(for: .standard))
+    }
+
     func test_suggestedMinutesFollowWritingTask() {
         let pack = SkillsCheckPack.standard
         XCTAssertEqual(pack.suggestedMinutes.count, 4)
