@@ -18,6 +18,7 @@ struct ContentView: View {
     private let illustrationRepository: any IllustrationBindingRepository
     private let aiService: any LearningAI
     private let examPractice: (any ExamPracticeService)?
+    private let conversation: (any ConversationService)?
     private let speechRecognizer: OnDeviceSpeechRecognizer
     private let pronunciationPlayer: PronunciationPlayer
     private let dailyWordNotifications: DailyWordNotifications
@@ -32,6 +33,7 @@ struct ContentView: View {
         illustrationRepository = container.illustrationRepository
         aiService = container.aiService
         examPractice = container.examPractice
+        conversation = container.conversation
         speechRecognizer = container.speechRecognizer
         pronunciationPlayer = container.pronunciationPlayer
         dailyWordNotifications = DailyWordNotifications(dictionary: container.dictionaryRepository,
@@ -71,6 +73,7 @@ struct ContentView: View {
                                    onStartListening: { router.startListening() },
                                    onStartQuiz: { router.startQuiz() },
                                    onStartSkillsCheck: { router.startSkillsCheck() },
+                                   onStartConversation: { router.startConversation() },
                                    onStartGrammar: { router.openGrammarLesson(id: GrammarProgressStore().nextLessonID()) })
                         .navigationDestination(for: AppRoute.self, destination: routeDestination)
                 }
@@ -151,6 +154,9 @@ struct ContentView: View {
             SkillsCheckScreen(progress: progressRepository, settings: settingsRepository,
                               exam: examPractice, recorder: speechRecognizer,
                               player: pronunciationPlayer)
+        case .conversation:
+            ConversationScreen(service: conversation, settings: settingsRepository, progress: progressRepository,
+                               dictionary: dictionaryRepository, library: libraryRepository)
         case .progress:
             ProgressScreen(progress: progressRepository)
         case .settings:

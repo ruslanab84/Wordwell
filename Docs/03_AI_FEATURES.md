@@ -288,9 +288,9 @@ The final Speaking Feedback screen may combine both sources.
 ---
 
 ## 11. AI Conversation
-This feature is optional for a later version.
+Implemented in the Practice tab (`ConversationService`, `ConversationScreen`). Text input only; voice is a later addition.
 
-It should use short role-play scenarios rather than an unrestricted general chat.
+It uses short role-play scenarios rather than an unrestricted general chat.
 
 Examples:
 

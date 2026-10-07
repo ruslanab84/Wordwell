@@ -13,6 +13,7 @@ struct AppContainer {
     let illustrationRepository: any IllustrationBindingRepository
     let aiService: any LearningAI
     let examPractice: (any ExamPracticeService)?
+    let conversation: (any ConversationService)?
     let speechRecognizer: OnDeviceSpeechRecognizer
     let pronunciationPlayer: PronunciationPlayer
 
@@ -25,6 +26,7 @@ struct AppContainer {
         illustrationRepository: any IllustrationBindingRepository,
         aiService: any LearningAI,
         examPractice: (any ExamPracticeService)?,
+        conversation: (any ConversationService)?,
         speechRecognizer: OnDeviceSpeechRecognizer,
         pronunciationPlayer: PronunciationPlayer
     ) {
@@ -36,6 +38,7 @@ struct AppContainer {
         self.illustrationRepository = illustrationRepository
         self.aiService = aiService
         self.examPractice = examPractice
+        self.conversation = conversation
         self.speechRecognizer = speechRecognizer
         self.pronunciationPlayer = pronunciationPlayer
     }
@@ -49,6 +52,12 @@ struct AppContainer {
             examPractice = ResilientExamPractice(primary: FoundationModelsExamPractice(), policy: policy)
         } else {
             examPractice = nil
+        }
+        let conversation: (any ConversationService)?
+        if #available(iOS 26.0, *) {
+            conversation = ResilientConversation(primary: FoundationModelsConversation())
+        } else {
+            conversation = nil
         }
         let primary: any LearningAI
         if #available(iOS 26.0, *) {
@@ -68,6 +77,7 @@ struct AppContainer {
                 cache: AIResponseCache(storage: InMemoryAICacheStorage())
             ),
             examPractice: examPractice,
+            conversation: conversation,
             speechRecognizer: OnDeviceSpeechRecognizer(),
             pronunciationPlayer: PronunciationPlayer()
         )

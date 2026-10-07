@@ -11,6 +11,7 @@ struct PracticeScreen: View {
     let onStartListening: () -> Void
     let onStartQuiz: () -> Void
     let onStartSkillsCheck: () -> Void
+    let onStartConversation: () -> Void
     let onStartGrammar: () -> Void
 
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -61,6 +62,13 @@ struct PracticeScreen: View {
                 }
                 .buttonStyle(.plain)
                 .accessibilityHint("Start a speaking session")
+                Button(action: onStartConversation) {
+                    WordwellListRow(title: "Conversation", detail: "Role-play a real situation with on-device AI") {
+                        Image(systemName: "bubble.left.and.bubble.right")
+                    }
+                }
+                .buttonStyle(.plain)
+                .accessibilityHint("Pick a scene and chat in English")
                 Button(action: onStartListening) {
                     WordwellListRow(title: "Listening", detail: "Hear words and choose what you heard") {
                         Image(systemName: "headphones")
