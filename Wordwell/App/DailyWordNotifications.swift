@@ -48,7 +48,8 @@ final class DailyWordNotifications {
 
         let outdated = reset || pending.contains {
             ($0.content.userInfo["count"] as? Int) != profile.newWordsPerDay ||
-                ($0.content.userInfo["variant"] as? String) != profile.preferredEnglishVariant.rawValue
+                ($0.content.userInfo["variant"] as? String) != profile.preferredEnglishVariant.rawValue ||
+                ($0.content.userInfo["topic"] as? String) != profile.wordTopicID
         }
         let existing = outdated ? [] : pending
         let existingIDs = Set(existing.map(\.identifier))
@@ -79,7 +80,15 @@ final class DailyWordNotifications {
         let saved = try await library.allSavedWords()
         history.formUnion(saved.map(\.wordID))
         history.formUnion(existing.compactMap { $0.content.userInfo["wordID"] as? String })
-        let words = try await dictionary.notificationEntries(excluding: history, limit: targets.count)
+        let topicIDs = VocabularyTopic.all.first { $0.id == profile.wordTopicID }.map { Set($0.wordIDs) }
+        var words = try await dictionary.notificationEntries(excluding: history, limit: targets.count, among: topicIDs)
+        if let topicIDs, words.count < targets.count {
+            // ponytail: a topic has ~40 usable words; once used up they repeat. Widen the topic lists if that annoys.
+            let pending = Set(existing.compactMap { $0.content.userInfo["wordID"] as? String })
+            let pool = try await dictionary.notificationEntries(excluding: pending, limit: topicIDs.count, among: topicIDs)
+            guard !pool.isEmpty else { throw DailyWordNotificationError.insufficientWords }
+            words += (0..<targets.count - words.count).map { pool[$0 % pool.count] }
+        }
         guard words.count == targets.count else { throw DailyWordNotificationError.insufficientWords }
 
         if outdated {
@@ -100,6 +109,7 @@ final class DailyWordNotifications {
             content.threadIdentifier = "wordwell.dailyWords"
             content.userInfo = ["wordID": word.id, "count": profile.newWordsPerDay,
                                 "variant": profile.preferredEnglishVariant.rawValue]
+            if let topic = profile.wordTopicID { content.userInfo["topic"] = topic }
             try await center.add(UNNotificationRequest(
                 identifier: id, content: content,
                 trigger: UNCalendarNotificationTrigger(dateMatching: date, repeats: false)

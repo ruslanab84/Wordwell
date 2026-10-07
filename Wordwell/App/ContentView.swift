@@ -10,6 +10,7 @@ struct ContentView: View {
     @AppStorage("wordwell.lastFeaturedWordID") private var lastFeaturedWordID = ""
     @State private var featuredWord: WordEntry?
     @State private var isLoadingFeaturedWord = true
+    @State private var featuredTopicID: String?
     private let dictionaryRepository: any DictionaryRepository
     private let libraryRepository: any WordLibraryRepository
     private let progressRepository: any ProgressRepository
@@ -93,13 +94,23 @@ struct ContentView: View {
                 try? await dailyWordNotifications.refresh(for: profile)
             }
         }
+        .task(id: router.selection) {
+            // Topic is picked in Settings; re-pick the Home word when coming back with a new one.
+            guard router.selection == .home, !isLoadingFeaturedWord,
+                  let profile = try? await settingsRepository.profile(),
+                  profile.wordTopicID != featuredTopicID else { return }
+            await refreshFeaturedWord()
+        }
     }
 
     private func refreshFeaturedWord() async {
         isLoadingFeaturedWord = true
-        let word = try? await dictionaryRepository.featuredEntry(excluding: lastFeaturedWordID)
+        let topicID = (try? await settingsRepository.profile())?.wordTopicID
+        let topicIDs = VocabularyTopic.all.first { $0.id == topicID }.map { Set($0.wordIDs) }
+        let word = try? await dictionaryRepository.featuredEntry(excluding: lastFeaturedWordID, among: topicIDs)
         guard !Task.isCancelled else { return }
         featuredWord = word
+        featuredTopicID = topicID
         isLoadingFeaturedWord = false
         if let word {
             lastFeaturedWordID = word.id

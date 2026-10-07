@@ -85,33 +85,43 @@ public actor LocalDictionaryRepository: DictionaryRepository {
         )
     }
 
-    public func featuredEntry(excluding wordID: String?) throws -> WordEntry? {
+    // A topic's words are curated, so only the default pool needs the length / a-z filter.
+    private static func poolFilter(_ ids: [String]?) -> String {
+        guard let ids else { return "word NOT GLOB '*[^a-z]*' AND length(word) BETWEEN 4 AND 10" }
+        return "id IN (\(Array(repeating: "?", count: ids.count).joined(separator: ",")))"
+    }
+
+    public func featuredEntry(excluding wordID: String?, among ids: Set<String>?) throws -> WordEntry? {
         try Task.checkCancellation()
-        let ids = try rows(
+        if let ids, ids.isEmpty { return nil }
+        let topic = ids.map { Array($0) }
+        let found = try rows(
             """
             SELECT id FROM entries
-            WHERE word NOT GLOB '*[^a-z]*' AND length(word) BETWEEN 4 AND 10
+            WHERE \(Self.poolFilter(topic))
               AND pos IN ('noun', 'verb', 'adjective')
               AND word_key <> COALESCE((SELECT word_key FROM entries WHERE id = ?), '')
             ORDER BY random() LIMIT 1
             """,
-            strings: [wordID ?? ""]
+            strings: (topic ?? []) + [wordID ?? ""]
         ) { Self.string($0, 0) }
-        guard let id = ids.first else { return nil }
+        guard let id = found.first else { return nil }
         return try entry(id: id)
     }
 
-    public func notificationEntries(excluding wordIDs: Set<String>, limit: Int) throws -> [WordEntry] {
+    public func notificationEntries(excluding wordIDs: Set<String>, limit: Int, among ids: Set<String>?) throws -> [WordEntry] {
         guard limit > 0 else { return [] }
+        if let ids, ids.isEmpty { return [] }
+        let topic = ids.map { Array($0) }
         let payloads = try rows(
             """
             SELECT payload FROM entries
-            WHERE word NOT GLOB '*[^a-z]*' AND length(word) BETWEEN 4 AND 10
+            WHERE \(Self.poolFilter(topic))
               AND pos IN ('noun', 'verb', 'adjective')
               AND (json_extract(payload, '$.ipaUK') IS NOT NULL OR json_extract(payload, '$.ipaUS') IS NOT NULL)
             ORDER BY random() LIMIT ?
             """,
-            strings: [], limit: min(500, max(100, limit * 5))
+            strings: topic ?? [], limit: min(500, max(100, limit * 5))
         ) { Self.string($0, 0) }
         var seen = Set<String>()
         var entries: [WordEntry] = []

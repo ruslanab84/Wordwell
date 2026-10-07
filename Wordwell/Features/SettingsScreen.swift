@@ -93,6 +93,18 @@ struct SettingsScreen: View {
                     }
                 }
                 WordwellBodyText("Starting tomorrow, get a word with its transcription in each notification, between 9 AM and 8 PM. Open Wordwell every few days to keep new words scheduled.", secondary: true)
+                Menu {
+                    Button("All topics") { change { $0.wordTopicID = nil } }
+                    ForEach(VocabularyTopic.all) { topic in
+                        Button(topic.title, systemImage: topic.symbol) { change { $0.wordTopicID = topic.id } }
+                    }
+                } label: {
+                    let topic = VocabularyTopic.all.first { $0.id == profile.wordTopicID }
+                    WordwellListRow(title: "Word topic", detail: topic?.title ?? "All topics") {
+                        Image(systemName: topic?.symbol ?? "square.grid.2x2")
+                    }
+                }
+                WordwellBodyText("Words on Home and in notifications come from this topic.", secondary: true)
 
                 sectionTitle("Appearance")
                 Menu {
@@ -170,7 +182,8 @@ struct SettingsScreen: View {
         Task {
             do {
                 let notificationChanged = changed.newWordsPerDay != profile?.newWordsPerDay ||
-                    changed.preferredEnglishVariant != profile?.preferredEnglishVariant
+                    changed.preferredEnglishVariant != profile?.preferredEnglishVariant ||
+                    changed.wordTopicID != profile?.wordTopicID
                 if notificationChanged && changed.newWordsPerDay > 0 {
                     try await notifications.ensureAuthorization()
                 }

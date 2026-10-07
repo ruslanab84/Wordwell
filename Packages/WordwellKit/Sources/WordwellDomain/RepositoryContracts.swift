@@ -11,8 +11,19 @@ public protocol DictionaryRepository: Sendable {
     func suggestions(prefix: String, limit: Int) async throws -> [String]
     func entry(id: String) async throws -> WordEntry?
     func entry(lemma: String) async throws -> WordEntry?
-    func featuredEntry(excluding wordID: String?) async throws -> WordEntry?
-    func notificationEntries(excluding wordIDs: Set<String>, limit: Int) async throws -> [WordEntry]
+    /// `ids` restricts the pool to those entry ids (a vocabulary topic); nil means any word.
+    func featuredEntry(excluding wordID: String?, among ids: Set<String>?) async throws -> WordEntry?
+    func notificationEntries(excluding wordIDs: Set<String>, limit: Int, among ids: Set<String>?) async throws -> [WordEntry]
+}
+
+public extension DictionaryRepository {
+    func featuredEntry(excluding wordID: String?) async throws -> WordEntry? {
+        try await featuredEntry(excluding: wordID, among: nil)
+    }
+
+    func notificationEntries(excluding wordIDs: Set<String>, limit: Int) async throws -> [WordEntry] {
+        try await notificationEntries(excluding: wordIDs, limit: limit, among: nil)
+    }
 }
 
 public protocol WordLibraryRepository: Sendable {

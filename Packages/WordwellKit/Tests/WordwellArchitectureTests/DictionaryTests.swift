@@ -60,6 +60,21 @@ import WordwellDomain
     var enabled = profile
     enabled.newWordsPerDay = 10
     #expect(try JSONDecoder().decode(LearningProfile.self, from: JSONEncoder().encode(enabled)).newWordsPerDay == 10)
+    #expect(profile.wordTopicID == nil)
+}
+
+@Test func topicRestrictsFeaturedAndNotificationWords() async throws {
+    let repository = try LocalDictionaryRepository()
+    let topic = try #require(VocabularyTopic.all.first { $0.title == "Technology & IT" })
+    let ids = Set(topic.wordIDs)
+    for _ in 0..<10 {
+        let word = try #require(try await repository.featuredEntry(excluding: nil, among: ids))
+        #expect(ids.contains(word.id))
+    }
+    let words = try await repository.notificationEntries(excluding: [], limit: 20, among: ids)
+    #expect(words.count == 20)
+    #expect(words.allSatisfy { ids.contains($0.id) && ($0.ipaUK != nil || $0.ipaUS != nil) })
+    #expect(try await repository.featuredEntry(excluding: nil, among: []) == nil)
 }
 
 @Test func dictionaryRejectsMissingDatabase() {

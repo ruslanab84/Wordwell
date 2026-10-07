@@ -16,6 +16,8 @@ public struct LearningProfile: Codable, Equatable, Sendable {
     public var dailyWordGoal: Int
     public var newWordsPerDay: Int
     public var aiEnabled: Bool
+    /// `VocabularyTopic.id` restricting Home and notification words; nil means all words.
+    public var wordTopicID: String?
 
     public init(
         cefrLevel: CEFRLevel,
@@ -24,7 +26,8 @@ public struct LearningProfile: Codable, Equatable, Sendable {
         dailyGoalMinutes: Int,
         dailyWordGoal: Int = 5,
         newWordsPerDay: Int = 0,
-        aiEnabled: Bool = true
+        aiEnabled: Bool = true,
+        wordTopicID: String? = nil
     ) {
         self.cefrLevel = cefrLevel
         self.explanationLanguage = explanationLanguage
@@ -33,10 +36,11 @@ public struct LearningProfile: Codable, Equatable, Sendable {
         self.dailyWordGoal = dailyWordGoal
         self.newWordsPerDay = newWordsPerDay
         self.aiEnabled = aiEnabled
+        self.wordTopicID = wordTopicID
     }
 
     private enum CodingKeys: String, CodingKey {
-        case cefrLevel, explanationLanguage, preferredEnglishVariant, dailyGoalMinutes, dailyWordGoal, newWordsPerDay, aiEnabled
+        case cefrLevel, explanationLanguage, preferredEnglishVariant, dailyGoalMinutes, dailyWordGoal, newWordsPerDay, aiEnabled, wordTopicID
     }
 
     public init(from decoder: any Decoder) throws {
@@ -48,6 +52,7 @@ public struct LearningProfile: Codable, Equatable, Sendable {
         dailyWordGoal = try values.decodeIfPresent(Int.self, forKey: .dailyWordGoal) ?? 5
         newWordsPerDay = try values.decodeIfPresent(Int.self, forKey: .newWordsPerDay) ?? 0
         aiEnabled = try values.decodeIfPresent(Bool.self, forKey: .aiEnabled) ?? true
+        wordTopicID = try values.decodeIfPresent(String.self, forKey: .wordTopicID)
     }
 }
 

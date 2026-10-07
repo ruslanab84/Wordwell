@@ -19,11 +19,11 @@ public struct UnavailableDictionaryRepository: DictionaryRepository {
         throw DictionaryRepositoryError.notConfigured
     }
 
-    public func featuredEntry(excluding wordID: String?) async throws -> WordEntry? {
+    public func featuredEntry(excluding wordID: String?, among ids: Set<String>?) async throws -> WordEntry? {
         throw DictionaryRepositoryError.notConfigured
     }
 
-    public func notificationEntries(excluding wordIDs: Set<String>, limit: Int) async throws -> [WordEntry] {
+    public func notificationEntries(excluding wordIDs: Set<String>, limit: Int, among ids: Set<String>?) async throws -> [WordEntry] {
         throw DictionaryRepositoryError.notConfigured
     }
 }

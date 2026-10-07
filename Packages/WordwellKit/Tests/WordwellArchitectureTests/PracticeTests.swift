@@ -168,6 +168,7 @@ private struct SeededRNG: RandomNumberGenerator {
     profile.dailyWordGoal = 10
     profile.preferredEnglishVariant = .uk
     profile.aiEnabled = false
+    profile.wordTopicID = "Technology & IT"
     try await settings.save(profile)
     let reopened: any LearningSettingsRepository = LocalLearningSettingsRepository(suiteName: suite)
     #expect(try await reopened.hasSavedProfile())
