@@ -10,3 +10,7 @@ The source JSON was converted into a SQLite database with a full-text search
 index for this application. Definitions and examples were not rewritten.
 The complete OEWN and Princeton WordNet license texts are included alongside
 this file as OEWN_LICENSE.md and WNDB_License.txt.
+
+Top 3000 word list: word frequency order from the Python package wordfreq
+(https://github.com/rspeer/wordfreq, data licensed CC BY-SA 4.0), mapped onto
+Open English Wordnet entries by Tools/build_common_words.py.
