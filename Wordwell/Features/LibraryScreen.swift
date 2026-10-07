@@ -13,6 +13,8 @@ struct LibraryScreen: View {
     @State private var query = ""
     @State private var saved: [SavedEntry] = []
     @State private var commonWords: [CommonWord] = []
+    @State private var commonTopics: [String: String] = [:]
+    @State private var expandedTopics: Set<String> = []
     @State private var wordIllustrations: [String: IllustrationBinding] = [:]
     @State private var collections: [WordCollection] = []
     @State private var isLoading = true
@@ -23,6 +25,58 @@ struct LibraryScreen: View {
 
     private enum LibraryTab: String, CaseIterable {
         case topics = "Topics", common = "Top 3000", words = "Words", phrases = "Phrases", collections = "Collections"
+    }
+
+    /// Display order of the Top 3000 groups; ids match `Tools/build_common_topics.py`. "general" is the catch-all, shown last.
+    private struct CommonTopic {
+        let id: String, title: String, symbol: String
+
+        static let all: [CommonTopic] = [
+            .init(id: "family", title: "Family", symbol: "figure.2.and.child.holdinghands"),
+            .init(id: "people", title: "People", symbol: "person.2"),
+            .init(id: "body", title: "Body", symbol: "figure.stand"),
+            .init(id: "health", title: "Health", symbol: "cross.case"),
+            .init(id: "food", title: "Food & Drink", symbol: "fork.knife"),
+            .init(id: "clothes", title: "Clothes", symbol: "tshirt"),
+            .init(id: "home", title: "Home", symbol: "house"),
+            .init(id: "animals", title: "Animals", symbol: "pawprint"),
+            .init(id: "nature", title: "Nature", symbol: "leaf"),
+            .init(id: "weather", title: "Weather", symbol: "cloud.sun"),
+            .init(id: "travel", title: "Travel", symbol: "airplane"),
+            .init(id: "transport", title: "Transport", symbol: "car"),
+            .init(id: "places", title: "Places", symbol: "building.2"),
+            .init(id: "education", title: "Education", symbol: "graduationcap"),
+            .init(id: "work", title: "Work", symbol: "briefcase"),
+            .init(id: "money", title: "Money", symbol: "banknote"),
+            .init(id: "technology", title: "Technology", symbol: "desktopcomputer"),
+            .init(id: "media", title: "Media", symbol: "newspaper"),
+            .init(id: "arts", title: "Arts & Music", symbol: "paintpalette"),
+            .init(id: "sports", title: "Sports", symbol: "sportscourt"),
+            .init(id: "law", title: "Law & Crime", symbol: "building.columns"),
+            .init(id: "government", title: "Government", symbol: "flag"),
+            .init(id: "war", title: "War", symbol: "shield"),
+            .init(id: "religion", title: "Religion", symbol: "sparkles"),
+            .init(id: "emotions", title: "Emotions", symbol: "face.smiling"),
+            .init(id: "communication", title: "Communication", symbol: "bubble.left"),
+            .init(id: "time", title: "Time", symbol: "clock"),
+            .init(id: "numbers", title: "Numbers", symbol: "number"),
+            .init(id: "colors", title: "Colors", symbol: "swatchpalette"),
+            .init(id: "groups", title: "Groups & Organizations", symbol: "person.3"),
+            .init(id: "objects", title: "Things & Materials", symbol: "shippingbox"),
+            .init(id: "ideas", title: "Mind & Ideas", symbol: "lightbulb"),
+            .init(id: "movement", title: "Movement", symbol: "figure.walk"),
+            .init(id: "actions", title: "Actions & Events", symbol: "bolt"),
+            .init(id: "qualities", title: "Qualities & States", symbol: "slider.horizontal.3"),
+            .init(id: "feelings", title: "Feelings", symbol: "heart"),
+            .init(id: "evaluation", title: "Good & Bad", symbol: "hand.thumbsup"),
+            .init(id: "size", title: "Size & Shape", symbol: "ruler"),
+            .init(id: "appearance", title: "Appearance & Texture", symbol: "eye"),
+            .init(id: "character", title: "Personality", symbol: "person.crop.circle"),
+            .init(id: "participles", title: "Words ending in -ed / -ing", symbol: "textformat.abc"),
+            .init(id: "describing", title: "Other Describing Words", symbol: "textformat"),
+            .init(id: "adverbs", title: "Adverbs", symbol: "arrow.turn.down.right"),
+            .init(id: "general", title: "General", symbol: "text.book.closed"),
+        ]
     }
 
     private struct SavedEntry: Identifiable {
@@ -165,21 +219,51 @@ struct LibraryScreen: View {
                 WordwellBodyText("No words found. Try another word.", secondary: true)
             } else {
                 commonProgress
-                ForEach(filteredCommonWords) { item in
-                    NavigationLink(value: AppRoute.dictionaryEntry(wordID: item.id)) {
-                        WordwellListRow(
-                            title: item.word,
-                            detail: [item.partOfSpeech?.rawValue, "#\(item.rank)"].compactMap { $0 }.joined(separator: " · ")
-                        ) {
-                            Image(systemName: savedCommonIDs.contains(item.id) ? "checkmark.circle" : "text.book.closed")
-                        }
-                        .accessibilityValue(savedCommonIDs.contains(item.id) ? "Saved" : "")
+                ForEach(commonGroups, id: \.topic.id) { group in
+                    DisclosureGroup(isExpanded: expansion(for: group.topic.id)) {
+                        ForEach(group.words) { item in commonRow(item) }
+                    } label: {
+                        Label("\(group.topic.title) · \(group.words.count)", systemImage: group.topic.symbol)
+                            .font(WordwellType.sectionLabel)
+                            .foregroundStyle(WordwellColor.ink)
+                            .frame(minHeight: WordwellLayout.minimumTouchTarget)
                     }
-                    .buttonStyle(.plain)
+                    .tint(WordwellColor.ink)
                 }
             }
         }
-        .task { if commonWords.isEmpty { commonWords = CommonWordsCatalog.load() } }
+        .task {
+            if commonWords.isEmpty { commonWords = CommonWordsCatalog.load() }
+            if commonTopics.isEmpty { commonTopics = CommonWordsCatalog.topics() }
+        }
+    }
+
+    private func commonRow(_ item: CommonWord) -> some View {
+        NavigationLink(value: AppRoute.dictionaryEntry(wordID: item.id)) {
+            WordwellListRow(
+                title: item.word,
+                detail: [item.partOfSpeech?.rawValue, "#\(item.rank)"].compactMap { $0 }.joined(separator: " · ")
+            ) {
+                Image(systemName: savedCommonIDs.contains(item.id) ? "checkmark.circle" : "text.book.closed")
+            }
+            .accessibilityValue(savedCommonIDs.contains(item.id) ? "Saved" : "")
+        }
+        .buttonStyle(.plain)
+    }
+
+    /// Searching expands every group so matches are visible; otherwise the user's own open/closed choice applies.
+    private func expansion(for id: String) -> Binding<Bool> {
+        Binding(
+            get: { !query.isEmpty || expandedTopics.contains(id) },
+            set: { if $0 { expandedTopics.insert(id) } else { expandedTopics.remove(id) } }
+        )
+    }
+
+    private var commonGroups: [(topic: CommonTopic, words: [CommonWord])] {
+        let byTopic = Dictionary(grouping: filteredCommonWords) { commonTopics[$0.id] ?? "general" }
+        return CommonTopic.all.compactMap { topic in
+            byTopic[topic.id].map { (topic, $0) }
+        }
     }
 
     private var commonProgress: some View {
