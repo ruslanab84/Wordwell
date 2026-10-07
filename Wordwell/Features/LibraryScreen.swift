@@ -12,6 +12,7 @@ struct LibraryScreen: View {
     @State private var tab: LibraryTab = .topics
     @State private var query = ""
     @State private var saved: [SavedEntry] = []
+    @State private var commonWords: [CommonWord] = []
     @State private var wordIllustrations: [String: IllustrationBinding] = [:]
     @State private var collections: [WordCollection] = []
     @State private var isLoading = true
@@ -21,7 +22,7 @@ struct LibraryScreen: View {
     @State private var message: String?
 
     private enum LibraryTab: String, CaseIterable {
-        case topics = "Topics", words = "Words", phrases = "Phrases", collections = "Collections"
+        case topics = "Topics", common = "Top 3000", words = "Words", phrases = "Phrases", collections = "Collections"
     }
 
     private struct SavedEntry: Identifiable {
@@ -45,12 +46,18 @@ struct LibraryScreen: View {
         }
     }
 
+    private var filteredCommonWords: [CommonWord] {
+        query.isEmpty ? commonWords : commonWords.filter { $0.word.localizedCaseInsensitiveContains(query) }
+    }
+
     var body: some View {
         FeaturePage(title: "Library", subtitle: "Explore words by topic and save your favorites") {
             tabs
 
             if tab == .topics {
                 topicsContent
+            } else if tab == .common {
+                commonContent
             } else if isLoading {
                 ProgressView("Loading library")
             } else if failed {
@@ -63,7 +70,7 @@ struct LibraryScreen: View {
                 }
             } else {
                 switch tab {
-                case .topics:
+                case .topics, .common:
                     EmptyView()
                 case .words:
                     section("Saved words") { wordList(filtered, empty: "Saved words will appear here. Open a dictionary entry to save one.") }
@@ -74,7 +81,7 @@ struct LibraryScreen: View {
                 }
             }
         }
-        .searchable(text: $query, prompt: tab == .topics ? "Search topics or words" : "Search saved words")
+        .searchable(text: $query, prompt: searchPrompt)
         .onAppear { Task { await load() } }
         .alert("New collection", isPresented: $showingNewCollection) {
             TextField("Collection name", text: $collectionName)
@@ -88,6 +95,14 @@ struct LibraryScreen: View {
             Button("OK", role: .cancel) { message = nil }
         } message: {
             Text(message ?? "")
+        }
+    }
+
+    private var searchPrompt: String {
+        switch tab {
+        case .topics: "Search topics or words"
+        case .common: "Search the top 3000"
+        default: "Search saved words"
         }
     }
 
@@ -135,6 +150,32 @@ struct LibraryScreen: View {
                 }
             }
         }
+    }
+
+    private var commonContent: some View {
+        LazyVStack(alignment: .leading, spacing: 0) {
+            if commonWords.isEmpty {
+                ContentUnavailableView("Word list unavailable", systemImage: "list.number",
+                                       description: Text("The top 3000 list could not be loaded."))
+            } else if filteredCommonWords.isEmpty {
+                WordwellBodyText("No words found. Try another word.", secondary: true)
+            } else {
+                WordwellBodyText("The 3,000 most frequently used English words, most common first.", secondary: true)
+                    .padding(.bottom, 8)
+                ForEach(filteredCommonWords) { item in
+                    NavigationLink(value: AppRoute.dictionaryEntry(wordID: item.id)) {
+                        WordwellListRow(
+                            title: item.word,
+                            detail: [item.partOfSpeech?.rawValue, "#\(item.rank)"].compactMap { $0 }.joined(separator: " · ")
+                        ) {
+                            Image(systemName: "text.book.closed")
+                        }
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+        .task { if commonWords.isEmpty { commonWords = CommonWordsCatalog.load() } }
     }
 
     private var collectionsContent: some View {
