@@ -46,6 +46,10 @@ struct LibraryScreen: View {
         }
     }
 
+    private var savedCommonIDs: Set<String> {
+        Set(saved.map(\.entry.id)).intersection(commonWords.map(\.id))
+    }
+
     private var filteredCommonWords: [CommonWord] {
         query.isEmpty ? commonWords : commonWords.filter { $0.word.localizedCaseInsensitiveContains(query) }
     }
@@ -160,22 +164,37 @@ struct LibraryScreen: View {
             } else if filteredCommonWords.isEmpty {
                 WordwellBodyText("No words found. Try another word.", secondary: true)
             } else {
-                WordwellBodyText("The 3,000 most frequently used English words, most common first.", secondary: true)
-                    .padding(.bottom, 8)
+                commonProgress
                 ForEach(filteredCommonWords) { item in
                     NavigationLink(value: AppRoute.dictionaryEntry(wordID: item.id)) {
                         WordwellListRow(
                             title: item.word,
                             detail: [item.partOfSpeech?.rawValue, "#\(item.rank)"].compactMap { $0 }.joined(separator: " · ")
                         ) {
-                            Image(systemName: "text.book.closed")
+                            Image(systemName: savedCommonIDs.contains(item.id) ? "checkmark.circle" : "text.book.closed")
                         }
+                        .accessibilityValue(savedCommonIDs.contains(item.id) ? "Saved" : "")
                     }
                     .buttonStyle(.plain)
                 }
             }
         }
         .task { if commonWords.isEmpty { commonWords = CommonWordsCatalog.load() } }
+    }
+
+    private var commonProgress: some View {
+        let count = savedCommonIDs.count
+        return VStack(alignment: .leading, spacing: 6) {
+            Text("\(count) of \(commonWords.count) saved")
+                .font(WordwellType.sectionLabel)
+                .foregroundStyle(WordwellColor.ink)
+            ProgressView(value: Double(count), total: Double(max(commonWords.count, 1)))
+                .tint(WordwellColor.ink)
+                .accessibilityLabel("Top 3000 progress")
+                .accessibilityValue("\(count) of \(commonWords.count) words saved")
+            WordwellBodyText("The 3,000 most frequently used English words, most common first.", secondary: true)
+        }
+        .padding(.bottom, 12)
     }
 
     private var collectionsContent: some View {
