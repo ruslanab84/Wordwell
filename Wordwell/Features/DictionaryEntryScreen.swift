@@ -22,6 +22,7 @@ struct DictionaryEntryScreen: View {
     @State private var aiPhase: AIPhase = .idle
     @State private var selectedAIAction: AIAction?
     @State private var aiTask: Task<Void, Never>?
+    @State private var sentenceDraft = ""
     @State private var activeAIRequest: UUID?
     private let ai: any LearningAI
 
@@ -48,6 +49,7 @@ struct DictionaryEntryScreen: View {
         case idle, loading, unavailable, failed
         case explanation(String)
         case examples([String])
+        case improvement(SentenceImprovement)
     }
 
     private enum AIAction: CaseIterable {
@@ -283,6 +285,19 @@ struct DictionaryEntryScreen: View {
                 }
             }
 
+            VStack(alignment: .leading, spacing: 8) {
+                TextField("Write a sentence with “\(entry.word)”", text: $sentenceDraft, axis: .vertical)
+                    .font(WordwellType.body)
+                    .lineLimit(1...4)
+                    .padding(.horizontal, 14)
+                    .frame(minHeight: WordwellLayout.minimumTouchTarget)
+                    .overlay { RoundedRectangle(cornerRadius: WordwellLayout.cardRadius).strokeBorder(WordwellColor.border, lineWidth: 1) }
+                    .disabled(aiPhase == .loading || !aiEnabled)
+                Button("Improve my sentence") { improve(entry: entry, sense: sense) }
+                    .buttonStyle(WordwellButtonStyle(.secondary))
+                    .disabled(aiPhase == .loading || !aiEnabled || sentenceDraft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+            }
+
             if !aiEnabled { WordwellBodyText("On-device AI is turned off in Settings.", secondary: true) }
 
             if aiPhase != .idle {
@@ -313,6 +328,16 @@ struct DictionaryEntryScreen: View {
                         case .examples(let examples):
                             sectionTitle("More examples")
                             ForEach(examples.indices, id: \.self) { WordwellBodyText("“\(examples[$0])”") }
+                        case .improvement(let result):
+                            sectionTitle("Improved sentence")
+                            if result.isAlreadyCorrect {
+                                WordwellBodyText("Looks good. No changes needed.")
+                            } else {
+                                WordwellBodyText("“\(result.corrected)”")
+                                ForEach(Array(result.issues.enumerated()), id: \.offset) { _, issue in
+                                    WordwellBodyText("\(issue.fragment) → \(issue.fix): \(issue.explanation)", secondary: true)
+                                }
+                            }
                         case .unavailable:
                             WordwellBodyText("AI unavailable on this device. Dictionary content is shown above.", secondary: true)
                             ForEach(Array(sense.examples.prefix(2).enumerated()), id: \.offset) { WordwellBodyText("“\($0.element)”", secondary: true) }
@@ -322,6 +347,42 @@ struct DictionaryEntryScreen: View {
                     }
                 }
                 .id("ai-answer")
+            }
+        }
+    }
+
+    private func improve(entry: WordEntry, sense: DefinitionSense) {
+        let sentence = sentenceDraft.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !sentence.isEmpty else { return }
+        aiTask?.cancel()
+        let requestID = UUID()
+        activeAIRequest = requestID
+        selectedAIAction = nil
+        aiPhase = .loading
+        aiTask = Task {
+            guard let profile = try? await settings.profile(), profile.aiEnabled else {
+                if activeAIRequest == requestID { aiPhase = .unavailable }
+                return
+            }
+            let learner = LearnerProfile(
+                level: WordwellAICore.CEFRLevel(rawValue: (entry.cefrLevel ?? profile.cefrLevel).rawValue) ?? .b1,
+                nativeLanguageCode: profile.explanationLanguage
+            )
+            do {
+                let result = try await ai.improve(sentence: sentence, target: entry.aiContext(senseID: sense.id), learner: learner)
+                try Task.checkCancellation()
+                if activeAIRequest == requestID { aiPhase = .improvement(result) }
+            } catch is CancellationError {
+                if activeAIRequest == requestID { aiPhase = .idle }
+            } catch let error as AIError {
+                guard activeAIRequest == requestID else { return }
+                switch error {
+                case .unavailable, .unsupportedLanguage: aiPhase = .unavailable
+                case .cancelled: aiPhase = .idle
+                default: aiPhase = .failed
+                }
+            } catch {
+                if activeAIRequest == requestID { aiPhase = .failed }
             }
         }
     }
