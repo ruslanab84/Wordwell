@@ -13,6 +13,7 @@ struct PracticeScreen: View {
     let onStartSkillsCheck: () -> Void
     let onStartConversation: () -> Void
     let onStartImproveSentence: () -> Void
+    let onStartQuizMe: () -> Void
     let onStartGrammar: () -> Void
 
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -73,6 +74,12 @@ struct PracticeScreen: View {
                 Button(action: onStartImproveSentence) {
                     WordwellListRow(title: "Improve my sentence", detail: "Write a sentence and get on-device corrections") {
                         Image(systemName: "pencil.and.outline")
+                    }
+                }
+                .buttonStyle(.plain)
+                Button(action: onStartQuizMe) {
+                    WordwellListRow(title: "Quiz Me", detail: "On-device questions on your weak words") {
+                        Image(systemName: "questionmark.bubble")
                     }
                 }
                 .buttonStyle(.plain)
