@@ -33,6 +33,8 @@ struct StubLearningAI: LearningAI {
     let promptVersion = "test"
     let counter = CallCounter()
     let explainResult: @Sendable () throws -> SimpleExplanation
+    var promptResult: @Sendable () throws -> SpeakingPrompt = { throw AIError.cancelled }
+    var feedbackResult: @Sendable () throws -> SpeakingFeedback = { throw AIError.cancelled }
 
     func availability(languageCode: String?) async -> AIAvailability { .available }
     func prewarm(for task: AITask) async {}
@@ -50,8 +52,14 @@ struct StubLearningAI: LearningAI {
     func commonMistakes(for word: AIWordContext, learner: LearnerProfile) async throws -> [CommonMistake] { throw AIError.cancelled }
     func quiz(for word: AIWordContext, distractors: [String], learner: LearnerProfile, questionCount: Int) async throws -> WordQuiz { throw AIError.cancelled }
     func improve(sentence: String, target: AIWordContext?, learner: LearnerProfile) async throws -> SentenceImprovement { throw AIError.cancelled }
-    func speakingPrompt(targetWords: [AIWordContext], learner: LearnerProfile) async throws -> SpeakingPrompt { throw AIError.cancelled }
-    func feedback(transcript: String, prompt: SpeakingPrompt, targetWords: [AIWordContext], learner: LearnerProfile) async throws -> SpeakingFeedback { throw AIError.cancelled }
+    func speakingPrompt(targetWords: [AIWordContext], learner: LearnerProfile) async throws -> SpeakingPrompt {
+        await counter.increment()
+        return try promptResult()
+    }
+    func feedback(transcript: String, prompt: SpeakingPrompt, targetWords: [AIWordContext], learner: LearnerProfile) async throws -> SpeakingFeedback {
+        await counter.increment()
+        return try feedbackResult()
+    }
     func weeklyInsight(_ stats: WeeklyStats, learner: LearnerProfile) async throws -> WeeklyInsight { throw AIError.cancelled }
 }
 

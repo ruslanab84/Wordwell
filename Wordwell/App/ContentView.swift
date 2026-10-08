@@ -148,7 +148,8 @@ struct ContentView: View {
             VocabularyReviewScreen(dictionary: dictionaryRepository, library: libraryRepository,
                                    progress: progressRepository, illustrations: illustrationRepository)
         case .speaking:
-            SpeakingScreen(progress: progressRepository, ai: aiService, recorder: speechRecognizer)
+            SpeakingScreen(progress: progressRepository, ai: aiService, settings: settingsRepository,
+                           dictionary: dictionaryRepository, library: libraryRepository, recorder: speechRecognizer)
         case .listening:
             ChoicePracticeScreen(mode: .listening, dictionary: dictionaryRepository,
                                  library: libraryRepository, progress: progressRepository,

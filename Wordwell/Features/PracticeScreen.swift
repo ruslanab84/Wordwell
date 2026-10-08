@@ -58,7 +58,7 @@ struct PracticeScreen: View {
                 .accessibilityHint("Start reviewing saved words")
 
                 Button(action: onStartSpeaking) {
-                    WordwellListRow(title: "Speaking", detail: "Practice real conversations") {
+                    WordwellListRow(title: "Speaking", detail: "Topic of the day from your words") {
                         Image(systemName: "mic")
                     }
                 }

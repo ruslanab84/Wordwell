@@ -8,7 +8,7 @@ import WordwellAICore
 @available(iOS 26.0, macOS 26.0, *)
 public enum AIPrompts {
     /// Bump on any change in instructions, prompt templates or schemas. Invalidates cached responses.
-    public static let version = "2026.09.1"
+    public static let version = "2026.10.1"
 
     public static func instructions(for task: AITask) -> String {
         base + "\n" + rule(for: task)
@@ -52,7 +52,7 @@ public enum AIPrompts {
         case .speakingPrompt:
             "Task: create a short speaking task whose questions naturally require the target words. Questions are open-ended and simple."
         case .speakingFeedback:
-            "Task: review a speech-recognition transcript. Ignore punctuation and capitalisation. Give brief, kind feedback. Quote exact fragments from the transcript for mistakes. The better answer keeps the learner's ideas and uses the target words."
+            "Task: review a speech-recognition transcript. Ignore punctuation and capitalisation. Give brief, kind feedback. Quote exact fragments from the transcript for mistakes. The better answer keeps the learner's ideas, uses the target words and stays at the learner's level. Judge only the text: never comment on pronunciation or accent."
         case .weeklyInsight:
             "Task: comment on weekly learning statistics in one or two short sentences and give one concrete recommendation. Use only the numbers given."
         }

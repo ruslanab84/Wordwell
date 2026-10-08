@@ -273,6 +273,9 @@ Generate a more natural answer at approximately the same CEFR level.
 
 Do not transform a B1 learner's answer into advanced C2 prose.
 
+### 9.5 Topic of the day
+Implemented (`SpeakingScreen`, `LearningAI.speakingPrompt` / `feedback`): the day's topic is built from up to 3 of the learner's own words (recent quiz misses first, then saved words that are still learning or need review) and cached for that calendar day on the device. With no words or no AI, a fixed topic is shown and recording still works. After the session is saved, the transcript goes to `feedback`: strengths, mistakes quoted from the transcript, a better answer, and which target words were used or missed (measured in code, not by the model). Feedback is not cached and the transcript is not stored.
+
 ---
 
 ## 10. Pronunciation separation
