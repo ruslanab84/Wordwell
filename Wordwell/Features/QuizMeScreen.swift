@@ -14,6 +14,7 @@ struct QuizMeScreen: View {
     private struct Item: Identifiable {
         let wordID: String
         let lemma: String
+        let definition: String
         let question: WordwellAICore.QuizQuestion
         var id: String { question.id }
     }
@@ -118,6 +119,15 @@ struct QuizMeScreen: View {
                     if !q.answerForm.isEmpty, q.answerForm.caseInsensitiveCompare(item.lemma) != .orderedSame {
                         WordwellBodyText("In the sentence: \(q.answerForm)", secondary: true)
                     }
+                    if selected != q.correctIndex, !item.definition.isEmpty {
+                        ExplainMistakeCard(
+                            mistake: MistakeContext(
+                                kind: .vocabulary, topic: item.lemma, prompt: q.prompt,
+                                chosen: q.options[selected], correct: q.options[q.correctIndex],
+                                fact: "\(item.lemma): \(item.definition)"),
+                            settings: settings)
+                            .id(q.id)
+                    }
                     Button(index + 1 == items.count ? "See results" : "Next question") {
                         index += 1
                         self.selected = nil
@@ -189,7 +199,8 @@ struct QuizMeScreen: View {
                 // ponytail: one question per word; raise questionCount for longer sessions.
                 let quiz = try await ai.quiz(for: context, distractors: distractors, learner: learner, questionCount: 1)
                 if let q = quiz.questions.first {
-                    built.append(Item(wordID: entry.id, lemma: entry.lemma, question: q))
+                    built.append(Item(wordID: entry.id, lemma: entry.lemma,
+                                      definition: entry.senses.first?.definition ?? "", question: q))
                 }
             } catch is CancellationError {
                 return

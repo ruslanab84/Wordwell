@@ -249,7 +249,7 @@ private struct GrammarLessonScreen: View {
                     GrammarMistakeView(mistake: lesson.mistake)
                 }
             }
-            GrammarPractice(lessonID: lesson.id)
+            GrammarPractice(lesson: lesson, settings: settings)
             related
             aiExplanation
             if lesson.id == "phrasal-verbs" {
@@ -416,7 +416,9 @@ private struct GrammarMistakeView: View {
 }
 
 private struct GrammarPractice: View {
-    let lessonID: String
+    let lesson: GrammarLesson
+    let settings: any LearningSettingsRepository
+    private var lessonID: String { lesson.id }
     private let store = GrammarProgressStore()
     @State private var index = 0
     @State private var picked: Int?
@@ -473,6 +475,15 @@ private struct GrammarPractice: View {
         }
         if picked != nil {
             WordwellBodyText(item.explanation, secondary: true)
+            if let picked, picked != item.answer {
+                ExplainMistakeCard(
+                    mistake: MistakeContext(
+                        kind: .grammar, topic: lesson.title, prompt: item.prompt,
+                        chosen: item.options[picked], correct: item.options[item.answer],
+                        fact: "\(lesson.use) \(lesson.form) \(item.explanation)"),
+                    settings: settings)
+                    .id(index)
+            }
             Button(index + 1 < items.count ? "Next" : "See result") { advance() }
                 .buttonStyle(WordwellButtonStyle(.primary))
         }

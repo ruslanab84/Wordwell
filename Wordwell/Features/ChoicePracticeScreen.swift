@@ -1,4 +1,5 @@
 import SwiftUI
+import WordwellAICore
 import WordwellDesign
 import WordwellDomain
 
@@ -11,13 +12,13 @@ struct ChoicePracticeScreen: View {
     let player: PronunciationPlayer
 
     @Environment(\.dismiss) private var dismiss
-    @State private var questions: [QuizQuestion] = []
+    @State private var questions: [WordwellDomain.QuizQuestion] = []
     @State private var words: [String: WordEntry] = [:]
     @State private var index = 0
     @State private var selected: Int?
     @State private var played = false
     @State private var correct = 0
-    @State private var missed: [QuizQuestion] = []
+    @State private var missed: [WordwellDomain.QuizQuestion] = []
     @State private var startedAt = Date.now
     @State private var variant: EnglishVariant = .us
     @State private var loading = true
@@ -64,7 +65,7 @@ struct ChoicePracticeScreen: View {
         }
     }
 
-    private func question(_ item: QuizQuestion) -> some View {
+    private func question(_ item: WordwellDomain.QuizQuestion) -> some View {
         ScrollView {
             VStack(alignment: .leading, spacing: WordwellLayout.sectionGap) {
                 Text("Question \(index + 1) of \(questions.count)")
@@ -127,6 +128,16 @@ struct ChoicePracticeScreen: View {
                         .accessibilityAddTraits(.updatesFrequently)
                     if let definition = words[item.wordID]?.senses.first?.definition, mode == .listening {
                         WordwellBodyText(definition, secondary: true)
+                    }
+                    if mode == .quiz, selected != item.correctChoiceIndex,
+                       let word = words[item.wordID], let definition = word.senses.first?.definition {
+                        ExplainMistakeCard(
+                            mistake: MistakeContext(
+                                kind: .vocabulary, topic: word.lemma, prompt: item.prompt,
+                                chosen: item.choices[selected], correct: item.choices[item.correctChoiceIndex],
+                                fact: "\(word.lemma): \(definition)"),
+                            settings: settings)
+                            .id(item.id)
                     }
                     Button(index + 1 == questions.count ? "See results" : "Next question") {
                         index += 1
@@ -221,7 +232,7 @@ struct ChoicePracticeScreen: View {
         loading = false
     }
 
-    private func submit(_ choice: Int, item: QuizQuestion) async {
+    private func submit(_ choice: Int, item: WordwellDomain.QuizQuestion) async {
         guard !saving, selected == nil, (mode == .quiz || played) else { return }
         saving = true
         defer { saving = false }

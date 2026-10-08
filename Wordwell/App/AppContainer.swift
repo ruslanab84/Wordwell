@@ -14,6 +14,7 @@ struct AppContainer {
     let aiService: any LearningAI
     let examPractice: (any ExamPracticeService)?
     let conversation: (any ConversationService)?
+    let mistakeExplainer: (any MistakeExplainerService)?
     let speechRecognizer: OnDeviceSpeechRecognizer
     let pronunciationPlayer: PronunciationPlayer
 
@@ -27,6 +28,7 @@ struct AppContainer {
         aiService: any LearningAI,
         examPractice: (any ExamPracticeService)?,
         conversation: (any ConversationService)?,
+        mistakeExplainer: (any MistakeExplainerService)?,
         speechRecognizer: OnDeviceSpeechRecognizer,
         pronunciationPlayer: PronunciationPlayer
     ) {
@@ -39,6 +41,7 @@ struct AppContainer {
         self.aiService = aiService
         self.examPractice = examPractice
         self.conversation = conversation
+        self.mistakeExplainer = mistakeExplainer
         self.speechRecognizer = speechRecognizer
         self.pronunciationPlayer = pronunciationPlayer
     }
@@ -59,6 +62,12 @@ struct AppContainer {
         } else {
             conversation = nil
         }
+        let mistakeExplainer: (any MistakeExplainerService)?
+        if #available(iOS 26.0, *) {
+            mistakeExplainer = ResilientMistakeExplainer(primary: FoundationModelsMistakeExplainer())
+        } else {
+            mistakeExplainer = nil
+        }
         let primary: any LearningAI
         if #available(iOS 26.0, *) {
             primary = FoundationModelsLearningAI(dictionary: lookup)
@@ -78,6 +87,7 @@ struct AppContainer {
             ),
             examPractice: examPractice,
             conversation: conversation,
+            mistakeExplainer: mistakeExplainer,
             speechRecognizer: OnDeviceSpeechRecognizer(),
             pronunciationPlayer: PronunciationPlayer()
         )

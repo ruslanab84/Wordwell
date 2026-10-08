@@ -314,6 +314,17 @@ A session contains:
 
 ---
 
+## 11a. Explain my mistake
+Implemented (`MistakeExplainerService`, `ExplainMistakeCard`). After a wrong multiple-choice answer in Grammar exercises, Vocabulary quiz and Quiz Me, the learner can tap **Explain mistake**.
+
+- Separate from `LearningAI`; never cached (depends on level and chosen option).
+- The answer key comes from code. The model only explains `chosen` vs `correct` and may rest only on the supplied `fact` (grammar lesson rule or dictionary definition).
+- Level is the learner's CEFR level; A1–A2 get very short sentences, C1–C2 may use terms. Explanation language follows the Settings explanation language.
+- Output is two short fields (`whyWrong`, `whyRight`), validated for presence and length; invalid output is regenerated once.
+- Not offered for Listening and Skills Check.
+
+---
+
 ## 12. Listening enrichment
 AI may generate comprehension questions from trusted listening content.
 

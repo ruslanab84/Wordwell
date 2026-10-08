@@ -19,6 +19,7 @@ struct ContentView: View {
     private let aiService: any LearningAI
     private let examPractice: (any ExamPracticeService)?
     private let conversation: (any ConversationService)?
+    private let mistakeExplainer: (any MistakeExplainerService)?
     private let speechRecognizer: OnDeviceSpeechRecognizer
     private let pronunciationPlayer: PronunciationPlayer
     private let dailyWordNotifications: DailyWordNotifications
@@ -34,6 +35,7 @@ struct ContentView: View {
         aiService = container.aiService
         examPractice = container.examPractice
         conversation = container.conversation
+        mistakeExplainer = container.mistakeExplainer
         speechRecognizer = container.speechRecognizer
         pronunciationPlayer = container.pronunciationPlayer
         dailyWordNotifications = DailyWordNotifications(dictionary: container.dictionaryRepository,
@@ -89,6 +91,7 @@ struct ContentView: View {
                 }
             }
         }
+        .environment(\.mistakeExplainer, mistakeExplainer)
         .tint(WordwellColor.ink)
         .tabBarMinimizeBehavior(.never)
         .preferredColorScheme(appearance.colorScheme)
