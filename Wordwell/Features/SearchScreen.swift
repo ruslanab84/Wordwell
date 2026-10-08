@@ -1,9 +1,12 @@
 import SwiftUI
+import WordwellAICore
 import WordwellDesign
 import WordwellDomain
 
 struct SearchScreen: View {
     let repository: any DictionaryRepository
+    let semantic: (any SemanticSearchService)?
+    let settings: any LearningSettingsRepository
     let onOpenWord: (String) -> Void
 
     @AppStorage("wordwell.searchHistory") private var searchHistoryData = Data()
@@ -14,6 +17,13 @@ struct SearchScreen: View {
     private enum Phase {
         case idle, loading, results([WordSummary]), failed
     }
+
+    private enum MeaningPhase {
+        case idle, loading, results([AIWordContext]), unavailable, failed
+    }
+
+    @State private var meaning: MeaningPhase = .idle
+    @State private var meaningTask: Task<Void, Never>?
 
     private struct Request: Hashable {
         let query: String
@@ -76,11 +86,97 @@ struct SearchScreen: View {
                     Button("Try again") { retry += 1 }
                 }
             }
+            if semantic != nil, !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                meaningSection
+            }
         }
+        .onChange(of: query) { meaningTask?.cancel(); meaning = .idle }
+        .onDisappear { meaningTask?.cancel() }
         .searchable(text: $query, prompt: "Search words or meanings")
         .onSubmit(of: .search) { recordSearch() }
         .task(id: Request(query: query, retry: retry)) {
             await search()
+        }
+    }
+
+    @ViewBuilder
+    private var meaningSection: some View {
+        WordwellPrivacyCue()
+        switch meaning {
+        case .idle:
+            Button("Find by meaning", action: findByMeaning)
+                .buttonStyle(WordwellButtonStyle(.secondary))
+        case .loading:
+            HStack {
+                WordwellBodyText("Working on this device…", secondary: true)
+                Spacer()
+                Button("Stop") { meaningTask?.cancel() }
+                    .frame(minHeight: WordwellLayout.minimumTouchTarget)
+            }
+        case .results(let words):
+            if words.isEmpty {
+                WordwellBodyText("No matching dictionary words found. Try describing it differently.", secondary: true)
+            } else {
+                Text("By meaning")
+                    .font(WordwellType.sectionLabel)
+                    .accessibilityAddTraits(.isHeader)
+                ForEach(words, id: \.lemma) { word in
+                    Button { openMeaningWord(word.lemma) } label: {
+                        WordwellListRow(title: word.lemma,
+                                        detail: "\(word.partOfSpeech) · \(word.senses.first?.definition ?? "")") {
+                            Image(systemName: "book")
+                        }
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        case .unavailable:
+            WordwellBodyText("On-device AI is unavailable or turned off in Settings.", secondary: true)
+        case .failed:
+            WordwellBodyText("Could not search by meaning. Try again.", secondary: true)
+            Button("Try again", action: findByMeaning)
+                .frame(minHeight: WordwellLayout.minimumTouchTarget)
+        }
+    }
+
+    private func openMeaningWord(_ lemma: String) {
+        Task {
+            guard let entry = try? await repository.entry(lemma: lemma) else { return }
+            recordSearch()
+            onOpenWord(entry.id)
+        }
+    }
+
+    private func findByMeaning() {
+        guard let semantic else { return }
+        let text = query.trimmingCharacters(in: .whitespacesAndNewlines)
+        meaningTask?.cancel()
+        meaning = .loading
+        let requested = query
+        meaningTask = Task {
+            guard let profile = try? await settings.profile(), profile.aiEnabled else {
+                if requested == query { meaning = .unavailable }
+                return
+            }
+            let learner = LearnerProfile(
+                level: WordwellAICore.CEFRLevel(rawValue: profile.cefrLevel.rawValue) ?? .b1,
+                nativeLanguageCode: profile.explanationLanguage)
+            do {
+                let result = try await semantic.find(meaning: text, learner: learner)
+                try Task.checkCancellation()
+                if requested == query { meaning = .results(result) }
+            } catch is CancellationError {
+                if requested == query { meaning = .idle }
+            } catch let error as AIError {
+                guard requested == query else { return }
+                switch error {
+                case .unavailable, .unsupportedLanguage: meaning = .unavailable
+                case .cancelled: meaning = .idle
+                default: meaning = .failed
+                }
+            } catch {
+                if requested == query { meaning = .failed }
+            }
         }
     }
 

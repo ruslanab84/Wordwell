@@ -20,6 +20,7 @@ struct ContentView: View {
     private let examPractice: (any ExamPracticeService)?
     private let conversation: (any ConversationService)?
     private let mistakeExplainer: (any MistakeExplainerService)?
+    private let semanticSearch: (any SemanticSearchService)?
     private let speechRecognizer: OnDeviceSpeechRecognizer
     private let pronunciationPlayer: PronunciationPlayer
     private let dailyWordNotifications: DailyWordNotifications
@@ -36,6 +37,7 @@ struct ContentView: View {
         examPractice = container.examPractice
         conversation = container.conversation
         mistakeExplainer = container.mistakeExplainer
+        semanticSearch = container.semanticSearch
         speechRecognizer = container.speechRecognizer
         pronunciationPlayer = container.pronunciationPlayer
         dailyWordNotifications = DailyWordNotifications(dictionary: container.dictionaryRepository,
@@ -129,7 +131,7 @@ struct ContentView: View {
     private func routeDestination(_ route: AppRoute) -> some View {
         switch route {
         case .search:
-            SearchScreen(repository: dictionaryRepository) { router.openWord(id: $0) }
+            SearchScreen(repository: dictionaryRepository, semantic: semanticSearch, settings: settingsRepository) { router.openWord(id: $0) }
         case .topic(let id):
             if let topic = VocabularyTopic.all.first(where: { $0.id == id }) {
                 TopicWordsScreen(topic: topic, dictionary: dictionaryRepository)

@@ -201,6 +201,8 @@ Flow:
 
 AI must not return a fabricated headword that cannot be resolved.
 
+Implemented (`SemanticSearchService`, `ResilientSemanticSearch`, Search screen): after typing a query, **Find by meaning** asks the on-device model for up to 8 candidate words; each is resolved against the local dictionary (`AIDictionaryLookup`), unresolved or duplicate words are dropped, and an empty result is regenerated once. Not cached.
+
 ---
 
 ## 8. Practice planner enrichment
