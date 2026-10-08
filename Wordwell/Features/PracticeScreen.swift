@@ -12,6 +12,7 @@ struct PracticeScreen: View {
     let onStartQuiz: () -> Void
     let onStartSkillsCheck: () -> Void
     let onStartConversation: () -> Void
+    let onStartImproveSentence: () -> Void
     let onStartGrammar: () -> Void
 
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -69,6 +70,12 @@ struct PracticeScreen: View {
                 }
                 .buttonStyle(.plain)
                 .accessibilityHint("Pick a scene and chat in English")
+                Button(action: onStartImproveSentence) {
+                    WordwellListRow(title: "Improve my sentence", detail: "Write a sentence and get on-device corrections") {
+                        Image(systemName: "pencil.and.outline")
+                    }
+                }
+                .buttonStyle(.plain)
                 Button(action: onStartListening) {
                     WordwellListRow(title: "Listening", detail: "Hear words and choose what you heard") {
                         Image(systemName: "headphones")

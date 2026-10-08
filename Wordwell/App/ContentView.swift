@@ -74,6 +74,7 @@ struct ContentView: View {
                                    onStartQuiz: { router.startQuiz() },
                                    onStartSkillsCheck: { router.startSkillsCheck() },
                                    onStartConversation: { router.startConversation() },
+                                   onStartImproveSentence: { router.startImproveSentence() },
                                    onStartGrammar: { router.openGrammarLesson(id: GrammarProgressStore().nextLessonID()) })
                         .navigationDestination(for: AppRoute.self, destination: routeDestination)
                 }
@@ -157,6 +158,8 @@ struct ContentView: View {
         case .conversation:
             ConversationScreen(service: conversation, settings: settingsRepository, progress: progressRepository,
                                dictionary: dictionaryRepository, library: libraryRepository)
+        case .improveSentence:
+            ImproveSentenceScreen(ai: aiService, settings: settingsRepository)
         case .progress:
             ProgressScreen(progress: progressRepository)
         case .settings:

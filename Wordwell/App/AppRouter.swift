@@ -14,6 +14,7 @@ enum AppRoute: Hashable {
     case quiz
     case skillsCheck
     case conversation
+    case improveSentence
     case grammarLesson(id: String)
     case progress
     case settings
@@ -73,5 +74,10 @@ final class AppRouter {
     func startConversation() {
         selection = .practice
         practicePath.append(.conversation)
+    }
+
+    func startImproveSentence() {
+        selection = .practice
+        practicePath.append(.improveSentence)
     }
 }
