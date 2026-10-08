@@ -23,6 +23,8 @@ struct DictionaryEntryScreen: View {
     @State private var selectedAIAction: AIAction?
     @State private var aiTask: Task<Void, Never>?
     @State private var sentenceDraft = ""
+    @State private var showComparePicker = false
+    @State private var compareContext: (entry: WordEntry, sense: DefinitionSense)?
     @State private var activeAIRequest: UUID?
     private let ai: any LearningAI
 
@@ -50,6 +52,7 @@ struct DictionaryEntryScreen: View {
         case explanation(String)
         case examples([String])
         case improvement(SentenceImprovement)
+        case comparison(WordwellAICore.WordComparison)
     }
 
     private enum AIAction: CaseIterable {
@@ -105,6 +108,11 @@ struct DictionaryEntryScreen: View {
         .navigationBarTitleDisplayMode(.inline)
         .task(id: wordID) { await load() }
         .onDisappear { stopAI(); player.stop() }
+        .sheet(isPresented: $showComparePicker) {
+            CompareWordPicker(repository: repository, currentWordID: wordID) { other in
+                if let ctx = compareContext { compare(entry: ctx.entry, sense: ctx.sense, with: other) }
+            }
+        }
         .alert("Could not update your library", isPresented: $saveFailed) {
             Button("OK", role: .cancel) {}
         } message: {
@@ -298,6 +306,13 @@ struct DictionaryEntryScreen: View {
                     .disabled(aiPhase == .loading || !aiEnabled || sentenceDraft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
             }
 
+            Button("Compare with another word") {
+                compareContext = (entry, sense)
+                showComparePicker = true
+            }
+            .buttonStyle(WordwellButtonStyle(.secondary))
+            .disabled(aiPhase == .loading || !aiEnabled)
+
             if !aiEnabled { WordwellBodyText("On-device AI is turned off in Settings.", secondary: true) }
 
             if aiPhase != .idle {
@@ -338,6 +353,14 @@ struct DictionaryEntryScreen: View {
                                     WordwellBodyText("\(issue.fragment) → \(issue.fix): \(issue.explanation)", secondary: true)
                                 }
                             }
+                        case .comparison(let result):
+                            sectionTitle("\(result.first) vs \(result.second)")
+                            WordwellBodyText(result.coreDifference)
+                            WordwellBodyText("Use \(result.first) when \(result.useFirstWhen)", secondary: true)
+                            WordwellBodyText("Use \(result.second) when \(result.useSecondWhen)", secondary: true)
+                            ForEach(Array(result.examples.enumerated()), id: \.offset) { _, example in
+                                WordwellBodyText("“\(example.sentence)”")
+                            }
                         case .unavailable:
                             WordwellBodyText("AI unavailable on this device. Dictionary content is shown above.", secondary: true)
                             ForEach(Array(sense.examples.prefix(2).enumerated()), id: \.offset) { WordwellBodyText("“\($0.element)”", secondary: true) }
@@ -372,6 +395,44 @@ struct DictionaryEntryScreen: View {
                 let result = try await ai.improve(sentence: sentence, target: entry.aiContext(senseID: sense.id), learner: learner)
                 try Task.checkCancellation()
                 if activeAIRequest == requestID { aiPhase = .improvement(result) }
+            } catch is CancellationError {
+                if activeAIRequest == requestID { aiPhase = .idle }
+            } catch let error as AIError {
+                guard activeAIRequest == requestID else { return }
+                switch error {
+                case .unavailable, .unsupportedLanguage: aiPhase = .unavailable
+                case .cancelled: aiPhase = .idle
+                default: aiPhase = .failed
+                }
+            } catch {
+                if activeAIRequest == requestID { aiPhase = .failed }
+            }
+        }
+    }
+
+    private func compare(entry: WordEntry, sense: DefinitionSense, with other: WordSummary) {
+        aiTask?.cancel()
+        let requestID = UUID()
+        activeAIRequest = requestID
+        selectedAIAction = nil
+        aiPhase = .loading
+        aiTask = Task {
+            guard let profile = try? await settings.profile(), profile.aiEnabled else {
+                if activeAIRequest == requestID { aiPhase = .unavailable }
+                return
+            }
+            let learner = LearnerProfile(
+                level: WordwellAICore.CEFRLevel(rawValue: (entry.cefrLevel ?? profile.cefrLevel).rawValue) ?? .b1,
+                nativeLanguageCode: profile.explanationLanguage
+            )
+            do {
+                guard let otherEntry = try await repository.entry(id: other.id) else {
+                    if activeAIRequest == requestID { aiPhase = .failed }
+                    return
+                }
+                let result = try await ai.compare(entry.aiContext(senseID: sense.id), otherEntry.aiContext(), learner: learner)
+                try Task.checkCancellation()
+                if activeAIRequest == requestID { aiPhase = .comparison(result) }
             } catch is CancellationError {
                 if activeAIRequest == requestID { aiPhase = .idle }
             } catch let error as AIError {
