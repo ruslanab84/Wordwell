@@ -351,6 +351,8 @@ Selection should be deterministic and based on:
 
 AI may explain why the word is useful and generate one short practice prompt.
 
+**Status:** selection is implemented deterministically (`WordForYou` in WordwellDomain: weak quiz words, recently viewed/saved topics, level reach, saved/mastered excluded; stable per day) with a non-AI reason line on Home. The AI explanation and practice prompt are not built yet.
+
 ---
 
 ## 14. Learning insights

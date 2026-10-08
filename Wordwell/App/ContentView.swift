@@ -11,6 +11,8 @@ struct ContentView: View {
     @State private var featuredWord: WordEntry?
     @State private var isLoadingFeaturedWord = true
     @State private var featuredTopicID: String?
+    @State private var featuredReason: String?
+    @AppStorage("wordwell.wordForYouPick") private var wordForYouPick = ""
     private let dictionaryRepository: any DictionaryRepository
     private let libraryRepository: any WordLibraryRepository
     private let progressRepository: any ProgressRepository
@@ -49,7 +51,7 @@ struct ContentView: View {
             Tab("Home", systemImage: "house", value: .home) {
                 NavigationStack(path: $router.homePath) {
                     HomeScreen(library: libraryRepository, progress: progressRepository, featuredWord: featuredWord,
-                               isLoadingFeaturedWord: isLoadingFeaturedWord,
+                               isLoadingFeaturedWord: isLoadingFeaturedWord, featuredReason: featuredReason,
                                onOpenWord: { router.openWord(id: $0) },
                                onSearch: { router.homePath.append(.search) },
                                onPractice: { router.selection = .practice })
@@ -115,16 +117,51 @@ struct ContentView: View {
 
     private func refreshFeaturedWord() async {
         isLoadingFeaturedWord = true
-        let topicID = (try? await settingsRepository.profile())?.wordTopicID
-        let topicIDs = VocabularyTopic.all.first { $0.id == topicID }.map { Set($0.wordIDs) }
-        let word = try? await dictionaryRepository.featuredEntry(excluding: lastFeaturedWordID, among: topicIDs)
+        let profile = try? await settingsRepository.profile()
+        let topicID = profile?.wordTopicID
+        var word: WordEntry?
+        var reason: String?
+        if let personal = await wordForYou(profile: profile) {
+            (word, reason) = personal
+        } else {
+            let topicIDs = VocabularyTopic.all.first { $0.id == topicID }.map { Set($0.wordIDs) }
+            word = try? await dictionaryRepository.featuredEntry(excluding: lastFeaturedWordID, among: topicIDs)
+        }
         guard !Task.isCancelled else { return }
         featuredWord = word
+        featuredReason = reason
         featuredTopicID = topicID
         isLoadingFeaturedWord = false
         if let word {
             lastFeaturedWordID = word.id
         }
+    }
+
+    /// Deterministic pick from weak words, history and level (spec §13); nil falls back to a random word.
+    private func wordForYou(profile: LearningProfile?) async -> (WordEntry, String)? {
+        let day = Date.now.formatted(.iso8601.year().month().day().dateSeparator(.omitted))
+        let topicID = profile?.wordTopicID
+        let level = profile?.cefrLevel ?? .b1
+        // Keep today's pick so saving the word (or reopening the app) does not swap it.
+        let parts = wordForYouPick.split(separator: "|", omittingEmptySubsequences: false).map(String.init)
+        if parts.count == 4, parts[0] == day, parts[1] == (topicID ?? ""),
+           let entry = try? await dictionaryRepository.entry(id: parts[2]) {
+            return (entry, parts[3])
+        }
+        let saved = (try? await libraryRepository.allSavedWords()) ?? []
+        let signals = WordForYouSignals(
+            weakIDs: (try? await progressRepository.weakQuizWordIDs(limit: 20)) ?? [],
+            viewedIDs: (try? await libraryRepository.recentlyViewedWordIDs(limit: 20)) ?? [],
+            savedIDs: Set(saved.map(\.wordID)),
+            masteredIDs: Set(saved.filter { $0.status == .mastered }.map(\.wordID)),
+            topicID: topicID, dayKey: day)
+        for candidate in WordForYou.candidates(signals) {
+            guard let entry = try? await dictionaryRepository.entry(id: candidate.wordID),
+                  WordForYou.isWithinReach(entry.cefrLevel, learner: level) else { continue }
+            wordForYouPick = [day, topicID ?? "", entry.id, candidate.reason].joined(separator: "|")
+            return (entry, candidate.reason)
+        }
+        return nil
     }
 
     @ViewBuilder

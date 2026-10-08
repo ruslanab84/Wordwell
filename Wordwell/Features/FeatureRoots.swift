@@ -7,6 +7,7 @@ struct HomeScreen: View {
     let progress: any ProgressRepository
     let featuredWord: WordEntry?
     let isLoadingFeaturedWord: Bool
+    let featuredReason: String?
     let onOpenWord: (String) -> Void
     let onSearch: () -> Void
     let onPractice: () -> Void
@@ -29,6 +30,9 @@ struct HomeScreen: View {
                     Text(featuredWord.word)
                         .font(WordwellType.cardHeadline)
                         .foregroundStyle(WordwellColor.ink)
+                    if let featuredReason {
+                        WordwellBodyText(featuredReason, secondary: true)
+                    }
                     WordwellBodyText(featuredWord.senses.first?.definition ?? "")
                     Button("Read the entry") { onOpenWord(featuredWord.id) }
                         .buttonStyle(WordwellButtonStyle(.primary))
