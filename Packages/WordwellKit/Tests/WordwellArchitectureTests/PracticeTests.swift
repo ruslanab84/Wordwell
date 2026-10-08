@@ -244,3 +244,45 @@ private struct SeededRNG: RandomNumberGenerator {
                                          library: library, suiteName: suite)
     #expect(try await working.today(goal: 1).words.count == 1)
 }
+
+@Test func weeklyInsightsStateOnlyWhatTheDataSupports() {
+    #expect(WeeklyInsights.make(from: WeeklyReport()).isEmpty)
+
+    var report = WeeklyReport()
+    report.activeDays = 3
+    report.minutes = 30
+    report.wordsReviewed = 4
+    report.quizAnswered = 4   // below the 5-answer floor: no accuracy line
+    let sparse = WeeklyInsights.make(from: report)
+    #expect(sparse == ["You practised on 3 of the last 7 days.", "No speaking practice this week."])
+
+    report.previousMinutes = 20
+    report.quizAnswered = 10
+    report.quizCorrect = 8
+    report.previousQuizAnswered = 10
+    report.previousQuizCorrect = 6
+    report.speakingSessions = 1
+    let full = WeeklyInsights.make(from: report)
+    #expect(full.count == 3)
+    #expect(full[0].contains("10 min more"))
+    #expect(full[2].contains("80%") && full[2].contains("20 points up"))
+}
+
+@Test func weeklyReportComparesAgainstThePreviousWeek() async throws {
+    let progress: any ProgressRepository = try LocalProgressRepository(inMemory: true)
+    let calendar = Calendar.current
+    let twoDaysAgo = try #require(calendar.date(byAdding: .day, value: -2, to: .now))
+    let tenDaysAgo = try #require(calendar.date(byAdding: .day, value: -10, to: .now))
+    try await progress.recordSpeaking(SpeakingEvent(id: UUID(), topicID: "day", completedAt: twoDaysAgo, durationSeconds: 120))
+    try await progress.recordSpeaking(SpeakingEvent(id: UUID(), topicID: "day", completedAt: tenDaysAgo, durationSeconds: 60))
+    try await progress.recordQuizAnswer(QuizAnswerEvent(wordID: "a.n", answeredAt: twoDaysAgo, isCorrect: true, durationSeconds: 10))
+    try await progress.recordQuizAnswer(QuizAnswerEvent(wordID: "b.n", answeredAt: tenDaysAgo, isCorrect: false, durationSeconds: 10))
+
+    let report = try await progress.weeklyReport()
+    #expect(report.minutes == 3)
+    #expect(report.previousMinutes == 2)
+    #expect(report.activeDays == 1)
+    #expect(report.speakingSessions == 1)
+    #expect(report.quizAnswered == 1 && report.quizCorrect == 1)
+    #expect(report.previousQuizAnswered == 1 && report.previousQuizCorrect == 0)
+}

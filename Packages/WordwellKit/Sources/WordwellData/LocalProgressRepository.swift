@@ -274,6 +274,60 @@ public actor LocalProgressRepository: ProgressRepository {
         }
     }
 
+    public func weeklyReport() throws -> WeeklyReport {
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: .now)
+        /// 0 = last seven days, 1 = the seven days before, nil = older/future.
+        func week(_ date: Date) -> Int? {
+            let days = calendar.dateComponents([.day], from: calendar.startOfDay(for: date), to: today).day ?? -1
+            return (0..<7).contains(days) ? 0 : (7..<14).contains(days) ? 1 : nil
+        }
+        var report = WeeklyReport()
+        var activeDays = Set<Date>()
+        var reviewed = Set<String>()
+        func addSeconds(_ seconds: Int, week: Int) {
+            if week == 0 { report.minutes += seconds } else { report.previousMinutes += seconds }
+        }
+        for event in try allReviews() {
+            guard let w = week(event.reviewedAt) else { continue }
+            addSeconds(event.durationSeconds, week: w)
+            if w == 0 { activeDays.insert(calendar.startOfDay(for: event.reviewedAt)); reviewed.insert(event.wordID) }
+        }
+        for event in try allSpeaking() {
+            guard let w = week(event.completedAt) else { continue }
+            addSeconds(event.durationSeconds, week: w)
+            if w == 0 { activeDays.insert(calendar.startOfDay(for: event.completedAt)); report.speakingSessions += 1 }
+        }
+        for event in try allListening() {
+            guard let w = week(event.completedAt) else { continue }
+            addSeconds(event.durationSeconds, week: w)
+            if w == 0 { activeDays.insert(calendar.startOfDay(for: event.completedAt)); report.listeningSessions += 1 }
+        }
+        for event in try allQuizAnswers() {
+            guard let w = week(event.answeredAt) else { continue }
+            addSeconds(event.durationSeconds, week: w)
+            if w == 0 {
+                activeDays.insert(calendar.startOfDay(for: event.answeredAt))
+                reviewed.insert(event.wordID)
+                report.quizAnswered += 1
+                if event.isCorrect { report.quizCorrect += 1 }
+            } else {
+                report.previousQuizAnswered += 1
+                if event.isCorrect { report.previousQuizCorrect += 1 }
+            }
+        }
+        for event in try allSkillsChecks() {
+            guard let w = week(event.completedAt) else { continue }
+            addSeconds(event.durationSeconds, week: w)
+            if w == 0 { activeDays.insert(calendar.startOfDay(for: event.completedAt)) }
+        }
+        report.minutes = (report.minutes + 59) / 60
+        report.previousMinutes = (report.previousMinutes + 59) / 60
+        report.activeDays = activeDays.count
+        report.wordsReviewed = reviewed.count
+        return report
+    }
+
     public func dailyGoalMinutes() throws -> Int {
         try context.fetch(FetchDescriptor<DailyGoalRecord>()).first?.minutes ?? 10
     }
@@ -323,6 +377,7 @@ public struct UnavailableProgressRepository: ProgressRepository {
     public func snapshot() throws -> ProgressSnapshot { throw ProgressRepositoryError.unavailable }
     public func practiceSummary() throws -> PracticeSummary { throw ProgressRepositoryError.unavailable }
     public func weeklyActivity() throws -> [DailyActivity] { throw ProgressRepositoryError.unavailable }
+    public func weeklyReport() throws -> WeeklyReport { throw ProgressRepositoryError.unavailable }
     public func dailyGoalMinutes() throws -> Int { throw ProgressRepositoryError.unavailable }
     public func setDailyGoalMinutes(_ minutes: Int) throws { throw ProgressRepositoryError.unavailable }
 }

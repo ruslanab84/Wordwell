@@ -9,6 +9,7 @@ struct ProgressScreen: View {
     @State private var snapshot: ProgressSnapshot?
     @State private var summary: PracticeSummary?
     @State private var activity: [DailyActivity] = []
+    @State private var insights: [String] = []
     @State private var dailyGoal = 10
     @State private var isLoading = true
     @State private var errorMessage: String?
@@ -31,6 +32,7 @@ struct ProgressScreen: View {
             } else {
                 switch tab {
                 case .overview:
+                    weeklyInsights
                     weeklyActivity
                     goalProgress
                     Button { tab = .statistics } label: {
@@ -73,6 +75,19 @@ struct ProgressScreen: View {
                 .buttonStyle(.plain)
                 .accessibilityAddTraits(tab == section ? .isSelected : [])
             }
+        }
+    }
+
+    @ViewBuilder private var weeklyInsights: some View {
+        if !insights.isEmpty {
+            VStack(alignment: .leading, spacing: 8) {
+                heading("This week")
+                ForEach(insights, id: \.self) { WordwellBodyText($0) }
+            }
+            .padding(14)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .overlay(RoundedRectangle(cornerRadius: 12).stroke(WordwellColor.border, lineWidth: 1))
+            .accessibilityElement(children: .combine)
         }
     }
 
@@ -166,6 +181,7 @@ struct ProgressScreen: View {
             snapshot = try await progress.snapshot()
             summary = try await progress.practiceSummary()
             activity = try await progress.weeklyActivity()
+            insights = WeeklyInsights.make(from: try await progress.weeklyReport())
             dailyGoal = try await progress.dailyGoalMinutes()
             errorMessage = nil
         } catch {

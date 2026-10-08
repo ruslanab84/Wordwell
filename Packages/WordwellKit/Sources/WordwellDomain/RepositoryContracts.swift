@@ -51,6 +51,7 @@ public protocol ProgressRepository: Sendable {
     func snapshot() async throws -> ProgressSnapshot
     func practiceSummary() async throws -> PracticeSummary
     func weeklyActivity() async throws -> [DailyActivity]
+    func weeklyReport() async throws -> WeeklyReport
     func dailyGoalMinutes() async throws -> Int
     func setDailyGoalMinutes(_ minutes: Int) async throws
 }
