@@ -19074,6 +19074,651 @@
       "altText": "A zoo entrance gate with an orange animal inside.",
       "isDecorative": false,
       "notes": null
+    },
+    {
+      "id": "illustration.balloon.noun.plate",
+      "word": "balloon",
+      "lemma": "balloon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_balloon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_balloon_plate.imageset/word_balloon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "fun"
+      ],
+      "altText": "An orange balloon with a string.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.bat.noun.plate",
+      "word": "bat",
+      "lemma": "bat",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bat_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bat_plate.imageset/word_bat_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals"
+      ],
+      "altText": "A dark bat with spread wings.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.bench.noun.plate",
+      "word": "bench",
+      "lemma": "bench",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bench_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bench_plate.imageset/word_bench_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "outdoors",
+        "furniture"
+      ],
+      "altText": "A wooden park bench with a backrest.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.blender.noun.plate",
+      "word": "blender",
+      "lemma": "blender",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_blender_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blender_plate.imageset/word_blender_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "kitchen"
+      ],
+      "altText": "A kitchen blender with a glass jug.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cage.noun.plate",
+      "word": "cage",
+      "lemma": "cage",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cage_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cage_plate.imageset/word_cage_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals",
+        "objects"
+      ],
+      "altText": "A metal cage with a small bird inside.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.camel.noun.plate",
+      "word": "camel",
+      "lemma": "camel",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_camel_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_camel_plate.imageset/word_camel_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals"
+      ],
+      "altText": "A tan camel with a hump.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.chain.noun.plate",
+      "word": "chain",
+      "lemma": "chain",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chain_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chain_plate.imageset/word_chain_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "objects",
+        "metal"
+      ],
+      "altText": "A row of grey metal chain links.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.chimney.noun.plate",
+      "word": "chimney",
+      "lemma": "chimney",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chimney_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chimney_plate.imageset/word_chimney_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "home",
+        "buildings"
+      ],
+      "altText": "A house with a brown chimney and smoke.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.cookie.noun.plate",
+      "word": "cookie",
+      "lemma": "cookie",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cookie_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cookie_plate.imageset/word_cookie_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "food"
+      ],
+      "altText": "A round chocolate chip cookie.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.crab.noun.plate",
+      "word": "crab",
+      "lemma": "crab",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_crab_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crab_plate.imageset/word_crab_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals",
+        "sea"
+      ],
+      "altText": "An orange crab with large claws.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.crown.noun.plate",
+      "word": "crown",
+      "lemma": "crown",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_crown_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crown_plate.imageset/word_crown_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "royalty",
+        "objects"
+      ],
+      "altText": "A gold crown with three points and a red jewel.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.donkey.noun.plate",
+      "word": "donkey",
+      "lemma": "donkey",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_donkey_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_donkey_plate.imageset/word_donkey_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals"
+      ],
+      "altText": "A grey donkey with long ears.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.envelope.noun.plate",
+      "word": "envelope",
+      "lemma": "envelope",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_envelope_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_envelope_plate.imageset/word_envelope_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "post",
+        "objects"
+      ],
+      "altText": "A cream envelope with a stamp.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.feather.noun.plate",
+      "word": "feather",
+      "lemma": "feather",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_feather_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_feather_plate.imageset/word_feather_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "nature",
+        "animals"
+      ],
+      "altText": "A teal feather with a dark spine.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.fence.noun.plate",
+      "word": "fence",
+      "lemma": "fence",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fence_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fence_plate.imageset/word_fence_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "outdoors"
+      ],
+      "altText": "A wooden fence with vertical pickets.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.fox.noun.plate",
+      "word": "fox",
+      "lemma": "fox",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fox_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fox_plate.imageset/word_fox_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals"
+      ],
+      "altText": "An orange fox with a white-tipped tail.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.frame.noun.plate",
+      "word": "frame",
+      "lemma": "frame",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_frame_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_frame_plate.imageset/word_frame_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "home",
+        "art"
+      ],
+      "altText": "A brown picture frame with a green landscape.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.garage.noun.plate",
+      "word": "garage",
+      "lemma": "garage",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_garage_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_garage_plate.imageset/word_garage_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "buildings",
+        "home"
+      ],
+      "altText": "A grey garage with a closed door.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.ghost.noun.plate",
+      "word": "ghost",
+      "lemma": "ghost",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_ghost_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ghost_plate.imageset/word_ghost_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "fiction"
+      ],
+      "altText": "A white ghost with dark eyes and a wavy hem.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.goat.noun.plate",
+      "word": "goat",
+      "lemma": "goat",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_goat_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_goat_plate.imageset/word_goat_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals"
+      ],
+      "altText": "A cream goat with small horns and a beard.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.goose.noun.plate",
+      "word": "goose",
+      "lemma": "goose",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_goose_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_goose_plate.imageset/word_goose_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals"
+      ],
+      "altText": "A white goose with a long neck and orange beak.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.hammock.noun.plate",
+      "word": "hammock",
+      "lemma": "hammock",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hammock_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hammock_plate.imageset/word_hammock_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "outdoors",
+        "leisure"
+      ],
+      "altText": "An orange hammock tied between two posts.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.hen.noun.plate",
+      "word": "hen",
+      "lemma": "hen",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hen_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hen_plate.imageset/word_hen_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "animals"
+      ],
+      "altText": "A white hen with a red comb.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.hill.noun.plate",
+      "word": "hill",
+      "lemma": "hill",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hill_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hill_plate.imageset/word_hill_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "nature",
+        "geography"
+      ],
+      "altText": "A green hill with a tree on the slope.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.honey.noun.plate",
+      "word": "honey",
+      "lemma": "honey",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_honey_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_honey_plate.imageset/word_honey_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "food"
+      ],
+      "altText": "A jar of golden honey with a lid.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.hook.noun.plate",
+      "word": "hook",
+      "lemma": "hook",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hook_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hook_plate.imageset/word_hook_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "objects"
+      ],
+      "altText": "A grey metal hook with a rounded end.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.horn.noun.plate",
+      "word": "horn",
+      "lemma": "horn",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_horn_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_horn_plate.imageset/word_horn_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "music",
+        "animals"
+      ],
+      "altText": "A curved orange horn with brown rings.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.iceberg.noun.plate",
+      "word": "iceberg",
+      "lemma": "iceberg",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_iceberg_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_iceberg_plate.imageset/word_iceberg_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "nature",
+        "sea"
+      ],
+      "altText": "A white iceberg floating on blue water.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.jar.noun.plate",
+      "word": "jar",
+      "lemma": "jar",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_jar_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jar_plate.imageset/word_jar_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "kitchen",
+        "objects"
+      ],
+      "altText": "A glass jar with a brown lid.",
+      "isDecorative": false,
+      "notes": null
+    },
+    {
+      "id": "illustration.jug.noun.plate",
+      "word": "jug",
+      "lemma": "jug",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_jug_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jug_plate.imageset/word_jug_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "kitchen"
+      ],
+      "altText": "A teal jug with a handle and a spout.",
+      "isDecorative": false,
+      "notes": null
     }
   ]
 }
