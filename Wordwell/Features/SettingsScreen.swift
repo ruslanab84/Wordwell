@@ -32,9 +32,6 @@ struct SettingsScreen: View {
     @State private var notificationFailed = false
     @State private var permissionDenied = false
 
-    private let languages = ["en": "English", "ru": "Russian", "az": "Azerbaijani",
-                             "es": "Spanish", "fr": "French", "de": "German"]
-
     var body: some View {
         FeaturePage(title: "Settings", subtitle: "Make Wordwell work for you") {
             if loadFailed {
@@ -53,12 +50,12 @@ struct SettingsScreen: View {
                     }
                 }
                 Menu {
-                    ForEach(languages.keys.sorted(), id: \.self) { code in
-                        Button(languages[code] ?? code) { change { $0.explanationLanguage = code } }
+                    ForEach(SupportedLanguages.all, id: \.code) { language in
+                        Button(language.name) { change { $0.explanationLanguage = language.code } }
                     }
                 } label: {
                     WordwellListRow(title: "Explanation language",
-                                    detail: languages[profile.explanationLanguage] ?? profile.explanationLanguage) {
+                                    detail: SupportedLanguages.name(for: profile.explanationLanguage)) {
                         Image(systemName: "globe")
                     }
                 }

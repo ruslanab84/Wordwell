@@ -208,7 +208,7 @@ public final class ResilientLearningAI: LearningAI {
 
     private func key(_ task: AITask, _ lemma: String, _ learner: LearnerProfile,
                      _ languageCode: String? = nil, variant: String = "") -> AICacheKey {
-        AICacheKey(task: task, lemma: lemma, level: learner.level, languageCode: languageCode,
+        AICacheKey(task: task, lemma: lemma, level: learner.level, languageCode: languageCode ?? learner.nativeLanguageCode,
                    promptVersion: promptVersion, variant: variant)
     }
 

@@ -19,11 +19,13 @@ public struct PromptBuilder: Sendable {
     // MARK: - Word-level prompts
 
     public func explain(_ word: AIWordContext, learner: LearnerProfile, languageCode: String?) async -> String {
-        await fitted(.explain) { senses in
+        let language = AIPrompts.languageName(languageCode ?? learner.nativeLanguageCode)
+        let languageTask = language.map { " Write the explanation and analogy in \($0); examples stay English." } ?? ""
+        return await fitted(.explain) { senses in
             """
             \(render(word, maxSenses: senses))
             \(learnerBlock(learner, languageCode: languageCode))
-            TASK: Explain the most useful sense of "\(word.lemma)" for this learner and give 2 examples.
+            TASK: Explain the most useful sense of "\(word.lemma)" for this learner and give 2 examples.\(languageTask)
             """
         }
     }
@@ -139,8 +141,7 @@ public struct PromptBuilder: Sendable {
 
     private func learnerBlock(_ learner: LearnerProfile, languageCode: String?) -> String {
         var lines = ["LEARNER LEVEL: \(learner.level.rawValue)"]
-        if let languageCode, !languageCode.lowercased().hasPrefix("en") {
-            let name = Locale(identifier: "en").localizedString(forLanguageCode: languageCode) ?? languageCode
+        if let name = AIPrompts.languageName(languageCode ?? learner.nativeLanguageCode) {
             lines.append("EXPLANATION LANGUAGE: \(name)")
         }
         if !learner.interests.isEmpty {

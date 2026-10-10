@@ -71,15 +71,17 @@ public enum GrammarAI {
         FMAvailability.current(languageCode: "en")
     }
 
-    public static func explain(_ lesson: GrammarLessonContext) async throws -> String {
+    /// `languageCode` is the learner's explanation language; English (or nil) keeps the explanation in English.
+    public static func explain(_ lesson: GrammarLessonContext, languageCode: String? = nil) async throws -> String {
         do {
             try FMAvailability.require(languageCode: "en")
+            let language = AIPrompts.languageName(languageCode)
             let use = GrammarToolUse()
             let session = LanguageModelSession(
                 tools: [GrammarLessonTool(lesson: lesson, use: use)],
                 instructions: """
                 You are an English grammar tutor. Before answering, call getGrammarLesson for the requested ID.
-                Use only the rule and examples returned by that tool. Explain in clear English.
+                Use only the rule and examples returned by that tool. \(language.map { "Explain in clear \($0); keep the supplied examples in English." } ?? "Explain in clear English.")
                 Write two or three short sentences that clarify the rule, illustrate it with one supplied example,
                 then give one practical tip. Do not copy the tool's field labels or dump its contents.
                 Do not invent extra rules.

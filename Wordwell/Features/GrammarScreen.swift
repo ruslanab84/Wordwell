@@ -344,6 +344,7 @@ private struct GrammarLessonScreen: View {
         aiTask = Task {
             await loadAIAccess()
             guard aiAccess == .ready, !Task.isCancelled else { aiPhase = .idle; return }
+            let language = try? await settings.profile().explanationLanguage
             let context = GrammarLessonContext(
                 id: lesson.id, title: lesson.title, level: lesson.cefr.label,
                 use: lesson.use, form: lesson.form,
@@ -351,7 +352,7 @@ private struct GrammarLessonScreen: View {
                 commonMistake: lesson.commonMistake
             )
             do {
-                let answer = try await GrammarAI.explain(context)
+                let answer = try await GrammarAI.explain(context, languageCode: language)
                 try Task.checkCancellation()
                 aiPhase = .answer(answer)
             } catch is CancellationError {

@@ -8,6 +8,18 @@ public enum LearningStatus: String, Codable, Sendable {
     case learning, needsReview, mastered
 }
 
+/// Languages the learner can pick for AI explanations (BCP-47 code, English name).
+public enum SupportedLanguages {
+    public static let all: [(code: String, name: String)] = [
+        ("az", "Azerbaijani"), ("de", "German"), ("en", "English"),
+        ("es", "Spanish"), ("fr", "French"), ("ru", "Russian"),
+    ]
+
+    public static func name(for code: String) -> String {
+        all.first { $0.code == code }?.name ?? code
+    }
+}
+
 public struct LearningProfile: Codable, Equatable, Sendable {
     public var cefrLevel: CEFRLevel
     public var explanationLanguage: String

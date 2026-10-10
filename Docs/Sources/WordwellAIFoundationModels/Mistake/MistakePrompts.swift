@@ -6,7 +6,7 @@ import WordwellAICore
 /// Instructions and prompt template for explaining a wrong answer. Bump `version` on any prompt/schema change.
 @available(iOS 26.0, macOS 26.0, *)
 enum MistakePrompts {
-    static let version = "2026.10.mistake.1"
+    static let version = "2026.10.mistake.2"
 
     static let instructions = """
     You explain to an English learner why their answer to a multiple-choice question was wrong.
@@ -24,7 +24,7 @@ enum MistakePrompts {
 
     static func prompt(for mistake: MistakeContext, learner: LearnerProfile) -> String {
         var lines = ["LEARNER LEVEL: \(learner.level.rawValue)"]
-        if let language = learner.nativeLanguageCode, language != "en" {
+        if let language = AIPrompts.languageName(learner.nativeLanguageCode) {
             lines.append("EXPLANATION LANGUAGE: \(language)")
         }
         lines += [

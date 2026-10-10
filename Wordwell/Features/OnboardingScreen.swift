@@ -18,9 +18,6 @@ struct OnboardingScreen: View {
     @State private var saved = false
     @State private var errorMessage: String?
 
-    private let languages = ["en": "English", "ru": "Russian", "az": "Azerbaijani",
-                             "es": "Spanish", "fr": "French", "de": "German"]
-
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: WordwellLayout.sectionGap) {
@@ -89,8 +86,8 @@ struct OnboardingScreen: View {
         VStack(alignment: .leading, spacing: 18) {
             heading("Make learning yours")
             Picker("Explanation language", selection: $explanationLanguage) {
-                ForEach(languages.keys.sorted(), id: \.self) { code in
-                    Text(languages[code] ?? code).tag(code)
+                ForEach(SupportedLanguages.all, id: \.code) { language in
+                    Text(language.name).tag(language.code)
                 }
             }
             Picker("Pronunciation", selection: $variant) {
