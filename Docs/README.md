@@ -1,6 +1,6 @@
 # WordwellAI
 
-Standalone AI package in `Docs/` for the Wordwell iOS app: contracts, on-device implementation (Apple Foundation Models) and a developer CLI.
+Standalone AI package in `Docs/` for the Verbalex iOS app: contracts, on-device implementation (Apple Foundation Models) and a developer CLI.
 
 Run the Swift commands below from `Docs/`. Check `wordwell-ai availability` first; generation requires a supported Apple Intelligence device and language.
 

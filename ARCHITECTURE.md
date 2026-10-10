@@ -1,11 +1,11 @@
-# Wordwell implementation architecture
+# Verbalex implementation architecture
 
 [Docs/01_ARCHITECTURE.md](Docs/01_ARCHITECTURE.md), [Docs/03_AI_FEATURES.md](Docs/03_AI_FEATURES.md), and [Docs/04_SVG_ASSET_SPEC.json](Docs/04_SVG_ASSET_SPEC.json) define the product architecture. [design.md](design.md) is the single visual source; `Docs/02_DESIGN.md` points to it. The later user correction makes `design.md` authoritative for SVG appearance, while the JSON schema defines binding metadata and allowed screen contexts.
 
 ## Modules and dependency direction
 
 ```text
-Wordwell app target (AppContainer, AppRouter, feature Views/ViewModels)
+Verbalex app target (AppContainer, AppRouter, feature Views/ViewModels)
   ├── WordwellDomain           Foundation-only models and contracts
   ├── WordwellDesign           SwiftUI tokens, fonts, shared visuals
   ├── WordwellData ──────────→ WordwellDomain

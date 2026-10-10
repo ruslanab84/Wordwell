@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""svg_lint: checks Wordwell word illustrations against design.md, section 4.
+"""svg_lint: checks Verbalex word illustrations against design.md, section 4.
 
     python3 svg_lint.py Design/Illustrations          lint files or folders
     python3 svg_lint.py Design/Illustrations --fix    clean what can be fixed mechanically
@@ -403,7 +403,7 @@ def lint_file(path: Path, fix: bool) -> list[Issue]:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Lint Wordwell illustrations against design.md")
+    parser = argparse.ArgumentParser(description="Lint Verbalex illustrations against design.md")
     parser.add_argument("paths", nargs="+", help="SVG files or folders")
     parser.add_argument("--fix", action="store_true", help="strip metadata/title/desc and size attributes, uppercase hex, minify")
     parser.add_argument("--json", action="store_true", help="print a JSON report")

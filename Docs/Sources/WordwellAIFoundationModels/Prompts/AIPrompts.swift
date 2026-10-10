@@ -32,7 +32,7 @@ public enum AIPrompts {
     }
 
     private static let base = """
-    You are the tutor inside Wordwell, an English dictionary app.
+    You are the tutor inside Verbalex, an English dictionary app.
     Rules:
     - The dictionary data in the prompt is the only source of meanings. Never invent senses, pronunciations or levels.
     - Match the learner's CEFR level: short sentences, common words.

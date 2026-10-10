@@ -1,6 +1,6 @@
 //
 //  WordwellApp.swift
-//  Wordwell
+//  Verbalex
 //
 //  Created by Ruslan Abdulov on 24.09.26.
 //

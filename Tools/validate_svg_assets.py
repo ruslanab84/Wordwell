@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate bundled word bindings and the small SVG subset used by Wordwell."""
+"""Validate bundled word bindings and the small SVG subset used by Verbalex."""
 
 import json
 import hashlib

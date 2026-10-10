@@ -4,7 +4,7 @@ import ArgumentParser
 struct WordwellAICLI: AsyncParsableCommand {
     static let configuration = CommandConfiguration(
         commandName: "wordwell-ai",
-        abstract: "Developer CLI for Wordwell AI features on Apple Foundation Models.",
+        abstract: "Developer CLI for Verbalex AI features on Apple Foundation Models.",
         discussion: """
         Runs the same LearningAI pipeline the app uses (prompts → model → validation) on macOS 26+.
         Use it to iterate on prompts, inspect token usage and run regression eval suites in CI.
