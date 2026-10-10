@@ -24062,6 +24062,2106 @@
       "altText": "A brown wig with a centre parting.",
       "isDecorative": false,
       "notes": null
+    },
+    {
+      "id": "illustration.yacht.noun.plate",
+      "word": "yacht",
+      "lemma": "yacht",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_yacht_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_yacht_plate.imageset/word_yacht_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A white sailing yacht on the water.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.yak.noun.plate",
+      "word": "yak",
+      "lemma": "yak",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_yak_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_yak_plate.imageset/word_yak_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown yak with a shaggy coat and horns.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.zebra.noun.plate",
+      "word": "zebra",
+      "lemma": "zebra",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_zebra_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_zebra_plate.imageset/word_zebra_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A zebra with black and white stripes.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.zipper.noun.plate",
+      "word": "zipper",
+      "lemma": "zipper",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_zipper_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_zipper_plate.imageset/word_zipper_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A zipper with its metal slider.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.compass.noun.plate",
+      "word": "compass",
+      "lemma": "compass",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_compass_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_compass_plate.imageset/word_compass_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A compass with a north-pointing needle.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.falcon.noun.plate",
+      "word": "falcon",
+      "lemma": "falcon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_falcon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_falcon_plate.imageset/word_falcon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown falcon perched on a branch.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.funnel.noun.plate",
+      "word": "funnel",
+      "lemma": "funnel",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_funnel_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_funnel_plate.imageset/word_funnel_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey funnel with a drop falling from its spout.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.goblet.noun.plate",
+      "word": "goblet",
+      "lemma": "goblet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_goblet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_goblet_plate.imageset/word_goblet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange goblet on a stem.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.hatchet.noun.plate",
+      "word": "hatchet",
+      "lemma": "hatchet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hatchet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hatchet_plate.imageset/word_hatchet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A hatchet with a wooden handle.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.hourglass.noun.plate",
+      "word": "hourglass",
+      "lemma": "hourglass",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hourglass_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hourglass_plate.imageset/word_hourglass_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An hourglass with sand running through.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.kayak.noun.plate",
+      "word": "kayak",
+      "lemma": "kayak",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_kayak_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kayak_plate.imageset/word_kayak_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange kayak with a paddle across it.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.medal.noun.plate",
+      "word": "medal",
+      "lemma": "medal",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_medal_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_medal_plate.imageset/word_medal_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A gold medal on a two-colour ribbon.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.propeller.noun.plate",
+      "word": "propeller",
+      "lemma": "propeller",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_propeller_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_propeller_plate.imageset/word_propeller_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown propeller with four blades.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.pulley.noun.plate",
+      "word": "pulley",
+      "lemma": "pulley",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_pulley_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pulley_plate.imageset/word_pulley_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A pulley wheel with a rope and a weight.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.saddle.noun.plate",
+      "word": "saddle",
+      "lemma": "saddle",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_saddle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_saddle_plate.imageset/word_saddle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown saddle with a stirrup.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.scarecrow.noun.plate",
+      "word": "scarecrow",
+      "lemma": "scarecrow",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_scarecrow_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scarecrow_plate.imageset/word_scarecrow_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A scarecrow in a hat and shirt on a post.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.sled.noun.plate",
+      "word": "sled",
+      "lemma": "sled",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_sled_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sled_plate.imageset/word_sled_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown sled on the snow.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.stool.noun.plate",
+      "word": "stool",
+      "lemma": "stool",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_stool_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stool_plate.imageset/word_stool_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A wooden stool with a crossbar.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.telescope.noun.plate",
+      "word": "telescope",
+      "lemma": "telescope",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_telescope_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_telescope_plate.imageset/word_telescope_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A telescope on a tripod.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.accordion.noun.plate",
+      "word": "accordion",
+      "lemma": "accordion",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_accordion_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_accordion_plate.imageset/word_accordion_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An accordion with bellows and keys.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.anvil.noun.plate",
+      "word": "anvil",
+      "lemma": "anvil",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_anvil_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_anvil_plate.imageset/word_anvil_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey anvil with a horn.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.canary.noun.plate",
+      "word": "canary",
+      "lemma": "canary",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_canary_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_canary_plate.imageset/word_canary_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A yellow-orange canary on a perch.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.easel.noun.plate",
+      "word": "easel",
+      "lemma": "easel",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_easel_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_easel_plate.imageset/word_easel_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An easel holding a painted canvas.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.gecko.noun.plate",
+      "word": "gecko",
+      "lemma": "gecko",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gecko_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gecko_plate.imageset/word_gecko_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green gecko on the ground.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.igloo.noun.plate",
+      "word": "igloo",
+      "lemma": "igloo",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_igloo_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_igloo_plate.imageset/word_igloo_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A snow igloo with a dark doorway.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.jaguar.noun.plate",
+      "word": "jaguar",
+      "lemma": "jaguar",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_jaguar_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jaguar_plate.imageset/word_jaguar_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange jaguar with black spots.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.kilt.noun.plate",
+      "word": "kilt",
+      "lemma": "kilt",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_kilt_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kilt_plate.imageset/word_kilt_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A pleated green kilt with a sporran.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.ostrich.noun.plate",
+      "word": "ostrich",
+      "lemma": "ostrich",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_ostrich_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ostrich_plate.imageset/word_ostrich_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown ostrich with a long neck.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.raccoon.noun.plate",
+      "word": "raccoon",
+      "lemma": "raccoon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_raccoon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_raccoon_plate.imageset/word_raccoon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey raccoon with a black mask.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.tadpole.noun.plate",
+      "word": "tadpole",
+      "lemma": "tadpole",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_tadpole_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tadpole_plate.imageset/word_tadpole_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green tadpole swimming in water.",
+      "isDecorative": false,
+      "notes": "b1 batch 4 (pilot): SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.abacus.noun.plate",
+      "word": "abacus",
+      "lemma": "abacus",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_abacus_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_abacus_plate.imageset/word_abacus_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A wooden abacus with beads on three rods.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.airship.noun.plate",
+      "word": "airship",
+      "lemma": "airship",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_airship_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_airship_plate.imageset/word_airship_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey airship floating in the sky.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.alligator.noun.plate",
+      "word": "alligator",
+      "lemma": "alligator",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_alligator_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alligator_plate.imageset/word_alligator_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green alligator by the water.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.antler.noun.plate",
+      "word": "antler",
+      "lemma": "antler",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_antler_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_antler_plate.imageset/word_antler_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown antler with branching points.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.apron.noun.plate",
+      "word": "apron",
+      "lemma": "apron",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_apron_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_apron_plate.imageset/word_apron_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A teal apron with a bib and pocket.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.armchair.noun.plate",
+      "word": "armchair",
+      "lemma": "armchair",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_armchair_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_armchair_plate.imageset/word_armchair_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An armchair with a brown back and orange seat.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.artichoke.noun.plate",
+      "word": "artichoke",
+      "lemma": "artichoke",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_artichoke_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_artichoke_plate.imageset/word_artichoke_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green artichoke with a leafy top.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.aquarium.noun.plate",
+      "word": "aquarium",
+      "lemma": "aquarium",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_aquarium_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_aquarium_plate.imageset/word_aquarium_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A glass aquarium with an orange fish.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.avocado.noun.plate",
+      "word": "avocado",
+      "lemma": "avocado",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_avocado_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_avocado_plate.imageset/word_avocado_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green avocado cut open around its pit.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.badger.noun.plate",
+      "word": "badger",
+      "lemma": "badger",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_badger_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_badger_plate.imageset/word_badger_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey badger with a white stripe.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.bamboo.noun.plate",
+      "word": "bamboo",
+      "lemma": "bamboo",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bamboo_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bamboo_plate.imageset/word_bamboo_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "Green bamboo stalks with leaves.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.banjo.noun.plate",
+      "word": "banjo",
+      "lemma": "banjo",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_banjo_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_banjo_plate.imageset/word_banjo_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A banjo with a round head and a long neck.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.barn.noun.plate",
+      "word": "barn",
+      "lemma": "barn",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_barn_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_barn_plate.imageset/word_barn_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown barn with a dark door.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.beehive.noun.plate",
+      "word": "beehive",
+      "lemma": "beehive",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_beehive_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beehive_plate.imageset/word_beehive_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange beehive with dark stripes.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.beret.noun.plate",
+      "word": "beret",
+      "lemma": "beret",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_beret_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beret_plate.imageset/word_beret_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A dark teal beret.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.bobsled.noun.plate",
+      "word": "bobsled",
+      "lemma": "bobsled",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bobsled_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bobsled_plate.imageset/word_bobsled_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange bobsled on runners.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.bonnet.noun.plate",
+      "word": "bonnet",
+      "lemma": "bonnet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bonnet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bonnet_plate.imageset/word_bonnet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange bonnet with a cream frill and ties.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.bracelet.noun.plate",
+      "word": "bracelet",
+      "lemma": "bracelet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bracelet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bracelet_plate.imageset/word_bracelet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown bracelet with three charms.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.broom.noun.plate",
+      "word": "broom",
+      "lemma": "broom",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_broom_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_broom_plate.imageset/word_broom_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A broom with an orange head and a long handle.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.bubble.noun.plate",
+      "word": "bubble",
+      "lemma": "bubble",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bubble_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bubble_plate.imageset/word_bubble_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A teal bubble floating in the air.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.buffalo.noun.plate",
+      "word": "buffalo",
+      "lemma": "buffalo",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_buffalo_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_buffalo_plate.imageset/word_buffalo_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown buffalo with curved horns.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.bulldozer.noun.plate",
+      "word": "bulldozer",
+      "lemma": "bulldozer",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bulldozer_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bulldozer_plate.imageset/word_bulldozer_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange bulldozer with a blade and tracks.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.cashew.noun.plate",
+      "word": "cashew",
+      "lemma": "cashew",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cashew_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cashew_plate.imageset/word_cashew_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A tan cashew nut.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.caterpillar.noun.plate",
+      "word": "caterpillar",
+      "lemma": "caterpillar",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_caterpillar_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_caterpillar_plate.imageset/word_caterpillar_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green caterpillar on a leaf.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.cello.noun.plate",
+      "word": "cello",
+      "lemma": "cello",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cello_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cello_plate.imageset/word_cello_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown cello with its neck and scroll.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.chainsaw.noun.plate",
+      "word": "chainsaw",
+      "lemma": "chainsaw",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chainsaw_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chainsaw_plate.imageset/word_chainsaw_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange chainsaw with a black handle.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.cheetah.noun.plate",
+      "word": "cheetah",
+      "lemma": "cheetah",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cheetah_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cheetah_plate.imageset/word_cheetah_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange cheetah with black spots.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.chest.noun.plate",
+      "word": "chest",
+      "lemma": "chest",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chest_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chest_plate.imageset/word_chest_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown chest with a lock and bands.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.chisel.noun.plate",
+      "word": "chisel",
+      "lemma": "chisel",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chisel_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chisel_plate.imageset/word_chisel_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A chisel with a wooden handle and steel blade.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.clarinet.noun.plate",
+      "word": "clarinet",
+      "lemma": "clarinet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_clarinet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clarinet_plate.imageset/word_clarinet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A black clarinet with silver keys.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.clover.noun.plate",
+      "word": "clover",
+      "lemma": "clover",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_clover_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clover_plate.imageset/word_clover_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green four-leaf clover.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.cottage.noun.plate",
+      "word": "cottage",
+      "lemma": "cottage",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cottage_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cottage_plate.imageset/word_cottage_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A small cottage with a brown roof.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.crane.noun.plate",
+      "word": "crane",
+      "lemma": "crane",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_crane_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crane_plate.imageset/word_crane_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey crane standing on long legs.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.crayon.noun.plate",
+      "word": "crayon",
+      "lemma": "crayon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_crayon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crayon_plate.imageset/word_crayon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange crayon with a sharp tip.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.cucumber.noun.plate",
+      "word": "cucumber",
+      "lemma": "cucumber",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cucumber_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cucumber_plate.imageset/word_cucumber_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green cucumber lying flat.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.drill.noun.plate",
+      "word": "drill",
+      "lemma": "drill",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_drill_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drill_plate.imageset/word_drill_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange power drill with a bit.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.duck.noun.plate",
+      "word": "duck",
+      "lemma": "duck",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_duck_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_duck_plate.imageset/word_duck_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown duck swimming on water.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.earring.noun.plate",
+      "word": "earring",
+      "lemma": "earring",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_earring_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_earring_plate.imageset/word_earring_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange earring with a teal gem.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.fig.noun.plate",
+      "word": "fig",
+      "lemma": "fig",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fig_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fig_plate.imageset/word_fig_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown fig with a green leaf.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.flamingo.noun.plate",
+      "word": "flamingo",
+      "lemma": "flamingo",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_flamingo_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flamingo_plate.imageset/word_flamingo_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange flamingo standing on one leg.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.flashlight.noun.plate",
+      "word": "flashlight",
+      "lemma": "flashlight",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_flashlight_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flashlight_plate.imageset/word_flashlight_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A black flashlight with a light beam.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.flask.noun.plate",
+      "word": "flask",
+      "lemma": "flask",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_flask_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flask_plate.imageset/word_flask_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A glass flask with teal liquid.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.garlic.noun.plate",
+      "word": "garlic",
+      "lemma": "garlic",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_garlic_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_garlic_plate.imageset/word_garlic_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A garlic bulb with a green shoot.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.gem.noun.plate",
+      "word": "gem",
+      "lemma": "gem",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gem_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gem_plate.imageset/word_gem_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A teal gem cut into facets.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.giraffe.noun.plate",
+      "word": "giraffe",
+      "lemma": "giraffe",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_giraffe_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_giraffe_plate.imageset/word_giraffe_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange giraffe with brown spots.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.glacier.noun.plate",
+      "word": "glacier",
+      "lemma": "glacier",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_glacier_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_glacier_plate.imageset/word_glacier_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey mountain with a cream snow cap.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.gorilla.noun.plate",
+      "word": "gorilla",
+      "lemma": "gorilla",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gorilla_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gorilla_plate.imageset/word_gorilla_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A black gorilla sitting on the ground.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.grapefruit.noun.plate",
+      "word": "grapefruit",
+      "lemma": "grapefruit",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_grapefruit_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_grapefruit_plate.imageset/word_grapefruit_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grapefruit cut in half with segments.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.hamster.noun.plate",
+      "word": "hamster",
+      "lemma": "hamster",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hamster_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hamster_plate.imageset/word_hamster_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange hamster with cheeks.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.hedge.noun.plate",
+      "word": "hedge",
+      "lemma": "hedge",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hedge_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hedge_plate.imageset/word_hedge_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green hedge made of rounded bushes.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.helicopter.noun.plate",
+      "word": "helicopter",
+      "lemma": "helicopter",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_helicopter_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_helicopter_plate.imageset/word_helicopter_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange helicopter with a rotor.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.hippo.noun.plate",
+      "word": "hippo",
+      "lemma": "hippo",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hippo_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hippo_plate.imageset/word_hippo_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey hippo with a pink mouth.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.horseshoe.noun.plate",
+      "word": "horseshoe",
+      "lemma": "horseshoe",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_horseshoe_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_horseshoe_plate.imageset/word_horseshoe_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey horseshoe with nail holes.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.hut.noun.plate",
+      "word": "hut",
+      "lemma": "hut",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hut_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hut_plate.imageset/word_hut_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A small hut with a thatched roof.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.iguana.noun.plate",
+      "word": "iguana",
+      "lemma": "iguana",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_iguana_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_iguana_plate.imageset/word_iguana_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green iguana with a row of spikes.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.jellyfish.noun.plate",
+      "word": "jellyfish",
+      "lemma": "jellyfish",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_jellyfish_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jellyfish_plate.imageset/word_jellyfish_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A teal jellyfish with long tentacles.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.joystick.noun.plate",
+      "word": "joystick",
+      "lemma": "joystick",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_joystick_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_joystick_plate.imageset/word_joystick_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A black joystick with an orange ball.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.kangaroo.noun.plate",
+      "word": "kangaroo",
+      "lemma": "kangaroo",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_kangaroo_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kangaroo_plate.imageset/word_kangaroo_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown kangaroo with a pouch.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.kite.noun.plate",
+      "word": "kite",
+      "lemma": "kite",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_kite_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kite_plate.imageset/word_kite_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange kite with a tail.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.knight.noun.plate",
+      "word": "knight",
+      "lemma": "knight",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_knight_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_knight_plate.imageset/word_knight_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A knight with a grey helmet and an orange plume.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.koala.noun.plate",
+      "word": "koala",
+      "lemma": "koala",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_koala_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_koala_plate.imageset/word_koala_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A grey koala in a tree.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.lasso.noun.plate",
+      "word": "lasso",
+      "lemma": "lasso",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lasso_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lasso_plate.imageset/word_lasso_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A brown lasso rope with a loop.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.llama.noun.plate",
+      "word": "llama",
+      "lemma": "llama",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_llama_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_llama_plate.imageset/word_llama_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A cream llama with a long neck.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.lollipop.noun.plate",
+      "word": "lollipop",
+      "lemma": "lollipop",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lollipop_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lollipop_plate.imageset/word_lollipop_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange lollipop with a swirl.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.magnet.noun.plate",
+      "word": "magnet",
+      "lemma": "magnet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_magnet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_magnet_plate.imageset/word_magnet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A horseshoe magnet with red and grey ends.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.mango.noun.plate",
+      "word": "mango",
+      "lemma": "mango",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mango_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mango_plate.imageset/word_mango_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "An orange mango with a green leaf.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.mantis.noun.plate",
+      "word": "mantis",
+      "lemma": "mantis",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mantis_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mantis_plate.imageset/word_mantis_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A green mantis with raised front legs.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.melon.noun.plate",
+      "word": "melon",
+      "lemma": "melon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_melon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_melon_plate.imageset/word_melon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A slice of green melon with seeds.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.microscope.noun.plate",
+      "word": "microscope",
+      "lemma": "microscope",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_microscope_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_microscope_plate.imageset/word_microscope_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A microscope with a brown tube.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.balcony.noun.plate",
+      "word": "balcony",
+      "lemma": "balcony",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_balcony_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_balcony_plate.imageset/word_balcony_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "b1",
+        "visual"
+      ],
+      "altText": "A balcony with a railing above the floor.",
+      "isDecorative": false,
+      "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
     }
   ]
 }
