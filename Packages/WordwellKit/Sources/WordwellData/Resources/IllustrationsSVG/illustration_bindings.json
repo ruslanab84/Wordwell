@@ -26162,6 +26162,2139 @@
       "altText": "A balcony with a railing above the floor.",
       "isDecorative": false,
       "notes": "b1 batch 4: SVGator-authored, memory-derived word list, level unverified"
+    },
+    {
+      "id": "illustration.alpaca.noun.plate",
+      "word": "alpaca",
+      "lemma": "alpaca",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_alpaca_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alpaca_plate.imageset/word_alpaca_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A cream alpaca with a long neck and fluffy coat.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.antelope.noun.plate",
+      "word": "antelope",
+      "lemma": "antelope",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_antelope_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_antelope_plate.imageset/word_antelope_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A brown antelope with curved horns.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.arch.noun.plate",
+      "word": "arch",
+      "lemma": "arch",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_arch_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_arch_plate.imageset/word_arch_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A stone arch over a doorway.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.astrolabe.noun.plate",
+      "word": "astrolabe",
+      "lemma": "astrolabe",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_astrolabe_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_astrolabe_plate.imageset/word_astrolabe_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "science"
+      ],
+      "altText": "A brass astrolabe with a rotating ring.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.atoll.noun.plate",
+      "word": "atoll",
+      "lemma": "atoll",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_atoll_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_atoll_plate.imageset/word_atoll_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "nature",
+        "water"
+      ],
+      "altText": "A ring of sand around a blue lagoon.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.ballista.noun.plate",
+      "word": "ballista",
+      "lemma": "ballista",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_ballista_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ballista_plate.imageset/word_ballista_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A wooden ballista on a stand, aimed upward.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.barometer.noun.plate",
+      "word": "barometer",
+      "lemma": "barometer",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_barometer_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_barometer_plate.imageset/word_barometer_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "science"
+      ],
+      "altText": "A round barometer with a black needle.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.bastion.noun.plate",
+      "word": "bastion",
+      "lemma": "bastion",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bastion_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bastion_plate.imageset/word_bastion_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A stone bastion jutting from a wall.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.bayonet.noun.plate",
+      "word": "bayonet",
+      "lemma": "bayonet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bayonet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bayonet_plate.imageset/word_bayonet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A steel bayonet with a brown grip.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.bellows.noun.plate",
+      "word": "bellows",
+      "lemma": "bellows",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bellows_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bellows_plate.imageset/word_bellows_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools"
+      ],
+      "altText": "A leather bellows with a wooden nozzle.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.bison.noun.plate",
+      "word": "bison",
+      "lemma": "bison",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bison_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bison_plate.imageset/word_bison_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A brown bison with a shaggy hump.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.boiler.noun.plate",
+      "word": "boiler",
+      "lemma": "boiler",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_boiler_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boiler_plate.imageset/word_boiler_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "machines"
+      ],
+      "altText": "A round steel boiler with a pipe and gauge.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.boulder.noun.plate",
+      "word": "boulder",
+      "lemma": "boulder",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_boulder_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boulder_plate.imageset/word_boulder_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "nature"
+      ],
+      "altText": "A big grey boulder with moss on one side.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.bugle.noun.plate",
+      "word": "bugle",
+      "lemma": "bugle",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bugle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bugle_plate.imageset/word_bugle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "instruments"
+      ],
+      "altText": "A brass bugle with a long curved tube.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.canyon.noun.plate",
+      "word": "canyon",
+      "lemma": "canyon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_canyon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_canyon_plate.imageset/word_canyon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "nature"
+      ],
+      "altText": "A deep canyon with layered rock walls.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.catapult.noun.plate",
+      "word": "catapult",
+      "lemma": "catapult",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_catapult_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_catapult_plate.imageset/word_catapult_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A wooden catapult with a loaded arm.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.cathedral.noun.plate",
+      "word": "cathedral",
+      "lemma": "cathedral",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cathedral_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cathedral_plate.imageset/word_cathedral_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A tall cathedral with twin towers.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.cauldron.noun.plate",
+      "word": "cauldron",
+      "lemma": "cauldron",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cauldron_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cauldron_plate.imageset/word_cauldron_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects"
+      ],
+      "altText": "A black cauldron over a fire.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.chalice.noun.plate",
+      "word": "chalice",
+      "lemma": "chalice",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chalice_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chalice_plate.imageset/word_chalice_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects"
+      ],
+      "altText": "A gold chalice with a jewelled bowl.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.chameleon.noun.plate",
+      "word": "chameleon",
+      "lemma": "chameleon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chameleon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chameleon_plate.imageset/word_chameleon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A green chameleon curled around a branch.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.chandelier.noun.plate",
+      "word": "chandelier",
+      "lemma": "chandelier",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_chandelier_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chandelier_plate.imageset/word_chandelier_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "home"
+      ],
+      "altText": "A brass chandelier with five candles.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.cobra.noun.plate",
+      "word": "cobra",
+      "lemma": "cobra",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cobra_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cobra_plate.imageset/word_cobra_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A coiled cobra raising its hood.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.crossbow.noun.plate",
+      "word": "crossbow",
+      "lemma": "crossbow",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_crossbow_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crossbow_plate.imageset/word_crossbow_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A crossbow with a wooden stock and a taut string.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.cupola.noun.plate",
+      "word": "cupola",
+      "lemma": "cupola",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cupola_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cupola_plate.imageset/word_cupola_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A small round cupola on a roof.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.drawbridge.noun.plate",
+      "word": "drawbridge",
+      "lemma": "drawbridge",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_drawbridge_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drawbridge_plate.imageset/word_drawbridge_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A wooden drawbridge lowered across a moat.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.forge.noun.plate",
+      "word": "forge",
+      "lemma": "forge",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_forge_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_forge_plate.imageset/word_forge_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings",
+        "tools"
+      ],
+      "altText": "A stone forge with glowing coals.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.fortress.noun.plate",
+      "word": "fortress",
+      "lemma": "fortress",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fortress_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fortress_plate.imageset/word_fortress_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A grey fortress with four towers.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.furnace.noun.plate",
+      "word": "furnace",
+      "lemma": "furnace",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_furnace_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_furnace_plate.imageset/word_furnace_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "machines"
+      ],
+      "altText": "A black iron furnace with an orange glow.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.galleon.noun.plate",
+      "word": "galleon",
+      "lemma": "galleon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_galleon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_galleon_plate.imageset/word_galleon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "boats"
+      ],
+      "altText": "A tall galleon with three sails.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.gargoyle.noun.plate",
+      "word": "gargoyle",
+      "lemma": "gargoyle",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gargoyle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gargoyle_plate.imageset/word_gargoyle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A stone gargoyle with wings on a ledge.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.gauntlet.noun.plate",
+      "word": "gauntlet",
+      "lemma": "gauntlet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gauntlet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gauntlet_plate.imageset/word_gauntlet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "clothing",
+        "weapons"
+      ],
+      "altText": "A steel gauntlet with a brown cuff.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.gazelle.noun.plate",
+      "word": "gazelle",
+      "lemma": "gazelle",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gazelle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gazelle_plate.imageset/word_gazelle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A slender tan gazelle with thin legs.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.geyser.noun.plate",
+      "word": "geyser",
+      "lemma": "geyser",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_geyser_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_geyser_plate.imageset/word_geyser_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "nature"
+      ],
+      "altText": "A geyser shooting water into the air.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.globe.noun.plate",
+      "word": "globe",
+      "lemma": "globe",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_globe_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_globe_plate.imageset/word_globe_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects"
+      ],
+      "altText": "A globe on a wooden stand.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.hacksaw.noun.plate",
+      "word": "hacksaw",
+      "lemma": "hacksaw",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hacksaw_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hacksaw_plate.imageset/word_hacksaw_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools"
+      ],
+      "altText": "A hacksaw with a steel blade and wooden handle.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.halberd.noun.plate",
+      "word": "halberd",
+      "lemma": "halberd",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_halberd_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_halberd_plate.imageset/word_halberd_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A long halberd with an axe blade and spike.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.harpoon.noun.plate",
+      "word": "harpoon",
+      "lemma": "harpoon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_harpoon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_harpoon_plate.imageset/word_harpoon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools",
+        "weapons"
+      ],
+      "altText": "A harpoon with a barbed tip and rope.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.hawk.noun.plate",
+      "word": "hawk",
+      "lemma": "hawk",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hawk_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hawk_plate.imageset/word_hawk_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals",
+        "birds"
+      ],
+      "altText": "A brown hawk with spread wings.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.heron.noun.plate",
+      "word": "heron",
+      "lemma": "heron",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_heron_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_heron_plate.imageset/word_heron_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals",
+        "birds"
+      ],
+      "altText": "A grey heron standing in shallow water.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.hinge.noun.plate",
+      "word": "hinge",
+      "lemma": "hinge",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hinge_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hinge_plate.imageset/word_hinge_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects"
+      ],
+      "altText": "A brass hinge with two leaves and a pin.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.inkwell.noun.plate",
+      "word": "inkwell",
+      "lemma": "inkwell",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_inkwell_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_inkwell_plate.imageset/word_inkwell_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects"
+      ],
+      "altText": "A glass inkwell filled with dark ink.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.javelin.noun.plate",
+      "word": "javelin",
+      "lemma": "javelin",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_javelin_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_javelin_plate.imageset/word_javelin_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons",
+        "sport"
+      ],
+      "altText": "A javelin with a steel tip and a leather grip.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.kaleidoscope.noun.plate",
+      "word": "kaleidoscope",
+      "lemma": "kaleidoscope",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_kaleidoscope_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kaleidoscope_plate.imageset/word_kaleidoscope_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects"
+      ],
+      "altText": "A kaleidoscope tube with coloured glass.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.kiln.noun.plate",
+      "word": "kiln",
+      "lemma": "kiln",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_kiln_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kiln_plate.imageset/word_kiln_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings",
+        "tools"
+      ],
+      "altText": "A brick kiln with an arched opening.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.lagoon.noun.plate",
+      "word": "lagoon",
+      "lemma": "lagoon",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lagoon_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lagoon_plate.imageset/word_lagoon_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "nature",
+        "water"
+      ],
+      "altText": "A calm lagoon beside a sandy shore.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.lance.noun.plate",
+      "word": "lance",
+      "lemma": "lance",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lance_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lance_plate.imageset/word_lance_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A long lance with a pennant flag.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.lathe.noun.plate",
+      "word": "lathe",
+      "lemma": "lathe",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lathe_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lathe_plate.imageset/word_lathe_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "machines",
+        "tools"
+      ],
+      "altText": "A wooden lathe holding a turned piece.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.lectern.noun.plate",
+      "word": "lectern",
+      "lemma": "lectern",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lectern_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lectern_plate.imageset/word_lectern_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "buildings"
+      ],
+      "altText": "A wooden lectern with an open book.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.lever.noun.plate",
+      "word": "lever",
+      "lemma": "lever",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lever_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lever_plate.imageset/word_lever_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "machines"
+      ],
+      "altText": "A metal lever on a pivot with a round knob.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.loom.noun.plate",
+      "word": "loom",
+      "lemma": "loom",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_loom_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_loom_plate.imageset/word_loom_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools"
+      ],
+      "altText": "A wooden loom with threads on a frame.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.lynx.noun.plate",
+      "word": "lynx",
+      "lemma": "lynx",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lynx_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lynx_plate.imageset/word_lynx_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A spotted grey lynx with tufted ears.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.mace.noun.plate",
+      "word": "mace",
+      "lemma": "mace",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mace_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mace_plate.imageset/word_mace_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A steel mace with a spiked head.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.mallet.noun.plate",
+      "word": "mallet",
+      "lemma": "mallet",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mallet_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mallet_plate.imageset/word_mallet_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools"
+      ],
+      "altText": "A wooden mallet with a round head.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.moat.noun.plate",
+      "word": "moat",
+      "lemma": "moat",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_moat_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_moat_plate.imageset/word_moat_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "water",
+        "buildings"
+      ],
+      "altText": "A wide moat around a castle wall.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.mongoose.noun.plate",
+      "word": "mongoose",
+      "lemma": "mongoose",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mongoose_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mongoose_plate.imageset/word_mongoose_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A grey mongoose standing upright.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.mosaic.noun.plate",
+      "word": "mosaic",
+      "lemma": "mosaic",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mosaic_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mosaic_plate.imageset/word_mosaic_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "art"
+      ],
+      "altText": "A mosaic of coloured tiles in a grid.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.musket.noun.plate",
+      "word": "musket",
+      "lemma": "musket",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_musket_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_musket_plate.imageset/word_musket_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A musket with a brown stock.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.narwhal.noun.plate",
+      "word": "narwhal",
+      "lemma": "narwhal",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_narwhal_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_narwhal_plate.imageset/word_narwhal_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals",
+        "water"
+      ],
+      "altText": "A grey narwhal with a long spiral tusk.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.obelisk.noun.plate",
+      "word": "obelisk",
+      "lemma": "obelisk",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_obelisk_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_obelisk_plate.imageset/word_obelisk_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A tall stone obelisk on a base.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.pagoda.noun.plate",
+      "word": "pagoda",
+      "lemma": "pagoda",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_pagoda_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pagoda_plate.imageset/word_pagoda_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A tiered pagoda with curved roofs.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.parchment.noun.plate",
+      "word": "parchment",
+      "lemma": "parchment",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_parchment_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_parchment_plate.imageset/word_parchment_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects"
+      ],
+      "altText": "A rolled parchment with a red seal.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.pedestal.noun.plate",
+      "word": "pedestal",
+      "lemma": "pedestal",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_pedestal_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pedestal_plate.imageset/word_pedestal_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "buildings"
+      ],
+      "altText": "A stone pedestal holding a vase.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.peninsula.noun.plate",
+      "word": "peninsula",
+      "lemma": "peninsula",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_peninsula_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_peninsula_plate.imageset/word_peninsula_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "nature",
+        "water"
+      ],
+      "altText": "A strip of land reaching into the sea.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.periscope.noun.plate",
+      "word": "periscope",
+      "lemma": "periscope",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_periscope_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_periscope_plate.imageset/word_periscope_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "machines"
+      ],
+      "altText": "A periscope with two mirrors on a tube.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.piston.noun.plate",
+      "word": "piston",
+      "lemma": "piston",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_piston_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_piston_plate.imageset/word_piston_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "machines"
+      ],
+      "altText": "A metal piston inside a cylinder.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.pliers.noun.plate",
+      "word": "pliers",
+      "lemma": "pliers",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_pliers_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pliers_plate.imageset/word_pliers_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools"
+      ],
+      "altText": "A pair of steel pliers with orange grips.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.plough.noun.plate",
+      "word": "plough",
+      "lemma": "plough",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_plough_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_plough_plate.imageset/word_plough_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools",
+        "farm"
+      ],
+      "altText": "A wooden plough pulled over soil.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.prism.noun.plate",
+      "word": "prism",
+      "lemma": "prism",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_prism_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_prism_plate.imageset/word_prism_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "science"
+      ],
+      "altText": "A glass prism splitting white light.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.ravine.noun.plate",
+      "word": "ravine",
+      "lemma": "ravine",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_ravine_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ravine_plate.imageset/word_ravine_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "nature"
+      ],
+      "altText": "A narrow ravine with a stream at the bottom.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.sabre.noun.plate",
+      "word": "sabre",
+      "lemma": "sabre",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_sabre_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sabre_plate.imageset/word_sabre_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "weapons"
+      ],
+      "altText": "A curved sabre with a gold hilt.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.salamander.noun.plate",
+      "word": "salamander",
+      "lemma": "salamander",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_salamander_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_salamander_plate.imageset/word_salamander_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A teal salamander with orange spots.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.saxophone.noun.plate",
+      "word": "saxophone",
+      "lemma": "saxophone",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_saxophone_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_saxophone_plate.imageset/word_saxophone_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "instruments"
+      ],
+      "altText": "A gold saxophone with a bent bell.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.schooner.noun.plate",
+      "word": "schooner",
+      "lemma": "schooner",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_schooner_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_schooner_plate.imageset/word_schooner_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "boats"
+      ],
+      "altText": "A two-masted schooner on calm water.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.scroll.noun.plate",
+      "word": "scroll",
+      "lemma": "scroll",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_scroll_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scroll_plate.imageset/word_scroll_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "art"
+      ],
+      "altText": "A paper scroll with two wooden rods.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.scythe.noun.plate",
+      "word": "scythe",
+      "lemma": "scythe",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_scythe_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scythe_plate.imageset/word_scythe_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools",
+        "farm"
+      ],
+      "altText": "A scythe with a curved blade and a wooden handle.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.sextant.noun.plate",
+      "word": "sextant",
+      "lemma": "sextant",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_sextant_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sextant_plate.imageset/word_sextant_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "science"
+      ],
+      "altText": "A brass sextant with a curved arc.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.spindle.noun.plate",
+      "word": "spindle",
+      "lemma": "spindle",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_spindle_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_spindle_plate.imageset/word_spindle_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools"
+      ],
+      "altText": "A wooden spindle with yarn wound on it.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.spire.noun.plate",
+      "word": "spire",
+      "lemma": "spire",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_spire_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_spire_plate.imageset/word_spire_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A stone church spire rising above a roof.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.sprocket.noun.plate",
+      "word": "sprocket",
+      "lemma": "sprocket",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_sprocket_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sprocket_plate.imageset/word_sprocket_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "machines"
+      ],
+      "altText": "A metal sprocket with teeth around a hub.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.squid.noun.plate",
+      "word": "squid",
+      "lemma": "squid",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_squid_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_squid_plate.imageset/word_squid_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals",
+        "water"
+      ],
+      "altText": "A pink squid with long curling tentacles.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.starfish.noun.plate",
+      "word": "starfish",
+      "lemma": "starfish",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_starfish_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_starfish_plate.imageset/word_starfish_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals",
+        "water"
+      ],
+      "altText": "An orange starfish with five arms.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.stethoscope.noun.plate",
+      "word": "stethoscope",
+      "lemma": "stethoscope",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_stethoscope_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stethoscope_plate.imageset/word_stethoscope_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "science"
+      ],
+      "altText": "A stethoscope with a chest piece and tubes.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.stirrup.noun.plate",
+      "word": "stirrup",
+      "lemma": "stirrup",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_stirrup_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stirrup_plate.imageset/word_stirrup_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "animals"
+      ],
+      "altText": "A metal stirrup on a leather strap.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.sundial.noun.plate",
+      "word": "sundial",
+      "lemma": "sundial",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_sundial_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sundial_plate.imageset/word_sundial_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects"
+      ],
+      "altText": "A stone sundial with a gnomon shadow.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.tambourine.noun.plate",
+      "word": "tambourine",
+      "lemma": "tambourine",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_tambourine_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tambourine_plate.imageset/word_tambourine_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "instruments"
+      ],
+      "altText": "A round tambourine with jingles.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.tapestry.noun.plate",
+      "word": "tapestry",
+      "lemma": "tapestry",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_tapestry_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tapestry_plate.imageset/word_tapestry_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "art"
+      ],
+      "altText": "A woven tapestry with a red border.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.tarantula.noun.plate",
+      "word": "tarantula",
+      "lemma": "tarantula",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_tarantula_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tarantula_plate.imageset/word_tarantula_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "animals"
+      ],
+      "altText": "A hairy brown tarantula with eight legs.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.thermometer.noun.plate",
+      "word": "thermometer",
+      "lemma": "thermometer",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_thermometer_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thermometer_plate.imageset/word_thermometer_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "science"
+      ],
+      "altText": "A glass thermometer with red mercury.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.tram.noun.plate",
+      "word": "tram",
+      "lemma": "tram",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_tram_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tram_plate.imageset/word_tram_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "transport"
+      ],
+      "altText": "A red tram on rails.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.trawler.noun.plate",
+      "word": "trawler",
+      "lemma": "trawler",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_trawler_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trawler_plate.imageset/word_trawler_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "boats"
+      ],
+      "altText": "A fishing trawler with a long wire boom.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.trellis.noun.plate",
+      "word": "trellis",
+      "lemma": "trellis",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_trellis_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trellis_plate.imageset/word_trellis_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "garden"
+      ],
+      "altText": "A wooden trellis with a climbing plant.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.tripod.noun.plate",
+      "word": "tripod",
+      "lemma": "tripod",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_tripod_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tripod_plate.imageset/word_tripod_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "objects",
+        "science"
+      ],
+      "altText": "A metal tripod with three legs.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.trombone.noun.plate",
+      "word": "trombone",
+      "lemma": "trombone",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_trombone_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trombone_plate.imageset/word_trombone_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "instruments"
+      ],
+      "altText": "A brass trombone with a long slide.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.trowel.noun.plate",
+      "word": "trowel",
+      "lemma": "trowel",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_trowel_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trowel_plate.imageset/word_trowel_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "tools",
+        "garden"
+      ],
+      "altText": "A garden trowel with a wooden handle.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.turbine.noun.plate",
+      "word": "turbine",
+      "lemma": "turbine",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_turbine_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_turbine_plate.imageset/word_turbine_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "machines",
+        "energy"
+      ],
+      "altText": "A wind turbine with three white blades.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.turret.noun.plate",
+      "word": "turret",
+      "lemma": "turret",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_turret_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_turret_plate.imageset/word_turret_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A stone turret with a pointed cap.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.watchtower.noun.plate",
+      "word": "watchtower",
+      "lemma": "watchtower",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_watchtower_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_watchtower_plate.imageset/word_watchtower_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "buildings"
+      ],
+      "altText": "A wooden watchtower on tall legs.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.winch.noun.plate",
+      "word": "winch",
+      "lemma": "winch",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_winch_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_winch_plate.imageset/word_winch_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "machines",
+        "tools"
+      ],
+      "altText": "A metal winch with a rope drum.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.xylophone.noun.plate",
+      "word": "xylophone",
+      "lemma": "xylophone",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_xylophone_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_xylophone_plate.imageset/word_xylophone_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "instruments"
+      ],
+      "altText": "A wooden xylophone with coloured bars.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
+    },
+    {
+      "id": "illustration.zeppelin.noun.plate",
+      "word": "zeppelin",
+      "lemma": "zeppelin",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_zeppelin_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_zeppelin_plate.imageset/word_zeppelin_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "c1",
+        "transport"
+      ],
+      "altText": "A silver zeppelin floating in the sky.",
+      "isDecorative": false,
+      "notes": "C1 memory-derived, unverified"
     }
   ]
 }
