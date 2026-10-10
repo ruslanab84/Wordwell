@@ -1,4 +1,5 @@
 import SwiftUI
+import WordwellAIFoundationModels
 import WordwellDesign
 import WordwellDomain
 
@@ -86,7 +87,7 @@ struct OnboardingScreen: View {
         VStack(alignment: .leading, spacing: 18) {
             heading("Make learning yours")
             Picker("Explanation language", selection: $explanationLanguage) {
-                ForEach(SupportedLanguages.all, id: \.code) { language in
+                ForEach(onDeviceSupportedLanguages(SupportedLanguages.all), id: \.code) { language in
                     Text(language.name).tag(language.code)
                 }
             }

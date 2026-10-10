@@ -1,5 +1,6 @@
 import SwiftUI
 import WordwellAICore
+import WordwellAIFoundationModels
 import WordwellDesign
 import WordwellDomain
 
@@ -50,7 +51,7 @@ struct SettingsScreen: View {
                     }
                 }
                 Menu {
-                    ForEach(SupportedLanguages.all, id: \.code) { language in
+                    ForEach(onDeviceSupportedLanguages(SupportedLanguages.all), id: \.code) { language in
                         Button(language.name) { change { $0.explanationLanguage = language.code } }
                     }
                 } label: {
@@ -164,9 +165,12 @@ struct SettingsScreen: View {
         do {
             var loaded = try await settings.profile()
             loaded.dailyGoalMinutes = try await progress.dailyGoalMinutes()
+            let supported = onDeviceSupportedLanguages(SupportedLanguages.all).map(\.code)
+            let needsLanguageReset = !supported.contains(loaded.explanationLanguage)
             profile = loaded
             aiAvailable = await ai.availability(languageCode: "en") == .available
             loadFailed = false
+            if needsLanguageReset { change { $0.explanationLanguage = "en" } }
         } catch {
             loadFailed = true
         }
