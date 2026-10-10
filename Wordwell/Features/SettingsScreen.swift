@@ -34,7 +34,7 @@ struct SettingsScreen: View {
     @State private var permissionDenied = false
 
     var body: some View {
-        FeaturePage(title: "Settings", subtitle: "Make Wordwell work for you") {
+        FeaturePage(title: "Settings", subtitle: "Make Verbalex work for you") {
             if loadFailed {
                 WordwellBodyText("Settings could not be loaded.", secondary: true)
                 Button("Try again") { Task { await load() } }
@@ -90,7 +90,7 @@ struct SettingsScreen: View {
                         Image(systemName: "bell")
                     }
                 }
-                WordwellBodyText("Starting tomorrow, get a word with its transcription in each notification, between 9 AM and 8 PM. Open Wordwell every few days to keep new words scheduled.", secondary: true)
+                WordwellBodyText("Starting tomorrow, get a word with its transcription in each notification, between 9 AM and 8 PM. Open Verbalex every few days to keep new words scheduled.", secondary: true)
                 Menu {
                     Button("All topics") { change { $0.wordTopicID = nil } }
                     ForEach(VocabularyTopic.all) { topic in
@@ -150,7 +150,7 @@ struct SettingsScreen: View {
         .alert("Could not schedule words", isPresented: $notificationFailed) {
             Button("OK", role: .cancel) {}
         } message: {
-            Text("Your choice was saved. Open Wordwell again to retry scheduling notifications.")
+            Text("Your choice was saved. Open Verbalex again to retry scheduling notifications.")
         }
     }
 

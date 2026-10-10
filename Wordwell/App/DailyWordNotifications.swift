@@ -104,7 +104,7 @@ final class DailyWordNotifications {
             }
             let content = UNMutableNotificationContent()
             content.title = "\(word.word) /\(ipa)/"
-            content.body = word.senses.first?.definition ?? "Open Wordwell to learn this word."
+            content.body = word.senses.first?.definition ?? "Open Verbalex to learn this word."
             content.sound = .default
             content.threadIdentifier = "wordwell.dailyWords"
             content.userInfo = ["wordID": word.id, "count": profile.newWordsPerDay,

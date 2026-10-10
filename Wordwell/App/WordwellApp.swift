@@ -55,7 +55,7 @@ private struct AppLaunchView: View {
                     onboardingCompleted = true
                 }
             } else {
-                ProgressView("Loading Wordwell")
+                ProgressView("Loading Verbalex")
             }
         }
         .task { await checkProfile() }

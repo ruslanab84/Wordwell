@@ -16,7 +16,7 @@ struct HomeScreen: View {
     @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
-        FeaturePage(title: "Wordwell", subtitle: "A place to meet new words") {
+        FeaturePage(title: "Verbalex", subtitle: "A place to meet new words") {
             if let summary {
                 WordwellBodyText("\(summary.minutesToday) minutes today · \(summary.dayStreak) day streak", secondary: true)
             }

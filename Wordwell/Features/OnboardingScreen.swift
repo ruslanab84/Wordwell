@@ -22,7 +22,7 @@ struct OnboardingScreen: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: WordwellLayout.sectionGap) {
-                Text("Wordwell")
+                Text("Verbalex")
                     .font(WordwellType.screenTitle)
                     .foregroundStyle(WordwellColor.ink)
                 Text("Step \(step + 1) of 3")
