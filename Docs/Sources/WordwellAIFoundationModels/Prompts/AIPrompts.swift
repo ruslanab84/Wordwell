@@ -8,7 +8,7 @@ import WordwellAICore
 @available(iOS 26.0, macOS 26.0, *)
 public enum AIPrompts {
     /// Bump on any change in instructions, prompt templates or schemas. Invalidates cached responses.
-    public static let version = "2026.10.2"
+    public static let version = "2026.10.3"
 
     /// English name of a non-English explanation language ("ru" -> "Russian"); nil for English or no language.
     static func languageName(_ code: String?) -> String? {

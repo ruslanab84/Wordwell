@@ -10,9 +10,9 @@ import FoundationModels
 struct GExplanation {
     @Guide(description: "ID of the explained sense copied from SENSES, for example s1")
     var senseID: String
-    @Guide(description: "Plain explanation for the learner, at most two short sentences, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "Plain explanation of what the word means, at most two short sentences. Never answer with only a language name; follow the EXPLANATION LANGUAGE line only if the prompt has one")
     var explanation: String
-    @Guide(description: "Short everyday comparison that makes the meaning memorable, or an empty string, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "Short everyday comparison that makes the meaning memorable, or an empty string; follow the EXPLANATION LANGUAGE line only if the prompt has one")
     var analogy: String
     @Guide(description: "Natural English sentences that use the headword", .count(2))
     var examples: [String]
