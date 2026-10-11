@@ -469,7 +469,9 @@ struct DictionaryEntryScreen: View {
                 level: WordwellAICore.CEFRLevel(rawValue: profile.cefrLevel.rawValue) ?? .b1,
                 nativeLanguageCode: profile.explanationLanguage
             )
-            let word = entry.aiContext(senseID: sense.id)
+            // Explain prompt asks the model to pick the most useful sense; give it all of them
+            // (first sense of "browser" is the rare "casual viewer" one, not the web program).
+            let word = entry.aiContext(senseID: action == .moreExamples ? sense.id : nil)
             let language = action == .explainInUserLanguage ? profile.explanationLanguage : nil
             do {
                 switch action {
