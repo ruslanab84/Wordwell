@@ -24,7 +24,7 @@ enum ExamPrompts {
         case .readingSet:
             GenerationOptions(temperature: 0.7, maximumResponseTokens: 900)
         case .assessment:
-            GenerationOptions(sampling: .greedy, maximumResponseTokens: 600)
+            GenerationOptions(samplingMode: .greedy, maximumResponseTokens: 600)
         }
     }
 

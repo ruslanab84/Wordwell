@@ -48,9 +48,9 @@ struct GComparisonExample {
 struct GComparison {
     @Guide(description: "The main difference in one sentence, in the EXPLANATION LANGUAGE if given")
     var coreDifference: String
-    @Guide(description: "When to use word A, one sentence, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "The situation where word A fits, as a short phrase that completes 'Use A when ...'. Do not repeat 'Use' or the word; start with the situation itself")
     var useFirstWhen: String
-    @Guide(description: "When to use word B, one sentence, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "The situation where word B fits, as a short phrase that completes 'Use B when ...'. Do not repeat 'Use' or the word; start with the situation itself")
     var useSecondWhen: String
     @Guide(description: "One example for each word", .count(2))
     var examples: [GComparisonExample]

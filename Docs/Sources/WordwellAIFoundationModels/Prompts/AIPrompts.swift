@@ -8,7 +8,7 @@ import WordwellAICore
 @available(iOS 26.0, macOS 26.0, *)
 public enum AIPrompts {
     /// Bump on any change in instructions, prompt templates or schemas. Invalidates cached responses.
-    public static let version = "2026.10.3"
+    public static let version = "2026.10.4"
 
     /// English name of a non-English explanation language ("ru" -> "Russian"); nil for English or no language.
     static func languageName(_ code: String?) -> String? {
@@ -25,9 +25,9 @@ public enum AIPrompts {
         case .examples, .quiz, .speakingPrompt:
             GenerationOptions(temperature: 0.8, maximumResponseTokens: 450)
         case .speakingFeedback:
-            GenerationOptions(sampling: .greedy, maximumResponseTokens: 600)
+            GenerationOptions(samplingMode: .greedy, maximumResponseTokens: 600)
         default:
-            GenerationOptions(sampling: .greedy, maximumResponseTokens: 400)
+            GenerationOptions(samplingMode: .greedy, maximumResponseTokens: 400)
         }
     }
 

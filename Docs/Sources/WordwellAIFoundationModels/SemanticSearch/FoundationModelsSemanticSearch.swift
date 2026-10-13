@@ -41,7 +41,7 @@ public final class FoundationModelsSemanticSearch: SemanticCandidateProvider {
             let prompt = "LEARNER LEVEL: \(learner.level.rawValue)\nDESCRIPTION: <<<\(clean)>>>\nTASK: Propose matching words."
             return try await session.respond(
                 to: prompt, generating: GSemanticCandidates.self,
-                options: GenerationOptions(sampling: .greedy, maximumResponseTokens: 80)).content.words
+                options: GenerationOptions(samplingMode: .greedy, maximumResponseTokens: 80)).content.words
         } catch {
             throw FMErrorMapper.map(error)
         }

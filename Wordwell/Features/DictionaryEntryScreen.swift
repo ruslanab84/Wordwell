@@ -356,8 +356,8 @@ struct DictionaryEntryScreen: View {
                         case .comparison(let result):
                             sectionTitle("\(result.first) vs \(result.second)")
                             WordwellBodyText(result.coreDifference)
-                            WordwellBodyText("Use \(result.first) when \(result.useFirstWhen)", secondary: true)
-                            WordwellBodyText("Use \(result.second) when \(result.useSecondWhen)", secondary: true)
+                            WordwellBodyText("Use \(result.first) when \(whenClause(result.useFirstWhen, word: result.first))", secondary: true)
+                            WordwellBodyText("Use \(result.second) when \(whenClause(result.useSecondWhen, word: result.second))", secondary: true)
                             ForEach(Array(result.examples.enumerated()), id: \.offset) { _, example in
                                 WordwellBodyText("“\(example.sentence)”")
                             }
@@ -539,6 +539,12 @@ struct DictionaryEntryScreen: View {
             sectionTitle(title)
             WordwellBodyText(words.joined(separator: " · "))
         }
+    }
+
+    /// Model sometimes repeats the "Use X when" lead-in the UI already adds; strip it.
+    private func whenClause(_ text: String, word: String) -> String {
+        let pattern = "^\\s*use\\s+\(NSRegularExpression.escapedPattern(for: word))\\s+when\\s+"
+        return text.replacingOccurrences(of: pattern, with: "", options: [.regularExpression, .caseInsensitive])
     }
 
     private func sectionTitle(_ title: String) -> some View {

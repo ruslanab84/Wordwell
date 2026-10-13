@@ -63,8 +63,8 @@ final class OnDeviceSpeechRecognizer {
             try session.setActive(true)
             let input = engine.inputNode
             let format = input.outputFormat(forBus: 0)
-            input.installTap(onBus: 0, bufferSize: 1024, format: format) { buffer, _ in
-                request.append(buffer)
+            try input.installAudioTap(onBus: 0, bufferSize: 1024, format: format) { buffer, _ in
+                request.append(AVAudioPCMBuffer(copying: buffer))
             }
             task = recognizer.recognitionTask(with: request) { [weak self] result, error in
                 let text = result?.bestTranscription.formattedString

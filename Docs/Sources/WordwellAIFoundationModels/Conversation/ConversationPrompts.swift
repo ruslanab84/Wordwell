@@ -45,7 +45,7 @@ enum ConversationPrompts {
     static func options(for kind: Kind) -> GenerationOptions {
         switch kind {
         case .reply: GenerationOptions(temperature: 0.8, maximumResponseTokens: 120)
-        case .summary: GenerationOptions(sampling: .greedy, maximumResponseTokens: 600)
+        case .summary: GenerationOptions(samplingMode: .greedy, maximumResponseTokens: 600)
         }
     }
 

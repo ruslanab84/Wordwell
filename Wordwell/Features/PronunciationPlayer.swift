@@ -19,11 +19,11 @@ final class PronunciationPlayer: NSObject, AVSpeechSynthesizerDelegate {
         super.init()
         synthesizer.delegate = self
         interruptionObserver = NotificationCenter.default.addObserver(
-            forName: AVAudioSession.interruptionNotification, object: nil, queue: .main
+            forName: AVAudioSession.didBecomeInactiveNotification, object: nil, queue: .main
         ) { [weak self] note in
-            let began = (note.userInfo?[AVAudioSessionInterruptionTypeKey] as? UInt)
-                .flatMap(AVAudioSession.InterruptionType.init) == .began
-            MainActor.assumeIsolated { if began { self?.pause() } }
+            let context = note.userInfo?[AVAudioSession.deactivationContextKey] as? AVAudioSession.DeactivationContext
+            let interrupted = context?.interruptionContext != nil
+            MainActor.assumeIsolated { if interrupted { self?.pause() } }
         }
     }
 
