@@ -195,7 +195,7 @@ struct QuizMeScreen: View {
             do {
                 guard let entry = try await dictionary.entry(id: id) else { continue }
                 let context = entry.aiContext()
-                let distractors = try await lookup.distractors(for: entry.lemma, level: context.cefrLevel, limit: 3)
+                let distractors = lookup.distractors(for: entry, limit: 3)
                 // ponytail: one question per word; raise questionCount for longer sessions.
                 let quiz = try await ai.quiz(for: context, distractors: distractors, learner: learner, questionCount: 1)
                 if let q = quiz.questions.first {

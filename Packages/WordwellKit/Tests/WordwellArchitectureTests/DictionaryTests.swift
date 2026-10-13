@@ -115,3 +115,9 @@ import WordwellDomain
     let restored = try JSONDecoder().decode(SearchHistory.self, from: JSONEncoder().encode(history))
     #expect(restored == history)
 }
+
+@Test func senseDecodesWordNetQuotationObjectsAsExamples() throws {
+    let json = #"{"id":"s","definition":"d","examples":["plain",{"source":"R.J.Samuelson","text":"quoted"}],"register":null}"#
+    let sense = try JSONDecoder().decode(DefinitionSense.self, from: Data(json.utf8))
+    #expect(sense.examples == ["plain", "quoted"])
+}

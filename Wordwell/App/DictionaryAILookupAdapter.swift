@@ -1,5 +1,6 @@
 import Foundation
 import WordwellAICore
+import WordwellData
 import WordwellDomain
 
 struct DictionaryAILookupAdapter: AIDictionaryLookup {
@@ -9,16 +10,24 @@ struct DictionaryAILookupAdapter: AIDictionaryLookup {
         try await repository.entry(lemma: lemma)?.aiContext()
     }
 
+    // Single-word, same-part-of-speech picks from the Top 3000 list. Searching the dictionary by first
+    // letter returned junk ("b", "B", "hollow-horned"); case-twin options made the validator drop every question.
+    // ponytail: random pick can land a synonym of the answer; add a synonym exclusion if learners report it.
     func distractors(for lemma: String, level: WordwellAICore.CEFRLevel?, limit: Int) async throws -> [String] {
-        guard limit > 0, let entry = try await repository.entry(lemma: lemma),
-              let firstLetter = lemma.first else { return [] }
-        let candidates = try await repository.search(String(firstLetter), limit: 100)
-        return Array(candidates.lazy
-            .filter { $0.partOfSpeech == entry.partOfSpeech && $0.word.caseInsensitiveCompare(lemma) != .orderedSame }
-            .filter { level == nil || $0.cefrLevel == nil || $0.cefrLevel?.rawValue == level?.rawValue }
-            .map(\.word)
-            .prefix(limit))
+        guard let entry = try await repository.entry(lemma: lemma) else { return [] }
+        return distractors(for: entry, limit: limit)
     }
+
+    /// Prefer this overload: a lemma alone can resolve to another part of speech ("run" the noun).
+    func distractors(for entry: WordEntry, limit: Int) -> [String] {
+        guard limit > 0 else { return [] }
+        return Array(Self.commonWords.filter {
+            $0.partOfSpeech == entry.partOfSpeech && !$0.word.contains(" ")
+                && $0.word.caseInsensitiveCompare(entry.lemma) != .orderedSame
+        }.shuffled().prefix(limit).map(\.word))
+    }
+
+    private static let commonWords = CommonWordsCatalog.load()
 }
 
 extension WordEntry {

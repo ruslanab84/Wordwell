@@ -21,6 +21,29 @@ public struct DefinitionSense: Identifiable, Codable, Hashable, Sendable {
         self.examples = examples
         self.register = register
     }
+
+    private enum CodingKeys: String, CodingKey { case id, definition, examples, register }
+
+    /// WordNet quotations arrive as plain strings or as `{"source": ..., "text": ...}` (~1,900 entries).
+    private struct Example: Decodable {
+        let text: String
+        init(from decoder: Decoder) throws {
+            if let plain = try? decoder.singleValueContainer().decode(String.self) {
+                text = plain
+            } else {
+                text = try decoder.container(keyedBy: CodingKeys.self).decode(String.self, forKey: .text)
+            }
+        }
+        private enum CodingKeys: String, CodingKey { case text }
+    }
+
+    public init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id = try c.decode(String.self, forKey: .id)
+        definition = try c.decode(String.self, forKey: .definition)
+        examples = try c.decode([Example].self, forKey: .examples).map(\.text)
+        register = try c.decodeIfPresent(String.self, forKey: .register)
+    }
 }
 
 public struct CommonMistake: Codable, Hashable, Sendable {
