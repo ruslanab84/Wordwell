@@ -119,16 +119,28 @@ private struct ConversationSessionView: View {
                             bubble(turn).id(turn.id)
                         }
                         status
+                        Color.clear.frame(height: 1).id(Self.bottomID)
                     }
                     .padding(WordwellLayout.screenPadding)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .scrollDismissesKeyboard(.interactively)
-                .onChange(of: session.turns.count) {
-                    if let last = session.turns.last { withAnimation { proxy.scrollTo(last.id, anchor: .bottom) } }
-                }
+                .defaultScrollAnchor(.bottom)
+                .onChange(of: session.turns.count) { scrollToBottom(proxy) }
+                .onChange(of: session.phase) { scrollToBottom(proxy) }
+                .onChange(of: focused) { scrollToBottom(proxy) }
             }
             composer
+        }
+    }
+
+    private static let bottomID = "conversation-bottom"
+
+    /// Pin the newest reply above the composer. Deferred one tick so it runs after the
+    /// keyboard / status-row layout pass; otherwise the reply lands below the visible area.
+    private func scrollToBottom(_ proxy: ScrollViewProxy) {
+        DispatchQueue.main.async {
+            withAnimation { proxy.scrollTo(Self.bottomID, anchor: .bottom) }
         }
     }
 
