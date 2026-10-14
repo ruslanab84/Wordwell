@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-"""Build the bundled "Top 3000" word list: wordfreq frequency order mapped onto Open English Wordnet entries.
+"""Build the bundled "Top 3000" word list from the Open English Wordnet 2025 XML (CC BY 4.0).
 
-Requires `pip install wordfreq`. Frequency data: wordfreq (CC BY-SA 4.0); entry ids: OEWN (CC BY 4.0).
-Output is a JSON array of entry ids ("oewn:<lemma>:<pos>") in frequency order, one entry per lemma.
+OEWN carries no frequency data, so rank is polysemy: lemmas ordered by total sense count across parts of speech
+(frequent words are the most polysemous). Only single lowercase words present in Dictionary.sqlite are kept.
+Output is a JSON array of entry ids ("oewn:<lemma>:<pos>"), one entry per lemma, most polysemous first.
 """
 
 import argparse
 import json
 import re
-import zipfile
+import sqlite3
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from wordfreq import top_n_list, word_frequency
 
 WORD = re.compile(r"^[a-z]+$")
 
@@ -27,50 +28,27 @@ few less least very too also just only even ever never again once already still"
 
 
 def load_lemmas(source: Path):
-    """lemma -> (best part-of-speech key, sense count); inflected form -> lemma."""
-    lemmas, forms = {}, {}
-    with zipfile.ZipFile(source) as archive:
-        for name in sorted(n for n in archive.namelist() if n.startswith("entries-") and n.endswith(".json")):
-            for lemma, variants in json.loads(archive.read(name)).items():
-                if not WORD.match(lemma):
-                    continue
-                best = max(variants.items(), key=lambda item: len(item[1]["sense"]))
-                lemmas[lemma] = (best[0], len(best[1]["sense"]))
-                for record in variants.values():
-                    for form in record.get("form", []):
-                        if WORD.match(form):
-                            forms.setdefault(form, lemma)
-    return lemmas, forms
-
-
-def regular_base(token: str, lemmas) -> str | None:
-    """OEWN lists only irregular forms, so strip regular -s/-es/-ies endings."""
-    for suffix, repl in (("ies", "y"), ("es", ""), ("s", "")):
-        if token.endswith(suffix) and len(token) > len(suffix) + 2 and token[: -len(suffix)] + repl in lemmas:
-            return token[: -len(suffix)] + repl
-    return None
-
-
-def build(source: Path, destination: Path, count: int) -> None:
-    lemmas, forms = load_lemmas(source)
-    chosen, seen = [], set()
-    for token in top_n_list("en", 30_000):
-        if not WORD.match(token) or len(token) < 2 or token in FUNCTION_WORDS:
+    """lemma -> (total sense count, best part-of-speech key)."""
+    totals, best = {}, {}
+    for _, entry in ET.iterparse(source):
+        if entry.tag != "LexicalEntry":
             continue
-        # An inflection of a more frequent lemma ("rings" -> "ring") counts toward that lemma.
-        regular = regular_base(token, lemmas)
-        base = forms.get(token) or regular
-        if base and base != token and base in lemmas and (
-                base == regular or word_frequency(base, "en") >= word_frequency(token, "en")):
-            lemma = base
-        else:
-            lemma = token if token in lemmas else base
-        if lemma is None or lemma in seen:
-            continue
-        seen.add(lemma)
-        chosen.append(f"oewn:{lemma}:{lemmas[lemma][0]}")
-        if len(chosen) == count:
-            break
+        lemma = entry.find("Lemma")
+        word, pos = lemma.get("writtenForm"), lemma.get("partOfSpeech")
+        if WORD.match(word) and len(word) > 1 and word not in FUNCTION_WORDS:
+            count = len(entry.findall("Sense"))
+            totals[word] = totals.get(word, 0) + count
+            if count > best.get(word, (0, ""))[0]:
+                best[word] = (count, pos)
+        entry.clear()
+    return totals, best
+
+
+def build(source: Path, database: Path, destination: Path, count: int) -> None:
+    totals, best = load_lemmas(source)
+    known = {row[0] for row in sqlite3.connect(database).execute("select id from entries")}
+    ranked = sorted(totals, key=lambda w: (-totals[w], w))
+    chosen = [f"oewn:{w}:{best[w][1]}" for w in ranked if f"oewn:{w}:{best[w][1]}" in known][:count]
     if len(chosen) < count:
         raise SystemExit(f"Only {len(chosen)} words available")
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -80,8 +58,9 @@ def build(source: Path, destination: Path, count: int) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("source", type=Path, help="Official english-wordnet-2025-json.zip")
+    parser.add_argument("source", type=Path, help="english-wordnet-2025.xml")
+    parser.add_argument("database", type=Path, help="Dictionary.sqlite (ids must resolve)")
     parser.add_argument("destination", type=Path, help="Output JSON")
     parser.add_argument("--count", type=int, default=3000)
     args = parser.parse_args()
-    build(args.source, args.destination, args.count)
+    build(args.source, args.database, args.destination, args.count)

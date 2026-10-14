@@ -2,3 +2,5 @@
 .DS_Store
 Packages/WordwellKit/Sources/WordwellData/Resources/Dictionary.sqlite
 __pycache__/
+
+english-wordnet-2025.xml
