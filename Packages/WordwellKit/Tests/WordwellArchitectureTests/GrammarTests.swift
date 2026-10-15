@@ -161,3 +161,18 @@ import Testing
         }
     }
 }
+
+@Suite struct CollocationCatalogTests {
+    @Test func everyCollocationIsUniqueAndUsedInItsExample() {
+        let all = CollocationCatalog.all
+        #expect(all.count == 180)
+        #expect(Set(all.map(\.phrase)).count == all.count)
+        for item in all {
+            // The last word (noun, adjective, or preposition) must appear in the hand-written example.
+            let key = item.phrase.split(separator: " ").last.map(String.init) ?? ""
+            #expect(item.example.localizedCaseInsensitiveContains(key) || key == "someone's", "\(item.phrase)")
+            #expect(item.wrong != item.phrase, "\(item.phrase)")
+        }
+        #expect(CollocationCatalog.groups.count == 15)
+    }
+}

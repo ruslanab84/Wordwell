@@ -76,6 +76,16 @@ struct GrammarScreen: View {
             }
             .buttonStyle(.plain)
 
+            NavigationLink {
+                CollocationsScreen()
+            } label: {
+                WordwellListRow(title: "Collocations",
+                                detail: "\(CollocationCatalog.all.count) word partners · make a decision, heavy rain") {
+                    Image(systemName: "link.badge.plus")
+                }
+            }
+            .buttonStyle(.plain)
+
             ForEach(categories) { category in
                 NavigationLink {
                     GrammarCategoryScreen(category: category, level: level, settings: settings)
@@ -401,6 +411,72 @@ private struct GrammarLessonScreen: View {
 }
 
 /// Wrong / right / why. Meaning is carried by icon and label, not colour.
+private struct CollocationsScreen: View {
+    @State private var query = ""
+
+    private var items: [Collocation] {
+        let q = query.trimmingCharacters(in: .whitespaces)
+        return q.isEmpty ? CollocationCatalog.all : CollocationCatalog.all.filter {
+            [$0.phrase, $0.example, $0.group].contains { $0.localizedCaseInsensitiveContains(q) }
+        }
+    }
+
+    var body: some View {
+        FeaturePage(title: "Collocations", subtitle: "Words that naturally go together") {
+            let shown = items
+            if shown.isEmpty {
+                WordwellBodyText("No collocations match “\(query)”.", secondary: true)
+            }
+            ForEach(CollocationCatalog.groups, id: \.self) { group in
+                let rows = shown.filter { $0.group == group }
+                if !rows.isEmpty {
+                    Text(group.capitalized)
+                        .font(WordwellType.sectionLabel)
+                        .foregroundStyle(WordwellColor.secondaryText)
+                        .padding(.top, WordwellLayout.sectionGap)
+                        .accessibilityAddTraits(.isHeader)
+                    ForEach(rows) { CollocationRow(item: $0) }
+                }
+            }
+        }
+        .searchable(text: $query, prompt: "Search collocations")
+    }
+}
+
+private struct CollocationRow: View {
+    let item: Collocation
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(item.phrase)
+                .font(WordwellType.body.weight(.semibold))
+                .foregroundStyle(WordwellColor.ink)
+            Text(item.example)
+                .font(WordwellType.body)
+                .foregroundStyle(WordwellColor.ink)
+            if let more = item.example2 {
+                Text(more)
+                    .font(WordwellType.meta)
+                    .foregroundStyle(WordwellColor.secondaryText)
+            }
+            if let wrong = item.wrong {
+                HStack(alignment: .firstTextBaseline, spacing: 6) {
+                    Image(systemName: "xmark")
+                        .font(.system(size: 11, weight: .semibold))
+                        .accessibilityLabel("Not")
+                    Text(wrong).strikethrough()
+                }
+                .font(WordwellType.meta)
+                .foregroundStyle(WordwellColor.secondaryText)
+            }
+        }
+        .frame(maxWidth: .infinity, minHeight: WordwellLayout.minimumTouchTarget, alignment: .leading)
+        .padding(.vertical, WordwellLayout.rowPadding)
+        .overlay(alignment: .bottom) { WordwellColor.border.frame(height: 1) }
+        .accessibilityElement(children: .combine)
+    }
+}
+
 private struct GrammarMistakeView: View {
     let mistake: GrammarMistake
 

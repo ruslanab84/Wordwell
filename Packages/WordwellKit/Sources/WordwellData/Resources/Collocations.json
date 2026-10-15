@@ -1,0 +1,1092 @@
+[
+ {
+  "phrase": "make a decision",
+  "group": "make",
+  "example": "We need to make a decision by Friday.",
+  "wrong": "do a decision",
+  "example2": "We must hear the expert before we make a decision."
+ },
+ {
+  "phrase": "make a mistake",
+  "group": "make",
+  "example": "Everyone makes a mistake sometimes.",
+  "wrong": "do a mistake",
+  "example2": "My conscience told me to turn around before I made a mistake."
+ },
+ {
+  "phrase": "make an effort",
+  "group": "make",
+  "example": "She made an effort to arrive on time.",
+  "wrong": "do an effort"
+ },
+ {
+  "phrase": "make progress",
+  "group": "make",
+  "example": "My English is making good progress.",
+  "wrong": "do progress"
+ },
+ {
+  "phrase": "make money",
+  "group": "make",
+  "example": "He makes money by selling old books.",
+  "wrong": "do money"
+ },
+ {
+  "phrase": "make friends",
+  "group": "make",
+  "example": "It is easy to make friends at a new school.",
+  "wrong": "do friends"
+ },
+ {
+  "phrase": "make a noise",
+  "group": "make",
+  "example": "Please don't make a noise, the baby is asleep.",
+  "wrong": "do a noise"
+ },
+ {
+  "phrase": "make sense",
+  "group": "make",
+  "example": "His explanation doesn't make sense to me."
+ },
+ {
+  "phrase": "make a choice",
+  "group": "make",
+  "example": "You have to make a choice between the two jobs.",
+  "wrong": "do a choice"
+ },
+ {
+  "phrase": "make a mess",
+  "group": "make",
+  "example": "The children made a mess in the kitchen.",
+  "wrong": "do a mess"
+ },
+ {
+  "phrase": "make an excuse",
+  "group": "make",
+  "example": "He always makes an excuse for being late.",
+  "wrong": "do an excuse"
+ },
+ {
+  "phrase": "make a promise",
+  "group": "make",
+  "example": "I made a promise to call her every week.",
+  "wrong": "do a promise"
+ },
+ {
+  "phrase": "make a phone call",
+  "group": "make",
+  "example": "Can I make a phone call from here?",
+  "wrong": "do a phone call"
+ },
+ {
+  "phrase": "make a suggestion",
+  "group": "make",
+  "example": "May I make a suggestion?",
+  "wrong": "do a suggestion"
+ },
+ {
+  "phrase": "make an appointment",
+  "group": "make",
+  "example": "I made an appointment with the dentist.",
+  "wrong": "do an appointment"
+ },
+ {
+  "phrase": "make a difference",
+  "group": "make",
+  "example": "Small changes can make a big difference.",
+  "wrong": "do a difference"
+ },
+ {
+  "phrase": "make a plan",
+  "group": "make",
+  "example": "Let's make a plan for the weekend.",
+  "wrong": "do a plan"
+ },
+ {
+  "phrase": "make a profit",
+  "group": "make",
+  "example": "The shop made a profit in its first year.",
+  "wrong": "do a profit"
+ },
+ {
+  "phrase": "make a complaint",
+  "group": "make",
+  "example": "She made a complaint about the noise.",
+  "wrong": "do a complaint"
+ },
+ {
+  "phrase": "make room",
+  "group": "make",
+  "example": "Can you make room for one more person?",
+  "wrong": "do room"
+ },
+ {
+  "phrase": "do homework",
+  "group": "do",
+  "example": "I do my homework after dinner.",
+  "wrong": "make homework"
+ },
+ {
+  "phrase": "do the housework",
+  "group": "do",
+  "example": "We share the housework at home.",
+  "wrong": "make the housework"
+ },
+ {
+  "phrase": "do the dishes",
+  "group": "do",
+  "example": "It's your turn to do the dishes.",
+  "wrong": "make the dishes"
+ },
+ {
+  "phrase": "do business",
+  "group": "do",
+  "example": "The company does business in many countries.",
+  "wrong": "make business"
+ },
+ {
+  "phrase": "do damage",
+  "group": "do",
+  "example": "The storm did a lot of damage to the roof.",
+  "wrong": "make damage"
+ },
+ {
+  "phrase": "do research",
+  "group": "do",
+  "example": "She is doing research on climate change.",
+  "wrong": "make research"
+ },
+ {
+  "phrase": "do exercise",
+  "group": "do",
+  "example": "I try to do some exercise every morning.",
+  "wrong": "make exercise"
+ },
+ {
+  "phrase": "do your best",
+  "group": "do",
+  "example": "Don't worry about the result, just do your best.",
+  "wrong": "make your best"
+ },
+ {
+  "phrase": "do the shopping",
+  "group": "do",
+  "example": "I usually do the shopping on Saturdays.",
+  "wrong": "make the shopping",
+  "example2": "She ordered him to do the shopping."
+ },
+ {
+  "phrase": "do harm",
+  "group": "do",
+  "example": "A little rest never did anyone any harm.",
+  "wrong": "make harm"
+ },
+ {
+  "phrase": "do a job",
+  "group": "do",
+  "example": "He did a great job on the report.",
+  "wrong": "make a job",
+  "example2": "He did the job rather incompetently."
+ },
+ {
+  "phrase": "do a course",
+  "group": "do",
+  "example": "She is doing a course in photography.",
+  "wrong": "make a course"
+ },
+ {
+  "phrase": "do someone a favour",
+  "group": "do",
+  "example": "Could you do me a favour and close the window?",
+  "wrong": "make someone a favour"
+ },
+ {
+  "phrase": "take a photo",
+  "group": "take",
+  "example": "Can you take a photo of us?",
+  "wrong": "make a photo"
+ },
+ {
+  "phrase": "take a break",
+  "group": "take",
+  "example": "Let's take a break for ten minutes.",
+  "wrong": "make a break"
+ },
+ {
+  "phrase": "take a shower",
+  "group": "take",
+  "example": "I take a shower every morning.",
+  "wrong": "make a shower",
+  "example2": "He took a shower after the game."
+ },
+ {
+  "phrase": "take a seat",
+  "group": "take",
+  "example": "Please take a seat; the doctor will see you soon.",
+  "wrong": "make a seat",
+  "example2": "She took her seat on the stage."
+ },
+ {
+  "phrase": "take a risk",
+  "group": "take",
+  "example": "Starting a business means taking a risk.",
+  "wrong": "make a risk"
+ },
+ {
+  "phrase": "take a chance",
+  "group": "take",
+  "example": "I'll take a chance and apply for the job.",
+  "wrong": "make a chance",
+  "example2": "You take a chance when you let her drive."
+ },
+ {
+  "phrase": "take notes",
+  "group": "take",
+  "example": "Students take notes during the lecture."
+ },
+ {
+  "phrase": "take an exam",
+  "group": "take",
+  "example": "I'm taking an exam next week.",
+  "wrong": "make an exam"
+ },
+ {
+  "phrase": "take place",
+  "group": "take",
+  "example": "The meeting will take place on Monday.",
+  "wrong": "make place",
+  "example2": "The meeting took place without an incident."
+ },
+ {
+  "phrase": "take part",
+  "group": "take",
+  "example": "Twenty teams took part in the competition.",
+  "wrong": "make part"
+ },
+ {
+  "phrase": "take care",
+  "group": "take",
+  "example": "Take care when you cross the road.",
+  "wrong": "make care",
+  "example2": "She took care of this business."
+ },
+ {
+  "phrase": "take time",
+  "group": "take",
+  "example": "Learning a language takes time.",
+  "example2": "He took time out to recuperate."
+ },
+ {
+  "phrase": "take advice",
+  "group": "take",
+  "example": "You should take your doctor's advice.",
+  "wrong": "make advice"
+ },
+ {
+  "phrase": "take medicine",
+  "group": "take",
+  "example": "Take this medicine twice a day.",
+  "wrong": "eat medicine"
+ },
+ {
+  "phrase": "take a look",
+  "group": "take",
+  "example": "Let me take a look at your car.",
+  "wrong": "make a look"
+ },
+ {
+  "phrase": "take responsibility",
+  "group": "take",
+  "example": "Managers must take responsibility for their teams.",
+  "wrong": "make responsibility"
+ },
+ {
+  "phrase": "take action",
+  "group": "take",
+  "example": "The government must take action now.",
+  "wrong": "make action"
+ },
+ {
+  "phrase": "take turns",
+  "group": "take",
+  "example": "The children took turns on the swing.",
+  "wrong": "make turns",
+  "example2": "We take turns on the night shift."
+ },
+ {
+  "phrase": "have breakfast",
+  "group": "have",
+  "example": "We have breakfast at seven."
+ },
+ {
+  "phrase": "have a party",
+  "group": "have",
+  "example": "We're having a party on Saturday.",
+  "wrong": "make a party"
+ },
+ {
+  "phrase": "have a good time",
+  "group": "have",
+  "example": "Did you have a good time at the concert?",
+  "wrong": "make a good time",
+  "example2": "We all had a good time."
+ },
+ {
+  "phrase": "have a rest",
+  "group": "have",
+  "example": "You look tired, have a rest.",
+  "wrong": "make a rest"
+ },
+ {
+  "phrase": "have fun",
+  "group": "have",
+  "example": "We had fun at the beach."
+ },
+ {
+  "phrase": "have a problem",
+  "group": "have",
+  "example": "I have a problem with my phone.",
+  "example2": "She and her husband are having problems."
+ },
+ {
+  "phrase": "have a chat",
+  "group": "have",
+  "example": "We had a chat over coffee.",
+  "wrong": "make a chat"
+ },
+ {
+  "phrase": "have an idea",
+  "group": "have",
+  "example": "I have an idea for the project.",
+  "wrong": "make an idea"
+ },
+ {
+  "phrase": "have a dream",
+  "group": "have",
+  "example": "Last night I had a strange dream.",
+  "wrong": "make a dream",
+  "example2": "I had a dream about you last night."
+ },
+ {
+  "phrase": "have an argument",
+  "group": "have",
+  "example": "They had an argument about money."
+ },
+ {
+  "phrase": "have a word",
+  "group": "have",
+  "example": "Can I have a word with you?",
+  "example2": "We had a word or two about it."
+ },
+ {
+  "phrase": "have a baby",
+  "group": "have",
+  "example": "My sister is going to have a baby.",
+  "wrong": "get a baby"
+ },
+ {
+  "phrase": "get married",
+  "group": "get",
+  "example": "They got married last summer.",
+  "example2": "The young couple eloped and got married in Las Vegas."
+ },
+ {
+  "phrase": "get lost",
+  "group": "get",
+  "example": "We got lost in the old part of the city."
+ },
+ {
+  "phrase": "get ready",
+  "group": "get",
+  "example": "Get ready, the taxi is here."
+ },
+ {
+  "phrase": "get a job",
+  "group": "get",
+  "example": "He got a job at a bank.",
+  "example2": "She uses her influential friends to get jobs."
+ },
+ {
+  "phrase": "get dressed",
+  "group": "get",
+  "example": "I got dressed quickly and went out.",
+  "wrong": "get clothed",
+  "example2": "The mother told the child to get dressed."
+ },
+ {
+  "phrase": "get home",
+  "group": "get",
+  "example": "What time did you get home?",
+  "wrong": "get to home",
+  "example2": "We cut through the neighbor's yard to get home sooner."
+ },
+ {
+  "phrase": "get angry",
+  "group": "get",
+  "example": "She gets angry when people are late."
+ },
+ {
+  "phrase": "get better",
+  "group": "get",
+  "example": "I hope you get better soon."
+ },
+ {
+  "phrase": "give advice",
+  "group": "give",
+  "example": "My teacher gave me some good advice.",
+  "wrong": "give an advice"
+ },
+ {
+  "phrase": "give a speech",
+  "group": "give",
+  "example": "The president gave a speech on TV.",
+  "example2": "He gave a speech as part of his installation into the hall of fame."
+ },
+ {
+  "phrase": "give someone a hand",
+  "group": "give",
+  "example": "Can you give me a hand with these boxes?"
+ },
+ {
+  "phrase": "give permission",
+  "group": "give",
+  "example": "The school gave permission for the trip."
+ },
+ {
+  "phrase": "give birth",
+  "group": "give",
+  "example": "She gave birth to a healthy boy.",
+  "wrong": "make birth"
+ },
+ {
+  "phrase": "give an example",
+  "group": "give",
+  "example": "Can you give an example?",
+  "wrong": "make an example"
+ },
+ {
+  "phrase": "keep a secret",
+  "group": "keep",
+  "example": "Can you keep a secret?",
+  "wrong": "hold a secret"
+ },
+ {
+  "phrase": "keep a promise",
+  "group": "keep",
+  "example": "He always keeps his promises.",
+  "wrong": "hold a promise",
+  "example2": "She never keeps her promises."
+ },
+ {
+  "phrase": "keep calm",
+  "group": "keep",
+  "example": "Keep calm and wait for help."
+ },
+ {
+  "phrase": "keep in touch",
+  "group": "keep",
+  "example": "Let's keep in touch after the course."
+ },
+ {
+  "phrase": "keep a diary",
+  "group": "keep",
+  "example": "I kept a diary when I was a child."
+ },
+ {
+  "phrase": "catch a cold",
+  "group": "catch",
+  "example": "I caught a cold last week.",
+  "wrong": "take a cold"
+ },
+ {
+  "phrase": "catch a bus",
+  "group": "catch",
+  "example": "I catch a bus to work every day.",
+  "example2": "I only just caught the bus."
+ },
+ {
+  "phrase": "catch fire",
+  "group": "catch",
+  "example": "The old house caught fire.",
+  "wrong": "take fire"
+ },
+ {
+  "phrase": "catch someone's attention",
+  "group": "catch",
+  "example": "The bright poster caught my attention."
+ },
+ {
+  "phrase": "pay attention",
+  "group": "pay",
+  "example": "Please pay attention to the instructions.",
+  "wrong": "give attention",
+  "example2": "The old man is only babbling — don't pay attention."
+ },
+ {
+  "phrase": "pay a visit",
+  "group": "pay",
+  "example": "We paid a visit to our grandparents."
+ },
+ {
+  "phrase": "pay a compliment",
+  "group": "pay",
+  "example": "He paid her a compliment on her dress.",
+  "wrong": "make a compliment"
+ },
+ {
+  "phrase": "pay the bill",
+  "group": "pay",
+  "example": "Can we pay the bill, please?",
+  "example2": "He paid his bill and left."
+ },
+ {
+  "phrase": "break a promise",
+  "group": "break",
+  "example": "He broke his promise and didn't come."
+ },
+ {
+  "phrase": "break the law",
+  "group": "break",
+  "example": "Driving too fast is breaking the law."
+ },
+ {
+  "phrase": "break a record",
+  "group": "break",
+  "example": "She broke the world record.",
+  "example2": "She broke the record for the half-mile run."
+ },
+ {
+  "phrase": "break the news",
+  "group": "break",
+  "example": "Who will break the news to her?",
+  "example2": "He broke the news to her."
+ },
+ {
+  "phrase": "save time",
+  "group": "other verbs",
+  "example": "Online shopping saves time."
+ },
+ {
+  "phrase": "save money",
+  "group": "other verbs",
+  "example": "I'm saving money for a new bike."
+ },
+ {
+  "phrase": "spend time",
+  "group": "other verbs",
+  "example": "I spend time with my family at weekends."
+ },
+ {
+  "phrase": "waste time",
+  "group": "other verbs",
+  "example": "Don't waste time on social media."
+ },
+ {
+  "phrase": "run a business",
+  "group": "other verbs",
+  "example": "She runs a small business from home.",
+  "wrong": "lead a business"
+ },
+ {
+  "phrase": "tell the truth",
+  "group": "other verbs",
+  "example": "Always tell the truth.",
+  "wrong": "say the truth"
+ },
+ {
+  "phrase": "tell a lie",
+  "group": "other verbs",
+  "example": "He told a lie about his age.",
+  "wrong": "say a lie"
+ },
+ {
+  "phrase": "tell a story",
+  "group": "other verbs",
+  "example": "Grandma told us a story before bed.",
+  "wrong": "say a story",
+  "example2": "He told the story laughingly."
+ },
+ {
+  "phrase": "say goodbye",
+  "group": "other verbs",
+  "example": "We said goodbye at the station.",
+  "wrong": "tell goodbye",
+  "example2": "It isn't right to leave the party without saying goodbye."
+ },
+ {
+  "phrase": "say sorry",
+  "group": "other verbs",
+  "example": "You should say sorry to your brother.",
+  "wrong": "tell sorry"
+ },
+ {
+  "phrase": "lose weight",
+  "group": "other verbs",
+  "example": "He lost weight by walking every day.",
+  "example2": "She never loses weight because she snacks between meals."
+ },
+ {
+  "phrase": "lose your temper",
+  "group": "other verbs",
+  "example": "Try not to lose your temper.",
+  "wrong": "lose your nerves"
+ },
+ {
+  "phrase": "raise money",
+  "group": "other verbs",
+  "example": "They raised money for the hospital.",
+  "example2": "He is raising money for a Senate run."
+ },
+ {
+  "phrase": "raise a question",
+  "group": "other verbs",
+  "example": "Her report raises an important question."
+ },
+ {
+  "phrase": "meet a deadline",
+  "group": "other verbs",
+  "example": "We worked late to meet the deadline.",
+  "wrong": "reach a deadline"
+ },
+ {
+  "phrase": "reach an agreement",
+  "group": "other verbs",
+  "example": "The two sides reached an agreement."
+ },
+ {
+  "phrase": "commit a crime",
+  "group": "other verbs",
+  "example": "He was accused of committing a crime.",
+  "wrong": "do a crime"
+ },
+ {
+  "phrase": "draw a conclusion",
+  "group": "other verbs",
+  "example": "It's too early to draw a conclusion.",
+  "wrong": "make a conclusion",
+  "example2": "He drew his conclusions quickly."
+ },
+ {
+  "phrase": "hold a meeting",
+  "group": "other verbs",
+  "example": "We hold a meeting every Monday.",
+  "wrong": "make a meeting"
+ },
+ {
+  "phrase": "set a goal",
+  "group": "other verbs",
+  "example": "Set a goal you can reach.",
+  "wrong": "put a goal"
+ },
+ {
+  "phrase": "solve a problem",
+  "group": "other verbs",
+  "example": "We solved the problem together.",
+  "example2": "He solved the problem brilliantly."
+ },
+ {
+  "phrase": "follow advice",
+  "group": "other verbs",
+  "example": "I followed her advice and felt better."
+ },
+ {
+  "phrase": "ask a question",
+  "group": "other verbs",
+  "example": "Can I ask a question?",
+  "wrong": "make a question",
+  "example2": "Her voice was strained as she asked the question."
+ },
+ {
+  "phrase": "heavy rain",
+  "group": "adjective + noun",
+  "example": "Heavy rain flooded the streets.",
+  "wrong": "strong rain",
+  "example2": "Our basement flooded during the heavy rains."
+ },
+ {
+  "phrase": "heavy traffic",
+  "group": "adjective + noun",
+  "example": "We were late because of heavy traffic.",
+  "wrong": "big traffic"
+ },
+ {
+  "phrase": "strong coffee",
+  "group": "adjective + noun",
+  "example": "I need a cup of strong coffee.",
+  "wrong": "powerful coffee"
+ },
+ {
+  "phrase": "strong wind",
+  "group": "adjective + noun",
+  "example": "A strong wind blew the tree down.",
+  "wrong": "heavy wind",
+  "example2": "The strong wind tousled my hair."
+ },
+ {
+  "phrase": "light rain",
+  "group": "adjective + noun",
+  "example": "There was light rain in the morning.",
+  "wrong": "weak rain"
+ },
+ {
+  "phrase": "high price",
+  "group": "adjective + noun",
+  "example": "They paid a high price for the house.",
+  "wrong": "expensive price",
+  "example2": "He puts a high price on his services."
+ },
+ {
+  "phrase": "deep sleep",
+  "group": "adjective + noun",
+  "example": "She fell into a deep sleep.",
+  "wrong": "heavy sleep"
+ },
+ {
+  "phrase": "fast food",
+  "group": "adjective + noun",
+  "example": "Fast food is cheap but not healthy.",
+  "wrong": "quick food",
+  "example2": "You find fast food stores everywhere."
+ },
+ {
+  "phrase": "close friend",
+  "group": "adjective + noun",
+  "example": "Anna is a close friend of mine.",
+  "wrong": "near friend"
+ },
+ {
+  "phrase": "hard work",
+  "group": "adjective + noun",
+  "example": "Success comes from hard work.",
+  "wrong": "heavy work",
+  "example2": "The price of success is hard work."
+ },
+ {
+  "phrase": "serious problem",
+  "group": "adjective + noun",
+  "example": "Pollution is a serious problem."
+ },
+ {
+  "phrase": "main reason",
+  "group": "adjective + noun",
+  "example": "Cost is the main reason we chose it."
+ },
+ {
+  "phrase": "common sense",
+  "group": "adjective + noun",
+  "example": "Use your common sense.",
+  "example2": "The agreement was a triumph for common sense."
+ },
+ {
+  "phrase": "wide range",
+  "group": "adjective + noun",
+  "example": "The shop sells a wide range of goods.",
+  "wrong": "big range"
+ },
+ {
+  "phrase": "slim chance",
+  "group": "adjective + noun",
+  "example": "There is only a slim chance of winning.",
+  "wrong": "thin chance"
+ },
+ {
+  "phrase": "fresh air",
+  "group": "adjective + noun",
+  "example": "Let's go outside for some fresh air.",
+  "wrong": "new air",
+  "example2": "I need some fresh air."
+ },
+ {
+  "phrase": "sharp pain",
+  "group": "adjective + noun",
+  "example": "I felt a sharp pain in my back.",
+  "wrong": "strong pain"
+ },
+ {
+  "phrase": "great success",
+  "group": "adjective + noun",
+  "example": "The concert was a great success.",
+  "example2": "He is enjoying great success."
+ },
+ {
+  "phrase": "bright future",
+  "group": "adjective + noun",
+  "example": "She has a bright future ahead of her."
+ },
+ {
+  "phrase": "bitter cold",
+  "group": "adjective + noun",
+  "example": "The bitter cold kept everyone indoors.",
+  "wrong": "strong cold"
+ },
+ {
+  "phrase": "rich food",
+  "group": "adjective + noun",
+  "example": "I can't eat rich food late at night.",
+  "example2": "They kept gorging on rich foods."
+ },
+ {
+  "phrase": "broad smile",
+  "group": "adjective + noun",
+  "example": "He greeted us with a broad smile."
+ },
+ {
+  "phrase": "high speed",
+  "group": "adjective + noun",
+  "example": "The train travels at high speed.",
+  "wrong": "big speed",
+  "example2": "The car pulled over when the ambulance approached at high speed."
+ },
+ {
+  "phrase": "best friend",
+  "group": "adjective + noun",
+  "example": "My best friend lives next door.",
+  "example2": "He was my best friend at the university."
+ },
+ {
+  "phrase": "large amount",
+  "group": "adjective + noun",
+  "example": "A large amount of water was wasted.",
+  "wrong": "big amount"
+ },
+ {
+  "phrase": "completely different",
+  "group": "adverb + adjective",
+  "example": "The two cities are completely different.",
+  "example2": "It was completely different from what we expected."
+ },
+ {
+  "phrase": "highly unlikely",
+  "group": "adverb + adjective",
+  "example": "It is highly unlikely that it will snow."
+ },
+ {
+  "phrase": "absolutely sure",
+  "group": "adverb + adjective",
+  "example": "Are you absolutely sure?"
+ },
+ {
+  "phrase": "fully aware",
+  "group": "adverb + adjective",
+  "example": "I am fully aware of the risks."
+ },
+ {
+  "phrase": "bitterly disappointed",
+  "group": "adverb + adjective",
+  "example": "The fans were bitterly disappointed.",
+  "wrong": "strongly disappointed"
+ },
+ {
+  "phrase": "perfectly normal",
+  "group": "adverb + adjective",
+  "example": "It's perfectly normal to feel nervous."
+ },
+ {
+  "phrase": "seriously ill",
+  "group": "adverb + adjective",
+  "example": "He was seriously ill last year.",
+  "wrong": "heavily ill"
+ },
+ {
+  "phrase": "deeply sorry",
+  "group": "adverb + adjective",
+  "example": "I'm deeply sorry for your loss.",
+  "wrong": "strongly sorry"
+ },
+ {
+  "phrase": "widely known",
+  "group": "adverb + adjective",
+  "example": "The story is widely known.",
+  "wrong": "largely known",
+  "example2": "Her work is widely known."
+ },
+ {
+  "phrase": "fast asleep",
+  "group": "adverb + adjective",
+  "example": "The baby is fast asleep.",
+  "wrong": "quickly asleep"
+ },
+ {
+  "phrase": "depend on",
+  "group": "verb + preposition",
+  "example": "It depends on the weather.",
+  "wrong": "depend of",
+  "example2": "His moods vary depending on the weather."
+ },
+ {
+  "phrase": "rely on",
+  "group": "verb + preposition",
+  "example": "You can rely on me.",
+  "wrong": "rely in",
+  "example2": "You can rely on his discretion."
+ },
+ {
+  "phrase": "listen to",
+  "group": "verb + preposition",
+  "example": "I listen to music on the bus.",
+  "wrong": "listen music",
+  "example2": "They listened to her proposal."
+ },
+ {
+  "phrase": "wait for",
+  "group": "verb + preposition",
+  "example": "I'm waiting for the bus.",
+  "wrong": "wait someone",
+  "example2": "He waited for a long time."
+ },
+ {
+  "phrase": "look after",
+  "group": "verb + preposition",
+  "example": "Can you look after my cat?",
+  "example2": "I tasked him with looking after the children."
+ },
+ {
+  "phrase": "think about",
+  "group": "verb + preposition",
+  "example": "I'm thinking about changing jobs.",
+  "wrong": "think on",
+  "example2": "She always thinks about her children first."
+ },
+ {
+  "phrase": "agree with",
+  "group": "verb + preposition",
+  "example": "I agree with you.",
+  "example2": "I agree with you there."
+ },
+ {
+  "phrase": "apologise for",
+  "group": "verb + preposition",
+  "example": "He apologised for the delay.",
+  "wrong": "apologise about"
+ },
+ {
+  "phrase": "belong to",
+  "group": "verb + preposition",
+  "example": "This bag belongs to me.",
+  "wrong": "belong at",
+  "example2": "They belong to the same political party."
+ },
+ {
+  "phrase": "believe in",
+  "group": "verb + preposition",
+  "example": "Do you believe in ghosts?",
+  "wrong": "believe on",
+  "example2": "She doesn't believe in the supernatural."
+ },
+ {
+  "phrase": "consist of",
+  "group": "verb + preposition",
+  "example": "The team consists of five people.",
+  "wrong": "consist from",
+  "example2": "The letter consisted of three short lines."
+ },
+ {
+  "phrase": "insist on",
+  "group": "verb + preposition",
+  "example": "She insisted on paying.",
+  "wrong": "insist to",
+  "example2": "He insisted on discipline among the troops."
+ },
+ {
+  "phrase": "succeed in",
+  "group": "verb + preposition",
+  "example": "He succeeded in passing the test.",
+  "wrong": "succeed to",
+  "example2": "His bluff succeeded in getting him accepted."
+ },
+ {
+  "phrase": "complain about",
+  "group": "verb + preposition",
+  "example": "They complained about the food.",
+  "wrong": "complain on",
+  "example2": "The entire building complained about the noise."
+ },
+ {
+  "phrase": "worry about",
+  "group": "verb + preposition",
+  "example": "Don't worry about it.",
+  "wrong": "worry for",
+  "example2": "I worry about my job."
+ },
+ {
+  "phrase": "deal with",
+  "group": "verb + preposition",
+  "example": "I'll deal with the problem tomorrow.",
+  "wrong": "deal about",
+  "example2": "I can deal with this crew of workers."
+ },
+ {
+  "phrase": "focus on",
+  "group": "verb + preposition",
+  "example": "Focus on one task at a time.",
+  "wrong": "focus in"
+ },
+ {
+  "phrase": "apply for",
+  "group": "verb + preposition",
+  "example": "She applied for a new job.",
+  "wrong": "apply a job"
+ },
+ {
+  "phrase": "arrive at",
+  "group": "verb + preposition",
+  "example": "We arrived at the station early.",
+  "wrong": "arrive to",
+  "example2": "I aim to arrive at noon."
+ },
+ {
+  "phrase": "good at",
+  "group": "verb + preposition",
+  "example": "She is good at maths.",
+  "wrong": "good in",
+  "example2": "I was never any good at art."
+ },
+ {
+  "phrase": "a piece of advice",
+  "group": "noun phrases",
+  "example": "Let me give you a piece of advice.",
+  "wrong": "an advice"
+ },
+ {
+  "phrase": "a sense of humour",
+  "group": "noun phrases",
+  "example": "He has a great sense of humour.",
+  "wrong": "a humour sense"
+ },
+ {
+  "phrase": "a round of applause",
+  "group": "noun phrases",
+  "example": "Let's give her a round of applause.",
+  "example2": "There was a round of applause."
+ },
+ {
+  "phrase": "a waste of time",
+  "group": "noun phrases",
+  "example": "That meeting was a waste of time.",
+  "wrong": "a lose of time"
+ },
+ {
+  "phrase": "a matter of time",
+  "group": "noun phrases",
+  "example": "It's only a matter of time.",
+  "example2": "It is simply a matter of time."
+ },
+ {
+  "phrase": "a bar of chocolate",
+  "group": "noun phrases",
+  "example": "I bought a bar of chocolate."
+ },
+ {
+  "phrase": "a means of transport",
+  "group": "noun phrases",
+  "example": "The bike is my favourite means of transport.",
+  "wrong": "a transport mean"
+ },
+ {
+  "phrase": "a point of view",
+  "group": "noun phrases",
+  "example": "From my point of view, it's a good idea.",
+  "wrong": "a point of sight",
+  "example2": "He came around to our point of view."
+ }
+]
