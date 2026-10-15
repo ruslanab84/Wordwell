@@ -94,3 +94,42 @@ import Testing
         #expect(store.nextLessonID() == "place")
     }
 }
+
+@Suite struct GrammarReviewStoreTests {
+    private let day: TimeInterval = 86_400
+    private let now = Date(timeIntervalSince1970: 1_000_000)
+
+    private func store() -> GrammarReviewStore {
+        GrammarReviewStore(defaults: UserDefaults(suiteName: "grammar-review-\(UUID().uuidString)")!)
+    }
+
+    @Test func mistakeIsDueTomorrow() {
+        let store = store()
+        store.recordWrong(lessonID: "articles", index: 2, now: now)
+        #expect(store.due(now: now).isEmpty)
+        #expect(store.due(now: now + day) == [GrammarReviewItem(lessonID: "articles", index: 2)])
+    }
+
+    @Test func correctAnswersStepOneThreeSevenThenRemove() {
+        let store = store()
+        let item = GrammarReviewItem(lessonID: "articles", index: 0)
+        store.recordWrong(lessonID: item.lessonID, index: item.index, now: now)
+        store.recordCorrect(item, now: now + day)
+        #expect(store.due(now: now + day * 3.9).isEmpty)
+        #expect(store.due(now: now + day * 4) == [item])
+        store.recordCorrect(item, now: now + day * 4)
+        #expect(store.due(now: now + day * 10.9).isEmpty)
+        #expect(store.due(now: now + day * 11) == [item])
+        store.recordCorrect(item, now: now + day * 11)
+        #expect(store.due(now: now + day * 1000).isEmpty)
+    }
+
+    @Test func wrongDuringReviewResetsToOneDay() {
+        let store = store()
+        let item = GrammarReviewItem(lessonID: "articles", index: 0)
+        store.recordWrong(lessonID: item.lessonID, index: item.index, now: now)
+        store.recordCorrect(item, now: now + day)
+        store.recordWrong(lessonID: item.lessonID, index: item.index, now: now + day)
+        #expect(store.due(now: now + day * 2) == [item])
+    }
+}

@@ -9,6 +9,7 @@ struct GrammarScreen: View {
     let settings: any LearningSettingsRepository
     @State private var level: GrammarCEFR?
     @State private var query = ""
+    @State private var reviewDue = 0
 
     private var results: [GrammarLesson] {
         let q = query.trimmingCharacters(in: .whitespaces)
@@ -53,6 +54,18 @@ struct GrammarScreen: View {
             }
             .pickerStyle(.segmented)
 
+            if reviewDue > 0 {
+                NavigationLink {
+                    GrammarReviewScreen(settings: settings)
+                } label: {
+                    WordwellListRow(title: "Review mistakes",
+                                    detail: "\(reviewDue) \(reviewDue == 1 ? "question" : "questions") due") {
+                        Image(systemName: "arrow.counterclockwise")
+                    }
+                }
+                .buttonStyle(.plain)
+            }
+
             NavigationLink {
                 GrammarMistakesScreen(settings: settings)
             } label: {
@@ -78,6 +91,7 @@ struct GrammarScreen: View {
             }
         }
         .searchable(text: $query, prompt: "Search lessons")
+        .onAppear { reviewDue = GrammarReviewStore().due().count }
     }
 }
 
@@ -419,14 +433,10 @@ private struct GrammarMistakeView: View {
 private struct GrammarPractice: View {
     let lesson: GrammarLesson
     let settings: any LearningSettingsRepository
-    private var lessonID: String { lesson.id }
-    private let store = GrammarProgressStore()
-    @State private var index = 0
-    @State private var picked: Int?
-    @State private var score = 0
-    @State private var finished = false
 
-    private var items: [GrammarExercise] { GrammarExercises.items(for: lessonID) }
+    private var items: [GrammarReviewItem] {
+        GrammarExercises.items(for: lesson.id).indices.map { GrammarReviewItem(lessonID: lesson.id, index: $0) }
+    }
 
     var body: some View {
         if !items.isEmpty {
@@ -435,20 +445,61 @@ private struct GrammarPractice: View {
                     .font(WordwellType.sectionLabel)
                     .foregroundStyle(WordwellColor.ink)
                     .accessibilityAddTraits(.isHeader)
-                WordwellCard {
-                    VStack(alignment: .leading, spacing: 12) {
-                        if finished { summary } else { question(items[index]) }
-                    }
-                }
+                WordwellCard { GrammarQuiz(items: items, isReview: false, settings: settings) }
+            }
+        }
+    }
+}
+
+private struct GrammarReviewScreen: View {
+    let settings: any LearningSettingsRepository
+    @State private var items = GrammarReviewStore().due()
+
+    var body: some View {
+        FeaturePage(title: "Review mistakes", subtitle: "Questions you missed come back after 1, 3 and 7 days") {
+            if items.isEmpty {
+                WordwellBodyText("Nothing to review right now.", secondary: true)
+            } else {
+                WordwellCard { GrammarQuiz(items: items, isReview: true, settings: settings) }
+            }
+        }
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+/// Multiple-choice run over practice questions. Wrong answers join the review queue;
+/// in review mode every answer moves the question along (or back) in the queue.
+private struct GrammarQuiz: View {
+    let items: [GrammarReviewItem]
+    let isReview: Bool
+    let settings: any LearningSettingsRepository
+    private let progress = GrammarProgressStore()
+    private let review = GrammarReviewStore()
+    @State private var index = 0
+    @State private var picked: Int?
+    @State private var score = 0
+    @State private var finished = false
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            if finished {
+                summary
+            } else if let exercise = items[index].exercise {
+                question(exercise, lesson: GrammarCatalog.all.first { $0.id == items[index].lessonID })
             }
         }
     }
 
     @ViewBuilder
-    private func question(_ item: GrammarExercise) -> some View {
+    private func question(_ item: GrammarExercise, lesson: GrammarLesson?) -> some View {
         Text("Question \(index + 1) of \(items.count)")
             .font(WordwellType.meta)
             .foregroundStyle(WordwellColor.secondaryText)
+        if isReview, let lesson {
+            Text(lesson.title)
+                .font(WordwellType.meta)
+                .foregroundStyle(WordwellColor.secondaryText)
+        }
         Text(item.prompt)
             .font(WordwellType.body.weight(.semibold))
             .foregroundStyle(WordwellColor.ink)
@@ -476,7 +527,7 @@ private struct GrammarPractice: View {
         }
         if picked != nil {
             WordwellBodyText(item.explanation, secondary: true)
-            if let picked, picked != item.answer {
+            if let picked, picked != item.answer, let lesson {
                 ExplainMistakeCard(
                     mistake: MistakeContext(
                         kind: .grammar, topic: lesson.title, prompt: item.prompt,
@@ -495,14 +546,22 @@ private struct GrammarPractice: View {
             Text("\(score) of \(items.count) correct")
                 .font(WordwellType.cardHeadline)
                 .foregroundStyle(WordwellColor.ink)
-            Button("Try again") { index = 0; picked = nil; score = 0; finished = false }
-                .buttonStyle(WordwellButtonStyle(.secondary))
+            if !isReview {
+                Button("Try again") { index = 0; picked = nil; score = 0; finished = false }
+                    .buttonStyle(WordwellButtonStyle(.secondary))
+            }
         }
     }
 
     private func choose(_ option: Int, in item: GrammarExercise) {
         picked = option
-        if option == item.answer { score += 1 }
+        let current = items[index]
+        if option == item.answer {
+            score += 1
+            if isReview { review.recordCorrect(current) }
+        } else {
+            review.recordWrong(lessonID: current.lessonID, index: current.index)
+        }
     }
 
     private func advance() {
@@ -510,7 +569,7 @@ private struct GrammarPractice: View {
         if index + 1 < items.count {
             index += 1
         } else {
-            store.record(lessonID, score: score)
+            if !isReview, let lessonID = items.first?.lessonID { progress.record(lessonID, score: score) }
             finished = true
         }
     }

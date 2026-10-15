@@ -39,3 +39,66 @@ public struct GrammarProgressStore {
 
     private var scores: [String: Int] { defaults.dictionary(forKey: key) as? [String: Int] ?? [:] }
 }
+
+/// One practice question, addressed by lesson and position in that lesson's exercises.
+public struct GrammarReviewItem: Hashable, Sendable {
+    public let lessonID: String
+    public let index: Int
+
+    public init(lessonID: String, index: Int) {
+        self.lessonID = lessonID
+        self.index = index
+    }
+
+    public var exercise: GrammarExercise? {
+        let items = GrammarExercises.items(for: lessonID)
+        return items.indices.contains(index) ? items[index] : nil
+    }
+}
+
+/// Missed practice questions come back after 1, 3, then 7 days; three correct reviews in a row clear them.
+public struct GrammarReviewStore {
+    private let defaults: UserDefaults
+    private let key = "grammar.review.v1"
+    private static let intervals: [TimeInterval] = [1, 3, 7].map { $0 * 86_400 }
+
+    public init(defaults: UserDefaults = .standard) { self.defaults = defaults }
+
+    public func recordWrong(lessonID: String, index: Int, now: Date = .now) {
+        save(GrammarReviewItem(lessonID: lessonID, index: index), step: 0, now: now)
+    }
+
+    public func recordCorrect(_ item: GrammarReviewItem, now: Date = .now) {
+        guard let step = entries[id(item)].map({ Int($0[0]) }) else { return }
+        save(item, step: step + 1, now: now)
+    }
+
+    /// Due questions, oldest first; entries whose exercise no longer exists are skipped.
+    public func due(now: Date = .now) -> [GrammarReviewItem] {
+        entries
+            .filter { $0.value[1] <= now.timeIntervalSince1970 }
+            .sorted { ($0.value[1], $0.key) < ($1.value[1], $1.key) }
+            .compactMap { key, _ in
+                guard let split = key.lastIndex(of: "#"), let index = Int(key[key.index(after: split)...]) else { return nil }
+                let item = GrammarReviewItem(lessonID: String(key[..<split]), index: index)
+                return item.exercise == nil ? nil : item
+            }
+    }
+
+    private func save(_ item: GrammarReviewItem, step: Int, now: Date) {
+        var all = entries
+        if Self.intervals.indices.contains(step) {
+            all[id(item)] = [Double(step), now.timeIntervalSince1970 + Self.intervals[step]]
+        } else {
+            all[id(item)] = nil
+        }
+        defaults.set(all, forKey: key)
+    }
+
+    private func id(_ item: GrammarReviewItem) -> String { "\(item.lessonID)#\(item.index)" }
+
+    /// "lesson#index" → [step, due timestamp].
+    private var entries: [String: [Double]] {
+        (defaults.dictionary(forKey: key) as? [String: [Double]] ?? [:]).filter { $0.value.count == 2 }
+    }
+}
