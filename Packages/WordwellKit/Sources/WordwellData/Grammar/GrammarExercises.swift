@@ -102,3 +102,24 @@ public struct GrammarReviewStore {
         (defaults.dictionary(forKey: key) as? [String: [Double]] ?? [:]).filter { $0.value.count == 2 }
     }
 }
+
+/// Checks a typed gap-fill answer against the correct option.
+public enum GrammarAnswer {
+    public static func matches(_ typed: String, _ correct: String) -> Bool {
+        let typed = normalized(typed)
+        return !typed.isEmpty && typed == normalized(correct)
+    }
+
+    /// Lowercased, curly apostrophes straightened, contractions expanded, single-spaced, no final dot.
+    /// ponytail: 's is left alone (is / has / possessive are ambiguous).
+    public static func normalized(_ text: String) -> String {
+        var s = text.lowercased().replacingOccurrences(of: "’", with: "'")
+        for (short, full) in [("won't", "will not"), ("can't", "cannot"), ("n't", " not"),
+                              ("'m", " am"), ("'re", " are"), ("'ve", " have"), ("'ll", " will")] {
+            s = s.replacingOccurrences(of: short, with: full)
+        }
+        s = s.split(whereSeparator: \.isWhitespace).joined(separator: " ")
+        while s.hasSuffix(".") { s.removeLast() }
+        return s.trimmingCharacters(in: .whitespaces)
+    }
+}

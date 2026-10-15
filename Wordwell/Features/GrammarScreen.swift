@@ -479,9 +479,21 @@ private struct GrammarQuiz: View {
     @State private var picked: Int?
     @State private var score = 0
     @State private var finished = false
+    @State private var typed = ""
+    /// Wrong typed answer (nil while unanswered or answered by choice).
+    @State private var typedWrong: String?
+    @AppStorage("grammar.practice.typing") private var typing = false
+
+    private var answered: Bool { picked != nil || typedWrong != nil }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
+            Picker("Answer by", selection: $typing) {
+                Text("Choose").tag(false)
+                Text("Type").tag(true)
+            }
+            .pickerStyle(.segmented)
+            .disabled(answered)
             if finished {
                 summary
             } else if let exercise = items[index].exercise {
@@ -503,6 +515,9 @@ private struct GrammarQuiz: View {
         Text(item.prompt)
             .font(WordwellType.body.weight(.semibold))
             .foregroundStyle(WordwellColor.ink)
+        if typing && item.prompt.contains("___") {
+            typedAnswer(item)
+        } else {
         ForEach(item.options.indices, id: \.self) { option in
             Button { choose(option, in: item) } label: {
                 HStack {
@@ -525,13 +540,14 @@ private struct GrammarQuiz: View {
             .buttonStyle(.plain)
             .disabled(picked != nil)
         }
-        if picked != nil {
+        }
+        if answered {
             WordwellBodyText(item.explanation, secondary: true)
-            if let picked, picked != item.answer, let lesson {
+            if let chosen = typedWrong ?? picked.flatMap({ $0 == item.answer ? nil : item.options[$0] }), let lesson {
                 ExplainMistakeCard(
                     mistake: MistakeContext(
                         kind: .grammar, topic: lesson.title, prompt: item.prompt,
-                        chosen: item.options[picked], correct: item.options[item.answer],
+                        chosen: chosen, correct: item.options[item.answer],
                         fact: "\(lesson.use) \(lesson.form) \(item.explanation)"),
                     settings: settings)
                     .id(index)
@@ -541,13 +557,47 @@ private struct GrammarQuiz: View {
         }
     }
 
+    @ViewBuilder
+    private func typedAnswer(_ item: GrammarExercise) -> some View {
+        TextField("Type the missing words", text: $typed)
+            .font(WordwellType.body)
+            .textInputAutocapitalization(.never)
+            .autocorrectionDisabled()
+            .submitLabel(.done)
+            .onSubmit { check(item) }
+            .padding(.horizontal, 14)
+            .frame(minHeight: WordwellLayout.minimumTouchTarget)
+            .overlay { RoundedRectangle(cornerRadius: 10).strokeBorder(WordwellColor.ink, lineWidth: 1) }
+            .disabled(answered)
+        if answered {
+            Label(typedWrong == nil ? "Correct" : "Answer: \(item.options[item.answer])",
+                  systemImage: typedWrong == nil ? "checkmark" : "xmark")
+                .font(WordwellType.body.weight(.semibold))
+                .foregroundStyle(WordwellColor.ink)
+        } else {
+            Button("Check") { check(item) }
+                .buttonStyle(WordwellButtonStyle(.primary))
+                .disabled(typed.trimmingCharacters(in: .whitespaces).isEmpty)
+        }
+    }
+
+    private func check(_ item: GrammarExercise) {
+        guard !answered, !typed.trimmingCharacters(in: .whitespaces).isEmpty else { return }
+        if GrammarAnswer.matches(typed, item.options[item.answer]) {
+            choose(item.answer, in: item)
+        } else {
+            typedWrong = typed
+            record(correct: false)
+        }
+    }
+
     private var summary: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("\(score) of \(items.count) correct")
                 .font(WordwellType.cardHeadline)
                 .foregroundStyle(WordwellColor.ink)
             if !isReview {
-                Button("Try again") { index = 0; picked = nil; score = 0; finished = false }
+                Button("Try again") { index = 0; picked = nil; typed = ""; typedWrong = nil; score = 0; finished = false }
                     .buttonStyle(WordwellButtonStyle(.secondary))
             }
         }
@@ -555,8 +605,12 @@ private struct GrammarQuiz: View {
 
     private func choose(_ option: Int, in item: GrammarExercise) {
         picked = option
+        record(correct: option == item.answer)
+    }
+
+    private func record(correct: Bool) {
         let current = items[index]
-        if option == item.answer {
+        if correct {
             score += 1
             if isReview { review.recordCorrect(current) }
         } else {
@@ -566,6 +620,8 @@ private struct GrammarQuiz: View {
 
     private func advance() {
         picked = nil
+        typed = ""
+        typedWrong = nil
         if index + 1 < items.count {
             index += 1
         } else {

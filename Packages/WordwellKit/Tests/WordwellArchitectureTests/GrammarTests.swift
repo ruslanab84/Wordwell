@@ -133,3 +133,31 @@ import Testing
         #expect(store.due(now: now + day * 2) == [item])
     }
 }
+
+@Suite struct GrammarAnswerTests {
+    @Test func ignoresCaseSpacingAndFinalDot() {
+        #expect(GrammarAnswer.matches("  Will  Come. ", "will come"))
+    }
+
+    @Test func acceptsEitherApostropheAndFullForms() {
+        #expect(GrammarAnswer.matches("doesn't", "doesn’t"))
+        #expect(GrammarAnswer.matches("does not", "doesn’t"))
+        #expect(GrammarAnswer.matches("will not", "won't"))
+        #expect(GrammarAnswer.matches("cannot", "can’t"))
+        #expect(GrammarAnswer.matches("I am", "I'm"))
+    }
+
+    @Test func rejectsWrongAnswers() {
+        #expect(!GrammarAnswer.matches("came", "comes"))
+        #expect(!GrammarAnswer.matches("", "on"))
+        #expect(!GrammarAnswer.matches("isn't", "doesn’t"))
+    }
+
+    @Test func everyGapQuestionHasTypeableAnswer() {
+        for lesson in GrammarCatalog.all {
+            for item in lesson.exercises where item.prompt.contains("___") {
+                #expect(!GrammarAnswer.normalized(item.options[item.answer]).isEmpty, "\(lesson.id): \(item.prompt)")
+            }
+        }
+    }
+}
