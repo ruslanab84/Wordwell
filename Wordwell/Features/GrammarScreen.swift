@@ -423,23 +423,39 @@ private struct CollocationsScreen: View {
 
     var body: some View {
         FeaturePage(title: "Collocations", subtitle: "Words that naturally go together") {
-            let shown = items
-            if shown.isEmpty {
-                WordwellBodyText("No collocations match “\(query)”.", secondary: true)
-            }
-            ForEach(CollocationCatalog.groups, id: \.self) { group in
-                let rows = shown.filter { $0.group == group }
-                if !rows.isEmpty {
-                    Text(group.capitalized)
-                        .font(WordwellType.sectionLabel)
-                        .foregroundStyle(WordwellColor.secondaryText)
-                        .padding(.top, WordwellLayout.sectionGap)
-                        .accessibilityAddTraits(.isHeader)
-                    ForEach(rows) { CollocationRow(item: $0) }
+            if query.trimmingCharacters(in: .whitespaces).isEmpty {
+                ForEach(CollocationCatalog.groups, id: \.self) { group in
+                    let rows = CollocationCatalog.all.filter { $0.group == group }
+                    NavigationLink {
+                        CollocationGroupScreen(group: group, items: rows)
+                    } label: {
+                        WordwellListRow(title: group.capitalized,
+                                        detail: "\(rows.count) · \(rows.prefix(2).map(\.phrase).joined(separator: ", "))") {
+                            Image(systemName: "link")
+                        }
+                    }
+                    .buttonStyle(.plain)
                 }
+            } else {
+                let shown = items
+                if shown.isEmpty {
+                    WordwellBodyText("No collocations match “\(query)”.", secondary: true)
+                }
+                ForEach(shown) { CollocationRow(item: $0) }
             }
         }
         .searchable(text: $query, prompt: "Search collocations")
+    }
+}
+
+private struct CollocationGroupScreen: View {
+    let group: String
+    let items: [Collocation]
+
+    var body: some View {
+        FeaturePage(title: group.capitalized, subtitle: "\(items.count) collocations") {
+            ForEach(items) { CollocationRow(item: $0) }
+        }
     }
 }
 
