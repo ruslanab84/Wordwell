@@ -40430,6 +40430,2006 @@
       "altText": "Illustration of a word.",
       "isDecorative": false,
       "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.age.noun.plate",
+      "word": "age",
+      "lemma": "age",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_age_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_age_plate.imageset/word_age_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a age.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.balance.noun.plate",
+      "word": "balance",
+      "lemma": "balance",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_balance_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_balance_plate.imageset/word_balance_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a balance.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.ban.noun.plate",
+      "word": "ban",
+      "lemma": "ban",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_ban_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ban_plate.imageset/word_ban_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a ban.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.base.noun.plate",
+      "word": "base",
+      "lemma": "base",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_base_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_base_plate.imageset/word_base_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a base.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.bond.noun.plate",
+      "word": "bond",
+      "lemma": "bond",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_bond_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bond_plate.imageset/word_bond_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a bond.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.capacity.noun.plate",
+      "word": "capacity",
+      "lemma": "capacity",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_capacity_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_capacity_plate.imageset/word_capacity_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a capacity.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.center.noun.plate",
+      "word": "center",
+      "lemma": "center",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_center_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_center_plate.imageset/word_center_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a center.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.change.noun.plate",
+      "word": "change",
+      "lemma": "change",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_change_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_change_plate.imageset/word_change_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a change.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.channel.noun.plate",
+      "word": "channel",
+      "lemma": "channel",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_channel_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_channel_plate.imageset/word_channel_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a channel.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.circuit.noun.plate",
+      "word": "circuit",
+      "lemma": "circuit",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_circuit_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_circuit_plate.imageset/word_circuit_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a circuit.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.color.noun.plate",
+      "word": "color",
+      "lemma": "color",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_color_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_color_plate.imageset/word_color_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a color.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.connection.noun.plate",
+      "word": "connection",
+      "lemma": "connection",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_connection_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_connection_plate.imageset/word_connection_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a connection.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.control.noun.plate",
+      "word": "control",
+      "lemma": "control",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_control_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_control_plate.imageset/word_control_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a control.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.counter.noun.plate",
+      "word": "counter",
+      "lemma": "counter",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_counter_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_counter_plate.imageset/word_counter_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a counter.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.credit.noun.plate",
+      "word": "credit",
+      "lemma": "credit",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_credit_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_credit_plate.imageset/word_credit_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a credit.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.cutting.noun.plate",
+      "word": "cutting",
+      "lemma": "cutting",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_cutting_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cutting_plate.imageset/word_cutting_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a cutting.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.damage.noun.plate",
+      "word": "damage",
+      "lemma": "damage",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_damage_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_damage_plate.imageset/word_damage_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a damage.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.decay.noun.plate",
+      "word": "decay",
+      "lemma": "decay",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_decay_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_decay_plate.imageset/word_decay_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a decay.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.delivery.noun.plate",
+      "word": "delivery",
+      "lemma": "delivery",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_delivery_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_delivery_plate.imageset/word_delivery_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a delivery.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.deposit.noun.plate",
+      "word": "deposit",
+      "lemma": "deposit",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_deposit_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_deposit_plate.imageset/word_deposit_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a deposit.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.design.noun.plate",
+      "word": "design",
+      "lemma": "design",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_design_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_design_plate.imageset/word_design_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a design.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.direction.noun.plate",
+      "word": "direction",
+      "lemma": "direction",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_direction_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_direction_plate.imageset/word_direction_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a direction.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.display.noun.plate",
+      "word": "display",
+      "lemma": "display",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_display_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_display_plate.imageset/word_display_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a display.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.distance.noun.plate",
+      "word": "distance",
+      "lemma": "distance",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_distance_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_distance_plate.imageset/word_distance_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a distance.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.division.noun.plate",
+      "word": "division",
+      "lemma": "division",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_division_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_division_plate.imageset/word_division_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a division.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.draft.noun.plate",
+      "word": "draft",
+      "lemma": "draft",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_draft_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_draft_plate.imageset/word_draft_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a draft.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.education.noun.plate",
+      "word": "education",
+      "lemma": "education",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_education_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_education_plate.imageset/word_education_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a education.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.elevation.noun.plate",
+      "word": "elevation",
+      "lemma": "elevation",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_elevation_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_elevation_plate.imageset/word_elevation_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a elevation.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.exchange.noun.plate",
+      "word": "exchange",
+      "lemma": "exchange",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_exchange_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_exchange_plate.imageset/word_exchange_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a exchange.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.explosion.noun.plate",
+      "word": "explosion",
+      "lemma": "explosion",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_explosion_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_explosion_plate.imageset/word_explosion_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a explosion.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.extension.noun.plate",
+      "word": "extension",
+      "lemma": "extension",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_extension_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_extension_plate.imageset/word_extension_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a extension.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fault.noun.plate",
+      "word": "fault",
+      "lemma": "fault",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fault_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fault_plate.imageset/word_fault_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a fault.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.figure.noun.plate",
+      "word": "figure",
+      "lemma": "figure",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_figure_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_figure_plate.imageset/word_figure_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a figure.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.finish.noun.plate",
+      "word": "finish",
+      "lemma": "finish",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_finish_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_finish_plate.imageset/word_finish_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a finish.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.flow.noun.plate",
+      "word": "flow",
+      "lemma": "flow",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_flow_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flow_plate.imageset/word_flow_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a flow.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.focus.noun.plate",
+      "word": "focus",
+      "lemma": "focus",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_focus_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_focus_plate.imageset/word_focus_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a focus.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fold.noun.plate",
+      "word": "fold",
+      "lemma": "fold",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_fold_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fold_plate.imageset/word_fold_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a fold.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.gap.noun.plate",
+      "word": "gap",
+      "lemma": "gap",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_gap_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gap_plate.imageset/word_gap_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a gap.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.glow.noun.plate",
+      "word": "glow",
+      "lemma": "glow",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_glow_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_glow_plate.imageset/word_glow_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a glow.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.growth.noun.plate",
+      "word": "growth",
+      "lemma": "growth",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_growth_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_growth_plate.imageset/word_growth_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a growth.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.guide.noun.plate",
+      "word": "guide",
+      "lemma": "guide",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_guide_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_guide_plate.imageset/word_guide_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a guide.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.hearing.noun.plate",
+      "word": "hearing",
+      "lemma": "hearing",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_hearing_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hearing_plate.imageset/word_hearing_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a hearing.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.heat.noun.plate",
+      "word": "heat",
+      "lemma": "heat",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_heat_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_heat_plate.imageset/word_heat_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a heat.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.idea.noun.plate",
+      "word": "idea",
+      "lemma": "idea",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_idea_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_idea_plate.imageset/word_idea_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a idea.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.image.noun.plate",
+      "word": "image",
+      "lemma": "image",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_image_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_image_plate.imageset/word_image_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a image.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.instrument.noun.plate",
+      "word": "instrument",
+      "lemma": "instrument",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_instrument_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_instrument_plate.imageset/word_instrument_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a instrument.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.interest.noun.plate",
+      "word": "interest",
+      "lemma": "interest",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_interest_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_interest_plate.imageset/word_interest_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a interest.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.lap.noun.plate",
+      "word": "lap",
+      "lemma": "lap",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_lap_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lap_plate.imageset/word_lap_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a lap.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.law.noun.plate",
+      "word": "law",
+      "lemma": "law",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_law_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_law_plate.imageset/word_law_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a law.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.leak.noun.plate",
+      "word": "leak",
+      "lemma": "leak",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_leak_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_leak_plate.imageset/word_leak_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a leak.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.level.noun.plate",
+      "word": "level",
+      "lemma": "level",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_level_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_level_plate.imageset/word_level_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a level.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.life.noun.plate",
+      "word": "life",
+      "lemma": "life",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_life_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_life_plate.imageset/word_life_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a life.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.measure.noun.plate",
+      "word": "measure",
+      "lemma": "measure",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_measure_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_measure_plate.imageset/word_measure_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a measure.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.medicine.noun.plate",
+      "word": "medicine",
+      "lemma": "medicine",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_medicine_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_medicine_plate.imageset/word_medicine_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a medicine.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.mess.noun.plate",
+      "word": "mess",
+      "lemma": "mess",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mess_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mess_plate.imageset/word_mess_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a mess.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.mind.noun.plate",
+      "word": "mind",
+      "lemma": "mind",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mind_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mind_plate.imageset/word_mind_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a mind.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.monitor.noun.plate",
+      "word": "monitor",
+      "lemma": "monitor",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_monitor_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_monitor_plate.imageset/word_monitor_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a monitor.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.mould.noun.plate",
+      "word": "mould",
+      "lemma": "mould",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_mould_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mould_plate.imageset/word_mould_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a mould.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.node.noun.plate",
+      "word": "node",
+      "lemma": "node",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_node_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_node_plate.imageset/word_node_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a node.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.noise.noun.plate",
+      "word": "noise",
+      "lemma": "noise",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_noise_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_noise_plate.imageset/word_noise_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a noise.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.number.noun.plate",
+      "word": "number",
+      "lemma": "number",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_number_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_number_plate.imageset/word_number_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a number.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.parallel.noun.plate",
+      "word": "parallel",
+      "lemma": "parallel",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_parallel_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_parallel_plate.imageset/word_parallel_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a parallel.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.pattern.noun.plate",
+      "word": "pattern",
+      "lemma": "pattern",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_pattern_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pattern_plate.imageset/word_pattern_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a pattern.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.peace.noun.plate",
+      "word": "peace",
+      "lemma": "peace",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_peace_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_peace_plate.imageset/word_peace_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a peace.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.power.noun.plate",
+      "word": "power",
+      "lemma": "power",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_power_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_power_plate.imageset/word_power_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a power.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.pressure.noun.plate",
+      "word": "pressure",
+      "lemma": "pressure",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_pressure_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pressure_plate.imageset/word_pressure_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a pressure.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.protection.noun.plate",
+      "word": "protection",
+      "lemma": "protection",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_protection_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_protection_plate.imageset/word_protection_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a protection.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.race.noun.plate",
+      "word": "race",
+      "lemma": "race",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_race_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_race_plate.imageset/word_race_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a race.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.record.noun.plate",
+      "word": "record",
+      "lemma": "record",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_record_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_record_plate.imageset/word_record_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a record.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.reflection.noun.plate",
+      "word": "reflection",
+      "lemma": "reflection",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_reflection_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reflection_plate.imageset/word_reflection_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a reflection.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rent.noun.plate",
+      "word": "rent",
+      "lemma": "rent",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_rent_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rent_plate.imageset/word_rent_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a rent.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.reward.noun.plate",
+      "word": "reward",
+      "lemma": "reward",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_reward_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reward_plate.imageset/word_reward_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a reward.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.romance.noun.plate",
+      "word": "romance",
+      "lemma": "romance",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_romance_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_romance_plate.imageset/word_romance_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a romance.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.ruin.noun.plate",
+      "word": "ruin",
+      "lemma": "ruin",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_ruin_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ruin_plate.imageset/word_ruin_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a ruin.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rule.noun.plate",
+      "word": "rule",
+      "lemma": "rule",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_rule_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rule_plate.imageset/word_rule_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a rule.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.scratch.noun.plate",
+      "word": "scratch",
+      "lemma": "scratch",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_scratch_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scratch_plate.imageset/word_scratch_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a scratch.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.section.noun.plate",
+      "word": "section",
+      "lemma": "section",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_section_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_section_plate.imageset/word_section_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a section.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.shadow.noun.plate",
+      "word": "shadow",
+      "lemma": "shadow",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_shadow_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shadow_plate.imageset/word_shadow_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a shadow.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.shape.noun.plate",
+      "word": "shape",
+      "lemma": "shape",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_shape_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shape_plate.imageset/word_shape_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a shape.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.shock.noun.plate",
+      "word": "shock",
+      "lemma": "shock",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_shock_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shock_plate.imageset/word_shock_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a shock.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.silver.noun.plate",
+      "word": "silver",
+      "lemma": "silver",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_silver_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_silver_plate.imageset/word_silver_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a silver.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.size.noun.plate",
+      "word": "size",
+      "lemma": "size",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_size_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_size_plate.imageset/word_size_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a size.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.sleep.noun.plate",
+      "word": "sleep",
+      "lemma": "sleep",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_sleep_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sleep_plate.imageset/word_sleep_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a sleep.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.slip.noun.plate",
+      "word": "slip",
+      "lemma": "slip",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_slip_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slip_plate.imageset/word_slip_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a slip.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.smell.noun.plate",
+      "word": "smell",
+      "lemma": "smell",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_smell_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_smell_plate.imageset/word_smell_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a smell.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.speed.noun.plate",
+      "word": "speed",
+      "lemma": "speed",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_speed_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_speed_plate.imageset/word_speed_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a speed.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.split.noun.plate",
+      "word": "split",
+      "lemma": "split",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_split_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_split_plate.imageset/word_split_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a split.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.stand.noun.plate",
+      "word": "stand",
+      "lemma": "stand",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_stand_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stand_plate.imageset/word_stand_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a stand.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.strength.noun.plate",
+      "word": "strength",
+      "lemma": "strength",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_strength_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_strength_plate.imageset/word_strength_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a strength.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.stroke.noun.plate",
+      "word": "stroke",
+      "lemma": "stroke",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_stroke_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stroke_plate.imageset/word_stroke_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a stroke.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.sum.noun.plate",
+      "word": "sum",
+      "lemma": "sum",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_sum_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sum_plate.imageset/word_sum_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a sum.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.support.noun.plate",
+      "word": "support",
+      "lemma": "support",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_support_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_support_plate.imageset/word_support_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a support.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.system.noun.plate",
+      "word": "system",
+      "lemma": "system",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_system_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_system_plate.imageset/word_system_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a system.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.taste.noun.plate",
+      "word": "taste",
+      "lemma": "taste",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_taste_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_taste_plate.imageset/word_taste_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a taste.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.tilt.noun.plate",
+      "word": "tilt",
+      "lemma": "tilt",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_tilt_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tilt_plate.imageset/word_tilt_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a tilt.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.transport.noun.plate",
+      "word": "transport",
+      "lemma": "transport",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_transport_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_transport_plate.imageset/word_transport_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a transport.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.twist.noun.plate",
+      "word": "twist",
+      "lemma": "twist",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_twist_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_twist_plate.imageset/word_twist_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a twist.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.value.noun.plate",
+      "word": "value",
+      "lemma": "value",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_value_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_value_plate.imageset/word_value_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a value.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.view.noun.plate",
+      "word": "view",
+      "lemma": "view",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_view_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_view_plate.imageset/word_view_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a view.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.voice.noun.plate",
+      "word": "voice",
+      "lemma": "voice",
+      "partOfSpeech": "noun",
+      "senseId": null,
+      "assetName": "word_voice_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_voice_plate.imageset/word_voice_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of a voice.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
     }
   ]
 }
