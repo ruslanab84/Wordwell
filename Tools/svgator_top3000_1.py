@@ -12,6 +12,8 @@ import sys
 
 from flat_redraw import ASSETS, BINDINGS, FRAME, PALETTE, ROOT
 
+POS = "noun"  # batches drawing another part of speech set this; non-noun plates get a word_<lemma>_<pos>_plate name
+
 CR, GY, GS, OR, BR, GN, IN, SK, SS, TL, DT, PK, HL, SD, SB = (
     "f6f1e7", "8e8a86", "77736f", "e5a648", "7a5535", "5a7f4a", "2a1e16", "d98b57", "c27443", "2e6f6a", "1f4d4a",
     "c98f7a", "e8c486", "edd9ae", "bd9f66")
@@ -182,7 +184,7 @@ def main():
     have = {a["assetName"] for a in catalog["assets"]}
     added = []
     for word, shapes in sorted(WORDS.items()):
-        name = f"word_{word}_plate"
+        name = f"word_{word}_plate" if POS == "noun" else f"word_{word}_{POS}_plate"
         folder = ASSETS / f"{name}.imageset"
         folder.mkdir(exist_ok=True)
         (folder / f"{name}.svg").write_text(svg_for(shapes))
@@ -194,10 +196,10 @@ def main():
         if name in have:
             continue
         catalog["assets"].append({
-            "id": f"illustration.{word}.noun.plate", "word": word, "lemma": word, "partOfSpeech": "noun", "senseId": None,
+            "id": f"illustration.{word}.{POS}.plate", "word": word, "lemma": word, "partOfSpeech": POS, "senseId": None,
             "assetName": name, "assetPath": f"Resources/IllustrationsSVG/Words.xcassets/{name}.imageset/{name}.svg",
             "style": "flat_color", "contexts": ["dictionary_entry"], "version": 1, "tags": ["top3000"],
-            "altText": f"Illustration of a {word}.", "isDecorative": False, "notes": "Top 3000; SVGator drawing, templated alt text",
+            "altText": f"Illustration of a {word}." if POS == "noun" else f"Illustration of the {POS} {word}.", "isDecorative": False, "notes": "Top 3000; SVGator drawing, templated alt text",
         })
         added.append(name)
     BINDINGS.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n")

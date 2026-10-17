@@ -54430,6 +54430,2006 @@
       "altText": "Illustration of a worst.",
       "isDecorative": false,
       "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.act.verb.plate",
+      "word": "act",
+      "lemma": "act",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_act_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_act_verb_plate.imageset/word_act_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb act.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.address.verb.plate",
+      "word": "address",
+      "lemma": "address",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_address_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_address_verb_plate.imageset/word_address_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb address.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.advance.verb.plate",
+      "word": "advance",
+      "lemma": "advance",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_advance_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_advance_verb_plate.imageset/word_advance_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb advance.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.back.verb.plate",
+      "word": "back",
+      "lemma": "back",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_back_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_back_verb_plate.imageset/word_back_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb back.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.bear.verb.plate",
+      "word": "bear",
+      "lemma": "bear",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_bear_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bear_verb_plate.imageset/word_bear_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb bear.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.beat.verb.plate",
+      "word": "beat",
+      "lemma": "beat",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_beat_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beat_verb_plate.imageset/word_beat_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb beat.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.blast.verb.plate",
+      "word": "blast",
+      "lemma": "blast",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_blast_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blast_verb_plate.imageset/word_blast_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb blast.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.block.verb.plate",
+      "word": "block",
+      "lemma": "block",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_block_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_block_verb_plate.imageset/word_block_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb block.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.cast.verb.plate",
+      "word": "cast",
+      "lemma": "cast",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_cast_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cast_verb_plate.imageset/word_cast_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb cast.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.charge.verb.plate",
+      "word": "charge",
+      "lemma": "charge",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_charge_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_charge_verb_plate.imageset/word_charge_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb charge.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.clear.verb.plate",
+      "word": "clear",
+      "lemma": "clear",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_clear_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clear_verb_plate.imageset/word_clear_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb clear.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.cloud.verb.plate",
+      "word": "cloud",
+      "lemma": "cloud",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_cloud_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cloud_verb_plate.imageset/word_cloud_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb cloud.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.cover.verb.plate",
+      "word": "cover",
+      "lemma": "cover",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_cover_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cover_verb_plate.imageset/word_cover_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb cover.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.crack.verb.plate",
+      "word": "crack",
+      "lemma": "crack",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_crack_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crack_verb_plate.imageset/word_crack_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb crack.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.crash.verb.plate",
+      "word": "crash",
+      "lemma": "crash",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_crash_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crash_verb_plate.imageset/word_crash_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb crash.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.cross.verb.plate",
+      "word": "cross",
+      "lemma": "cross",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_cross_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cross_verb_plate.imageset/word_cross_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb cross.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.deal.verb.plate",
+      "word": "deal",
+      "lemma": "deal",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_deal_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_deal_verb_plate.imageset/word_deal_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb deal.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.develop.verb.plate",
+      "word": "develop",
+      "lemma": "develop",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_develop_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_develop_verb_plate.imageset/word_develop_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb develop.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.dig.verb.plate",
+      "word": "dig",
+      "lemma": "dig",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_dig_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dig_verb_plate.imageset/word_dig_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb dig.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.dip.verb.plate",
+      "word": "dip",
+      "lemma": "dip",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_dip_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dip_verb_plate.imageset/word_dip_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb dip.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.direct.verb.plate",
+      "word": "direct",
+      "lemma": "direct",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_direct_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_direct_verb_plate.imageset/word_direct_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb direct.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.discharge.verb.plate",
+      "word": "discharge",
+      "lemma": "discharge",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_discharge_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_discharge_verb_plate.imageset/word_discharge_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb discharge.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.drag.verb.plate",
+      "word": "drag",
+      "lemma": "drag",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_drag_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drag_verb_plate.imageset/word_drag_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb drag.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.drift.verb.plate",
+      "word": "drift",
+      "lemma": "drift",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_drift_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drift_verb_plate.imageset/word_drift_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb drift.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.drop.verb.plate",
+      "word": "drop",
+      "lemma": "drop",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_drop_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drop_verb_plate.imageset/word_drop_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb drop.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.express.verb.plate",
+      "word": "express",
+      "lemma": "express",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_express_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_express_verb_plate.imageset/word_express_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb express.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.extend.verb.plate",
+      "word": "extend",
+      "lemma": "extend",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_extend_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_extend_verb_plate.imageset/word_extend_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb extend.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.feel.verb.plate",
+      "word": "feel",
+      "lemma": "feel",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_feel_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_feel_verb_plate.imageset/word_feel_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb feel.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fire.verb.plate",
+      "word": "fire",
+      "lemma": "fire",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_fire_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fire_verb_plate.imageset/word_fire_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb fire.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fit.verb.plate",
+      "word": "fit",
+      "lemma": "fit",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_fit_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fit_verb_plate.imageset/word_fit_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb fit.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fix.verb.plate",
+      "word": "fix",
+      "lemma": "fix",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_fix_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fix_verb_plate.imageset/word_fix_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb fix.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.flip.verb.plate",
+      "word": "flip",
+      "lemma": "flip",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_flip_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flip_verb_plate.imageset/word_flip_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb flip.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.float.verb.plate",
+      "word": "float",
+      "lemma": "float",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_float_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_float_verb_plate.imageset/word_float_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb float.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.free.verb.plate",
+      "word": "free",
+      "lemma": "free",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_free_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_free_verb_plate.imageset/word_free_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb free.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.freeze.verb.plate",
+      "word": "freeze",
+      "lemma": "freeze",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_freeze_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_freeze_verb_plate.imageset/word_freeze_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb freeze.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fret.verb.plate",
+      "word": "fret",
+      "lemma": "fret",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_fret_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fret_verb_plate.imageset/word_fret_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb fret.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.gain.verb.plate",
+      "word": "gain",
+      "lemma": "gain",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_gain_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gain_verb_plate.imageset/word_gain_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb gain.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.hang.verb.plate",
+      "word": "hang",
+      "lemma": "hang",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_hang_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hang_verb_plate.imageset/word_hang_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb hang.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.heave.verb.plate",
+      "word": "heave",
+      "lemma": "heave",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_heave_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_heave_verb_plate.imageset/word_heave_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb heave.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.hit.verb.plate",
+      "word": "hit",
+      "lemma": "hit",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_hit_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hit_verb_plate.imageset/word_hit_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb hit.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.hold.verb.plate",
+      "word": "hold",
+      "lemma": "hold",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_hold_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hold_verb_plate.imageset/word_hold_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb hold.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.hook.verb.plate",
+      "word": "hook",
+      "lemma": "hook",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_hook_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hook_verb_plate.imageset/word_hook_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb hook.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.hurt.verb.plate",
+      "word": "hurt",
+      "lemma": "hurt",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_hurt_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hurt_verb_plate.imageset/word_hurt_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb hurt.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.jump.verb.plate",
+      "word": "jump",
+      "lemma": "jump",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_jump_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jump_verb_plate.imageset/word_jump_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb jump.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.kick.verb.plate",
+      "word": "kick",
+      "lemma": "kick",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_kick_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kick_verb_plate.imageset/word_kick_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb kick.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.lift.verb.plate",
+      "word": "lift",
+      "lemma": "lift",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_lift_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lift_verb_plate.imageset/word_lift_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb lift.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.lock.verb.plate",
+      "word": "lock",
+      "lemma": "lock",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_lock_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lock_verb_plate.imageset/word_lock_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb lock.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.mark.verb.plate",
+      "word": "mark",
+      "lemma": "mark",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_mark_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mark_verb_plate.imageset/word_mark_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb mark.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.mount.verb.plate",
+      "word": "mount",
+      "lemma": "mount",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_mount_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mount_verb_plate.imageset/word_mount_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb mount.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.name.verb.plate",
+      "word": "name",
+      "lemma": "name",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_name_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_name_verb_plate.imageset/word_name_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb name.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.offer.verb.plate",
+      "word": "offer",
+      "lemma": "offer",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_offer_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_offer_verb_plate.imageset/word_offer_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb offer.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.pack.verb.plate",
+      "word": "pack",
+      "lemma": "pack",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_pack_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pack_verb_plate.imageset/word_pack_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb pack.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.pass.verb.plate",
+      "word": "pass",
+      "lemma": "pass",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_pass_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pass_verb_plate.imageset/word_pass_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb pass.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.pick.verb.plate",
+      "word": "pick",
+      "lemma": "pick",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_pick_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pick_verb_plate.imageset/word_pick_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb pick.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.pitch.verb.plate",
+      "word": "pitch",
+      "lemma": "pitch",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_pitch_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pitch_verb_plate.imageset/word_pitch_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb pitch.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.pop.verb.plate",
+      "word": "pop",
+      "lemma": "pop",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_pop_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pop_verb_plate.imageset/word_pop_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb pop.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.port.verb.plate",
+      "word": "port",
+      "lemma": "port",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_port_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_port_verb_plate.imageset/word_port_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb port.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.present.verb.plate",
+      "word": "present",
+      "lemma": "present",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_present_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_present_verb_plate.imageset/word_present_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb present.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.press.verb.plate",
+      "word": "press",
+      "lemma": "press",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_press_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_press_verb_plate.imageset/word_press_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb press.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.project.verb.plate",
+      "word": "project",
+      "lemma": "project",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_project_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_project_verb_plate.imageset/word_project_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb project.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.pull.verb.plate",
+      "word": "pull",
+      "lemma": "pull",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_pull_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pull_verb_plate.imageset/word_pull_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb pull.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.push.verb.plate",
+      "word": "push",
+      "lemma": "push",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_push_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_push_verb_plate.imageset/word_push_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb push.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rack.verb.plate",
+      "word": "rack",
+      "lemma": "rack",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_rack_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rack_verb_plate.imageset/word_rack_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb rack.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rail.verb.plate",
+      "word": "rail",
+      "lemma": "rail",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_rail_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rail_verb_plate.imageset/word_rail_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb rail.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.raise.verb.plate",
+      "word": "raise",
+      "lemma": "raise",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_raise_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_raise_verb_plate.imageset/word_raise_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb raise.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.reach.verb.plate",
+      "word": "reach",
+      "lemma": "reach",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_reach_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reach_verb_plate.imageset/word_reach_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb reach.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.reduce.verb.plate",
+      "word": "reduce",
+      "lemma": "reduce",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_reduce_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reduce_verb_plate.imageset/word_reduce_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb reduce.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.register.verb.plate",
+      "word": "register",
+      "lemma": "register",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_register_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_register_verb_plate.imageset/word_register_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb register.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.render.verb.plate",
+      "word": "render",
+      "lemma": "render",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_render_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_render_verb_plate.imageset/word_render_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb render.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.represent.verb.plate",
+      "word": "represent",
+      "lemma": "represent",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_represent_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_represent_verb_plate.imageset/word_represent_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb represent.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rest.verb.plate",
+      "word": "rest",
+      "lemma": "rest",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_rest_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rest_verb_plate.imageset/word_rest_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb rest.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rise.verb.plate",
+      "word": "rise",
+      "lemma": "rise",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_rise_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rise_verb_plate.imageset/word_rise_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb rise.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.roll.verb.plate",
+      "word": "roll",
+      "lemma": "roll",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_roll_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_roll_verb_plate.imageset/word_roll_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb roll.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rush.verb.plate",
+      "word": "rush",
+      "lemma": "rush",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_rush_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rush_verb_plate.imageset/word_rush_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb rush.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.separate.verb.plate",
+      "word": "separate",
+      "lemma": "separate",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_separate_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_separate_verb_plate.imageset/word_separate_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb separate.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.serve.verb.plate",
+      "word": "serve",
+      "lemma": "serve",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_serve_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_serve_verb_plate.imageset/word_serve_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb serve.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.set.verb.plate",
+      "word": "set",
+      "lemma": "set",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_set_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_set_verb_plate.imageset/word_set_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb set.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.settle.verb.plate",
+      "word": "settle",
+      "lemma": "settle",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_settle_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_settle_verb_plate.imageset/word_settle_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb settle.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.shake.verb.plate",
+      "word": "shake",
+      "lemma": "shake",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_shake_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shake_verb_plate.imageset/word_shake_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb shake.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.shift.verb.plate",
+      "word": "shift",
+      "lemma": "shift",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_shift_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shift_verb_plate.imageset/word_shift_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb shift.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.shoot.verb.plate",
+      "word": "shoot",
+      "lemma": "shoot",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_shoot_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shoot_verb_plate.imageset/word_shoot_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb shoot.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.slack.verb.plate",
+      "word": "slack",
+      "lemma": "slack",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_slack_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slack_verb_plate.imageset/word_slack_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb slack.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.smash.verb.plate",
+      "word": "smash",
+      "lemma": "smash",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_smash_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_smash_verb_plate.imageset/word_smash_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb smash.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.squeeze.verb.plate",
+      "word": "squeeze",
+      "lemma": "squeeze",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_squeeze_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_squeeze_verb_plate.imageset/word_squeeze_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb squeeze.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.stick.verb.plate",
+      "word": "stick",
+      "lemma": "stick",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_stick_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stick_verb_plate.imageset/word_stick_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb stick.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.stretch.verb.plate",
+      "word": "stretch",
+      "lemma": "stretch",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_stretch_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stretch_verb_plate.imageset/word_stretch_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb stretch.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.strike.verb.plate",
+      "word": "strike",
+      "lemma": "strike",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_strike_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_strike_verb_plate.imageset/word_strike_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb strike.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.strip.verb.plate",
+      "word": "strip",
+      "lemma": "strip",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_strip_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_strip_verb_plate.imageset/word_strip_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb strip.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.sweep.verb.plate",
+      "word": "sweep",
+      "lemma": "sweep",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_sweep_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sweep_verb_plate.imageset/word_sweep_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb sweep.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.swing.verb.plate",
+      "word": "swing",
+      "lemma": "swing",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_swing_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_swing_verb_plate.imageset/word_swing_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb swing.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.tap.verb.plate",
+      "word": "tap",
+      "lemma": "tap",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_tap_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tap_verb_plate.imageset/word_tap_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb tap.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.throw.verb.plate",
+      "word": "throw",
+      "lemma": "throw",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_throw_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_throw_verb_plate.imageset/word_throw_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb throw.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.tip.verb.plate",
+      "word": "tip",
+      "lemma": "tip",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_tip_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tip_verb_plate.imageset/word_tip_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb tip.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.touch.verb.plate",
+      "word": "touch",
+      "lemma": "touch",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_touch_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_touch_verb_plate.imageset/word_touch_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb touch.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.trace.verb.plate",
+      "word": "trace",
+      "lemma": "trace",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_trace_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trace_verb_plate.imageset/word_trace_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb trace.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.train.verb.plate",
+      "word": "train",
+      "lemma": "train",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_train_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_train_verb_plate.imageset/word_train_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb train.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.transfer.verb.plate",
+      "word": "transfer",
+      "lemma": "transfer",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_transfer_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_transfer_verb_plate.imageset/word_transfer_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb transfer.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.trim.verb.plate",
+      "word": "trim",
+      "lemma": "trim",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_trim_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trim_verb_plate.imageset/word_trim_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb trim.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.waste.verb.plate",
+      "word": "waste",
+      "lemma": "waste",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_waste_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_waste_verb_plate.imageset/word_waste_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb waste.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.yield.verb.plate",
+      "word": "yield",
+      "lemma": "yield",
+      "partOfSpeech": "verb",
+      "senseId": null,
+      "assetName": "word_yield_verb_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_yield_verb_plate.imageset/word_yield_verb_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the verb yield.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
     }
   ]
 }
