@@ -70210,6 +70210,2006 @@
       "altText": "Illustration of the verb plop.",
       "isDecorative": false,
       "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.advanced.adjective.plate",
+      "word": "advanced",
+      "lemma": "advanced",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_advanced_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_advanced_adjective_plate.imageset/word_advanced_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective advanced.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.average.adjective.plate",
+      "word": "average",
+      "lemma": "average",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_average_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_average_adjective_plate.imageset/word_average_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective average.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.bad.adjective.plate",
+      "word": "bad",
+      "lemma": "bad",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_bad_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bad_adjective_plate.imageset/word_bad_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective bad.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.bare.adjective.plate",
+      "word": "bare",
+      "lemma": "bare",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_bare_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bare_adjective_plate.imageset/word_bare_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective bare.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.bitter.adjective.plate",
+      "word": "bitter",
+      "lemma": "bitter",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_bitter_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bitter_adjective_plate.imageset/word_bitter_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective bitter.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.blank.adjective.plate",
+      "word": "blank",
+      "lemma": "blank",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_blank_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blank_adjective_plate.imageset/word_blank_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective blank.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.bound.adjective.plate",
+      "word": "bound",
+      "lemma": "bound",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_bound_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bound_adjective_plate.imageset/word_bound_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective bound.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.broad.adjective.plate",
+      "word": "broad",
+      "lemma": "broad",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_broad_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_broad_adjective_plate.imageset/word_broad_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective broad.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.casual.adjective.plate",
+      "word": "casual",
+      "lemma": "casual",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_casual_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_casual_adjective_plate.imageset/word_casual_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective casual.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.classical.adjective.plate",
+      "word": "classical",
+      "lemma": "classical",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_classical_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_classical_adjective_plate.imageset/word_classical_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective classical.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.closed.adjective.plate",
+      "word": "closed",
+      "lemma": "closed",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_closed_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_closed_adjective_plate.imageset/word_closed_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective closed.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.common.adjective.plate",
+      "word": "common",
+      "lemma": "common",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_common_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_common_adjective_plate.imageset/word_common_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective common.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.conjugate.adjective.plate",
+      "word": "conjugate",
+      "lemma": "conjugate",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_conjugate_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_conjugate_adjective_plate.imageset/word_conjugate_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective conjugate.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.crisp.adjective.plate",
+      "word": "crisp",
+      "lemma": "crisp",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_crisp_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crisp_adjective_plate.imageset/word_crisp_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective crisp.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.deep.adjective.plate",
+      "word": "deep",
+      "lemma": "deep",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_deep_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_deep_adjective_plate.imageset/word_deep_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective deep.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.dim.adjective.plate",
+      "word": "dim",
+      "lemma": "dim",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_dim_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dim_adjective_plate.imageset/word_dim_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective dim.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.divine.adjective.plate",
+      "word": "divine",
+      "lemma": "divine",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_divine_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_divine_adjective_plate.imageset/word_divine_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective divine.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.double.adjective.plate",
+      "word": "double",
+      "lemma": "double",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_double_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_double_adjective_plate.imageset/word_double_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective double.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.dull.adjective.plate",
+      "word": "dull",
+      "lemma": "dull",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_dull_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dull_adjective_plate.imageset/word_dull_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective dull.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fair.adjective.plate",
+      "word": "fair",
+      "lemma": "fair",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_fair_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fair_adjective_plate.imageset/word_fair_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective fair.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fine.adjective.plate",
+      "word": "fine",
+      "lemma": "fine",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_fine_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fine_adjective_plate.imageset/word_fine_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective fine.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.firm.adjective.plate",
+      "word": "firm",
+      "lemma": "firm",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_firm_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_firm_adjective_plate.imageset/word_firm_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective firm.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.flat.adjective.plate",
+      "word": "flat",
+      "lemma": "flat",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_flat_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flat_adjective_plate.imageset/word_flat_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective flat.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.foul.adjective.plate",
+      "word": "foul",
+      "lemma": "foul",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_foul_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_foul_adjective_plate.imageset/word_foul_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective foul.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.fresh.adjective.plate",
+      "word": "fresh",
+      "lemma": "fresh",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_fresh_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fresh_adjective_plate.imageset/word_fresh_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective fresh.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.general.adjective.plate",
+      "word": "general",
+      "lemma": "general",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_general_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_general_adjective_plate.imageset/word_general_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective general.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.gentle.adjective.plate",
+      "word": "gentle",
+      "lemma": "gentle",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_gentle_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gentle_adjective_plate.imageset/word_gentle_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective gentle.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.grand.adjective.plate",
+      "word": "grand",
+      "lemma": "grand",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_grand_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_grand_adjective_plate.imageset/word_grand_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective grand.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.gross.adjective.plate",
+      "word": "gross",
+      "lemma": "gross",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_gross_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gross_adjective_plate.imageset/word_gross_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective gross.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.hard.adjective.plate",
+      "word": "hard",
+      "lemma": "hard",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_hard_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hard_adjective_plate.imageset/word_hard_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective hard.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.heavy.adjective.plate",
+      "word": "heavy",
+      "lemma": "heavy",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_heavy_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_heavy_adjective_plate.imageset/word_heavy_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective heavy.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.hollow.adjective.plate",
+      "word": "hollow",
+      "lemma": "hollow",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_hollow_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hollow_adjective_plate.imageset/word_hollow_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective hollow.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.idle.adjective.plate",
+      "word": "idle",
+      "lemma": "idle",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_idle_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_idle_adjective_plate.imageset/word_idle_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective idle.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.ill.adjective.plate",
+      "word": "ill",
+      "lemma": "ill",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_ill_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ill_adjective_plate.imageset/word_ill_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective ill.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.inactive.adjective.plate",
+      "word": "inactive",
+      "lemma": "inactive",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_inactive_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_inactive_adjective_plate.imageset/word_inactive_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective inactive.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.incompatible.adjective.plate",
+      "word": "incompatible",
+      "lemma": "incompatible",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_incompatible_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_incompatible_adjective_plate.imageset/word_incompatible_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective incompatible.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.indifferent.adjective.plate",
+      "word": "indifferent",
+      "lemma": "indifferent",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_indifferent_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_indifferent_adjective_plate.imageset/word_indifferent_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective indifferent.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.intimate.adjective.plate",
+      "word": "intimate",
+      "lemma": "intimate",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_intimate_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_intimate_adjective_plate.imageset/word_intimate_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective intimate.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.irregular.adjective.plate",
+      "word": "irregular",
+      "lemma": "irregular",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_irregular_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_irregular_adjective_plate.imageset/word_irregular_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective irregular.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.last.adjective.plate",
+      "word": "last",
+      "lemma": "last",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_last_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_last_adjective_plate.imageset/word_last_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective last.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.light.adjective.plate",
+      "word": "light",
+      "lemma": "light",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_light_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_light_adjective_plate.imageset/word_light_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective light.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.liquid.adjective.plate",
+      "word": "liquid",
+      "lemma": "liquid",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_liquid_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_liquid_adjective_plate.imageset/word_liquid_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective liquid.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.live.adjective.plate",
+      "word": "live",
+      "lemma": "live",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_live_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_live_adjective_plate.imageset/word_live_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective live.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.living.adjective.plate",
+      "word": "living",
+      "lemma": "living",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_living_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_living_adjective_plate.imageset/word_living_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective living.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.loose.adjective.plate",
+      "word": "loose",
+      "lemma": "loose",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_loose_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_loose_adjective_plate.imageset/word_loose_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective loose.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.lost.adjective.plate",
+      "word": "lost",
+      "lemma": "lost",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_lost_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lost_adjective_plate.imageset/word_lost_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective lost.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.low.adjective.plate",
+      "word": "low",
+      "lemma": "low",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_low_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_low_adjective_plate.imageset/word_low_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective low.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.major.adjective.plate",
+      "word": "major",
+      "lemma": "major",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_major_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_major_adjective_plate.imageset/word_major_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective major.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.material.adjective.plate",
+      "word": "material",
+      "lemma": "material",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_material_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_material_adjective_plate.imageset/word_material_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective material.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.mean.adjective.plate",
+      "word": "mean",
+      "lemma": "mean",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_mean_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mean_adjective_plate.imageset/word_mean_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective mean.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.middle.adjective.plate",
+      "word": "middle",
+      "lemma": "middle",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_middle_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_middle_adjective_plate.imageset/word_middle_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective middle.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.minor.adjective.plate",
+      "word": "minor",
+      "lemma": "minor",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_minor_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_minor_adjective_plate.imageset/word_minor_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective minor.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.narrow.adjective.plate",
+      "word": "narrow",
+      "lemma": "narrow",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_narrow_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_narrow_adjective_plate.imageset/word_narrow_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective narrow.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.negative.adjective.plate",
+      "word": "negative",
+      "lemma": "negative",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_negative_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_negative_adjective_plate.imageset/word_negative_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective negative.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.obscure.adjective.plate",
+      "word": "obscure",
+      "lemma": "obscure",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_obscure_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_obscure_adjective_plate.imageset/word_obscure_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective obscure.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.one.adjective.plate",
+      "word": "one",
+      "lemma": "one",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_one_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_one_adjective_plate.imageset/word_one_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective one.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.particular.adjective.plate",
+      "word": "particular",
+      "lemma": "particular",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_particular_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_particular_adjective_plate.imageset/word_particular_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective particular.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.plain.adjective.plate",
+      "word": "plain",
+      "lemma": "plain",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_plain_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_plain_adjective_plate.imageset/word_plain_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective plain.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.positive.adjective.plate",
+      "word": "positive",
+      "lemma": "positive",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_positive_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_positive_adjective_plate.imageset/word_positive_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective positive.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.prime.adjective.plate",
+      "word": "prime",
+      "lemma": "prime",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_prime_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_prime_adjective_plate.imageset/word_prime_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective prime.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rank.adjective.plate",
+      "word": "rank",
+      "lemma": "rank",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_rank_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rank_adjective_plate.imageset/word_rank_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective rank.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.raw.adjective.plate",
+      "word": "raw",
+      "lemma": "raw",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_raw_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_raw_adjective_plate.imageset/word_raw_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective raw.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.real.adjective.plate",
+      "word": "real",
+      "lemma": "real",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_real_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_real_adjective_plate.imageset/word_real_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective real.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.regular.adjective.plate",
+      "word": "regular",
+      "lemma": "regular",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_regular_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_regular_adjective_plate.imageset/word_regular_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective regular.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rich.adjective.plate",
+      "word": "rich",
+      "lemma": "rich",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_rich_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rich_adjective_plate.imageset/word_rich_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective rich.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.rough.adjective.plate",
+      "word": "rough",
+      "lemma": "rough",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_rough_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rough_adjective_plate.imageset/word_rough_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective rough.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.running.adjective.plate",
+      "word": "running",
+      "lemma": "running",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_running_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_running_adjective_plate.imageset/word_running_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective running.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.secret.adjective.plate",
+      "word": "secret",
+      "lemma": "secret",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_secret_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_secret_adjective_plate.imageset/word_secret_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective secret.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.sharp.adjective.plate",
+      "word": "sharp",
+      "lemma": "sharp",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_sharp_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sharp_adjective_plate.imageset/word_sharp_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective sharp.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.simple.adjective.plate",
+      "word": "simple",
+      "lemma": "simple",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_simple_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_simple_adjective_plate.imageset/word_simple_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective simple.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.single.adjective.plate",
+      "word": "single",
+      "lemma": "single",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_single_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_single_adjective_plate.imageset/word_single_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective single.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.slick.adjective.plate",
+      "word": "slick",
+      "lemma": "slick",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_slick_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slick_adjective_plate.imageset/word_slick_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective slick.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.smart.adjective.plate",
+      "word": "smart",
+      "lemma": "smart",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_smart_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_smart_adjective_plate.imageset/word_smart_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective smart.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.smooth.adjective.plate",
+      "word": "smooth",
+      "lemma": "smooth",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_smooth_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_smooth_adjective_plate.imageset/word_smooth_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective smooth.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.soft.adjective.plate",
+      "word": "soft",
+      "lemma": "soft",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_soft_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_soft_adjective_plate.imageset/word_soft_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective soft.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.solid.adjective.plate",
+      "word": "solid",
+      "lemma": "solid",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_solid_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_solid_adjective_plate.imageset/word_solid_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective solid.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.sound.adjective.plate",
+      "word": "sound",
+      "lemma": "sound",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_sound_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sound_adjective_plate.imageset/word_sound_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective sound.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.sour.adjective.plate",
+      "word": "sour",
+      "lemma": "sour",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_sour_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sour_adjective_plate.imageset/word_sour_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective sour.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.spare.adjective.plate",
+      "word": "spare",
+      "lemma": "spare",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_spare_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_spare_adjective_plate.imageset/word_spare_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective spare.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.standing.adjective.plate",
+      "word": "standing",
+      "lemma": "standing",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_standing_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_standing_adjective_plate.imageset/word_standing_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective standing.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.steady.adjective.plate",
+      "word": "steady",
+      "lemma": "steady",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_steady_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_steady_adjective_plate.imageset/word_steady_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective steady.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.stiff.adjective.plate",
+      "word": "stiff",
+      "lemma": "stiff",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_stiff_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stiff_adjective_plate.imageset/word_stiff_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective stiff.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.straight.adjective.plate",
+      "word": "straight",
+      "lemma": "straight",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_straight_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_straight_adjective_plate.imageset/word_straight_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective straight.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.substitute.adjective.plate",
+      "word": "substitute",
+      "lemma": "substitute",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_substitute_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_substitute_adjective_plate.imageset/word_substitute_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective substitute.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.superior.adjective.plate",
+      "word": "superior",
+      "lemma": "superior",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_superior_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_superior_adjective_plate.imageset/word_superior_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective superior.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.sure.adjective.plate",
+      "word": "sure",
+      "lemma": "sure",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_sure_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sure_adjective_plate.imageset/word_sure_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective sure.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.sweet.adjective.plate",
+      "word": "sweet",
+      "lemma": "sweet",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_sweet_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sweet_adjective_plate.imageset/word_sweet_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective sweet.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.technical.adjective.plate",
+      "word": "technical",
+      "lemma": "technical",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_technical_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_technical_adjective_plate.imageset/word_technical_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective technical.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.tender.adjective.plate",
+      "word": "tender",
+      "lemma": "tender",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_tender_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tender_adjective_plate.imageset/word_tender_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective tender.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.terminal.adjective.plate",
+      "word": "terminal",
+      "lemma": "terminal",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_terminal_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_terminal_adjective_plate.imageset/word_terminal_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective terminal.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.thick.adjective.plate",
+      "word": "thick",
+      "lemma": "thick",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_thick_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thick_adjective_plate.imageset/word_thick_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective thick.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.thin.adjective.plate",
+      "word": "thin",
+      "lemma": "thin",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_thin_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thin_adjective_plate.imageset/word_thin_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective thin.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.tight.adjective.plate",
+      "word": "tight",
+      "lemma": "tight",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_tight_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tight_adjective_plate.imageset/word_tight_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective tight.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.tonic.adjective.plate",
+      "word": "tonic",
+      "lemma": "tonic",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_tonic_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tonic_adjective_plate.imageset/word_tonic_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective tonic.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.tough.adjective.plate",
+      "word": "tough",
+      "lemma": "tough",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_tough_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tough_adjective_plate.imageset/word_tough_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective tough.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.weak.adjective.plate",
+      "word": "weak",
+      "lemma": "weak",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_weak_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_weak_adjective_plate.imageset/word_weak_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective weak.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.wet.adjective.plate",
+      "word": "wet",
+      "lemma": "wet",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_wet_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wet_adjective_plate.imageset/word_wet_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective wet.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.wide.adjective.plate",
+      "word": "wide",
+      "lemma": "wide",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_wide_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wide_adjective_plate.imageset/word_wide_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective wide.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.wild.adjective.plate",
+      "word": "wild",
+      "lemma": "wild",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_wild_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wild_adjective_plate.imageset/word_wild_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective wild.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
+    },
+    {
+      "id": "illustration.zero.adjective.plate",
+      "word": "zero",
+      "lemma": "zero",
+      "partOfSpeech": "adjective",
+      "senseId": null,
+      "assetName": "word_zero_adjective_plate",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_zero_adjective_plate.imageset/word_zero_adjective_plate.svg",
+      "style": "flat_color",
+      "contexts": [
+        "dictionary_entry"
+      ],
+      "version": 1,
+      "tags": [
+        "top3000"
+      ],
+      "altText": "Illustration of the adjective zero.",
+      "isDecorative": false,
+      "notes": "Top 3000; SVGator drawing, templated alt text"
     }
   ]
 }
