@@ -14,6 +14,7 @@ import WordwellDomain
 struct WordwellApp: App {
     private let container = AppContainer.live
     private let notificationDelegate: DailyWordNotificationDelegate
+    @State private var showIntro = true
 
     init() {
         WordwellFonts.register()
@@ -24,7 +25,14 @@ struct WordwellApp: App {
 
     var body: some Scene {
         WindowGroup {
-            AppLaunchView(container: container)
+            ZStack {
+                AppLaunchView(container: container)
+                if showIntro {
+                    IntroView { withAnimation(.easeOut(duration: 0.35)) { showIntro = false } }
+                        .transition(.opacity)
+                        .zIndex(1)
+                }
+            }
         }
     }
 }
