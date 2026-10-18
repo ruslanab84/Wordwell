@@ -71,6 +71,7 @@ struct ConversationScreen: View {
         isStarting = true
         defer { isStarting = false }
         guard let profile = try? await settings.profile(), profile.aiEnabled else { unavailable = true; return }
+        guard PremiumAccess.shared.unlock() else { return }
         let learner = LearnerProfile(
             level: WordwellAICore.CEFRLevel(rawValue: profile.cefrLevel.rawValue) ?? scenario.level,
             nativeLanguageCode: profile.explanationLanguage)

@@ -58,7 +58,13 @@ struct SkillsCheckScreen: View {
                     ContentUnavailableView("Skills check unavailable", systemImage: "exclamationmark.triangle",
                                            description: Text("The practice material could not be verified."))
                 } else if let result {
-                    results(result)
+                    if PremiumAccess.shared.isPremium {
+                        results(result)
+                    } else {
+                        // The result is saved either way, so it shows up right after upgrading.
+                        PremiumLockedCard(title: "Your result is ready",
+                                          detail: "Unlock Skills Check results with Wordwell Premium.")
+                    }
                 } else {
                     sectionHeader
                     switch draft.section {

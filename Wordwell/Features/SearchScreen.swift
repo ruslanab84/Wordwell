@@ -158,6 +158,10 @@ struct SearchScreen: View {
                 if requested == query { meaning = .unavailable }
                 return
             }
+            guard PremiumAccess.shared.unlock() else {
+                if requested == query { meaning = .idle }
+                return
+            }
             let learner = LearnerProfile(
                 level: WordwellAICore.CEFRLevel(rawValue: profile.cefrLevel.rawValue) ?? .b1,
                 nativeLanguageCode: profile.explanationLanguage)

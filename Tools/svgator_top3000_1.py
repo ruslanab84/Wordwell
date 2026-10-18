@@ -203,14 +203,8 @@ def main():
         })
         added.append(name)
     BINDINGS.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n")
-    project = ROOT / "Wordwell.xcodeproj/project.pbxproj"
-    text = project.read_text()
-    start = text.index("\t\t\tinputPaths = (", text.index("/* Validate SVG illustrations */ = {"))
-    end = text.index("\t\t\t);", start)
-    base = "$(SRCROOT)/Packages/WordwellKit/Sources/WordwellDesign/Resources/IllustrationsSVG/Words.xcassets"
-    inputs = "".join(f'\t\t\t\t"{base}/{n}.imageset/{f}",\n' for n in sorted(added) for f in ("Contents.json", f"{n}.svg"))
-    if inputs:
-        project.write_text(text[:end] + inputs + text[end:])
+    # No pbxproj inputPaths: the validate phase is alwaysOutOfDate, and thousands of
+    # input paths overflow the /bin/sh environment ("Argument list too long").
     print(f"Drew {len(WORDS)} illustrations, added {len(added)} bindings")
 
 

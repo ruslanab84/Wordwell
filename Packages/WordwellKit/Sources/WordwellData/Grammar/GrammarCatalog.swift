@@ -161,6 +161,8 @@ public struct GrammarLesson: Identifiable, Sendable {
     public let exercises: [GrammarExercise]
 
     public var level: GrammarLevel { cefr.band }
+    /// Stage 1 of the course (A1) is free; the rest is Premium.
+    public var isFree: Bool { cefr == .a1 }
 }
 
 /// Lessons live in the bundled `Grammar.json`. A missing or broken file yields an empty catalog,

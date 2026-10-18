@@ -1,3 +1,4 @@
+import StoreKit
 import SwiftUI
 import WordwellDesign
 import WordwellDomain
@@ -13,6 +14,8 @@ struct ProfileScreen: View {
     @State private var savedWords: Int?
     @State private var snapshot: ProgressSnapshot?
     @State private var loadFailed = false
+    @State private var showManageSubscriptions = false
+    private let premium = PremiumAccess.shared
 
     var body: some View {
         FeaturePage(title: "Profile", subtitle: "Your personal learning space") {
@@ -28,6 +31,17 @@ struct ProfileScreen: View {
                 }
             }
 
+            Button {
+                if premium.isPremium { showManageSubscriptions = true } else { premium.showPaywall() }
+            } label: {
+                WordwellListRow(title: premium.isPremium ? "Premium active" : "Wordwell Premium",
+                                detail: premium.isPremium ? "Manage your subscription"
+                                                          : "B1–C1 illustrations, full grammar, unlimited AI") {
+                    Image(systemName: premium.isPremium ? "checkmark.seal" : "star")
+                }
+            }
+            .buttonStyle(.plain)
+            .manageSubscriptionsSheet(isPresented: $showManageSubscriptions)
             Button(action: onProgress) {
                 WordwellListRow(title: "Progress", detail: "Activity, statistics, and goals") {
                     Image(systemName: "chart.bar")

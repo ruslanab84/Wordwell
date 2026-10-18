@@ -272,6 +272,10 @@ struct DictionaryEntryScreen: View {
         VStack(alignment: .leading, spacing: 12) {
             Divider()
             sectionTitle("AI Coach")
+            if aiEnabled && !PremiumAccess.shared.isPremium {
+                WordwellBodyText("\(PremiumAccess.shared.remaining(.ai)) of \(FreeTier.aiRequestsPerDay) free AI requests left today.",
+                                 secondary: true)
+            }
             VStack(alignment: .leading, spacing: 8) {
                 ForEach(AIAction.allCases, id: \.self) { action in
                     let isSelected = aiPhase == .loading && selectedAIAction == action
@@ -307,6 +311,7 @@ struct DictionaryEntryScreen: View {
             }
 
             Button("Compare with another word") {
+                guard PremiumAccess.shared.unlock() else { return }
                 compareContext = (entry, sense)
                 showComparePicker = true
             }
@@ -387,6 +392,10 @@ struct DictionaryEntryScreen: View {
                 if activeAIRequest == requestID { aiPhase = .unavailable }
                 return
             }
+            guard PremiumAccess.shared.canUse(.ai) else {
+                if activeAIRequest == requestID { aiPhase = .idle }
+                return
+            }
             let learner = LearnerProfile(
                 level: WordwellAICore.CEFRLevel(rawValue: (entry.cefrLevel ?? profile.cefrLevel).rawValue) ?? .b1,
                 nativeLanguageCode: profile.explanationLanguage
@@ -394,6 +403,7 @@ struct DictionaryEntryScreen: View {
             do {
                 let result = try await ai.improve(sentence: sentence, target: entry.aiContext(senseID: sense.id), learner: learner)
                 try Task.checkCancellation()
+                PremiumAccess.shared.consume(.ai)
                 if activeAIRequest == requestID { aiPhase = .improvement(result) }
             } catch is CancellationError {
                 if activeAIRequest == requestID { aiPhase = .idle }
@@ -464,6 +474,7 @@ struct DictionaryEntryScreen: View {
                 return
             }
             guard activeAIRequest == requestID, !Task.isCancelled else { return }
+            guard PremiumAccess.shared.canUse(.ai) else { aiPhase = .idle; return }
             if let level = entry.cefrLevel { profile.cefrLevel = level }
             let learner = LearnerProfile(
                 level: WordwellAICore.CEFRLevel(rawValue: profile.cefrLevel.rawValue) ?? .b1,
@@ -478,10 +489,12 @@ struct DictionaryEntryScreen: View {
                 case .explainSimply, .explainInUserLanguage:
                     let result = try await ai.explain(word, learner: learner, languageCode: language)
                     try Task.checkCancellation()
+                    PremiumAccess.shared.consume(.ai)
                     if activeAIRequest == requestID { aiPhase = .explanation(result.explanation) }
                 case .moreExamples:
                     let result = try await ai.examples(for: word, learner: learner, count: 2)
                     try Task.checkCancellation()
+                    PremiumAccess.shared.consume(.ai)
                     if activeAIRequest == requestID { aiPhase = .examples(result.map(\.text)) }
                 }
             } catch is CancellationError {

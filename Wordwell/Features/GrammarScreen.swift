@@ -193,6 +193,11 @@ private struct GrammarCategoryScreen: View {
                                 .foregroundStyle(WordwellColor.secondaryText)
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
+                        if !lesson.isFree && !PremiumAccess.shared.isPremium {
+                            Image(systemName: "lock")
+                                .foregroundStyle(WordwellColor.mutedIcon)
+                                .accessibilityLabel("Premium lesson")
+                        }
                         if GrammarProgressStore().isDone(lesson.id) {
                             Image(systemName: "checkmark.circle")
                                 .foregroundStyle(WordwellColor.ink)
@@ -236,6 +241,19 @@ private struct GrammarLessonScreen: View {
     private enum AIPhase: Equatable { case idle, loading, answer(String), unavailable, failed }
 
     var body: some View {
+        // Every way into a lesson ends here, so this one check gates the whole course past A1.
+        if lesson.isFree || PremiumAccess.shared.isPremium {
+            content
+        } else {
+            FeaturePage(title: lesson.title, subtitle: lesson.summary) {
+                levelBadge(for: lesson.cefr)
+                PremiumLockedCard(title: "This lesson is part of Wordwell Premium",
+                                  detail: "All A1 lessons are free. Premium unlocks every level.")
+            }
+        }
+    }
+
+    private var content: some View {
         FeaturePage(title: lesson.title, subtitle: lesson.summary) {
             levelBadge(for: lesson.cefr)
 
@@ -368,6 +386,7 @@ private struct GrammarLessonScreen: View {
         aiTask = Task {
             await loadAIAccess()
             guard aiAccess == .ready, !Task.isCancelled else { aiPhase = .idle; return }
+            guard PremiumAccess.shared.unlock() else { aiPhase = .idle; return }
             let language = try? await settings.profile().explanationLanguage
             let context = GrammarLessonContext(
                 id: lesson.id, title: lesson.title, level: lesson.cefr.label,

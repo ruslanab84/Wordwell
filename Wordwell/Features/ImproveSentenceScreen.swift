@@ -90,6 +90,10 @@ struct ImproveSentenceScreen: View {
                 if activeRequest == id { phase = .unavailable }
                 return
             }
+            guard PremiumAccess.shared.canUse(.ai) else {
+                if activeRequest == id { phase = .idle }
+                return
+            }
             let learner = LearnerProfile(
                 level: WordwellAICore.CEFRLevel(rawValue: profile.cefrLevel.rawValue) ?? .b1,
                 nativeLanguageCode: profile.explanationLanguage
@@ -97,6 +101,7 @@ struct ImproveSentenceScreen: View {
             do {
                 let result = try await ai.improve(sentence: sentence, target: nil, learner: learner)
                 try Task.checkCancellation()
+                PremiumAccess.shared.consume(.ai)
                 if activeRequest == id { phase = .result(result) }
             } catch is CancellationError {
                 if activeRequest == id { phase = .idle }

@@ -214,7 +214,7 @@ struct SpeakingScreen: View {
     /// Builds today's topic from the learner's own words. Any failure keeps the fixed topic,
     /// so recording never depends on AI.
     private func loadTopic() async {
-        guard let profile = try? await settings.profile(), profile.aiEnabled,
+        guard let profile = try? await settings.profile(), profile.aiEnabled, PremiumAccess.shared.isPremium,
               await ai.availability(languageCode: "en") == .available else { return }
 
         let today = dayKey
@@ -323,6 +323,10 @@ struct SpeakingScreen: View {
         feedbackTask = Task {
             guard let profile = try? await settings.profile(), profile.aiEnabled else {
                 if activeRequest == id { phase = .unavailable }
+                return
+            }
+            guard PremiumAccess.shared.unlock() else {
+                if activeRequest == id { phase = .idle }
                 return
             }
             do {

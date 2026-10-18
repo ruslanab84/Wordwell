@@ -30,6 +30,7 @@ struct SettingsScreen: View {
     @State private var loadFailed = false
     @State private var saveFailed = false
     @State private var saving = false
+    @State private var premium = PremiumAccess.shared
     @State private var notificationFailed = false
     @State private var permissionDenied = false
 
@@ -91,16 +92,25 @@ struct SettingsScreen: View {
                     }
                 }
                 WordwellBodyText("Starting tomorrow, get a word with its transcription in each notification, between 9 AM and 8 PM. Open Verbalex every few days to keep new words scheduled.", secondary: true)
-                Menu {
-                    Button("All topics") { change { $0.wordTopicID = nil } }
-                    ForEach(VocabularyTopic.all) { topic in
-                        Button(topic.title, systemImage: topic.symbol) { change { $0.wordTopicID = topic.id } }
+                if premium.isPremium {
+                    Menu {
+                        Button("All topics") { change { $0.wordTopicID = nil } }
+                        ForEach(VocabularyTopic.all) { topic in
+                            Button(topic.title, systemImage: topic.symbol) { change { $0.wordTopicID = topic.id } }
+                        }
+                    } label: {
+                        let topic = VocabularyTopic.all.first { $0.id == profile.wordTopicID }
+                        WordwellListRow(title: "Word topic", detail: topic?.title ?? "All topics") {
+                            Image(systemName: topic?.symbol ?? "square.grid.2x2")
+                        }
                     }
-                } label: {
-                    let topic = VocabularyTopic.all.first { $0.id == profile.wordTopicID }
-                    WordwellListRow(title: "Word topic", detail: topic?.title ?? "All topics") {
-                        Image(systemName: topic?.symbol ?? "square.grid.2x2")
+                } else {
+                    Button { premium.showPaywall() } label: {
+                        WordwellListRow(title: "Word topic", detail: "Premium") {
+                            Image(systemName: "lock")
+                        }
                     }
+                    .buttonStyle(.plain)
                 }
                 WordwellBodyText("Words on Home and in notifications come from this topic.", secondary: true)
 
@@ -125,6 +135,11 @@ struct SettingsScreen: View {
                 WordwellBodyText(aiAvailable
                     ? "Runs entirely on this device. You can turn it off at any time."
                     : "Apple Intelligence is unavailable on this device. Dictionary and practice still work offline.", secondary: true)
+                #if DEBUG
+                sectionTitle("Debug")
+                Toggle("Force Premium", isOn: $premium.debugForcePremium)
+                    .toggleStyle(WordwellToggleStyle())
+                #endif
             } else {
                 ProgressView("Loading settings")
             }

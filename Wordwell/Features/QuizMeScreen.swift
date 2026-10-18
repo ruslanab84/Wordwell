@@ -19,7 +19,7 @@ struct QuizMeScreen: View {
         var id: String { question.id }
     }
 
-    private enum Phase { case loading, empty, quiz, done, unavailable, failed }
+    private enum Phase { case loading, empty, quiz, done, unavailable, locked, failed }
 
     @Environment(\.dismiss) private var dismiss
     @State private var phase: Phase = .loading
@@ -45,6 +45,10 @@ struct QuizMeScreen: View {
             case .unavailable:
                 ContentUnavailableView("On-device AI unavailable", systemImage: "sparkles",
                                        description: Text("Apple Intelligence is unavailable or turned off in Settings."))
+            case .locked:
+                PremiumLockedCard(title: "Quiz Me is part of Wordwell Premium")
+                    .padding(WordwellLayout.screenPadding)
+                    .frame(maxHeight: .infinity)
             case .failed:
                 ContentUnavailableView {
                     Label("Could not build the quiz", systemImage: "book.closed")
@@ -61,6 +65,7 @@ struct QuizMeScreen: View {
         .navigationTitle("Quiz Me")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear { if items.isEmpty { start() } }
+        .onChange(of: PremiumAccess.shared.isPremium) { if phase == .locked { start() } }
         .onDisappear { task?.cancel() }
         .alert("Could not save your answer", isPresented: $saveFailed) {
             Button("OK", role: .cancel) {}
@@ -179,6 +184,7 @@ struct QuizMeScreen: View {
             if !Task.isCancelled { phase = .unavailable }
             return
         }
+        guard PremiumAccess.shared.isPremium else { phase = .locked; return }
         let learner = LearnerProfile(
             level: WordwellAICore.CEFRLevel(rawValue: profile.cefrLevel.rawValue) ?? .b1,
             nativeLanguageCode: profile.explanationLanguage

@@ -23,11 +23,12 @@ public struct GrammarProgressStore {
     }
 
     /// Lesson with exercises and the lowest best-score ratio (never tried = 0); ties keep catalog order.
-    public func nextLessonID() -> String {
+    public func nextLessonID(freeOnly: Bool = false) -> String {
         func ratio(_ id: String) -> Double {
             Double(scores[id] ?? 0) / Double(GrammarExercises.items(for: id).count)
         }
-        let candidates = GrammarCatalog.all.map(\.id).filter { !GrammarExercises.items(for: $0).isEmpty }
+        let candidates = GrammarCatalog.all.filter { !freeOnly || $0.isFree }.map(\.id)
+            .filter { !GrammarExercises.items(for: $0).isEmpty }
         return candidates.min { ratio($0) < ratio($1) } ?? "present-simple"
     }
 

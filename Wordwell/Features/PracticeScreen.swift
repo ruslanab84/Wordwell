@@ -21,6 +21,7 @@ struct PracticeScreen: View {
     @State private var activityUnavailable = false
     @State private var hasSkillsCheckDraft = false
     @State private var latestSkillsCheck: SkillsCheckResult?
+    private let premium = PremiumAccess.shared
 
     var body: some View {
         ScrollView {
@@ -49,7 +50,14 @@ struct PracticeScreen: View {
                     WordwellBodyText("Today’s activity could not be loaded.", secondary: true)
                 }
 
-                Button(action: onStartReview) {
+                if !premium.isPremium {
+                    let left = premium.remaining(.practice)
+                    WordwellBodyText(left == 0 ? "No free sessions left today. Review, listening, and quizzes are unlimited with Premium."
+                                               : "\(left) of \(FreeTier.practiceSessionsPerDay) free sessions left today.",
+                                     secondary: true)
+                }
+
+                Button { if premium.consume(.practice) { onStartReview() } } label: {
                     WordwellListRow(title: "Vocabulary review", detail: "Revisit saved words and strengthen your memory") {
                         Image(systemName: "book.closed")
                     }
@@ -83,13 +91,13 @@ struct PracticeScreen: View {
                     }
                 }
                 .buttonStyle(.plain)
-                Button(action: onStartListening) {
+                Button { if premium.consume(.practice) { onStartListening() } } label: {
                     WordwellListRow(title: "Listening", detail: "Hear words and choose what you heard") {
                         Image(systemName: "headphones")
                     }
                 }
                 .buttonStyle(.plain)
-                Button(action: onStartQuiz) {
+                Button { if premium.consume(.practice) { onStartQuiz() } } label: {
                     WordwellListRow(title: "Quick quiz", detail: "Test your understanding") {
                         Image(systemName: "list.bullet.rectangle")
                     }
@@ -111,7 +119,7 @@ struct PracticeScreen: View {
                 .buttonStyle(.plain)
                 .accessibilityHint(hasSkillsCheckDraft ? "Continue your saved session" : "Start a four-part skills check")
 
-                if let latestSkillsCheck {
+                if let latestSkillsCheck, premium.isPremium {
                     WordwellBodyText("Latest check: \(latestSkillsCheck.readingCorrect)/5 reading · " +
                                      (latestSkillsCheck.listeningCorrect.map { "\($0)/5 listening" } ?? "listening unavailable") +
                                      (latestSkillsCheck.writingLevel.map { " · writing \($0)" } ?? "") +

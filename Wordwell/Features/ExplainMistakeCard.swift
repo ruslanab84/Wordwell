@@ -73,6 +73,10 @@ struct ExplainMistakeCard: View {
                 if activeRequest == id { phase = .unavailable }
                 return
             }
+            guard PremiumAccess.shared.unlock() else {
+                if activeRequest == id { phase = .idle }
+                return
+            }
             let learner = LearnerProfile(
                 level: WordwellAICore.CEFRLevel(rawValue: profile.cefrLevel.rawValue) ?? .b1,
                 nativeLanguageCode: profile.explanationLanguage

@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var featuredTopicID: String?
     @State private var featuredReason: String?
     @AppStorage("wordwell.wordForYouPick") private var wordForYouPick = ""
+    @State private var premium = PremiumAccess.shared
     private let dictionaryRepository: any DictionaryRepository
     private let libraryRepository: any WordLibraryRepository
     private let progressRepository: any ProgressRepository
@@ -82,7 +83,9 @@ struct ContentView: View {
                                    onStartConversation: { router.startConversation() },
                                    onStartImproveSentence: { router.startImproveSentence() },
                                    onStartQuizMe: { router.startQuizMe() },
-                                   onStartGrammar: { router.openGrammarLesson(id: GrammarProgressStore().nextLessonID()) })
+                                   onStartGrammar: {
+                                       router.openGrammarLesson(id: GrammarProgressStore().nextLessonID(freeOnly: !premium.isPremium))
+                                   })
                         .navigationDestination(for: AppRoute.self, destination: routeDestination)
                 }
             }
@@ -96,6 +99,7 @@ struct ContentView: View {
             }
         }
         .environment(\.mistakeExplainer, mistakeExplainer)
+        .sheet(isPresented: $premium.paywallPresented) { PaywallScreen() }
         .tint(WordwellColor.ink)
         .tabBarMinimizeBehavior(.never)
         .preferredColorScheme(appearance.colorScheme)
@@ -106,11 +110,12 @@ struct ContentView: View {
                 try? await dailyWordNotifications.refresh(for: profile)
             }
         }
+        .onChange(of: premium.isPremium) { Task { await refreshFeaturedWord() } }
         .task(id: router.selection) {
             // Topic is picked in Settings; re-pick the Home word when coming back with a new one.
             guard router.selection == .home, !isLoadingFeaturedWord,
                   let profile = try? await settingsRepository.profile(),
-                  profile.wordTopicID != featuredTopicID else { return }
+                  premium.isPremium, profile.wordTopicID != featuredTopicID else { return }
             await refreshFeaturedWord()
         }
     }
@@ -118,10 +123,11 @@ struct ContentView: View {
     private func refreshFeaturedWord() async {
         isLoadingFeaturedWord = true
         let profile = try? await settingsRepository.profile()
-        let topicID = profile?.wordTopicID
+        // Word for You and the topic filter are Premium; free users get a random featured word.
+        let topicID = premium.isPremium ? profile?.wordTopicID : nil
         var word: WordEntry?
         var reason: String?
-        if let personal = await wordForYou(profile: profile) {
+        if premium.isPremium, let personal = await wordForYou(profile: profile) {
             (word, reason) = personal
         } else {
             let topicIDs = VocabularyTopic.all.first { $0.id == topicID }.map { Set($0.wordIDs) }
