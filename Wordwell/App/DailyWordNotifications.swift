@@ -97,11 +97,7 @@ final class DailyWordNotifications {
         }
 
         for ((id, date), word) in zip(targets, words) {
-            let ipa: String
-            switch profile.preferredEnglishVariant {
-            case .uk: ipa = word.ipaUK ?? word.ipaUS ?? ""
-            case .us, .both: ipa = word.ipaUS ?? word.ipaUK ?? ""
-            }
+            let ipa = word.ipa(for: profile.preferredEnglishVariant)
             let content = UNMutableNotificationContent()
             content.title = "\(word.word) /\(ipa)/"
             content.body = word.senses.first?.definition ?? "Open Verbalex to learn this word."

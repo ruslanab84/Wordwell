@@ -12,16 +12,65 @@
 		81A65AD4E00445F1909275D5 /* WordwellAICore in Frameworks */ = {isa = PBXBuildFile; productRef = 53FEB8128B03403BBDF484D9 /* WordwellAICore */; };
 		A1C0E0000000000000000001 /* WordwellAIFoundationModels in Frameworks */ = {isa = PBXBuildFile; productRef = A1C0E0000000000000000002 /* WordwellAIFoundationModels */; };
 		B17F9BB316B441159986A474 /* WordwellDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 32F2E22C3B1246C990030099 /* WordwellDomain */; };
+		D0A10000000000000000000B /* WordwellWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D0A10000000000000000000A /* WordwellWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0A10000000000000000000C /* WordwellDomain in Frameworks */ = {isa = PBXBuildFile; productRef = D0A10000000000000000000D /* WordwellDomain */; };
+		D0A100000000000000000012 /* Fraunces.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0A100000000000000000010 /* Fraunces.ttf */; };
+		D0A100000000000000000013 /* WorkSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0A100000000000000000011 /* WorkSans.ttf */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0A10000000000000000001C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7BFFD0C30657D1E00EC521D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0A100000000000000000017;
+			remoteInfo = WordwellWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0A10000000000000000001B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D0A10000000000000000000B /* WordwellWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B7BFFD1430657D1E00EC521D /* Wordwell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordwell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A10000000000000000000A /* WordwellWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WordwellWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A100000000000000000010 /* Fraunces.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fraunces.ttf; path = Packages/WordwellKit/Sources/WordwellDesign/Resources/Fonts/Fraunces.ttf; sourceTree = SOURCE_ROOT; };
+		D0A100000000000000000011 /* WorkSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = WorkSans.ttf; path = Packages/WordwellKit/Sources/WordwellDesign/Resources/Fonts/WorkSans.ttf; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D0A10000000000000000000F /* Exceptions for "WordwellWidget" folder in "WordwellWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D0A100000000000000000017 /* WordwellWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B7BFFD1630657D1E00EC521D /* Wordwell */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Wordwell;
+			sourceTree = "<group>";
+		};
+		D0A10000000000000000000E /* WordwellWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D0A10000000000000000000F /* Exceptions for "WordwellWidget" folder in "WordwellWidgetExtension" target */,
+			);
+			path = WordwellWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +86,14 @@
 				A1C0E0000000000000000001 /* WordwellAIFoundationModels in Frameworks */,
 			);
 		};
+		D0A100000000000000000015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A10000000000000000000C /* WordwellDomain in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -44,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				B7BFFD1630657D1E00EC521D /* Wordwell */,
+				D0A10000000000000000000E /* WordwellWidget */,
+				D0A100000000000000000010 /* Fraunces.ttf */,
+				D0A100000000000000000011 /* WorkSans.ttf */,
 				B7BFFD1530657D1E00EC521D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B7BFFD1430657D1E00EC521D /* Wordwell.app */,
+				D0A10000000000000000000A /* WordwellWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,8 +128,12 @@
 				B7BFFD1030657D1E00EC521D /* Sources */,
 				B7BFFD1130657D1E00EC521D /* Frameworks */,
 				B7BFFD1230657D1E00EC521D /* Resources */,
+				D0A10000000000000000001B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
+			);
+			dependencies = (
+				D0A10000000000000000001D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				B7BFFD1630657D1E00EC521D /* Wordwell */,
@@ -85,6 +150,29 @@
 			productReference = B7BFFD1430657D1E00EC521D /* Wordwell.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D0A100000000000000000017 /* WordwellWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A100000000000000000018 /* Build configuration list for PBXNativeTarget "WordwellWidgetExtension" */;
+			buildPhases = (
+				D0A100000000000000000014 /* Sources */,
+				D0A100000000000000000015 /* Frameworks */,
+				D0A100000000000000000016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D0A10000000000000000000E /* WordwellWidget */,
+			);
+			name = WordwellWidgetExtension;
+			packageProductDependencies = (
+				D0A10000000000000000000D /* WordwellDomain */,
+			);
+			productName = WordwellWidgetExtension;
+			productReference = D0A10000000000000000000A /* WordwellWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +184,9 @@
 				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					B7BFFD1330657D1E00EC521D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D0A100000000000000000017 = {
 						CreatedOnToolsVersion = 27.0;
 					};
 				};
@@ -119,6 +210,7 @@
 			projectRoot = "";
 			targets = (
 				B7BFFD1330657D1E00EC521D /* Wordwell */,
+				D0A100000000000000000017 /* WordwellWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -129,14 +221,21 @@
 			files = (
 			);
 		};
+		D0A100000000000000000016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A100000000000000000012 /* Fraunces.ttf in Resources */,
+				D0A100000000000000000013 /* WorkSans.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		5D6A48B92C36000000000001 /* Validate SVG illustrations */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
-			inputPaths = (
-			);
 			name = "Validate SVG illustrations";
 			shellPath = /bin/sh;
 			shellScript = (
@@ -151,7 +250,22 @@
 			files = (
 			);
 		};
+		D0A100000000000000000014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0A10000000000000000001D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0A100000000000000000017 /* WordwellWidgetExtension */;
+			targetProxy = D0A10000000000000000001C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B7BFFD1D30657D1F00EC521D /* Debug configuration for PBXProject "Wordwell" */ = {
@@ -280,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wordwell/Wordwell.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 58ZSRJHNGW;
@@ -320,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wordwell/Wordwell.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 58ZSRJHNGW;
@@ -355,6 +471,66 @@
 			};
 			name = Release;
 		};
+		D0A100000000000000000019 /* Debug configuration for PBXNativeTarget "WordwellWidgetExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WordwellWidget/WordwellWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58ZSRJHNGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordwellWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Verbalex;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RuslanAbd.Wordwell.WordwellWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0A10000000000000000001A /* Release configuration for PBXNativeTarget "WordwellWidgetExtension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WordwellWidget/WordwellWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58ZSRJHNGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordwellWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Verbalex;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RuslanAbd.Wordwell.WordwellWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -371,6 +547,14 @@
 			buildConfigurations = (
 				B7BFFD2030657D1F00EC521D /* Debug configuration for PBXNativeTarget "Wordwell" */,
 				B7BFFD2130657D1F00EC521D /* Release configuration for PBXNativeTarget "Wordwell" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D0A100000000000000000018 /* Build configuration list for PBXNativeTarget "WordwellWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A100000000000000000019 /* Debug configuration for PBXNativeTarget "WordwellWidgetExtension" */,
+				D0A10000000000000000001A /* Release configuration for PBXNativeTarget "WordwellWidgetExtension" */,
 			);
 			defaultConfigurationName = Release;
 		};
@@ -412,6 +596,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A1C0E0000000000000000003 /* XCLocalSwiftPackageReference "Docs" */;
 			productName = WordwellAIFoundationModels;
+		};
+		D0A10000000000000000000D /* WordwellDomain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFCD62171ADB40BB8E1A75F0 /* XCLocalSwiftPackageReference "Packages/WordwellKit" */;
+			productName = WordwellDomain;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

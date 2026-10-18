@@ -7,7 +7,6 @@ import WordwellDomain
 struct ContentView: View {
     @State private var router: AppRouter
     @AppStorage("wordwell.appearance") private var appearance: AppAppearance = .system
-    @AppStorage("wordwell.lastFeaturedWordID") private var lastFeaturedWordID = ""
     @State private var featuredWord: WordEntry?
     @State private var isLoadingFeaturedWord = true
     @State private var featuredTopicID: String?
@@ -27,6 +26,7 @@ struct ContentView: View {
     private let speechRecognizer: OnDeviceSpeechRecognizer
     private let pronunciationPlayer: PronunciationPlayer
     private let dailyWordNotifications: DailyWordNotifications
+    private let wordOfTheDay: WordOfTheDay
     @Environment(\.scenePhase) private var scenePhase
 
     init(container: AppContainer) {
@@ -45,6 +45,7 @@ struct ContentView: View {
         pronunciationPlayer = container.pronunciationPlayer
         dailyWordNotifications = DailyWordNotifications(dictionary: container.dictionaryRepository,
                                                         library: container.libraryRepository)
+        wordOfTheDay = WordOfTheDay(dictionary: container.dictionaryRepository, library: container.libraryRepository)
     }
 
     var body: some View {
@@ -111,6 +112,14 @@ struct ContentView: View {
             }
         }
         .onChange(of: premium.isPremium) { Task { await refreshFeaturedWord() } }
+        .onOpenURL { url in
+            // Widget taps open verbalex://word?id=<wordID>.
+            guard url.host() == "word",
+                  let id = URLComponents(url: url, resolvingAgainstBaseURL: false)?
+                      .queryItems?.first(where: { $0.name == "id" })?.value else { return }
+            router.selection = .home
+            router.openWord(id: id)
+        }
         .task(id: router.selection) {
             // Topic is picked in Settings; re-pick the Home word when coming back with a new one.
             guard router.selection == .home, !isLoadingFeaturedWord,
@@ -125,22 +134,23 @@ struct ContentView: View {
         let profile = try? await settingsRepository.profile()
         // Word for You and the topic filter are Premium; free users get a random featured word.
         let topicID = premium.isPremium ? profile?.wordTopicID : nil
+        // Always top up the shared schedule so the widget has words even for Premium users.
+        let daily = await wordOfTheDay.today(variant: profile?.preferredEnglishVariant ?? .us, topicID: topicID)
         var word: WordEntry?
         var reason: String?
         if premium.isPremium, let personal = await wordForYou(profile: profile) {
             (word, reason) = personal
+        } else if let daily, let entry = try? await dictionaryRepository.entry(id: daily.wordID) {
+            word = entry
         } else {
             let topicIDs = VocabularyTopic.all.first { $0.id == topicID }.map { Set($0.wordIDs) }
-            word = try? await dictionaryRepository.featuredEntry(excluding: lastFeaturedWordID, among: topicIDs)
+            word = try? await dictionaryRepository.featuredEntry(excluding: nil, among: topicIDs)
         }
         guard !Task.isCancelled else { return }
         featuredWord = word
         featuredReason = reason
         featuredTopicID = topicID
         isLoadingFeaturedWord = false
-        if let word {
-            lastFeaturedWordID = word.id
-        }
     }
 
     /// Deterministic pick from weak words, history and level (spec §13); nil falls back to a random word.

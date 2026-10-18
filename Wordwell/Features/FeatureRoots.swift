@@ -24,7 +24,7 @@ struct HomeScreen: View {
                 ProgressView("Loading word")
             } else if let featuredWord {
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("New word for you")
+                    Text(featuredReason == nil ? "Word of the day" : "New word for you")
                         .font(WordwellType.sectionLabel)
                         .foregroundStyle(WordwellColor.secondaryText)
                     Text(featuredWord.word)
