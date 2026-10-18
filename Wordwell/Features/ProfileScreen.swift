@@ -28,6 +28,7 @@ struct ProfileScreen: View {
                     VStack(spacing: 8) { stats }
                 } else {
                     HStack(spacing: 8) { stats }
+                        .fixedSize(horizontal: false, vertical: true)
                 }
             }
 

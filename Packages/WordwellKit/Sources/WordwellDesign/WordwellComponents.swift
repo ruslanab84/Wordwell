@@ -105,7 +105,7 @@ public struct WordwellStatBox<Icon: View>: View {
                     .font(WordwellType.meta)
                     .foregroundStyle(WordwellColor.secondaryText)
             }
-            .frame(maxWidth: .infinity)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             .accessibilityElement(children: .combine)
         }
     }

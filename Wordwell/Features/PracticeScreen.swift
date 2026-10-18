@@ -44,6 +44,7 @@ struct PracticeScreen: View {
                     VStack(spacing: 8) { stats }
                 } else {
                     HStack(alignment: .top, spacing: 8) { stats }
+                        .fixedSize(horizontal: false, vertical: true)
                 }
 
                 if activityUnavailable {
