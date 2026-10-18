@@ -15,7 +15,7 @@ let package = Package(
         .target(name: "WordwellDomain"),
         .target(
             name: "WordwellDesign",
-            resources: [.copy("Resources/Fonts"), .process("Resources/IllustrationsSVG/Words.xcassets"), .process("Resources/IllustrationsSVG/PhrasalVerbs.xcassets")]
+            resources: [.copy("Resources/Fonts"), .process("Resources/IllustrationsSVG/Words.xcassets")]
         ),
         .target(
             name: "WordwellData",

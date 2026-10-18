@@ -46,7 +46,7 @@ struct QuizMeScreen: View {
                 ContentUnavailableView("On-device AI unavailable", systemImage: "sparkles",
                                        description: Text("Apple Intelligence is unavailable or turned off in Settings."))
             case .locked:
-                PremiumLockedCard(title: "Quiz Me is part of Wordwell Premium")
+                PremiumLockedCard(title: "Quiz Me is part of Verbalex Premium")
                     .padding(WordwellLayout.screenPadding)
                     .frame(maxHeight: .infinity)
             case .failed:

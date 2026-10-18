@@ -35,9 +35,9 @@ struct ProfileScreen: View {
             Button {
                 if premium.isPremium { showManageSubscriptions = true } else { premium.showPaywall() }
             } label: {
-                WordwellListRow(title: premium.isPremium ? "Premium active" : "Wordwell Premium",
+                WordwellListRow(title: premium.isPremium ? "Premium active" : "Verbalex Premium",
                                 detail: premium.isPremium ? "Manage your subscription"
-                                                          : "B1–C1 illustrations, full grammar, unlimited AI") {
+                                                          : "Full grammar, unlimited practice and AI") {
                     Image(systemName: premium.isPremium ? "checkmark.seal" : "star")
                 }
             }

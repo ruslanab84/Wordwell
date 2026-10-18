@@ -247,7 +247,7 @@ private struct GrammarLessonScreen: View {
         } else {
             FeaturePage(title: lesson.title, subtitle: lesson.summary) {
                 levelBadge(for: lesson.cefr)
-                PremiumLockedCard(title: "This lesson is part of Wordwell Premium",
+                PremiumLockedCard(title: "This lesson is part of Verbalex Premium",
                                   detail: "All A1 lessons are free. Premium unlocks every level.")
             }
         }

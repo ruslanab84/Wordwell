@@ -63,7 +63,7 @@ struct SkillsCheckScreen: View {
                     } else {
                         // The result is saved either way, so it shows up right after upgrading.
                         PremiumLockedCard(title: "Your result is ready",
-                                          detail: "Unlock Skills Check results with Wordwell Premium.")
+                                          detail: "Unlock Skills Check results with Verbalex Premium.")
                     }
                 } else {
                     sectionHeader

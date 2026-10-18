@@ -19,6 +19,7 @@ struct VocabularyReviewScreen: View {
     @State private var saveFailed = false
     @State private var isSaving = false
     @State private var hasSavedWords = false
+    @State private var sessionCharged = false
 
     var body: some View {
         Group {
@@ -158,6 +159,11 @@ struct VocabularyReviewScreen: View {
                 )
             }
             guard !Task.isCancelled else { return }
+            // Charge the free session only when there is something to review.
+            if !due.isEmpty && !sessionCharged {
+                sessionCharged = true
+                PremiumAccess.shared.consume(.practice)
+            }
             words = due
             wordIllustrations = bindings
             index = 0

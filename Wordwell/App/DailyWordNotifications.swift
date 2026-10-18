@@ -99,7 +99,7 @@ final class DailyWordNotifications {
         for ((id, date), word) in zip(targets, words) {
             let ipa = word.ipa(for: profile.preferredEnglishVariant)
             let content = UNMutableNotificationContent()
-            content.title = "\(word.word) /\(ipa)/"
+            content.title = ipa.isEmpty ? word.word : "\(word.word) /\(ipa)/"
             content.body = word.senses.first?.definition ?? "Open Verbalex to learn this word."
             content.sound = .default
             content.threadIdentifier = "wordwell.dailyWords"

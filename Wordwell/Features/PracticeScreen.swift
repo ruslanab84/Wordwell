@@ -58,7 +58,7 @@ struct PracticeScreen: View {
                                      secondary: true)
                 }
 
-                Button { if premium.consume(.practice) { onStartReview() } } label: {
+                Button { if premium.canUse(.practice) { onStartReview() } } label: {
                     WordwellListRow(title: "Vocabulary review", detail: "Revisit saved words and strengthen your memory") {
                         Image(systemName: "book.closed")
                     }

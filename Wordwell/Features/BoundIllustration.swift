@@ -36,7 +36,7 @@ struct BoundIllustration: View {
                 .contentShape(.rect)
             }
             .buttonStyle(.plain)
-            .accessibilityHint("Opens Wordwell Premium")
+            .accessibilityHint("Opens Verbalex Premium")
             Image(systemName: "lock")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .accessibilityLabel("Premium illustration")

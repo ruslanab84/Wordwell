@@ -84,9 +84,11 @@ struct WordOfTheDayView: View {
                 Text(word.word)
                     .font(WidgetType.display(17, relativeTo: .headline))
                     .widgetAccentable()
-                Text("/\(word.ipa)/")
-                    .font(WidgetType.text(12, relativeTo: .caption))
-                    .foregroundStyle(.secondary)
+                if !word.ipa.isEmpty {
+                    Text("/\(word.ipa)/")
+                        .font(WidgetType.text(12, relativeTo: .caption))
+                        .foregroundStyle(.secondary)
+                }
                 Text(word.definition)
                     .font(WidgetType.text(12, relativeTo: .caption))
                     .lineLimit(1)

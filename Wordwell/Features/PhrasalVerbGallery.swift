@@ -116,10 +116,6 @@ private struct PhrasalVerbCard: View {
                     .font(WordwellType.body)
                     .foregroundStyle(WordwellColor.ink)
                     .fixedSize(horizontal: false, vertical: true)
-                WordwellSVGImage(assetName: entry.imageAsset, isLineArt: true,
-                                 altText: entry.imageAlt, isDecorative: false)
-                    .frame(height: 112)
-                    .frame(maxWidth: .infinity)
                 Text(entry.example)
                     .font(WordwellType.meta)
                     .italic()

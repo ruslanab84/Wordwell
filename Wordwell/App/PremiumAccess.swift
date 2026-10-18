@@ -105,7 +105,6 @@ struct PaywallScreen: View {
     @Environment(\.dismiss) private var dismiss
 
     private let benefits: [(String, String)] = [
-        ("photo.on.rectangle", "B1–C1 words with illustrations"),
         ("text.book.closed", "Every grammar lesson and Skills Check results"),
         ("infinity", "Unlimited practice"),
         ("sparkles", "Unlimited on-device AI: conversation, speaking, explain mistakes, compare words, Quiz Me, find by meaning"),
@@ -115,7 +114,7 @@ struct PaywallScreen: View {
     var body: some View {
         SubscriptionStoreView(productIDs: PremiumAccess.productIDs) {
             VStack(alignment: .leading, spacing: 12) {
-                Text("Wordwell Premium")
+                Text("Verbalex Premium")
                     .font(WordwellType.screenTitle)
                     .foregroundStyle(WordwellColor.ink)
                 ForEach(benefits, id: \.1) { icon, text in
@@ -139,7 +138,7 @@ struct PaywallScreen: View {
 /// Shown in place of locked content; tapping opens the paywall.
 struct PremiumLockedCard: View {
     let title: String
-    var detail: String = "Included in Wordwell Premium."
+    var detail: String = "Included in Verbalex Premium."
 
     var body: some View {
         Button { PremiumAccess.shared.showPaywall() } label: {
@@ -156,6 +155,6 @@ struct PremiumLockedCard: View {
             }
         }
         .buttonStyle(.plain)
-        .accessibilityHint("Opens Wordwell Premium")
+        .accessibilityHint("Opens Verbalex Premium")
     }
 }
