@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verbalex Intro</title>
+<!-- 3-second launch intro prototype: words fall and stack until the screen is full, then the icon and name appear.
+     Design canvas: https://claude.ai/artifact/HD9FiSY5FGwDdmNMw66hqe -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0B0A08}
+@keyframes drop{0%{transform:translateY(-900px);opacity:0}10%{opacity:1}62%{transform:translateY(0)}80%{transform:translateY(-9px)}100%{transform:translateY(0);opacity:1}}
+@keyframes veil{from{opacity:0}to{opacity:1}}
+@keyframes pop{0%{opacity:0;transform:scale(.82)}70%{opacity:1;transform:scale(1.04)}100%{opacity:1;transform:scale(1)}}
+.screen{position:relative;width:390px;height:844px;overflow:hidden;background:#15130F;font-family:'Playfair Display',Georgia,serif}
+.words{box-sizing:border-box;width:390px;height:844px;padding:56px 20px 20px;display:flex;flex-wrap:wrap;align-content:flex-start;gap:10px 14px}
+.w{display:inline-block;animation:drop .8s cubic-bezier(.5,0,.9,.5) both;line-height:1;white-space:nowrap}
+.veil{position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(21,19,15,.97) 0%,rgba(21,19,15,.92) 40%,rgba(21,19,15,.55) 100%);animation:veil .45s ease-out 2.5s both}
+.center{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.logo{display:flex;flex-direction:column;align-items:center;gap:20px;animation:pop .5s cubic-bezier(.2,.8,.3,1) 2.5s both}
+.logo img{width:128px;height:128px;border-radius:29px;border:1px solid rgba(242,237,225,.14);display:block}
+.logo h1{margin:0;font-size:46px;font-weight:700;letter-spacing:-.5px;color:#F2EDE1;line-height:1}
+.replay{position:absolute;right:16px;bottom:16px;width:44px;height:44px;border-radius:22px;border:1px solid rgba(242,237,225,.3);background:rgba(21,19,15,.85);color:#F2EDE1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}
+.replay:focus-visible{outline:2px solid #F2EDE1;outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="screen">
+  <div id="stage"></div>
+  <button class="replay" id="replay" aria-label="Replay intro">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+  </button>
+</div>
+<template id="tpl">
+  <div class="words"></div>
+  <div class="veil"></div>
+  <div class="center"><div class="logo"><img src="verbalex-icon.png" alt="Verbalex logo"><h1>Verbalex</h1></div></div>
+</template>
+<script>
+const WORDS = ['hello','learn','word','speak','listen','read','write','think','dream','say','story','voice','sound','meaning','phrase','talk','grow','remember','practice','daily','sentence','fluent','mind','language','new','every','day','one','more','read','sense','spell','focus','habit','play','ask','answer','today','tomorrow','begin','keep','going','light','simple','clear','bright','quick','steady','calm','bold','kind','open','curious','brave'];
+const COUNT = 130, ACCENT = '#D98A5F';
+const SIZES = [22, 34, 26, 44, 24, 30, 38], WEIGHTS = [400, 700, 900, 700, 400, 900, 700];
+
+function play() {
+  const stage = document.getElementById('stage');
+  stage.replaceChildren(document.getElementById('tpl').content.cloneNode(true));
+  const box = stage.querySelector('.words');
+  for (let i = 0; i < COUNT; i++) {
+    const s = document.createElement('span');
+    s.className = 'w';
+    s.textContent = WORDS[(i * 7) % WORDS.length];
+    s.style.fontSize = SIZES[(i * 3) % SIZES.length] + 'px';
+    s.style.fontWeight = WEIGHTS[(i * 5) % WEIGHTS.length];
+    s.style.fontStyle = i % 3 === 1 ? 'italic' : 'normal';
+    s.style.color = i % 6 === 0 ? ACCENT : (i % 4 === 0 ? '#8E877A' : '#F2EDE1');
+    // Later words sit higher in the flow, so they land first: the screen fills bottom-up in ~2.75s.
+    const jitter = ((i * 37) % 11) / 11 * 0.25;
+    s.style.animationDelay = (((COUNT - 1 - i) / COUNT) * 1.95 + jitter).toFixed(2) + 's';
+    box.appendChild(s);
+  }
+}
+document.getElementById('replay').addEventListener('click', play);
+play();
+</script>
+</body>
+</html>
