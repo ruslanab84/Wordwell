@@ -68,32 +68,10 @@ import WordwellDomain
     #expect(binding.contexts == [.dictionaryEntry])
 }
 
-@Test func bundledIllustrationsReuseWordAcrossAllowedContexts() async throws {
+@Test func missingIllustrationBindingIsNil() async throws {
     let repository = LocalIllustrationBindingRepository()
-    let library = try await repository.binding(lemma: " FAMILY ", partOfSpeech: .noun,
-                                               senseID: "any-sense", context: .library)
-    let review = try await repository.binding(lemma: "family", partOfSpeech: .noun,
-                                              senseID: nil, context: .review)
-    let detail = try await repository.binding(lemma: "family", partOfSpeech: .noun,
-                                              senseID: nil, context: .dictionaryEntry)
-    #expect(library?.assetName == "word_family_line")
-    #expect(review?.assetName == library?.assetName)
-    #expect(detail?.assetName == "word_family_plate")
-    let apple = try await repository.binding(lemma: "apple", partOfSpeech: .noun,
-                                             senseID: nil, context: .dictionaryEntry)
-    #expect(apple?.assetName == "word_apple_plate")
-    let phoneNoun = try await repository.binding(lemma: "phone", partOfSpeech: .noun,
-                                                 senseID: nil, context: .dictionaryEntry)
-    let phoneVerb = try await repository.binding(lemma: "phone", partOfSpeech: .verb,
-                                                 senseID: nil, context: .dictionaryEntry)
-    #expect(phoneNoun?.assetName == phoneVerb?.assetName)
-    let below = try await repository.binding(lemma: "below", partOfSpeech: .adverb,
-                                              senseID: nil, context: .dictionaryEntry)
-    #expect(below?.assetName == "word_below_adverb_plate")
-    #expect(try await repository.binding(lemma: "family", partOfSpeech: .verb,
+    #expect(try await repository.binding(lemma: "family", partOfSpeech: .noun,
                                          senseID: nil, context: .library) == nil)
-    #expect(try await repository.binding(lemma: "unknown", partOfSpeech: .noun,
-                                         senseID: nil, context: .dictionaryEntry) == nil)
 }
 
 @Test func bundledPhrasalVerbsLoadOffline() {

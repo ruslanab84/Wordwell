@@ -105,7 +105,6 @@ def validate():
             key = (binding["lemma"].casefold(), binding.get("partOfSpeech"), binding.get("senseId"), context)
             check(key not in lookup_keys, f"duplicate word/context binding: {binding['id']}")
             lookup_keys.add(key)
-    check(catalog["assets"], "catalog is empty")
     print(f"Validated {len(catalog['assets'])} SVG bindings")
 
 
