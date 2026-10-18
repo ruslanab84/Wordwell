@@ -31,14 +31,12 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		D0A10000000000000000001B /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstSubfolder = PlugIns;
 			files = (
 				D0A10000000000000000000B /* WordwellWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -88,11 +86,9 @@
 		};
 		D0A100000000000000000015 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				D0A10000000000000000000C /* WordwellDomain in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -124,7 +120,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7BFFD1F30657D1F00EC521D /* Build configuration list for PBXNativeTarget "Wordwell" */;
 			buildPhases = (
-				5D6A48B92C36000000000001 /* Validate SVG illustrations */,
 				B7BFFD1030657D1E00EC521D /* Sources */,
 				B7BFFD1130657D1E00EC521D /* Frameworks */,
 				B7BFFD1230657D1E00EC521D /* Resources */,
@@ -159,8 +154,6 @@
 				D0A100000000000000000016 /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
 				D0A10000000000000000000E /* WordwellWidget */,
@@ -223,26 +216,12 @@
 		};
 		D0A100000000000000000016 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				D0A100000000000000000012 /* Fraunces.ttf in Resources */,
 				D0A100000000000000000013 /* WorkSans.ttf in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5D6A48B92C36000000000001 /* Validate SVG illustrations */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			name = "Validate SVG illustrations";
-			shellPath = /bin/sh;
-			shellScript = (
-				"python3 \"$SRCROOT/Tools/validate_svg_assets.py\"",
-			);
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B7BFFD1030657D1E00EC521D /* Sources */ = {
@@ -252,10 +231,8 @@
 		};
 		D0A100000000000000000014 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 

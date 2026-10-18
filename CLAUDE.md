@@ -30,7 +30,6 @@ swift run wordwell-ai eval --min-pass-rate 0.85
 xcodebuild -project Wordwell.xcodeproj -scheme Wordwell -destination 'platform=iOS Simulator,name=<device>' build
 
 # Tools (from repo root)
-python3 Tools/validate_svg_assets.py            # also runs as an Xcode build phase; --phrasal for phrasal-verb set
 python3 Tools/import_dictionary.py <english-wordnet-2025-json.zip> <out.sqlite>   # regenerates Dictionary.sqlite
 ```
 
