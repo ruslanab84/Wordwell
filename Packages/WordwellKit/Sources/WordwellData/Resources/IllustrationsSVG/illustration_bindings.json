@@ -1,4 +1,546 @@
 {
   "schemaVersion": 2,
-  "assets": []
+  "assets": [
+    {
+      "id": "illustration.man.noun",
+      "word": "man",
+      "lemma": "man",
+      "partOfSpeech": "noun",
+      "assetName": "word_man_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_man_line.imageset/word_man_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1",
+        "people"
+      ],
+      "altText": "A man standing, drawn in pencil-style line art.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.break.verb",
+      "word": "break",
+      "lemma": "break",
+      "partOfSpeech": "verb",
+      "assetName": "word_break_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_break_line.imageset/word_break_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Hands breaking a pencil.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cut.verb",
+      "word": "cut",
+      "lemma": "cut",
+      "partOfSpeech": "verb",
+      "assetName": "word_cut_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cut_line.imageset/word_cut_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Hands cutting a sheet of paper with scissors.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.run.verb",
+      "word": "run",
+      "lemma": "run",
+      "partOfSpeech": "verb",
+      "assetName": "word_run_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_run_line.imageset/word_run_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person running.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.play.verb",
+      "word": "play",
+      "lemma": "play",
+      "partOfSpeech": "verb",
+      "assetName": "word_play_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_play_line.imageset/word_play_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child playing with a ball.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.make.verb",
+      "word": "make",
+      "lemma": "make",
+      "partOfSpeech": "verb",
+      "assetName": "word_make_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_make_line.imageset/word_make_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person making a clay bowl.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.draw.verb",
+      "word": "draw",
+      "lemma": "draw",
+      "partOfSpeech": "verb",
+      "assetName": "word_draw_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_draw_line.imageset/word_draw_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand drawing a flower.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hold.verb",
+      "word": "hold",
+      "lemma": "hold",
+      "partOfSpeech": "verb",
+      "assetName": "word_hold_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hold_line.imageset/word_hold_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand holding an apple.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.give.verb",
+      "word": "give",
+      "lemma": "give",
+      "partOfSpeech": "verb",
+      "assetName": "word_give_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_give_line.imageset/word_give_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child giving a flower to another child.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.take.verb",
+      "word": "take",
+      "lemma": "take",
+      "partOfSpeech": "verb",
+      "assetName": "word_take_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_take_line.imageset/word_take_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand taking a book from a shelf.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.fall.verb",
+      "word": "fall",
+      "lemma": "fall",
+      "partOfSpeech": "verb",
+      "assetName": "word_fall_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fall_line.imageset/word_fall_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An apple falling from a tree.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.head.noun",
+      "word": "head",
+      "lemma": "head",
+      "partOfSpeech": "noun",
+      "assetName": "word_head_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_head_line.imageset/word_head_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person\u2019s head and shoulders.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.carry.verb",
+      "word": "carry",
+      "lemma": "carry",
+      "partOfSpeech": "verb",
+      "assetName": "word_carry_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_carry_line.imageset/word_carry_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person carrying a box.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.catch.verb",
+      "word": "catch",
+      "lemma": "catch",
+      "partOfSpeech": "verb",
+      "assetName": "word_catch_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_catch_line.imageset/word_catch_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person catching a ball.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.turn.verb",
+      "word": "turn",
+      "lemma": "turn",
+      "partOfSpeech": "verb",
+      "assetName": "word_turn_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_turn_line.imageset/word_turn_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand turning a door handle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.close.verb",
+      "word": "close",
+      "lemma": "close",
+      "partOfSpeech": "verb",
+      "assetName": "word_close_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_close_line.imageset/word_close_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand closing a book.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cover.verb",
+      "word": "cover",
+      "lemma": "cover",
+      "partOfSpeech": "verb",
+      "assetName": "word_cover_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cover_line.imageset/word_cover_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A blanket covering a sleeping person.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.lift.verb",
+      "word": "lift",
+      "lemma": "lift",
+      "partOfSpeech": "verb",
+      "assetName": "word_lift_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lift_line.imageset/word_lift_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person lifting a box.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.go.verb",
+      "word": "go",
+      "lemma": "go",
+      "partOfSpeech": "verb",
+      "assetName": "word_go_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_go_line.imageset/word_go_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person walking through a doorway.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.drive.verb",
+      "word": "drive",
+      "lemma": "drive",
+      "partOfSpeech": "verb",
+      "assetName": "word_drive_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drive_line.imageset/word_drive_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person driving a car.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.work.verb",
+      "word": "work",
+      "lemma": "work",
+      "partOfSpeech": "verb",
+      "assetName": "word_work_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_work_line.imageset/word_work_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person working at a desk.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.drop.verb",
+      "word": "drop",
+      "lemma": "drop",
+      "partOfSpeech": "verb",
+      "assetName": "word_drop_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drop_line.imageset/word_drop_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand dropping a ball.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.raise.verb",
+      "word": "raise",
+      "lemma": "raise",
+      "partOfSpeech": "verb",
+      "assetName": "word_raise_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_raise_line.imageset/word_raise_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person raising a hand.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.blow.verb",
+      "word": "blow",
+      "lemma": "blow",
+      "partOfSpeech": "verb",
+      "assetName": "word_blow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blow_line.imageset/word_blow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child blowing out a candle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.touch.verb",
+      "word": "touch",
+      "lemma": "touch",
+      "partOfSpeech": "verb",
+      "assetName": "word_touch_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_touch_line.imageset/word_touch_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A finger touching a flower.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.see.verb",
+      "word": "see",
+      "lemma": "see",
+      "partOfSpeech": "verb",
+      "assetName": "word_see_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_see_line.imageset/word_see_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person looking through binoculars.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pull.verb",
+      "word": "pull",
+      "lemma": "pull",
+      "partOfSpeech": "verb",
+      "assetName": "word_pull_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pull_line.imageset/word_pull_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person pulling a rope.",
+      "isDecorative": false
+    }
+  ]
 }
