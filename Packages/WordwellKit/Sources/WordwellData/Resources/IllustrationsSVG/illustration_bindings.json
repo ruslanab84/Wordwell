@@ -541,6 +541,406 @@
       ],
       "altText": "A person pulling a rope.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.wash.verb",
+      "word": "wash",
+      "lemma": "wash",
+      "partOfSpeech": "verb",
+      "assetName": "word_wash_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wash_line.imageset/word_wash_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Hands washing under a tap.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.fly.verb",
+      "word": "fly",
+      "lemma": "fly",
+      "partOfSpeech": "verb",
+      "assetName": "word_fly_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fly_line.imageset/word_fly_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bird flying.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.push.verb",
+      "word": "push",
+      "lemma": "push",
+      "partOfSpeech": "verb",
+      "assetName": "word_push_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_push_line.imageset/word_push_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person pushing a cart.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rise.verb",
+      "word": "rise",
+      "lemma": "rise",
+      "partOfSpeech": "verb",
+      "assetName": "word_rise_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rise_line.imageset/word_rise_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "The sun rising over hills.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.follow.verb",
+      "word": "follow",
+      "lemma": "follow",
+      "partOfSpeech": "verb",
+      "assetName": "word_follow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_follow_line.imageset/word_follow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One child following another.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dance.noun",
+      "word": "dance",
+      "lemma": "dance",
+      "partOfSpeech": "noun",
+      "assetName": "word_dance_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dance_line.imageset/word_dance_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person dancing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cook.verb",
+      "word": "cook",
+      "lemma": "cook",
+      "partOfSpeech": "verb",
+      "assetName": "word_cook_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cook_line.imageset/word_cook_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person cooking in a pan.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.swim.verb",
+      "word": "swim",
+      "lemma": "swim",
+      "partOfSpeech": "verb",
+      "assetName": "word_swim_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_swim_line.imageset/word_swim_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person swimming.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cry.verb",
+      "word": "cry",
+      "lemma": "cry",
+      "partOfSpeech": "verb",
+      "assetName": "word_cry_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cry_line.imageset/word_cry_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person crying.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sit.verb",
+      "word": "sit",
+      "lemma": "sit",
+      "partOfSpeech": "verb",
+      "assetName": "word_sit_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sit_line.imageset/word_sit_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person sitting on a chair.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.walk.verb",
+      "word": "walk",
+      "lemma": "walk",
+      "partOfSpeech": "verb",
+      "assetName": "word_walk_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_walk_line.imageset/word_walk_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person walking on a path.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.write.verb",
+      "word": "write",
+      "lemma": "write",
+      "partOfSpeech": "verb",
+      "assetName": "word_write_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_write_line.imageset/word_write_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand writing with a pencil.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.read.verb",
+      "word": "read",
+      "lemma": "read",
+      "partOfSpeech": "verb",
+      "assetName": "word_read_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_read_line.imageset/word_read_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person reading a book.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sleep.noun",
+      "word": "sleep",
+      "lemma": "sleep",
+      "partOfSpeech": "noun",
+      "assetName": "word_sleep_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sleep_line.imageset/word_sleep_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person asleep in bed.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.drink.noun",
+      "word": "drink",
+      "lemma": "drink",
+      "partOfSpeech": "noun",
+      "assetName": "word_drink_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drink_line.imageset/word_drink_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person holding a drink.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.eat.verb",
+      "word": "eat",
+      "lemma": "eat",
+      "partOfSpeech": "verb",
+      "assetName": "word_eat_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_eat_line.imageset/word_eat_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person eating an apple.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.throw.verb",
+      "word": "throw",
+      "lemma": "throw",
+      "partOfSpeech": "verb",
+      "assetName": "word_throw_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_throw_line.imageset/word_throw_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person throwing a ball.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.jump.verb",
+      "word": "jump",
+      "lemma": "jump",
+      "partOfSpeech": "verb",
+      "assetName": "word_jump_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jump_line.imageset/word_jump_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child jumping over a puddle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.open.adjective",
+      "word": "open",
+      "lemma": "open",
+      "partOfSpeech": "adjective",
+      "assetName": "word_open_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_open_line.imageset/word_open_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An open door.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.clean.adjective",
+      "word": "clean",
+      "lemma": "clean",
+      "partOfSpeech": "adjective",
+      "assetName": "word_clean_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clean_line.imageset/word_clean_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clean plate.",
+      "isDecorative": false
     }
   ]
 }
