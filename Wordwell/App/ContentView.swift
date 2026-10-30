@@ -199,6 +199,10 @@ struct ContentView: View {
                                   player: pronunciationPlayer, ai: aiService)
         case .grammarLesson(let id):
             GrammarLessonRoute(id: id, settings: settingsRepository)
+        case .grammarReview:
+            GrammarReviewScreen(settings: settingsRepository)
+        case .collocationGroup(let group):
+            CollocationGroupScreen(group: group, items: CollocationCatalog.all.filter { $0.group == group })
         case .vocabularyReview:
             VocabularyReviewScreen(dictionary: dictionaryRepository, library: libraryRepository,
                                    progress: progressRepository, illustrations: illustrationRepository)

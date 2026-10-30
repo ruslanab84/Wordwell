@@ -53,9 +53,7 @@ struct GrammarScreen: View {
             .pickerStyle(.segmented)
 
             if reviewDue > 0 {
-                NavigationLink {
-                    GrammarReviewScreen(settings: settings)
-                } label: {
+                RouteLink(route: .grammarReview) {
                     WordwellListRow(title: "Review mistakes",
                                     detail: "\(reviewDue) \(reviewDue == 1 ? "question" : "questions") due") {
                         Image(systemName: "arrow.counterclockwise")
@@ -439,9 +437,7 @@ private struct CollocationsScreen: View {
             if query.trimmingCharacters(in: .whitespaces).isEmpty {
                 ForEach(CollocationCatalog.groups, id: \.self) { group in
                     let rows = CollocationCatalog.all.filter { $0.group == group }
-                    NavigationLink {
-                        CollocationGroupScreen(group: group, items: rows)
-                    } label: {
+                    RouteLink(route: .collocationGroup(group)) {
                         WordwellListRow(title: group.capitalized,
                                         detail: "\(rows.count) · \(rows.prefix(2).map(\.phrase).joined(separator: ", "))") {
                             Image(systemName: "link")
@@ -461,7 +457,7 @@ private struct CollocationsScreen: View {
     }
 }
 
-private struct CollocationGroupScreen: View {
+struct CollocationGroupScreen: View {
     let group: String
     let items: [Collocation]
 
@@ -556,7 +552,7 @@ private struct GrammarPractice: View {
     }
 }
 
-private struct GrammarReviewScreen: View {
+struct GrammarReviewScreen: View {
     let settings: any LearningSettingsRepository
     @State private var items = GrammarReviewStore().due()
 
