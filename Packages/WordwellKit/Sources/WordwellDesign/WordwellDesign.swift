@@ -120,6 +120,8 @@ public enum WordwellFonts {
 }
 
 public struct WordwellSVGImage: View {
+    @Environment(\.colorScheme) private var colorScheme
+
     public let assetName: String
     public let isLineArt: Bool
     public let altText: String?
@@ -137,7 +139,15 @@ public struct WordwellSVGImage: View {
             .resizable()
             .renderingMode(isLineArt ? .template : .original)
             .scaledToFit()
-            .foregroundStyle(WordwellColor.lineArt)
+            .foregroundStyle(isLineArt && colorScheme == .dark
+                             ? Color(red: 58 / 255, green: 54 / 255, blue: 46 / 255)
+                             : WordwellColor.lineArt)
+            .background {
+                if isLineArt && colorScheme == .dark {
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill(Color(red: 247 / 255, green: 242 / 255, blue: 230 / 255))
+                }
+            }
             .accessibilityLabel(altText ?? "")
             .accessibilityHidden(isDecorative)
     }
