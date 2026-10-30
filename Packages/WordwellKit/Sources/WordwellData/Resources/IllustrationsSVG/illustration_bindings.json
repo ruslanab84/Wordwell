@@ -2541,6 +2541,806 @@
       ],
       "altText": "A bird wing.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.drum.noun",
+      "word": "drum",
+      "lemma": "drum",
+      "partOfSpeech": "noun",
+      "assetName": "word_drum_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drum_line.imageset/word_drum_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable drum.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.nest.noun",
+      "word": "nest",
+      "lemma": "nest",
+      "partOfSpeech": "noun",
+      "assetName": "word_nest_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_nest_line.imageset/word_nest_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable nest.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.duck.noun",
+      "word": "duck",
+      "lemma": "duck",
+      "partOfSpeech": "noun",
+      "assetName": "word_duck_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_duck_line.imageset/word_duck_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable duck.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.earth.noun",
+      "word": "earth",
+      "lemma": "earth",
+      "partOfSpeech": "noun",
+      "assetName": "word_earth_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_earth_line.imageset/word_earth_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable earth.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.gate.noun",
+      "word": "gate",
+      "lemma": "gate",
+      "partOfSpeech": "noun",
+      "assetName": "word_gate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gate_line.imageset/word_gate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable gate.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.mouse.noun",
+      "word": "mouse",
+      "lemma": "mouse",
+      "partOfSpeech": "noun",
+      "assetName": "word_mouse_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mouse_line.imageset/word_mouse_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable mouse.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.castle.noun",
+      "word": "castle",
+      "lemma": "castle",
+      "partOfSpeech": "noun",
+      "assetName": "word_castle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_castle_line.imageset/word_castle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable castle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.chicken.noun",
+      "word": "chicken",
+      "lemma": "chicken",
+      "partOfSpeech": "noun",
+      "assetName": "word_chicken_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chicken_line.imageset/word_chicken_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable chicken.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.ear.noun",
+      "word": "ear",
+      "lemma": "ear",
+      "partOfSpeech": "noun",
+      "assetName": "word_ear_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ear_line.imageset/word_ear_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable ear.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.egg.noun",
+      "word": "egg",
+      "lemma": "egg",
+      "partOfSpeech": "noun",
+      "assetName": "word_egg_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_egg_line.imageset/word_egg_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable egg.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.gift.noun",
+      "word": "gift",
+      "lemma": "gift",
+      "partOfSpeech": "noun",
+      "assetName": "word_gift_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gift_line.imageset/word_gift_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable gift.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.lemon.noun",
+      "word": "lemon",
+      "lemma": "lemon",
+      "partOfSpeech": "noun",
+      "assetName": "word_lemon_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lemon_line.imageset/word_lemon_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable lemon.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.orange.noun",
+      "word": "orange",
+      "lemma": "orange",
+      "partOfSpeech": "noun",
+      "assetName": "word_orange_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_orange_line.imageset/word_orange_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable orange.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.belt.noun",
+      "word": "belt",
+      "lemma": "belt",
+      "partOfSpeech": "noun",
+      "assetName": "word_belt_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_belt_line.imageset/word_belt_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable belt.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.boot.noun",
+      "word": "boot",
+      "lemma": "boot",
+      "partOfSpeech": "noun",
+      "assetName": "word_boot_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_boot_line.imageset/word_boot_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable boot.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.button.noun",
+      "word": "button",
+      "lemma": "button",
+      "partOfSpeech": "noun",
+      "assetName": "word_button_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_button_line.imageset/word_button_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable button.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cable.noun",
+      "word": "cable",
+      "lemma": "cable",
+      "partOfSpeech": "noun",
+      "assetName": "word_cable_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cable_line.imageset/word_cable_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable cable.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.card.noun",
+      "word": "card",
+      "lemma": "card",
+      "partOfSpeech": "noun",
+      "assetName": "word_card_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_card_line.imageset/word_card_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable card.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.circle.noun",
+      "word": "circle",
+      "lemma": "circle",
+      "partOfSpeech": "noun",
+      "assetName": "word_circle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_circle_line.imageset/word_circle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable circle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.claw.noun",
+      "word": "claw",
+      "lemma": "claw",
+      "partOfSpeech": "noun",
+      "assetName": "word_claw_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_claw_line.imageset/word_claw_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable claw.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.comb.noun",
+      "word": "comb",
+      "lemma": "comb",
+      "partOfSpeech": "noun",
+      "assetName": "word_comb_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_comb_line.imageset/word_comb_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable comb.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.compass.noun",
+      "word": "compass",
+      "lemma": "compass",
+      "partOfSpeech": "noun",
+      "assetName": "word_compass_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_compass_line.imageset/word_compass_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable compass.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.corn.noun",
+      "word": "corn",
+      "lemma": "corn",
+      "partOfSpeech": "noun",
+      "assetName": "word_corn_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_corn_line.imageset/word_corn_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable corn.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.crab.noun",
+      "word": "crab",
+      "lemma": "crab",
+      "partOfSpeech": "noun",
+      "assetName": "word_crab_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crab_line.imageset/word_crab_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable crab.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cube.noun",
+      "word": "cube",
+      "lemma": "cube",
+      "partOfSpeech": "noun",
+      "assetName": "word_cube_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cube_line.imageset/word_cube_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable cube.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dish.noun",
+      "word": "dish",
+      "lemma": "dish",
+      "partOfSpeech": "noun",
+      "assetName": "word_dish_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dish_line.imageset/word_dish_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable dish.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.elbow.noun",
+      "word": "elbow",
+      "lemma": "elbow",
+      "partOfSpeech": "noun",
+      "assetName": "word_elbow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_elbow_line.imageset/word_elbow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable elbow.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.fin.noun",
+      "word": "fin",
+      "lemma": "fin",
+      "partOfSpeech": "noun",
+      "assetName": "word_fin_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fin_line.imageset/word_fin_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable fin.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.fruit.noun",
+      "word": "fruit",
+      "lemma": "fruit",
+      "partOfSpeech": "noun",
+      "assetName": "word_fruit_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fruit_line.imageset/word_fruit_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable fruit.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.garden.noun",
+      "word": "garden",
+      "lemma": "garden",
+      "partOfSpeech": "noun",
+      "assetName": "word_garden_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_garden_line.imageset/word_garden_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable garden.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hair.noun",
+      "word": "hair",
+      "lemma": "hair",
+      "partOfSpeech": "noun",
+      "assetName": "word_hair_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hair_line.imageset/word_hair_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable hair.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.log.noun",
+      "word": "log",
+      "lemma": "log",
+      "partOfSpeech": "noun",
+      "assetName": "word_log_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_log_line.imageset/word_log_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable log.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.mushroom.noun",
+      "word": "mushroom",
+      "lemma": "mushroom",
+      "partOfSpeech": "noun",
+      "assetName": "word_mushroom_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mushroom_line.imageset/word_mushroom_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable mushroom.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.needle.noun",
+      "word": "needle",
+      "lemma": "needle",
+      "partOfSpeech": "noun",
+      "assetName": "word_needle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_needle_line.imageset/word_needle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable needle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.net.noun",
+      "word": "net",
+      "lemma": "net",
+      "partOfSpeech": "noun",
+      "assetName": "word_net_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_net_line.imageset/word_net_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable net.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.parcel.noun",
+      "word": "parcel",
+      "lemma": "parcel",
+      "partOfSpeech": "noun",
+      "assetName": "word_parcel_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_parcel_line.imageset/word_parcel_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable parcel.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.peach.noun",
+      "word": "peach",
+      "lemma": "peach",
+      "partOfSpeech": "noun",
+      "assetName": "word_peach_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_peach_line.imageset/word_peach_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable peach.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pepper.noun",
+      "word": "pepper",
+      "lemma": "pepper",
+      "partOfSpeech": "noun",
+      "assetName": "word_pepper_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pepper_line.imageset/word_pepper_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable pepper.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pin.noun",
+      "word": "pin",
+      "lemma": "pin",
+      "partOfSpeech": "noun",
+      "assetName": "word_pin_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pin_line.imageset/word_pin_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable pin.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pipe.noun",
+      "word": "pipe",
+      "lemma": "pipe",
+      "partOfSpeech": "noun",
+      "assetName": "word_pipe_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pipe_line.imageset/word_pipe_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clearly recognizable pipe.",
+      "isDecorative": false
     }
   ]
 }
