@@ -1,0 +1,15 @@
+{
+  "images": [
+    {
+      "filename": "word_smoke_line.svg",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "preserves-vector-representation": true
+  }
+}
