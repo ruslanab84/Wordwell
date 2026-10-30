@@ -196,7 +196,7 @@ struct LibraryScreen: View {
                 WordwellBodyText("No topics found. Try another word.", secondary: true)
             } else {
                 ForEach(filteredTopics) { topic in
-                    NavigationLink(value: AppRoute.topic(id: topic.id)) {
+                    RouteLink(route: AppRoute.topic(id: topic.id)) {
                         WordwellListRow(
                             title: topic.title,
                             detail: "\(topic.words.count) words · \(topic.words.prefix(3).joined(separator: ", "))"
@@ -239,7 +239,7 @@ struct LibraryScreen: View {
     }
 
     private func commonRow(_ item: CommonWord) -> some View {
-        NavigationLink(value: AppRoute.dictionaryEntry(wordID: item.id)) {
+        RouteLink(route: AppRoute.dictionaryEntry(wordID: item.id)) {
             WordwellListRow(
                 title: item.word,
                 detail: [item.partOfSpeech?.rawValue, "#\(item.rank)"].compactMap { $0 }.joined(separator: " · ")
@@ -475,7 +475,7 @@ struct TopicWordsScreen: View {
                 }
             } else {
                 ForEach(entries) { entry in
-                    NavigationLink(value: AppRoute.dictionaryEntry(wordID: entry.id)) {
+                    RouteLink(route: AppRoute.dictionaryEntry(wordID: entry.id)) {
                         WordwellListRow(
                             title: entry.word,
                             detail: entry.senses.first?.definition ?? "Open dictionary entry"

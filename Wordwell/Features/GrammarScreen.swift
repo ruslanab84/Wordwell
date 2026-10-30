@@ -29,9 +29,7 @@ struct GrammarScreen: View {
                     WordwellBodyText("No lessons match “\(query)”.", secondary: true)
                 }
                 ForEach(results) { lesson in
-                    NavigationLink {
-                        GrammarLessonScreen(lesson: lesson, settings: settings)
-                    } label: {
+                    RouteLink(route: AppRoute.grammarLesson(id: lesson.id)) {
                         VStack(alignment: .leading, spacing: 4) {
                             Text(lesson.title)
                                 .font(WordwellType.body.weight(.semibold))
@@ -134,9 +132,7 @@ private struct GrammarMistakesScreen: View {
     var body: some View {
         FeaturePage(title: "Common mistakes", subtitle: "Tap a mistake to open its lesson") {
             ForEach(lessons) { lesson in
-                NavigationLink {
-                    GrammarLessonScreen(lesson: lesson, settings: settings)
-                } label: {
+                RouteLink(route: AppRoute.grammarLesson(id: lesson.id)) {
                     VStack(alignment: .leading, spacing: 4) {
                         Text(lesson.title)
                             .font(WordwellType.body.weight(.semibold))
@@ -174,9 +170,7 @@ private struct GrammarCategoryScreen: View {
                 .accessibilityAddTraits(.isHeader)
 
             ForEach(Array(GrammarCatalog.lessons(in: category, level: level).enumerated()), id: \.element.id) { _, lesson in
-                NavigationLink {
-                    GrammarLessonScreen(lesson: lesson, settings: settings)
-                } label: {
+                RouteLink(route: AppRoute.grammarLesson(id: lesson.id)) {
                     HStack(spacing: 12) {
                         Image(systemName: category.symbol)
                             .frame(width: 24, height: 24)

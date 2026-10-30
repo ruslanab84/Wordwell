@@ -30,60 +30,71 @@ final class AppRouter {
     var libraryPath: [AppRoute] = []
     var practicePath: [AppRoute] = []
     var profilePath: [AppRoute] = []
+    /// True when each tab shows its root list beside a detail column (unfolded iPhone Duo, iPad).
+    var isSplit = false
 
-    func openWord(id: String) {
+    func openWord(id: String, fromRoot: Bool = false) {
         let route = AppRoute.dictionaryEntry(wordID: id)
         switch selection {
-        case .home: homePath.append(route)
-        case .grammar: grammarPath.append(route)
-        case .library: libraryPath.append(route)
-        case .practice: practicePath.append(route)
-        case .profile: profilePath.append(route)
+        case .home: push(route, onto: \.homePath, fromRoot: fromRoot)
+        case .grammar: push(route, onto: \.grammarPath, fromRoot: fromRoot)
+        case .library: push(route, onto: \.libraryPath, fromRoot: fromRoot)
+        case .practice: push(route, onto: \.practicePath, fromRoot: fromRoot)
+        case .profile: push(route, onto: \.profilePath, fromRoot: fromRoot)
+        }
+    }
+
+    /// In two columns a tap in the root list swaps the detail column instead of stacking on it.
+    func push(_ route: AppRoute, onto path: ReferenceWritableKeyPath<AppRouter, [AppRoute]>, fromRoot: Bool = true) {
+        if isSplit && fromRoot {
+            self[keyPath: path] = [route]
+        } else {
+            self[keyPath: path].append(route)
         }
     }
 
     func openGrammarLesson(id: String) {
         selection = .grammar
-        grammarPath.append(.grammarLesson(id: id))
+        push(.grammarLesson(id: id), onto: \.grammarPath)
     }
 
     func startVocabularyReview() {
         selection = .practice
-        practicePath.append(.vocabularyReview)
+        push(.vocabularyReview, onto: \.practicePath)
     }
 
     func startSpeaking() {
         selection = .practice
-        practicePath.append(.speaking)
+        push(.speaking, onto: \.practicePath)
     }
 
     func startListening() {
         selection = .practice
-        practicePath.append(.listening)
+        push(.listening, onto: \.practicePath)
     }
 
     func startQuiz() {
         selection = .practice
-        practicePath.append(.quiz)
+        push(.quiz, onto: \.practicePath)
     }
 
     func startSkillsCheck() {
         selection = .practice
-        practicePath.append(.skillsCheck)
+        push(.skillsCheck, onto: \.practicePath)
     }
 
     func startConversation() {
         selection = .practice
-        practicePath.append(.conversation)
+        push(.conversation, onto: \.practicePath)
     }
 
     func startImproveSentence() {
         selection = .practice
-        practicePath.append(.improveSentence)
+        push(.improveSentence, onto: \.practicePath)
     }
 
     func startQuizMe() {
         selection = .practice
-        practicePath.append(.quizMe)
+        push(.quizMe, onto: \.practicePath)
     }
 }

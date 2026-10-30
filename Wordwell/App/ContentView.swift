@@ -28,6 +28,7 @@ struct ContentView: View {
     private let dailyWordNotifications: DailyWordNotifications
     private let wordOfTheDay: WordOfTheDay
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
     init(container: AppContainer) {
         _router = State(initialValue: container.router)
@@ -51,30 +52,31 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $router.selection) {
             Tab("Home", systemImage: "house", value: .home) {
-                NavigationStack(path: $router.homePath) {
+                TabColumns(path: $router.homePath, isSplit: router.isSplit, placeholder: "house",
+                           destination: routeDestination) {
                     HomeScreen(library: libraryRepository, progress: progressRepository, featuredWord: featuredWord,
                                isLoadingFeaturedWord: isLoadingFeaturedWord, featuredReason: featuredReason,
-                               onOpenWord: { router.openWord(id: $0) },
-                               onSearch: { router.homePath.append(.search) },
+                               onOpenWord: { router.openWord(id: $0, fromRoot: true) },
+                               onSearch: { router.push(.search, onto: \.homePath) },
                                onPractice: { router.selection = .practice })
-                        .navigationDestination(for: AppRoute.self, destination: routeDestination)
                 }
             }
             Tab("Grammar", systemImage: "text.book.closed", value: .grammar) {
-                NavigationStack(path: $router.grammarPath) {
+                TabColumns(path: $router.grammarPath, isSplit: router.isSplit, placeholder: "text.book.closed",
+                           destination: routeDestination) {
                     GrammarScreen(settings: settingsRepository)
-                        .navigationDestination(for: AppRoute.self, destination: routeDestination)
                 }
             }
             Tab("Library", systemImage: "books.vertical", value: .library) {
-                NavigationStack(path: $router.libraryPath) {
+                TabColumns(path: $router.libraryPath, isSplit: router.isSplit, placeholder: "books.vertical",
+                           destination: routeDestination) {
                     LibraryScreen(dictionary: dictionaryRepository, library: libraryRepository,
-                                  illustrations: illustrationRepository) { router.openWord(id: $0) }
-                        .navigationDestination(for: AppRoute.self, destination: routeDestination)
+                                  illustrations: illustrationRepository) { router.openWord(id: $0, fromRoot: true) }
                 }
             }
             Tab("Practice", systemImage: "pencil.line", value: .practice) {
-                NavigationStack(path: $router.practicePath) {
+                TabColumns(path: $router.practicePath, isSplit: router.isSplit, placeholder: "pencil.line",
+                           destination: routeDestination) {
                     PracticeScreen(progress: progressRepository,
                                    onStartReview: { router.startVocabularyReview() },
                                    onStartSpeaking: { router.startSpeaking() },
@@ -87,18 +89,18 @@ struct ContentView: View {
                                    onStartGrammar: {
                                        router.openGrammarLesson(id: GrammarProgressStore().nextLessonID(freeOnly: !premium.isPremium))
                                    })
-                        .navigationDestination(for: AppRoute.self, destination: routeDestination)
                 }
             }
             Tab("Profile", systemImage: "person.crop.circle", value: .profile) {
-                NavigationStack(path: $router.profilePath) {
+                TabColumns(path: $router.profilePath, isSplit: router.isSplit, placeholder: "person.crop.circle",
+                           destination: routeDestination) {
                     ProfileScreen(library: libraryRepository, progress: progressRepository,
-                                  onProgress: { router.profilePath.append(.progress) },
-                                  onSettings: { router.profilePath.append(.settings) })
-                        .navigationDestination(for: AppRoute.self, destination: routeDestination)
+                                  onProgress: { router.push(.progress, onto: \.profilePath) },
+                                  onSettings: { router.push(.settings, onto: \.profilePath) })
                 }
             }
         }
+        .onChange(of: horizontalSizeClass, initial: true) { router.isSplit = horizontalSizeClass == .regular }
         .environment(\.mistakeExplainer, mistakeExplainer)
         .sheet(isPresented: $premium.paywallPresented) { PaywallScreen() }
         .tint(WordwellColor.ink)
@@ -228,6 +230,68 @@ struct ContentView: View {
         case .settings:
             SettingsScreen(settings: settingsRepository, progress: progressRepository,
                            ai: aiService, notifications: dailyWordNotifications, appearance: $appearance)
+        }
+    }
+}
+
+extension EnvironmentValues {
+    /// Set on a split view's root column, where route links open in the detail column instead of pushing.
+    @Entry var openRoute: ((AppRoute) -> Void)?
+}
+
+/// A link to an app route. In a split view's root column it swaps the detail column directly; a plain
+/// NavigationLink there would first push inside the root column and flash a blank screen.
+struct RouteLink<Label: View>: View {
+    let route: AppRoute
+    @ViewBuilder let label: Label
+    @Environment(\.openRoute) private var openRoute
+
+    var body: some View {
+        if let openRoute {
+            Button { openRoute(route) } label: { label.contentShape(.rect) }
+        } else {
+            NavigationLink(value: route) { label }
+        }
+    }
+}
+
+/// One tab's navigation: a single stack when compact (folded iPhone Duo, other iPhones); the root list
+/// beside a detail stack when regular (unfolded iPhone Duo, iPad). Both columns take exactly half the
+/// width, so on the Duo the column edge sits on the fold instead of text. A hand-made split rather than
+/// NavigationSplitView: that one overlays its sidebar once the screen is too narrow for both columns.
+private struct TabColumns<Root: View, Detail: View>: View {
+    @Binding var path: [AppRoute]
+    let isSplit: Bool
+    let placeholder: String
+    let destination: (AppRoute) -> Detail
+    @ViewBuilder let root: Root
+
+    var body: some View {
+        if isSplit {
+            HStack(spacing: 0) {
+                // Route links in the root column open in the detail column; list drill-downs stay left.
+                NavigationStack {
+                    root.navigationDestination(for: AppRoute.self, destination: destination)
+                }
+                .environment(\.openRoute) { path = [$0] }
+                .frame(maxWidth: .infinity)
+                NavigationStack(path: $path) {
+                    Image(systemName: placeholder)
+                        .font(.system(size: 44, weight: .light))
+                        .foregroundStyle(WordwellColor.mutedIcon)
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .background(WordwellColor.paper)
+                        .navigationDestination(for: AppRoute.self, destination: destination)
+                }
+                .frame(maxWidth: .infinity)
+                .overlay(alignment: .leading) {
+                    Rectangle().fill(WordwellColor.border).frame(width: 1).ignoresSafeArea()
+                }
+            }
+        } else {
+            NavigationStack(path: $path) {
+                root.navigationDestination(for: AppRoute.self, destination: destination)
+            }
         }
     }
 }
