@@ -9841,6 +9841,1006 @@
       ],
       "altText": "An ice cube melting into a puddle.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.charge.verb",
+      "word": "charge",
+      "lemma": "charge",
+      "partOfSpeech": "verb",
+      "assetName": "word_charge_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_charge_line.imageset/word_charge_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action charge.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.set.verb",
+      "word": "set",
+      "lemma": "set",
+      "partOfSpeech": "verb",
+      "assetName": "word_set_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_set_line.imageset/word_set_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action set.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.clear.verb",
+      "word": "clear",
+      "lemma": "clear",
+      "partOfSpeech": "verb",
+      "assetName": "word_clear_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clear_line.imageset/word_clear_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action clear.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.strike.verb",
+      "word": "strike",
+      "lemma": "strike",
+      "partOfSpeech": "verb",
+      "assetName": "word_strike_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_strike_line.imageset/word_strike_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action strike.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.back.verb",
+      "word": "back",
+      "lemma": "back",
+      "partOfSpeech": "verb",
+      "assetName": "word_back_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_back_line.imageset/word_back_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action back.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.direct.verb",
+      "word": "direct",
+      "lemma": "direct",
+      "partOfSpeech": "verb",
+      "assetName": "word_direct_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_direct_line.imageset/word_direct_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action direct.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.settle.verb",
+      "word": "settle",
+      "lemma": "settle",
+      "partOfSpeech": "verb",
+      "assetName": "word_settle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_settle_line.imageset/word_settle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action settle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.develop.verb",
+      "word": "develop",
+      "lemma": "develop",
+      "partOfSpeech": "verb",
+      "assetName": "word_develop_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_develop_line.imageset/word_develop_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action develop.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.deal.verb",
+      "word": "deal",
+      "lemma": "deal",
+      "partOfSpeech": "verb",
+      "assetName": "word_deal_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_deal_line.imageset/word_deal_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action deal.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.advance.verb",
+      "word": "advance",
+      "lemma": "advance",
+      "partOfSpeech": "verb",
+      "assetName": "word_advance_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_advance_line.imageset/word_advance_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action advance.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cast.verb",
+      "word": "cast",
+      "lemma": "cast",
+      "partOfSpeech": "verb",
+      "assetName": "word_cast_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cast_line.imageset/word_cast_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action cast.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.extend.verb",
+      "word": "extend",
+      "lemma": "extend",
+      "partOfSpeech": "verb",
+      "assetName": "word_extend_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_extend_line.imageset/word_extend_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action extend.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bear.verb",
+      "word": "bear",
+      "lemma": "bear",
+      "partOfSpeech": "verb",
+      "assetName": "word_bear_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bear_line.imageset/word_bear_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action bear.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.waste.verb",
+      "word": "waste",
+      "lemma": "waste",
+      "partOfSpeech": "verb",
+      "assetName": "word_waste_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_waste_line.imageset/word_waste_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action waste.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tip.verb",
+      "word": "tip",
+      "lemma": "tip",
+      "partOfSpeech": "verb",
+      "assetName": "word_tip_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tip_line.imageset/word_tip_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action tip.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.stay.verb",
+      "word": "stay",
+      "lemma": "stay",
+      "partOfSpeech": "verb",
+      "assetName": "word_stay_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stay_line.imageset/word_stay_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action stay.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.trace.verb",
+      "word": "trace",
+      "lemma": "trace",
+      "partOfSpeech": "verb",
+      "assetName": "word_trace_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trace_line.imageset/word_trace_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action trace.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.receive.verb",
+      "word": "receive",
+      "lemma": "receive",
+      "partOfSpeech": "verb",
+      "assetName": "word_receive_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_receive_line.imageset/word_receive_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action receive.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.reach.verb",
+      "word": "reach",
+      "lemma": "reach",
+      "partOfSpeech": "verb",
+      "assetName": "word_reach_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reach_line.imageset/word_reach_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action reach.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rush.verb",
+      "word": "rush",
+      "lemma": "rush",
+      "partOfSpeech": "verb",
+      "assetName": "word_rush_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rush_line.imageset/word_rush_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action rush.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hurt.verb",
+      "word": "hurt",
+      "lemma": "hurt",
+      "partOfSpeech": "verb",
+      "assetName": "word_hurt_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hurt_line.imageset/word_hurt_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action hurt.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.express.verb",
+      "word": "express",
+      "lemma": "express",
+      "partOfSpeech": "verb",
+      "assetName": "word_express_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_express_line.imageset/word_express_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action express.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sink.verb",
+      "word": "sink",
+      "lemma": "sink",
+      "partOfSpeech": "verb",
+      "assetName": "word_sink_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sink_line.imageset/word_sink_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action sink.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.thrust.verb",
+      "word": "thrust",
+      "lemma": "thrust",
+      "partOfSpeech": "verb",
+      "assetName": "word_thrust_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thrust_line.imageset/word_thrust_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action thrust.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.mount.verb",
+      "word": "mount",
+      "lemma": "mount",
+      "partOfSpeech": "verb",
+      "assetName": "word_mount_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mount_line.imageset/word_mount_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action mount.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.translate.verb",
+      "word": "translate",
+      "lemma": "translate",
+      "partOfSpeech": "verb",
+      "assetName": "word_translate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_translate_line.imageset/word_translate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action translate.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tread.verb",
+      "word": "tread",
+      "lemma": "tread",
+      "partOfSpeech": "verb",
+      "assetName": "word_tread_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tread_line.imageset/word_tread_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action tread.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.treat.verb",
+      "word": "treat",
+      "lemma": "treat",
+      "partOfSpeech": "verb",
+      "assetName": "word_treat_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_treat_line.imageset/word_treat_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action treat.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dispatch.verb",
+      "word": "dispatch",
+      "lemma": "dispatch",
+      "partOfSpeech": "verb",
+      "assetName": "word_dispatch_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dispatch_line.imageset/word_dispatch_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action dispatch.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.label.verb",
+      "word": "label",
+      "lemma": "label",
+      "partOfSpeech": "verb",
+      "assetName": "word_label_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_label_line.imageset/word_label_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action label.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pair.verb",
+      "word": "pair",
+      "lemma": "pair",
+      "partOfSpeech": "verb",
+      "assetName": "word_pair_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pair_line.imageset/word_pair_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action pair.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pledge.verb",
+      "word": "pledge",
+      "lemma": "pledge",
+      "partOfSpeech": "verb",
+      "assetName": "word_pledge_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pledge_line.imageset/word_pledge_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action pledge.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.slash.verb",
+      "word": "slash",
+      "lemma": "slash",
+      "partOfSpeech": "verb",
+      "assetName": "word_slash_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slash_line.imageset/word_slash_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action slash.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.survey.verb",
+      "word": "survey",
+      "lemma": "survey",
+      "partOfSpeech": "verb",
+      "assetName": "word_survey_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_survey_line.imageset/word_survey_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action survey.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tame.verb",
+      "word": "tame",
+      "lemma": "tame",
+      "partOfSpeech": "verb",
+      "assetName": "word_tame_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tame_line.imageset/word_tame_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action tame.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.ascend.verb",
+      "word": "ascend",
+      "lemma": "ascend",
+      "partOfSpeech": "verb",
+      "assetName": "word_ascend_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ascend_line.imageset/word_ascend_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action ascend.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bother.verb",
+      "word": "bother",
+      "lemma": "bother",
+      "partOfSpeech": "verb",
+      "assetName": "word_bother_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bother_line.imageset/word_bother_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action bother.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.calm.verb",
+      "word": "calm",
+      "lemma": "calm",
+      "partOfSpeech": "verb",
+      "assetName": "word_calm_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_calm_line.imageset/word_calm_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action calm.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.chafe.verb",
+      "word": "chafe",
+      "lemma": "chafe",
+      "partOfSpeech": "verb",
+      "assetName": "word_chafe_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chafe_line.imageset/word_chafe_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action chafe.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.conduct.verb",
+      "word": "conduct",
+      "lemma": "conduct",
+      "partOfSpeech": "verb",
+      "assetName": "word_conduct_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_conduct_line.imageset/word_conduct_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action conduct.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cream.verb",
+      "word": "cream",
+      "lemma": "cream",
+      "partOfSpeech": "verb",
+      "assetName": "word_cream_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cream_line.imageset/word_cream_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action cream.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.incline.verb",
+      "word": "incline",
+      "lemma": "incline",
+      "partOfSpeech": "verb",
+      "assetName": "word_incline_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_incline_line.imageset/word_incline_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action incline.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.salt.verb",
+      "word": "salt",
+      "lemma": "salt",
+      "partOfSpeech": "verb",
+      "assetName": "word_salt_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_salt_line.imageset/word_salt_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action salt.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.blur.verb",
+      "word": "blur",
+      "lemma": "blur",
+      "partOfSpeech": "verb",
+      "assetName": "word_blur_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_blur_line.imageset/word_blur_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action blur.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.overturn.verb",
+      "word": "overturn",
+      "lemma": "overturn",
+      "partOfSpeech": "verb",
+      "assetName": "word_overturn_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_overturn_line.imageset/word_overturn_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action overturn.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dampen.verb",
+      "word": "dampen",
+      "lemma": "dampen",
+      "partOfSpeech": "verb",
+      "assetName": "word_dampen_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dampen_line.imageset/word_dampen_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action dampen.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.trail.verb",
+      "word": "trail",
+      "lemma": "trail",
+      "partOfSpeech": "verb",
+      "assetName": "word_trail_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_trail_line.imageset/word_trail_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action trail.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.convey.verb",
+      "word": "convey",
+      "lemma": "convey",
+      "partOfSpeech": "verb",
+      "assetName": "word_convey_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_convey_line.imageset/word_convey_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action convey.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.crease.verb",
+      "word": "crease",
+      "lemma": "crease",
+      "partOfSpeech": "verb",
+      "assetName": "word_crease_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crease_line.imageset/word_crease_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action crease.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dot.verb",
+      "word": "dot",
+      "lemma": "dot",
+      "partOfSpeech": "verb",
+      "assetName": "word_dot_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dot_line.imageset/word_dot_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person or object clearly demonstrating the action dot.",
+      "isDecorative": false
     }
   ]
 }
