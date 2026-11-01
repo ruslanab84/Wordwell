@@ -12641,6 +12641,606 @@
       ],
       "altText": "A student graduating in cap and gown.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.frost.verb",
+      "word": "frost",
+      "lemma": "frost",
+      "partOfSpeech": "verb",
+      "assetName": "word_frost_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_frost_line.imageset/word_frost_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Frost forming on a window pane.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.handle.verb",
+      "word": "handle",
+      "lemma": "handle",
+      "partOfSpeech": "verb",
+      "assetName": "word_handle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_handle_line.imageset/word_handle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person carefully handling a fragile vase.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.judge.verb",
+      "word": "judge",
+      "lemma": "judge",
+      "partOfSpeech": "verb",
+      "assetName": "word_judge_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_judge_line.imageset/word_judge_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A judge evaluating two cakes at a contest.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.inscribe.verb",
+      "word": "inscribe",
+      "lemma": "inscribe",
+      "partOfSpeech": "verb",
+      "assetName": "word_inscribe_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_inscribe_line.imageset/word_inscribe_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person engraving a simple mark on a wooden plaque.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.repeat.verb",
+      "word": "repeat",
+      "lemma": "repeat",
+      "partOfSpeech": "verb",
+      "assetName": "word_repeat_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_repeat_line.imageset/word_repeat_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A teacher repeating a hand gesture to a child.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.add.verb",
+      "word": "add",
+      "lemma": "add",
+      "partOfSpeech": "verb",
+      "assetName": "word_add_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_add_line.imageset/word_add_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person adding apples to a bowl.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.struggle.verb",
+      "word": "struggle",
+      "lemma": "struggle",
+      "partOfSpeech": "verb",
+      "assetName": "word_struggle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_struggle_line.imageset/word_struggle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person struggling to open a jar.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.scramble.verb",
+      "word": "scramble",
+      "lemma": "scramble",
+      "partOfSpeech": "verb",
+      "assetName": "word_scramble_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scramble_line.imageset/word_scramble_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person scrambling up a rocky slope.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cancel.verb",
+      "word": "cancel",
+      "lemma": "cancel",
+      "partOfSpeech": "verb",
+      "assetName": "word_cancel_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cancel_line.imageset/word_cancel_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person crossing out an appointment on a blank calendar.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.crowd.verb",
+      "word": "crowd",
+      "lemma": "crowd",
+      "partOfSpeech": "verb",
+      "assetName": "word_crowd_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crowd_line.imageset/word_crowd_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A group of people crowding around a street performer.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.delay.verb",
+      "word": "delay",
+      "lemma": "delay",
+      "partOfSpeech": "verb",
+      "assetName": "word_delay_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_delay_line.imageset/word_delay_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person waiting beside a stopped bus.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.depart.verb",
+      "word": "depart",
+      "lemma": "depart",
+      "partOfSpeech": "verb",
+      "assetName": "word_depart_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_depart_line.imageset/word_depart_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person departing with a suitcase.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.fumble.verb",
+      "word": "fumble",
+      "lemma": "fumble",
+      "partOfSpeech": "verb",
+      "assetName": "word_fumble_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fumble_line.imageset/word_fumble_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person fumbling and dropping keys.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.guess.verb",
+      "word": "guess",
+      "lemma": "guess",
+      "partOfSpeech": "verb",
+      "assetName": "word_guess_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_guess_line.imageset/word_guess_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person guessing what is inside a closed box.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.lighten.verb",
+      "word": "lighten",
+      "lemma": "lighten",
+      "partOfSpeech": "verb",
+      "assetName": "word_lighten_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lighten_line.imageset/word_lighten_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person removing books from a heavy backpack.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.shear.verb",
+      "word": "shear",
+      "lemma": "shear",
+      "partOfSpeech": "verb",
+      "assetName": "word_shear_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shear_line.imageset/word_shear_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A farmer shearing a sheep.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.shed.verb",
+      "word": "shed",
+      "lemma": "shed",
+      "partOfSpeech": "verb",
+      "assetName": "word_shed_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shed_line.imageset/word_shed_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dog shedding fur while being brushed.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.shrink.verb",
+      "word": "shrink",
+      "lemma": "shrink",
+      "partOfSpeech": "verb",
+      "assetName": "word_shrink_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shrink_line.imageset/word_shrink_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sweater shrinking in a wash basin.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.slant.verb",
+      "word": "slant",
+      "lemma": "slant",
+      "partOfSpeech": "verb",
+      "assetName": "word_slant_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slant_line.imageset/word_slant_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wooden plank slanting against a wall.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.multiply.verb",
+      "word": "multiply",
+      "lemma": "multiply",
+      "partOfSpeech": "verb",
+      "assetName": "word_multiply_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_multiply_line.imageset/word_multiply_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child grouping objects to learn multiplication.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.slump.verb",
+      "word": "slump",
+      "lemma": "slump",
+      "partOfSpeech": "verb",
+      "assetName": "word_slump_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slump_line.imageset/word_slump_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tired person slumping in a chair.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.organise.verb",
+      "word": "organise",
+      "lemma": "organise",
+      "partOfSpeech": "verb",
+      "assetName": "word_organise_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_organise_line.imageset/word_organise_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person organising books on a shelf.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hiss.verb",
+      "word": "hiss",
+      "lemma": "hiss",
+      "partOfSpeech": "verb",
+      "assetName": "word_hiss_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hiss_line.imageset/word_hiss_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cat hissing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.snort.verb",
+      "word": "snort",
+      "lemma": "snort",
+      "partOfSpeech": "verb",
+      "assetName": "word_snort_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_snort_line.imageset/word_snort_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A horse snorting.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.squint.verb",
+      "word": "squint",
+      "lemma": "squint",
+      "partOfSpeech": "verb",
+      "assetName": "word_squint_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_squint_line.imageset/word_squint_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person squinting in bright sunlight.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.straighten.verb",
+      "word": "straighten",
+      "lemma": "straighten",
+      "partOfSpeech": "verb",
+      "assetName": "word_straighten_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_straighten_line.imageset/word_straighten_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person straightening a crooked picture frame.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tangle.verb",
+      "word": "tangle",
+      "lemma": "tangle",
+      "partOfSpeech": "verb",
+      "assetName": "word_tangle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tangle_line.imageset/word_tangle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tangled length of rope.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.twitch.verb",
+      "word": "twitch",
+      "lemma": "twitch",
+      "partOfSpeech": "verb",
+      "assetName": "word_twitch_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_twitch_line.imageset/word_twitch_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cat twitching its tail.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.create.verb",
+      "word": "create",
+      "lemma": "create",
+      "partOfSpeech": "verb",
+      "assetName": "word_create_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_create_line.imageset/word_create_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person creating a clay sculpture.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.get.verb",
+      "word": "get",
+      "lemma": "get",
+      "partOfSpeech": "verb",
+      "assetName": "word_get_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_get_line.imageset/word_get_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person receiving a package.",
+      "isDecorative": false
     }
   ]
 }
