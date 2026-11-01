@@ -10841,6 +10841,606 @@
       ],
       "altText": "A person or object clearly demonstrating the action dot.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.tall.adjective",
+      "word": "tall",
+      "lemma": "tall",
+      "partOfSpeech": "adjective",
+      "assetName": "word_tall_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tall_line.imageset/word_tall_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tall tree beside a short tree.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.big.adjective",
+      "word": "big",
+      "lemma": "big",
+      "partOfSpeech": "adjective",
+      "assetName": "word_big_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_big_line.imageset/word_big_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A large elephant beside a tiny mouse.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.small.adjective",
+      "word": "small",
+      "lemma": "small",
+      "partOfSpeech": "adjective",
+      "assetName": "word_small_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_small_line.imageset/word_small_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tiny mouse beside a large elephant.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.short.adjective",
+      "word": "short",
+      "lemma": "short",
+      "partOfSpeech": "adjective",
+      "assetName": "word_short_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_short_line.imageset/word_short_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A short pencil beside a long pencil.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.long.adjective",
+      "word": "long",
+      "lemma": "long",
+      "partOfSpeech": "adjective",
+      "assetName": "word_long_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_long_line.imageset/word_long_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A long pencil beside a short pencil.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hot.adjective",
+      "word": "hot",
+      "lemma": "hot",
+      "partOfSpeech": "adjective",
+      "assetName": "word_hot_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hot_line.imageset/word_hot_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A steaming cup.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cold.adjective",
+      "word": "cold",
+      "lemma": "cold",
+      "partOfSpeech": "adjective",
+      "assetName": "word_cold_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cold_line.imageset/word_cold_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person bundled in a coat shivering in snow.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.fast.adjective",
+      "word": "fast",
+      "lemma": "fast",
+      "partOfSpeech": "adjective",
+      "assetName": "word_fast_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fast_line.imageset/word_fast_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A rabbit running swiftly with motion lines.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.warm.adjective",
+      "word": "warm",
+      "lemma": "warm",
+      "partOfSpeech": "adjective",
+      "assetName": "word_warm_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_warm_line.imageset/word_warm_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person warming hands near a fireplace.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.slow.adjective",
+      "word": "slow",
+      "lemma": "slow",
+      "partOfSpeech": "adjective",
+      "assetName": "word_slow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slow_line.imageset/word_slow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A snail crawling slowly.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.heavy.adjective",
+      "word": "heavy",
+      "lemma": "heavy",
+      "partOfSpeech": "adjective",
+      "assetName": "word_heavy_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_heavy_line.imageset/word_heavy_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person struggling to lift a heavy box.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.light.adjective",
+      "word": "light",
+      "lemma": "light",
+      "partOfSpeech": "adjective",
+      "assetName": "word_light_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_light_line.imageset/word_light_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A feather resting on an open hand.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.soft.adjective",
+      "word": "soft",
+      "lemma": "soft",
+      "partOfSpeech": "adjective",
+      "assetName": "word_soft_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_soft_line.imageset/word_soft_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand pressing a fluffy pillow.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.full.adjective",
+      "word": "full",
+      "lemma": "full",
+      "partOfSpeech": "adjective",
+      "assetName": "word_full_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_full_line.imageset/word_full_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A glass filled to the brim with water.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.wet.adjective",
+      "word": "wet",
+      "lemma": "wet",
+      "partOfSpeech": "adjective",
+      "assetName": "word_wet_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wet_line.imageset/word_wet_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A soaked umbrella with drops of water.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sharp.adjective",
+      "word": "sharp",
+      "lemma": "sharp",
+      "partOfSpeech": "adjective",
+      "assetName": "word_sharp_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sharp_line.imageset/word_sharp_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sharpened pencil tip.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dry.adjective",
+      "word": "dry",
+      "lemma": "dry",
+      "partOfSpeech": "adjective",
+      "assetName": "word_dry_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dry_line.imageset/word_dry_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dry towel hanging.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hard.adjective",
+      "word": "hard",
+      "lemma": "hard",
+      "partOfSpeech": "adjective",
+      "assetName": "word_hard_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hard_line.imageset/word_hard_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand knocking on solid stone.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.young.adjective",
+      "word": "young",
+      "lemma": "young",
+      "partOfSpeech": "adjective",
+      "assetName": "word_young_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_young_line.imageset/word_young_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A young child playing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.old.adjective",
+      "word": "old",
+      "lemma": "old",
+      "partOfSpeech": "adjective",
+      "assetName": "word_old_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_old_line.imageset/word_old_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An elderly person with a walking cane.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.new.adjective",
+      "word": "new",
+      "lemma": "new",
+      "partOfSpeech": "adjective",
+      "assetName": "word_new_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_new_line.imageset/word_new_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A pristine new pair of shoes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dirty.adjective",
+      "word": "dirty",
+      "lemma": "dirty",
+      "partOfSpeech": "adjective",
+      "assetName": "word_dirty_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dirty_line.imageset/word_dirty_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Muddy footprints on a floor.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dark.adjective",
+      "word": "dark",
+      "lemma": "dark",
+      "partOfSpeech": "adjective",
+      "assetName": "word_dark_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dark_line.imageset/word_dark_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dark unlit room with a faint window.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bright.adjective",
+      "word": "bright",
+      "lemma": "bright",
+      "partOfSpeech": "adjective",
+      "assetName": "word_bright_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bright_line.imageset/word_bright_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A glowing light bulb.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.thick.adjective",
+      "word": "thick",
+      "lemma": "thick",
+      "partOfSpeech": "adjective",
+      "assetName": "word_thick_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thick_line.imageset/word_thick_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A thick book beside a thin book.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.thin.adjective",
+      "word": "thin",
+      "lemma": "thin",
+      "partOfSpeech": "adjective",
+      "assetName": "word_thin_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thin_line.imageset/word_thin_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A thin book beside a thick book.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.deep.adjective",
+      "word": "deep",
+      "lemma": "deep",
+      "partOfSpeech": "adjective",
+      "assetName": "word_deep_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_deep_line.imageset/word_deep_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A deep hole in the ground shown in cross section.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.wide.adjective",
+      "word": "wide",
+      "lemma": "wide",
+      "partOfSpeech": "adjective",
+      "assetName": "word_wide_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wide_line.imageset/word_wide_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wide road.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.strong.adjective",
+      "word": "strong",
+      "lemma": "strong",
+      "partOfSpeech": "adjective",
+      "assetName": "word_strong_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_strong_line.imageset/word_strong_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person lifting a heavy barbell.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.narrow.adjective",
+      "word": "narrow",
+      "lemma": "narrow",
+      "partOfSpeech": "adjective",
+      "assetName": "word_narrow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_narrow_line.imageset/word_narrow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A narrow path between walls.",
+      "isDecorative": false
     }
   ]
 }
