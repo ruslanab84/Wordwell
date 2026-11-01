@@ -13241,6 +13241,206 @@
       ],
       "altText": "A person receiving a package.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.agitate.verb",
+      "word": "agitate",
+      "lemma": "agitate",
+      "partOfSpeech": "verb",
+      "assetName": "word_agitate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_agitate_line.imageset/word_agitate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand agitating water in a bowl with a spoon.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.disperse.verb",
+      "word": "disperse",
+      "lemma": "disperse",
+      "partOfSpeech": "verb",
+      "assetName": "word_disperse_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_disperse_line.imageset/word_disperse_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A crowd dispersing in different directions.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.circulate.verb",
+      "word": "circulate",
+      "lemma": "circulate",
+      "partOfSpeech": "verb",
+      "assetName": "word_circulate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_circulate_line.imageset/word_circulate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "People circulating around a fountain.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.identify.verb",
+      "word": "identify",
+      "lemma": "identify",
+      "partOfSpeech": "verb",
+      "assetName": "word_identify_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_identify_line.imageset/word_identify_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person identifying a bird using a field guide.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.alternate.verb",
+      "word": "alternate",
+      "lemma": "alternate",
+      "partOfSpeech": "verb",
+      "assetName": "word_alternate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alternate_line.imageset/word_alternate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person alternating between two stepping stones.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.triumph.verb",
+      "word": "triumph",
+      "lemma": "triumph",
+      "partOfSpeech": "verb",
+      "assetName": "word_triumph_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_triumph_line.imageset/word_triumph_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An athlete celebrating victory with a trophy.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.convert.verb",
+      "word": "convert",
+      "lemma": "convert",
+      "partOfSpeech": "verb",
+      "assetName": "word_convert_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_convert_line.imageset/word_convert_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person converting a sofa into a bed.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.drape.verb",
+      "word": "drape",
+      "lemma": "drape",
+      "partOfSpeech": "verb",
+      "assetName": "word_drape_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drape_line.imageset/word_drape_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person draping a blanket over a chair.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.fan.verb",
+      "word": "fan",
+      "lemma": "fan",
+      "partOfSpeech": "verb",
+      "assetName": "word_fan_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fan_line.imageset/word_fan_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person fanning their face with a hand fan.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.reflect.verb",
+      "word": "reflect",
+      "lemma": "reflect",
+      "partOfSpeech": "verb",
+      "assetName": "word_reflect_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reflect_line.imageset/word_reflect_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A calm lake reflecting a mountain.",
+      "isDecorative": false
     }
   ]
 }
