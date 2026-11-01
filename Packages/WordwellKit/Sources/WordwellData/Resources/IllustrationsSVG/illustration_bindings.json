@@ -11441,6 +11441,606 @@
       ],
       "altText": "A narrow path between walls.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.high.adjective",
+      "word": "high",
+      "lemma": "high",
+      "partOfSpeech": "adjective",
+      "assetName": "word_high_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_high_line.imageset/word_high_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bird perched high on a tall pole.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.low.adjective",
+      "word": "low",
+      "lemma": "low",
+      "partOfSpeech": "adjective",
+      "assetName": "word_low_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_low_line.imageset/word_low_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bird perched on a low branch.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.shallow.adjective",
+      "word": "shallow",
+      "lemma": "shallow",
+      "partOfSpeech": "adjective",
+      "assetName": "word_shallow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shallow_line.imageset/word_shallow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A shallow puddle with a small pebble visible.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.flat.adjective",
+      "word": "flat",
+      "lemma": "flat",
+      "partOfSpeech": "adjective",
+      "assetName": "word_flat_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flat_line.imageset/word_flat_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A flat sheet of paper on a table.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.weak.adjective",
+      "word": "weak",
+      "lemma": "weak",
+      "partOfSpeech": "adjective",
+      "assetName": "word_weak_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_weak_line.imageset/word_weak_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person struggling to lift a small weight.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.closed.adjective",
+      "word": "closed",
+      "lemma": "closed",
+      "partOfSpeech": "adjective",
+      "assetName": "word_closed_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_closed_line.imageset/word_closed_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A closed door.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rich.adjective",
+      "word": "rich",
+      "lemma": "rich",
+      "partOfSpeech": "adjective",
+      "assetName": "word_rich_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rich_line.imageset/word_rich_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person holding a full purse of coins.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.broken.adjective",
+      "word": "broken",
+      "lemma": "broken",
+      "partOfSpeech": "adjective",
+      "assetName": "word_broken_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_broken_line.imageset/word_broken_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A broken ceramic cup in pieces.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.smooth.adjective",
+      "word": "smooth",
+      "lemma": "smooth",
+      "partOfSpeech": "adjective",
+      "assetName": "word_smooth_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_smooth_line.imageset/word_smooth_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand touching a smooth round stone.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rough.adjective",
+      "word": "rough",
+      "lemma": "rough",
+      "partOfSpeech": "adjective",
+      "assetName": "word_rough_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rough_line.imageset/word_rough_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand touching rough tree bark.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.poor.adjective",
+      "word": "poor",
+      "lemma": "poor",
+      "partOfSpeech": "adjective",
+      "assetName": "word_poor_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_poor_line.imageset/word_poor_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An empty purse held in a hand.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.safe.adjective",
+      "word": "safe",
+      "lemma": "safe",
+      "partOfSpeech": "adjective",
+      "assetName": "word_safe_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_safe_line.imageset/word_safe_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cyclist wearing a helmet.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.quiet.adjective",
+      "word": "quiet",
+      "lemma": "quiet",
+      "partOfSpeech": "adjective",
+      "assetName": "word_quiet_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_quiet_line.imageset/word_quiet_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person reading quietly in a library.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.early.adjective",
+      "word": "early",
+      "lemma": "early",
+      "partOfSpeech": "adjective",
+      "assetName": "word_early_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_early_line.imageset/word_early_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person arriving early and looking at a clock.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.late.adjective",
+      "word": "late",
+      "lemma": "late",
+      "partOfSpeech": "adjective",
+      "assetName": "word_late_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_late_line.imageset/word_late_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person hurrying while looking at a clock.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.busy.adjective",
+      "word": "busy",
+      "lemma": "busy",
+      "partOfSpeech": "adjective",
+      "assetName": "word_busy_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_busy_line.imageset/word_busy_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person working at a desk covered with papers.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.straight.adjective",
+      "word": "straight",
+      "lemma": "straight",
+      "partOfSpeech": "adjective",
+      "assetName": "word_straight_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_straight_line.imageset/word_straight_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A straight ruler.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sweet.adjective",
+      "word": "sweet",
+      "lemma": "sweet",
+      "partOfSpeech": "adjective",
+      "assetName": "word_sweet_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sweet_line.imageset/word_sweet_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person enjoying a piece of cake.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sour.adjective",
+      "word": "sour",
+      "lemma": "sour",
+      "partOfSpeech": "adjective",
+      "assetName": "word_sour_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sour_line.imageset/word_sour_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person tasting a lemon with a puckered face.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bitter.adjective",
+      "word": "bitter",
+      "lemma": "bitter",
+      "partOfSpeech": "adjective",
+      "assetName": "word_bitter_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bitter_line.imageset/word_bitter_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person tasting bitter coffee.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.fresh.adjective",
+      "word": "fresh",
+      "lemma": "fresh",
+      "partOfSpeech": "adjective",
+      "assetName": "word_fresh_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_fresh_line.imageset/word_fresh_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Fresh vegetables in a basket.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.silent.adjective",
+      "word": "silent",
+      "lemma": "silent",
+      "partOfSpeech": "adjective",
+      "assetName": "word_silent_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_silent_line.imageset/word_silent_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person with a finger to their lips.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.right.adjective",
+      "word": "right",
+      "lemma": "right",
+      "partOfSpeech": "adjective",
+      "assetName": "word_right_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_right_line.imageset/word_right_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person placing a square block into a matching square hole.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hollow.adjective",
+      "word": "hollow",
+      "lemma": "hollow",
+      "partOfSpeech": "adjective",
+      "assetName": "word_hollow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hollow_line.imageset/word_hollow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hollow wooden box with an open top.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.wrong.adjective",
+      "word": "wrong",
+      "lemma": "wrong",
+      "partOfSpeech": "adjective",
+      "assetName": "word_wrong_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wrong_line.imageset/word_wrong_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person placing a square block into a round hole.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.loose.adjective",
+      "word": "loose",
+      "lemma": "loose",
+      "partOfSpeech": "adjective",
+      "assetName": "word_loose_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_loose_line.imageset/word_loose_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A loose knot in a rope.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.solid.adjective",
+      "word": "solid",
+      "lemma": "solid",
+      "partOfSpeech": "adjective",
+      "assetName": "word_solid_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_solid_line.imageset/word_solid_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A solid wooden cube.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.asleep.adjective",
+      "word": "asleep",
+      "lemma": "asleep",
+      "partOfSpeech": "adjective",
+      "assetName": "word_asleep_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_asleep_line.imageset/word_asleep_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person asleep under a blanket.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.alone.adjective",
+      "word": "alone",
+      "lemma": "alone",
+      "partOfSpeech": "adjective",
+      "assetName": "word_alone_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alone_line.imageset/word_alone_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One person sitting alone on a bench.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tight.adjective",
+      "word": "tight",
+      "lemma": "tight",
+      "partOfSpeech": "adjective",
+      "assetName": "word_tight_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tight_line.imageset/word_tight_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tightly tied knot in a rope.",
+      "isDecorative": false
     }
   ]
 }
