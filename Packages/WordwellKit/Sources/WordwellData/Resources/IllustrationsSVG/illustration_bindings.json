@@ -14441,6 +14441,1006 @@
       ],
       "altText": "Two hikers meeting on a trail.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.base.noun",
+      "word": "base",
+      "lemma": "base",
+      "partOfSpeech": "noun",
+      "assetName": "word_base_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_base_line.imageset/word_base_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A lamp with a broad base.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.point.noun",
+      "word": "point",
+      "lemma": "point",
+      "partOfSpeech": "noun",
+      "assetName": "word_point_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_point_line.imageset/word_point_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sharpened pencil point.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.line.noun",
+      "word": "line",
+      "lemma": "line",
+      "partOfSpeech": "noun",
+      "assetName": "word_line_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_line_line.imageset/word_line_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A single straight line drawn on paper.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.slip.noun",
+      "word": "slip",
+      "lemma": "slip",
+      "partOfSpeech": "noun",
+      "assetName": "word_slip_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_slip_line.imageset/word_slip_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small slip of paper.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.round.noun",
+      "word": "round",
+      "lemma": "round",
+      "partOfSpeech": "noun",
+      "assetName": "word_round_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_round_line.imageset/word_round_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A round of applause from an audience.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.stand.noun",
+      "word": "stand",
+      "lemma": "stand",
+      "partOfSpeech": "noun",
+      "assetName": "word_stand_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stand_line.imageset/word_stand_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A stand supporting a flower pot.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.center.noun",
+      "word": "center",
+      "lemma": "center",
+      "partOfSpeech": "noun",
+      "assetName": "word_center_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_center_line.imageset/word_center_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dot at the center of a target.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.ground.noun",
+      "word": "ground",
+      "lemma": "ground",
+      "partOfSpeech": "noun",
+      "assetName": "word_ground_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ground_line.imageset/word_ground_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A patch of bare ground.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.step.noun",
+      "word": "step",
+      "lemma": "step",
+      "partOfSpeech": "noun",
+      "assetName": "word_step_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_step_line.imageset/word_step_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A single stone step.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.control.noun",
+      "word": "control",
+      "lemma": "control",
+      "partOfSpeech": "noun",
+      "assetName": "word_control_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_control_line.imageset/word_control_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A remote control.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.scale.noun",
+      "word": "scale",
+      "lemma": "scale",
+      "partOfSpeech": "noun",
+      "assetName": "word_scale_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scale_line.imageset/word_scale_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A weighing scale.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.home.noun",
+      "word": "home",
+      "lemma": "home",
+      "partOfSpeech": "noun",
+      "assetName": "word_home_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_home_line.imageset/word_home_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cozy home with a front door.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.land.noun",
+      "word": "land",
+      "lemma": "land",
+      "partOfSpeech": "noun",
+      "assetName": "word_land_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_land_line.imageset/word_land_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A stretch of land beside the sea.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.model.noun",
+      "word": "model",
+      "lemma": "model",
+      "partOfSpeech": "noun",
+      "assetName": "word_model_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_model_line.imageset/word_model_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small model airplane.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.track.noun",
+      "word": "track",
+      "lemma": "track",
+      "partOfSpeech": "noun",
+      "assetName": "word_track_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_track_line.imageset/word_track_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Railroad tracks.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.band.noun",
+      "word": "band",
+      "lemma": "band",
+      "partOfSpeech": "noun",
+      "assetName": "word_band_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_band_line.imageset/word_band_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small music band performing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.grain.noun",
+      "word": "grain",
+      "lemma": "grain",
+      "partOfSpeech": "noun",
+      "assetName": "word_grain_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_grain_line.imageset/word_grain_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A few grains of wheat.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.guard.noun",
+      "word": "guard",
+      "lemma": "guard",
+      "partOfSpeech": "noun",
+      "assetName": "word_guard_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_guard_line.imageset/word_guard_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A guard standing at a gate.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.screen.noun",
+      "word": "screen",
+      "lemma": "screen",
+      "partOfSpeech": "noun",
+      "assetName": "word_screen_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_screen_line.imageset/word_screen_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A blank computer screen.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.time.noun",
+      "word": "time",
+      "lemma": "time",
+      "partOfSpeech": "noun",
+      "assetName": "word_time_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_time_line.imageset/word_time_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An analog clock showing the time.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.balance.noun",
+      "word": "balance",
+      "lemma": "balance",
+      "partOfSpeech": "noun",
+      "assetName": "word_balance_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_balance_line.imageset/word_balance_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A balanced set of scales.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.corner.noun",
+      "word": "corner",
+      "lemma": "corner",
+      "partOfSpeech": "noun",
+      "assetName": "word_corner_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_corner_line.imageset/word_corner_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "The corner where two walls meet.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.chip.noun",
+      "word": "chip",
+      "lemma": "chip",
+      "partOfSpeech": "noun",
+      "assetName": "word_chip_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chip_line.imageset/word_chip_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small wood chip.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.game.noun",
+      "word": "game",
+      "lemma": "game",
+      "partOfSpeech": "noun",
+      "assetName": "word_game_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_game_line.imageset/word_game_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two people playing a board game.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.load.noun",
+      "word": "load",
+      "lemma": "load",
+      "partOfSpeech": "noun",
+      "assetName": "word_load_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_load_line.imageset/word_load_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cart carrying a load of boxes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.opening.noun",
+      "word": "opening",
+      "lemma": "opening",
+      "partOfSpeech": "noun",
+      "assetName": "word_opening_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_opening_line.imageset/word_opening_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An opening in a fence.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pit.noun",
+      "word": "pit",
+      "lemma": "pit",
+      "partOfSpeech": "noun",
+      "assetName": "word_pit_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pit_line.imageset/word_pit_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A pit in the ground.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.beam.noun",
+      "word": "beam",
+      "lemma": "beam",
+      "partOfSpeech": "noun",
+      "assetName": "word_beam_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beam_line.imageset/word_beam_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wooden beam supporting a roof.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sound.adjective",
+      "word": "sound",
+      "lemma": "sound",
+      "partOfSpeech": "adjective",
+      "assetName": "word_sound_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sound_line.imageset/word_sound_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sturdy wooden bridge in sound condition.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.double.adjective",
+      "word": "double",
+      "lemma": "double",
+      "partOfSpeech": "adjective",
+      "assetName": "word_double_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_double_line.imageset/word_double_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two scoops of ice cream on one cone.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.last.adjective",
+      "word": "last",
+      "lemma": "last",
+      "partOfSpeech": "adjective",
+      "assetName": "word_last_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_last_line.imageset/word_last_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "The last runner in a race.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dull.adjective",
+      "word": "dull",
+      "lemma": "dull",
+      "partOfSpeech": "adjective",
+      "assetName": "word_dull_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dull_line.imageset/word_dull_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dull pencil next to a sharp pencil.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.live.adjective",
+      "word": "live",
+      "lemma": "live",
+      "partOfSpeech": "adjective",
+      "assetName": "word_live_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_live_line.imageset/word_live_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A live plant growing in a pot.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tender.adjective",
+      "word": "tender",
+      "lemma": "tender",
+      "partOfSpeech": "adjective",
+      "assetName": "word_tender_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tender_line.imageset/word_tender_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tender leaf on a plant.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.active.adjective",
+      "word": "active",
+      "lemma": "active",
+      "partOfSpeech": "adjective",
+      "assetName": "word_active_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_active_line.imageset/word_active_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person actively running.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bad.adjective",
+      "word": "bad",
+      "lemma": "bad",
+      "partOfSpeech": "adjective",
+      "assetName": "word_bad_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bad_line.imageset/word_bad_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A rotten apple.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bound.adjective",
+      "word": "bound",
+      "lemma": "bound",
+      "partOfSpeech": "adjective",
+      "assetName": "word_bound_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bound_line.imageset/word_bound_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bundle of books bound with string.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.regular.adjective",
+      "word": "regular",
+      "lemma": "regular",
+      "partOfSpeech": "adjective",
+      "assetName": "word_regular_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_regular_line.imageset/word_regular_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A row of evenly spaced fence posts.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.wild.adjective",
+      "word": "wild",
+      "lemma": "wild",
+      "partOfSpeech": "adjective",
+      "assetName": "word_wild_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wild_line.imageset/word_wild_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wild deer in a forest.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.easy.adjective",
+      "word": "easy",
+      "lemma": "easy",
+      "partOfSpeech": "adjective",
+      "assetName": "word_easy_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_easy_line.imageset/word_easy_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child easily completing a simple puzzle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.true.adjective",
+      "word": "true",
+      "lemma": "true",
+      "partOfSpeech": "adjective",
+      "assetName": "word_true_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_true_line.imageset/word_true_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A matching pair of identical shapes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.firm.adjective",
+      "word": "firm",
+      "lemma": "firm",
+      "partOfSpeech": "adjective",
+      "assetName": "word_firm_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_firm_line.imageset/word_firm_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand pressing a firm cushion.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.raw.adjective",
+      "word": "raw",
+      "lemma": "raw",
+      "partOfSpeech": "adjective",
+      "assetName": "word_raw_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_raw_line.imageset/word_raw_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A raw carrot.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.secret.adjective",
+      "word": "secret",
+      "lemma": "secret",
+      "partOfSpeech": "adjective",
+      "assetName": "word_secret_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_secret_line.imageset/word_secret_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person quietly whispering to another.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bare.adjective",
+      "word": "bare",
+      "lemma": "bare",
+      "partOfSpeech": "adjective",
+      "assetName": "word_bare_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bare_line.imageset/word_bare_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bare tree without leaves.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.natural.adjective",
+      "word": "natural",
+      "lemma": "natural",
+      "partOfSpeech": "adjective",
+      "assetName": "word_natural_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_natural_line.imageset/word_natural_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A natural landscape with trees.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.spare.adjective",
+      "word": "spare",
+      "lemma": "spare",
+      "partOfSpeech": "adjective",
+      "assetName": "word_spare_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_spare_line.imageset/word_spare_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An extra bicycle tire beside a bicycle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tough.adjective",
+      "word": "tough",
+      "lemma": "tough",
+      "partOfSpeech": "adjective",
+      "assetName": "word_tough_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tough_line.imageset/word_tough_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A strong thick rope.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.view.noun",
+      "word": "view",
+      "lemma": "view",
+      "partOfSpeech": "noun",
+      "assetName": "word_view_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_view_line.imageset/word_view_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A mountain landscape viewed from a hill.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.shape.noun",
+      "word": "shape",
+      "lemma": "shape",
+      "partOfSpeech": "noun",
+      "assetName": "word_shape_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shape_line.imageset/word_shape_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A circle, triangle, and square.",
+      "isDecorative": false
     }
   ]
 }
