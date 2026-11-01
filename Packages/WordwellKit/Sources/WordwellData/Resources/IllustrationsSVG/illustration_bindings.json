@@ -12041,6 +12041,606 @@
       ],
       "altText": "A tightly tied knot in a rope.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.lime.noun",
+      "word": "lime",
+      "lemma": "lime",
+      "partOfSpeech": "noun",
+      "assetName": "word_lime_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lime_line.imageset/word_lime_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A whole lime and a lime slice.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bean.noun",
+      "word": "bean",
+      "lemma": "bean",
+      "partOfSpeech": "noun",
+      "assetName": "word_bean_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bean_line.imageset/word_bean_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bean pod and beans.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.peanut.noun",
+      "word": "peanut",
+      "lemma": "peanut",
+      "partOfSpeech": "noun",
+      "assetName": "word_peanut_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_peanut_line.imageset/word_peanut_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Peanuts in their shells.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.olive.noun",
+      "word": "olive",
+      "lemma": "olive",
+      "partOfSpeech": "noun",
+      "assetName": "word_olive_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_olive_line.imageset/word_olive_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A single olive with a leaf.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.milk.noun",
+      "word": "milk",
+      "lemma": "milk",
+      "partOfSpeech": "noun",
+      "assetName": "word_milk_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_milk_line.imageset/word_milk_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A glass of milk.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.crow.noun",
+      "word": "crow",
+      "lemma": "crow",
+      "partOfSpeech": "noun",
+      "assetName": "word_crow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crow_line.imageset/word_crow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A crow perched on a branch.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.goose.noun",
+      "word": "goose",
+      "lemma": "goose",
+      "partOfSpeech": "noun",
+      "assetName": "word_goose_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_goose_line.imageset/word_goose_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A goose standing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hawk.noun",
+      "word": "hawk",
+      "lemma": "hawk",
+      "partOfSpeech": "noun",
+      "assetName": "word_hawk_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hawk_line.imageset/word_hawk_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hawk perched on a branch.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.graze.verb",
+      "word": "graze",
+      "lemma": "graze",
+      "partOfSpeech": "verb",
+      "assetName": "word_graze_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_graze_line.imageset/word_graze_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cow grazing on grass.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.howl.verb",
+      "word": "howl",
+      "lemma": "howl",
+      "partOfSpeech": "verb",
+      "assetName": "word_howl_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_howl_line.imageset/word_howl_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dog howling.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.itch.verb",
+      "word": "itch",
+      "lemma": "itch",
+      "partOfSpeech": "verb",
+      "assetName": "word_itch_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_itch_line.imageset/word_itch_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person scratching an itchy arm.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.join.verb",
+      "word": "join",
+      "lemma": "join",
+      "partOfSpeech": "verb",
+      "assetName": "word_join_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_join_line.imageset/word_join_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two people joining their hands.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.lace.verb",
+      "word": "lace",
+      "lemma": "lace",
+      "partOfSpeech": "verb",
+      "assetName": "word_lace_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lace_line.imageset/word_lace_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person lacing a shoe.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.lick.verb",
+      "word": "lick",
+      "lemma": "lick",
+      "partOfSpeech": "verb",
+      "assetName": "word_lick_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lick_line.imageset/word_lick_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dog licking its nose.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.nod.verb",
+      "word": "nod",
+      "lemma": "nod",
+      "partOfSpeech": "verb",
+      "assetName": "word_nod_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_nod_line.imageset/word_nod_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person nodding.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.loosen.verb",
+      "word": "loosen",
+      "lemma": "loosen",
+      "partOfSpeech": "verb",
+      "assetName": "word_loosen_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_loosen_line.imageset/word_loosen_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Hands loosening a knot.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.skid.verb",
+      "word": "skid",
+      "lemma": "skid",
+      "partOfSpeech": "verb",
+      "assetName": "word_skid_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_skid_line.imageset/word_skid_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A car skidding with curved tire marks.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.wink.verb",
+      "word": "wink",
+      "lemma": "wink",
+      "partOfSpeech": "verb",
+      "assetName": "word_wink_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_wink_line.imageset/word_wink_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person winking one eye.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.nurse.verb",
+      "word": "nurse",
+      "lemma": "nurse",
+      "partOfSpeech": "verb",
+      "assetName": "word_nurse_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_nurse_line.imageset/word_nurse_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person nursing an injured bird.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.win.verb",
+      "word": "win",
+      "lemma": "win",
+      "partOfSpeech": "verb",
+      "assetName": "word_win_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_win_line.imageset/word_win_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person winning a race and raising their arms.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.soften.verb",
+      "word": "soften",
+      "lemma": "soften",
+      "partOfSpeech": "verb",
+      "assetName": "word_soften_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_soften_line.imageset/word_soften_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Butter softening in a warm pan.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sail.verb",
+      "word": "sail",
+      "lemma": "sail",
+      "partOfSpeech": "verb",
+      "assetName": "word_sail_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sail_line.imageset/word_sail_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sailboat sailing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.transplant.verb",
+      "word": "transplant",
+      "lemma": "transplant",
+      "partOfSpeech": "verb",
+      "assetName": "word_transplant_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_transplant_line.imageset/word_transplant_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Hands transplanting a seedling into a pot.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.peep.verb",
+      "word": "peep",
+      "lemma": "peep",
+      "partOfSpeech": "verb",
+      "assetName": "word_peep_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_peep_line.imageset/word_peep_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child peeping through a door.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sparkle.verb",
+      "word": "sparkle",
+      "lemma": "sparkle",
+      "partOfSpeech": "verb",
+      "assetName": "word_sparkle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sparkle_line.imageset/word_sparkle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sparkling diamond.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.calculate.verb",
+      "word": "calculate",
+      "lemma": "calculate",
+      "partOfSpeech": "verb",
+      "assetName": "word_calculate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_calculate_line.imageset/word_calculate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person calculating with a calculator.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.clasp.verb",
+      "word": "clasp",
+      "lemma": "clasp",
+      "partOfSpeech": "verb",
+      "assetName": "word_clasp_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clasp_line.imageset/word_clasp_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two hands clasping.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.deflate.verb",
+      "word": "deflate",
+      "lemma": "deflate",
+      "partOfSpeech": "verb",
+      "assetName": "word_deflate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_deflate_line.imageset/word_deflate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A balloon deflating as air escapes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hush.verb",
+      "word": "hush",
+      "lemma": "hush",
+      "partOfSpeech": "verb",
+      "assetName": "word_hush_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hush_line.imageset/word_hush_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person asking for silence with a finger to their lips.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.graduate.verb",
+      "word": "graduate",
+      "lemma": "graduate",
+      "partOfSpeech": "verb",
+      "assetName": "word_graduate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_graduate_line.imageset/word_graduate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A student graduating in cap and gown.",
+      "isDecorative": false
     }
   ]
 }
