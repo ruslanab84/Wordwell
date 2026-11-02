@@ -16041,6 +16041,1006 @@
       ],
       "altText": "Water gurgling from a small stream.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.alarm.noun",
+      "word": "alarm",
+      "lemma": "alarm",
+      "partOfSpeech": "noun",
+      "assetName": "word_alarm_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alarm_line.imageset/word_alarm_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An alarm clock with ringing bells.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.driver.noun",
+      "word": "driver",
+      "lemma": "driver",
+      "partOfSpeech": "noun",
+      "assetName": "word_driver_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_driver_line.imageset/word_driver_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A driver behind a steering wheel.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.exercise.noun",
+      "word": "exercise",
+      "lemma": "exercise",
+      "partOfSpeech": "noun",
+      "assetName": "word_exercise_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_exercise_line.imageset/word_exercise_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person doing a stretching exercise.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.doctor.noun",
+      "word": "doctor",
+      "lemma": "doctor",
+      "partOfSpeech": "noun",
+      "assetName": "word_doctor_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_doctor_line.imageset/word_doctor_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A doctor with a stethoscope.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.alien.noun",
+      "word": "alien",
+      "lemma": "alien",
+      "partOfSpeech": "noun",
+      "assetName": "word_alien_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alien_line.imageset/word_alien_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A friendly fictional alien.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.girl.noun",
+      "word": "girl",
+      "lemma": "girl",
+      "partOfSpeech": "noun",
+      "assetName": "word_girl_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_girl_line.imageset/word_girl_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A young girl standing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.library.noun",
+      "word": "library",
+      "lemma": "library",
+      "partOfSpeech": "noun",
+      "assetName": "word_library_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_library_line.imageset/word_library_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A library with bookshelves.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.license.noun",
+      "word": "license",
+      "lemma": "license",
+      "partOfSpeech": "noun",
+      "assetName": "word_license_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_license_line.imageset/word_license_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A blank license card without text.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.minute.noun",
+      "word": "minute",
+      "lemma": "minute",
+      "partOfSpeech": "noun",
+      "assetName": "word_minute_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_minute_line.imageset/word_minute_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clock face with a minute hand.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.music.noun",
+      "word": "music",
+      "lemma": "music",
+      "partOfSpeech": "noun",
+      "assetName": "word_music_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_music_line.imageset/word_music_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person playing a violin.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.night.noun",
+      "word": "night",
+      "lemma": "night",
+      "partOfSpeech": "noun",
+      "assetName": "word_night_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_night_line.imageset/word_night_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A night landscape with moon and stars.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.party.noun",
+      "word": "party",
+      "lemma": "party",
+      "partOfSpeech": "noun",
+      "assetName": "word_party_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_party_line.imageset/word_party_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "People celebrating at a party.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pattern.noun",
+      "word": "pattern",
+      "lemma": "pattern",
+      "partOfSpeech": "noun",
+      "assetName": "word_pattern_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pattern_line.imageset/word_pattern_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A repeated pattern of simple circles.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pilot.noun",
+      "word": "pilot",
+      "lemma": "pilot",
+      "partOfSpeech": "noun",
+      "assetName": "word_pilot_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pilot_line.imageset/word_pilot_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A pilot in a cockpit.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pool.noun",
+      "word": "pool",
+      "lemma": "pool",
+      "partOfSpeech": "noun",
+      "assetName": "word_pool_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pool_line.imageset/word_pool_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A swimming pool.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.question.noun",
+      "word": "question",
+      "lemma": "question",
+      "partOfSpeech": "noun",
+      "assetName": "word_question_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_question_line.imageset/word_question_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person raising a hand to ask a question.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sport.noun",
+      "word": "sport",
+      "lemma": "sport",
+      "partOfSpeech": "noun",
+      "assetName": "word_sport_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sport_line.imageset/word_sport_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two people playing tennis.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.spring.noun",
+      "word": "spring",
+      "lemma": "spring",
+      "partOfSpeech": "noun",
+      "assetName": "word_spring_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_spring_line.imageset/word_spring_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A coiled metal spring.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.world.noun",
+      "word": "world",
+      "lemma": "world",
+      "partOfSpeech": "noun",
+      "assetName": "word_world_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_world_line.imageset/word_world_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A globe of the world.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pet.noun",
+      "word": "pet",
+      "lemma": "pet",
+      "partOfSpeech": "noun",
+      "assetName": "word_pet_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pet_line.imageset/word_pet_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dog resting beside its owner.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.platform.noun",
+      "word": "platform",
+      "lemma": "platform",
+      "partOfSpeech": "noun",
+      "assetName": "word_platform_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_platform_line.imageset/word_platform_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A train platform.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pouch.noun",
+      "word": "pouch",
+      "lemma": "pouch",
+      "partOfSpeech": "noun",
+      "assetName": "word_pouch_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pouch_line.imageset/word_pouch_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small drawstring pouch.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rod.noun",
+      "word": "rod",
+      "lemma": "rod",
+      "partOfSpeech": "noun",
+      "assetName": "word_rod_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rod_line.imageset/word_rod_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A fishing rod.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.snowball.noun",
+      "word": "snowball",
+      "lemma": "snowball",
+      "partOfSpeech": "noun",
+      "assetName": "word_snowball_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_snowball_line.imageset/word_snowball_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A round snowball.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pod.noun",
+      "word": "pod",
+      "lemma": "pod",
+      "partOfSpeech": "noun",
+      "assetName": "word_pod_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pod_line.imageset/word_pod_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An open pea pod.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.target.noun",
+      "word": "target",
+      "lemma": "target",
+      "partOfSpeech": "noun",
+      "assetName": "word_target_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_target_line.imageset/word_target_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An archery target.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.treasure.noun",
+      "word": "treasure",
+      "lemma": "treasure",
+      "partOfSpeech": "noun",
+      "assetName": "word_treasure_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_treasure_line.imageset/word_treasure_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A treasure chest filled with coins.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.veil.noun",
+      "word": "veil",
+      "lemma": "veil",
+      "partOfSpeech": "noun",
+      "assetName": "word_veil_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_veil_line.imageset/word_veil_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person wearing a light veil.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.vein.noun",
+      "word": "vein",
+      "lemma": "vein",
+      "partOfSpeech": "noun",
+      "assetName": "word_vein_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_vein_line.imageset/word_vein_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A simple anatomical illustration of a vein in an arm.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.youth.noun",
+      "word": "youth",
+      "lemma": "youth",
+      "partOfSpeech": "noun",
+      "assetName": "word_youth_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_youth_line.imageset/word_youth_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A young person standing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.ape.noun",
+      "word": "ape",
+      "lemma": "ape",
+      "partOfSpeech": "noun",
+      "assetName": "word_ape_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ape_line.imageset/word_ape_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A friendly ape sitting.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.backbone.noun",
+      "word": "backbone",
+      "lemma": "backbone",
+      "partOfSpeech": "noun",
+      "assetName": "word_backbone_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_backbone_line.imageset/word_backbone_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A simple anatomical drawing of the human spine.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.basin.noun",
+      "word": "basin",
+      "lemma": "basin",
+      "partOfSpeech": "noun",
+      "assetName": "word_basin_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_basin_line.imageset/word_basin_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wash basin.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.beacon.noun",
+      "word": "beacon",
+      "lemma": "beacon",
+      "partOfSpeech": "noun",
+      "assetName": "word_beacon_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beacon_line.imageset/word_beacon_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A lighthouse beacon.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.baton.noun",
+      "word": "baton",
+      "lemma": "baton",
+      "partOfSpeech": "noun",
+      "assetName": "word_baton_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_baton_line.imageset/word_baton_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A conductor holding a baton.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.catapult.noun",
+      "word": "catapult",
+      "lemma": "catapult",
+      "partOfSpeech": "noun",
+      "assetName": "word_catapult_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_catapult_line.imageset/word_catapult_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small wooden catapult.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.carriage.noun",
+      "word": "carriage",
+      "lemma": "carriage",
+      "partOfSpeech": "noun",
+      "assetName": "word_carriage_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_carriage_line.imageset/word_carriage_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A horse drawn carriage.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.checker.noun",
+      "word": "checker",
+      "lemma": "checker",
+      "partOfSpeech": "noun",
+      "assetName": "word_checker_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_checker_line.imageset/word_checker_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A single checker game piece.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cheek.noun",
+      "word": "cheek",
+      "lemma": "cheek",
+      "partOfSpeech": "noun",
+      "assetName": "word_cheek_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cheek_line.imageset/word_cheek_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person pointing to their cheek.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cherry.noun",
+      "word": "cherry",
+      "lemma": "cherry",
+      "partOfSpeech": "noun",
+      "assetName": "word_cherry_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cherry_line.imageset/word_cherry_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two cherries with stems.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.circus.noun",
+      "word": "circus",
+      "lemma": "circus",
+      "partOfSpeech": "noun",
+      "assetName": "word_circus_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_circus_line.imageset/word_circus_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A circus tent.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.closet.noun",
+      "word": "closet",
+      "lemma": "closet",
+      "partOfSpeech": "noun",
+      "assetName": "word_closet_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_closet_line.imageset/word_closet_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An open closet with hanging clothes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.coast.noun",
+      "word": "coast",
+      "lemma": "coast",
+      "partOfSpeech": "noun",
+      "assetName": "word_coast_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_coast_line.imageset/word_coast_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A rocky coast by the sea.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.console.noun",
+      "word": "console",
+      "lemma": "console",
+      "partOfSpeech": "noun",
+      "assetName": "word_console_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_console_line.imageset/word_console_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A video game console with a controller.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.coral.noun",
+      "word": "coral",
+      "lemma": "coral",
+      "partOfSpeech": "noun",
+      "assetName": "word_coral_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_coral_line.imageset/word_coral_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A branch of coral underwater.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cotton.noun",
+      "word": "cotton",
+      "lemma": "cotton",
+      "partOfSpeech": "noun",
+      "assetName": "word_cotton_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cotton_line.imageset/word_cotton_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cotton plant with fluffy bolls.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.country.noun",
+      "word": "country",
+      "lemma": "country",
+      "partOfSpeech": "noun",
+      "assetName": "word_country_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_country_line.imageset/word_country_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A rural countryside with fields.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cracker.noun",
+      "word": "cracker",
+      "lemma": "cracker",
+      "partOfSpeech": "noun",
+      "assetName": "word_cracker_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cracker_line.imageset/word_cracker_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A square cracker.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.stomach.noun",
+      "word": "stomach",
+      "lemma": "stomach",
+      "partOfSpeech": "noun",
+      "assetName": "word_stomach_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stomach_line.imageset/word_stomach_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person pointing to their stomach.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pill.noun",
+      "word": "pill",
+      "lemma": "pill",
+      "partOfSpeech": "noun",
+      "assetName": "word_pill_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pill_line.imageset/word_pill_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A single medicine pill.",
+      "isDecorative": false
     }
   ]
 }
