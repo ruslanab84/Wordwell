@@ -15441,6 +15441,606 @@
       ],
       "altText": "A circle, triangle, and square.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.coach.noun",
+      "word": "coach",
+      "lemma": "coach",
+      "partOfSpeech": "noun",
+      "assetName": "word_coach_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_coach_line.imageset/word_coach_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sports coach holding a whistle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.anteater.noun",
+      "word": "anteater",
+      "lemma": "anteater",
+      "partOfSpeech": "noun",
+      "assetName": "word_anteater_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_anteater_line.imageset/word_anteater_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An anteater standing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.beaver.noun",
+      "word": "beaver",
+      "lemma": "beaver",
+      "partOfSpeech": "noun",
+      "assetName": "word_beaver_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_beaver_line.imageset/word_beaver_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A beaver sitting beside a log.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hip.noun",
+      "word": "hip",
+      "lemma": "hip",
+      "partOfSpeech": "noun",
+      "assetName": "word_hip_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hip_line.imageset/word_hip_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person pointing to their hip.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.hive.noun",
+      "word": "hive",
+      "lemma": "hive",
+      "partOfSpeech": "noun",
+      "assetName": "word_hive_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_hive_line.imageset/word_hive_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A beehive with bees nearby.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.match.noun",
+      "word": "match",
+      "lemma": "match",
+      "partOfSpeech": "noun",
+      "assetName": "word_match_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_match_line.imageset/word_match_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An unlit wooden matchstick.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.thumb.noun",
+      "word": "thumb",
+      "lemma": "thumb",
+      "partOfSpeech": "noun",
+      "assetName": "word_thumb_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_thumb_line.imageset/word_thumb_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand showing its thumb.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.quiver.noun",
+      "word": "quiver",
+      "lemma": "quiver",
+      "partOfSpeech": "noun",
+      "assetName": "word_quiver_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_quiver_line.imageset/word_quiver_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A quiver holding arrows.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.raft.noun",
+      "word": "raft",
+      "lemma": "raft",
+      "partOfSpeech": "noun",
+      "assetName": "word_raft_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_raft_line.imageset/word_raft_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wooden raft floating on water.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.oil.noun",
+      "word": "oil",
+      "lemma": "oil",
+      "partOfSpeech": "noun",
+      "assetName": "word_oil_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_oil_line.imageset/word_oil_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small bottle of cooking oil.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.top.noun",
+      "word": "top",
+      "lemma": "top",
+      "partOfSpeech": "noun",
+      "assetName": "word_top_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_top_line.imageset/word_top_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A spinning toy top.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.adjust.verb",
+      "word": "adjust",
+      "lemma": "adjust",
+      "partOfSpeech": "verb",
+      "assetName": "word_adjust_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_adjust_line.imageset/word_adjust_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person adjusting a lamp.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.assist.verb",
+      "word": "assist",
+      "lemma": "assist",
+      "partOfSpeech": "verb",
+      "assetName": "word_assist_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_assist_line.imageset/word_assist_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One person helping another carry a box.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.attend.verb",
+      "word": "attend",
+      "lemma": "attend",
+      "partOfSpeech": "verb",
+      "assetName": "word_attend_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_attend_line.imageset/word_attend_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "People attending a class.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.avoid.verb",
+      "word": "avoid",
+      "lemma": "avoid",
+      "partOfSpeech": "verb",
+      "assetName": "word_avoid_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_avoid_line.imageset/word_avoid_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person avoiding a puddle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.babble.verb",
+      "word": "babble",
+      "lemma": "babble",
+      "partOfSpeech": "verb",
+      "assetName": "word_babble_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_babble_line.imageset/word_babble_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A baby babbling.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.broadcast.verb",
+      "word": "broadcast",
+      "lemma": "broadcast",
+      "partOfSpeech": "verb",
+      "assetName": "word_broadcast_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_broadcast_line.imageset/word_broadcast_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A radio host broadcasting into a microphone.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bruise.verb",
+      "word": "bruise",
+      "lemma": "bruise",
+      "partOfSpeech": "verb",
+      "assetName": "word_bruise_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bruise_line.imageset/word_bruise_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An apple with a bruised spot.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bridle.verb",
+      "word": "bridle",
+      "lemma": "bridle",
+      "partOfSpeech": "verb",
+      "assetName": "word_bridle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bridle_line.imageset/word_bridle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person putting a bridle on a horse.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.billow.verb",
+      "word": "billow",
+      "lemma": "billow",
+      "partOfSpeech": "verb",
+      "assetName": "word_billow_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_billow_line.imageset/word_billow_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A curtain billowing in the wind.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.bulge.verb",
+      "word": "bulge",
+      "lemma": "bulge",
+      "partOfSpeech": "verb",
+      "assetName": "word_bulge_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_bulge_line.imageset/word_bulge_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bag bulging with objects.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.gleam.verb",
+      "word": "gleam",
+      "lemma": "gleam",
+      "partOfSpeech": "verb",
+      "assetName": "word_gleam_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gleam_line.imageset/word_gleam_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A polished spoon gleaming.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.confuse.verb",
+      "word": "confuse",
+      "lemma": "confuse",
+      "partOfSpeech": "verb",
+      "assetName": "word_confuse_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_confuse_line.imageset/word_confuse_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person looking confused at a puzzle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.nibble.verb",
+      "word": "nibble",
+      "lemma": "nibble",
+      "partOfSpeech": "verb",
+      "assetName": "word_nibble_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_nibble_line.imageset/word_nibble_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A rabbit nibbling a carrot.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.extinguish.verb",
+      "word": "extinguish",
+      "lemma": "extinguish",
+      "partOfSpeech": "verb",
+      "assetName": "word_extinguish_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_extinguish_line.imageset/word_extinguish_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person extinguishing a candle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.delight.verb",
+      "word": "delight",
+      "lemma": "delight",
+      "partOfSpeech": "verb",
+      "assetName": "word_delight_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_delight_line.imageset/word_delight_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child delighted by a gift.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.compare.verb",
+      "word": "compare",
+      "lemma": "compare",
+      "partOfSpeech": "verb",
+      "assetName": "word_compare_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_compare_line.imageset/word_compare_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person comparing two apples.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cruise.verb",
+      "word": "cruise",
+      "lemma": "cruise",
+      "partOfSpeech": "verb",
+      "assetName": "word_cruise_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cruise_line.imageset/word_cruise_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A boat cruising on calm water.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.buckle.verb",
+      "word": "buckle",
+      "lemma": "buckle",
+      "partOfSpeech": "verb",
+      "assetName": "word_buckle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_buckle_line.imageset/word_buckle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand buckling a belt.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.gurgle.verb",
+      "word": "gurgle",
+      "lemma": "gurgle",
+      "partOfSpeech": "verb",
+      "assetName": "word_gurgle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gurgle_line.imageset/word_gurgle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Water gurgling from a small stream.",
+      "isDecorative": false
     }
   ]
 }
