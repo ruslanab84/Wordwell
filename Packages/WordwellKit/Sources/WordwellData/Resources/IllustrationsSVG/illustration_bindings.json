@@ -19241,6 +19241,206 @@
       ],
       "altText": "A small parade of musicians walking down a street.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.kingdom.noun",
+      "word": "kingdom",
+      "lemma": "kingdom",
+      "partOfSpeech": "noun",
+      "assetName": "word_kingdom_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kingdom_line.imageset/word_kingdom_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A castle and village in a medieval kingdom.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.landscape.noun",
+      "word": "landscape",
+      "lemma": "landscape",
+      "partOfSpeech": "noun",
+      "assetName": "word_landscape_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_landscape_line.imageset/word_landscape_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A landscape with hills and trees.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.limb.noun",
+      "word": "limb",
+      "lemma": "limb",
+      "partOfSpeech": "noun",
+      "assetName": "word_limb_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_limb_line.imageset/word_limb_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A human arm and hand, fully clothed at the shoulder.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.network.noun",
+      "word": "network",
+      "lemma": "network",
+      "partOfSpeech": "noun",
+      "assetName": "word_network_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_network_line.imageset/word_network_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Several computers connected in a network without labels.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.player.noun",
+      "word": "player",
+      "lemma": "player",
+      "partOfSpeech": "noun",
+      "assetName": "word_player_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_player_line.imageset/word_player_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person playing a violin.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.performance.noun",
+      "word": "performance",
+      "lemma": "performance",
+      "partOfSpeech": "noun",
+      "assetName": "word_performance_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_performance_line.imageset/word_performance_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A musician performing on a stage.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rubber.noun",
+      "word": "rubber",
+      "lemma": "rubber",
+      "partOfSpeech": "noun",
+      "assetName": "word_rubber_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rubber_line.imageset/word_rubber_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A rubber eraser.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.stage.noun",
+      "word": "stage",
+      "lemma": "stage",
+      "partOfSpeech": "noun",
+      "assetName": "word_stage_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_stage_line.imageset/word_stage_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An empty theatre stage with curtains.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.ridge.noun",
+      "word": "ridge",
+      "lemma": "ridge",
+      "partOfSpeech": "noun",
+      "assetName": "word_ridge_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ridge_line.imageset/word_ridge_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A mountain ridge.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.north.noun",
+      "word": "north",
+      "lemma": "north",
+      "partOfSpeech": "noun",
+      "assetName": "word_north_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_north_line.imageset/word_north_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A compass pointing north without letters.",
+      "isDecorative": false
     }
   ]
 }
