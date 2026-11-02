@@ -19041,6 +19041,206 @@
       ],
       "altText": "A lamb standing in a field.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.organ.noun",
+      "word": "organ",
+      "lemma": "organ",
+      "partOfSpeech": "noun",
+      "assetName": "word_organ_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_organ_line.imageset/word_organ_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A pipe organ musical instrument.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.mat.noun",
+      "word": "mat",
+      "lemma": "mat",
+      "partOfSpeech": "noun",
+      "assetName": "word_mat_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mat_line.imageset/word_mat_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small woven floor mat.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.mint.noun",
+      "word": "mint",
+      "lemma": "mint",
+      "partOfSpeech": "noun",
+      "assetName": "word_mint_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mint_line.imageset/word_mint_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sprig of mint leaves.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.picture.noun",
+      "word": "picture",
+      "lemma": "picture",
+      "partOfSpeech": "noun",
+      "assetName": "word_picture_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_picture_line.imageset/word_picture_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A framed picture of a tree.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.pirate.noun",
+      "word": "pirate",
+      "lemma": "pirate",
+      "partOfSpeech": "noun",
+      "assetName": "word_pirate_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_pirate_line.imageset/word_pirate_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A friendly pirate wearing a hat.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.journal.noun",
+      "word": "journal",
+      "lemma": "journal",
+      "partOfSpeech": "noun",
+      "assetName": "word_journal_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_journal_line.imageset/word_journal_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A closed personal journal with a blank cover.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.jackal.noun",
+      "word": "jackal",
+      "lemma": "jackal",
+      "partOfSpeech": "noun",
+      "assetName": "word_jackal_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_jackal_line.imageset/word_jackal_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A jackal standing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.kid.noun",
+      "word": "kid",
+      "lemma": "kid",
+      "partOfSpeech": "noun",
+      "assetName": "word_kid_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_kid_line.imageset/word_kid_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A young child holding a toy.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.nap.noun",
+      "word": "nap",
+      "lemma": "nap",
+      "partOfSpeech": "noun",
+      "assetName": "word_nap_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_nap_line.imageset/word_nap_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person taking a short nap on a sofa.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.parade.noun",
+      "word": "parade",
+      "lemma": "parade",
+      "partOfSpeech": "noun",
+      "assetName": "word_parade_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_parade_line.imageset/word_parade_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small parade of musicians walking down a street.",
+      "isDecorative": false
     }
   ]
 }
