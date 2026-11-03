@@ -20441,6 +20441,1006 @@
       ],
       "altText": "A modern building with simple clean lines.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.liberty.noun",
+      "word": "liberty",
+      "lemma": "liberty",
+      "partOfSpeech": "noun",
+      "assetName": "word_liberty_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_liberty_line.imageset/word_liberty_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bird flying freely from an open cage.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.language.noun",
+      "word": "language",
+      "lemma": "language",
+      "partOfSpeech": "noun",
+      "assetName": "word_language_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_language_line.imageset/word_language_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two people communicating with simple blank speech bubbles.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.logic.noun",
+      "word": "logic",
+      "lemma": "logic",
+      "partOfSpeech": "noun",
+      "assetName": "word_logic_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_logic_line.imageset/word_logic_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person solving a simple sequence puzzle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.word.noun",
+      "word": "word",
+      "lemma": "word",
+      "partOfSpeech": "noun",
+      "assetName": "word_word_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_word_line.imageset/word_word_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child learning a word from a blank flash card.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.peace.noun",
+      "word": "peace",
+      "lemma": "peace",
+      "partOfSpeech": "noun",
+      "assetName": "word_peace_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_peace_line.imageset/word_peace_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dove carrying an olive branch.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.piece.noun",
+      "word": "piece",
+      "lemma": "piece",
+      "partOfSpeech": "noun",
+      "assetName": "word_piece_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_piece_line.imageset/word_piece_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One piece of a jigsaw puzzle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.plot.noun",
+      "word": "plot",
+      "lemma": "plot",
+      "partOfSpeech": "noun",
+      "assetName": "word_plot_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_plot_line.imageset/word_plot_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small plot of land in a garden.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.item.noun",
+      "word": "item",
+      "lemma": "item",
+      "partOfSpeech": "noun",
+      "assetName": "word_item_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_item_line.imageset/word_item_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One item selected from a collection of objects.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.article.noun",
+      "word": "article",
+      "lemma": "article",
+      "partOfSpeech": "noun",
+      "assetName": "word_article_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_article_line.imageset/word_article_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A newspaper article with no legible text.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.chapter.noun",
+      "word": "chapter",
+      "lemma": "chapter",
+      "partOfSpeech": "noun",
+      "assetName": "word_chapter_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_chapter_line.imageset/word_chapter_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An open book with a blank chapter heading.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.choice.noun",
+      "word": "choice",
+      "lemma": "choice",
+      "partOfSpeech": "noun",
+      "assetName": "word_choice_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_choice_line.imageset/word_choice_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person choosing between two apples.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.guide.noun",
+      "word": "guide",
+      "lemma": "guide",
+      "partOfSpeech": "noun",
+      "assetName": "word_guide_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_guide_line.imageset/word_guide_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tour guide leading visitors.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.image.noun",
+      "word": "image",
+      "lemma": "image",
+      "partOfSpeech": "noun",
+      "assetName": "word_image_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_image_line.imageset/word_image_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A framed image of a mountain.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.mistake.noun",
+      "word": "mistake",
+      "lemma": "mistake",
+      "partOfSpeech": "noun",
+      "assetName": "word_mistake_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_mistake_line.imageset/word_mistake_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person noticing a mistake on a drawing.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.object.noun",
+      "word": "object",
+      "lemma": "object",
+      "partOfSpeech": "noun",
+      "assetName": "word_object_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_object_line.imageset/word_object_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A simple object resting on a table.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.partner.noun",
+      "word": "partner",
+      "lemma": "partner",
+      "partOfSpeech": "noun",
+      "assetName": "word_partner_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_partner_line.imageset/word_partner_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two people dancing as partners.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.preparation.noun",
+      "word": "preparation",
+      "lemma": "preparation",
+      "partOfSpeech": "noun",
+      "assetName": "word_preparation_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_preparation_line.imageset/word_preparation_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person preparing ingredients for a meal.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.reader.noun",
+      "word": "reader",
+      "lemma": "reader",
+      "partOfSpeech": "noun",
+      "assetName": "word_reader_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reader_line.imageset/word_reader_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A reader holding an open book.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.result.noun",
+      "word": "result",
+      "lemma": "result",
+      "partOfSpeech": "noun",
+      "assetName": "word_result_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_result_line.imageset/word_result_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A completed puzzle as the result of work.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.translation.noun",
+      "word": "translation",
+      "lemma": "translation",
+      "partOfSpeech": "noun",
+      "assetName": "word_translation_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_translation_line.imageset/word_translation_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person translating between two blank speech bubbles.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.simple.adjective",
+      "word": "simple",
+      "lemma": "simple",
+      "partOfSpeech": "adjective",
+      "assetName": "word_simple_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_simple_line.imageset/word_simple_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A simple wooden chair.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.idle.adjective",
+      "word": "idle",
+      "lemma": "idle",
+      "partOfSpeech": "adjective",
+      "assetName": "word_idle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_idle_line.imageset/word_idle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An idle bicycle parked against a wall.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.alive.adjective",
+      "word": "alive",
+      "lemma": "alive",
+      "partOfSpeech": "adjective",
+      "assetName": "word_alive_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_alive_line.imageset/word_alive_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A living seedling growing in soil.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.cool.adjective",
+      "word": "cool",
+      "lemma": "cool",
+      "partOfSpeech": "adjective",
+      "assetName": "word_cool_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cool_line.imageset/word_cool_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person enjoying a cool breeze.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.large.adjective",
+      "word": "large",
+      "lemma": "large",
+      "partOfSpeech": "adjective",
+      "assetName": "word_large_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_large_line.imageset/word_large_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A large tree beside a small tree.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.broad.adjective",
+      "word": "broad",
+      "lemma": "broad",
+      "partOfSpeech": "adjective",
+      "assetName": "word_broad_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_broad_line.imageset/word_broad_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A broad river.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.common.adjective",
+      "word": "common",
+      "lemma": "common",
+      "partOfSpeech": "adjective",
+      "assetName": "word_common_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_common_line.imageset/word_common_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Several ordinary daisies growing together.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.gentle.adjective",
+      "word": "gentle",
+      "lemma": "gentle",
+      "partOfSpeech": "adjective",
+      "assetName": "word_gentle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_gentle_line.imageset/word_gentle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person gently holding a small bird.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.funny.adjective",
+      "word": "funny",
+      "lemma": "funny",
+      "partOfSpeech": "adjective",
+      "assetName": "word_funny_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_funny_line.imageset/word_funny_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person laughing at a funny clown.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.flexible.adjective",
+      "word": "flexible",
+      "lemma": "flexible",
+      "partOfSpeech": "adjective",
+      "assetName": "word_flexible_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_flexible_line.imageset/word_flexible_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand bending a flexible ruler.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.frozen.adjective",
+      "word": "frozen",
+      "lemma": "frozen",
+      "partOfSpeech": "adjective",
+      "assetName": "word_frozen_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_frozen_line.imageset/word_frozen_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A frozen pond with ice.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.golden.adjective",
+      "word": "golden",
+      "lemma": "golden",
+      "partOfSpeech": "adjective",
+      "assetName": "word_golden_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_golden_line.imageset/word_golden_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A polished gold coin.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.odd.adjective",
+      "word": "odd",
+      "lemma": "odd",
+      "partOfSpeech": "adjective",
+      "assetName": "word_odd_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_odd_line.imageset/word_odd_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One different shape among matching shapes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.real.adjective",
+      "word": "real",
+      "lemma": "real",
+      "partOfSpeech": "adjective",
+      "assetName": "word_real_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_real_line.imageset/word_real_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A real apple beside a drawing of an apple.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.half.adjective",
+      "word": "half",
+      "lemma": "half",
+      "partOfSpeech": "adjective",
+      "assetName": "word_half_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_half_line.imageset/word_half_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Half an apple beside a whole apple.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.perfect.adjective",
+      "word": "perfect",
+      "lemma": "perfect",
+      "partOfSpeech": "adjective",
+      "assetName": "word_perfect_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_perfect_line.imageset/word_perfect_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A perfectly completed jigsaw puzzle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.neutral.adjective",
+      "word": "neutral",
+      "lemma": "neutral",
+      "partOfSpeech": "adjective",
+      "assetName": "word_neutral_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_neutral_line.imageset/word_neutral_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person with a neutral facial expression.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.keen.adjective",
+      "word": "keen",
+      "lemma": "keen",
+      "partOfSpeech": "adjective",
+      "assetName": "word_keen_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_keen_line.imageset/word_keen_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An eager child raising a hand in class.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.single.adjective",
+      "word": "single",
+      "lemma": "single",
+      "partOfSpeech": "adjective",
+      "assetName": "word_single_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_single_line.imageset/word_single_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One single flower.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sober.adjective",
+      "word": "sober",
+      "lemma": "sober",
+      "partOfSpeech": "adjective",
+      "assetName": "word_sober_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sober_line.imageset/word_sober_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person drinking a glass of water.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.positive.adjective",
+      "word": "positive",
+      "lemma": "positive",
+      "partOfSpeech": "adjective",
+      "assetName": "word_positive_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_positive_line.imageset/word_positive_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A smiling person giving a thumbs up.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.special.adjective",
+      "word": "special",
+      "lemma": "special",
+      "partOfSpeech": "adjective",
+      "assetName": "word_special_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_special_line.imageset/word_special_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A single gift with a ribbon among plain boxes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sure.adjective",
+      "word": "sure",
+      "lemma": "sure",
+      "partOfSpeech": "adjective",
+      "assetName": "word_sure_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sure_line.imageset/word_sure_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A confident person nodding.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.formal.adjective",
+      "word": "formal",
+      "lemma": "formal",
+      "partOfSpeech": "adjective",
+      "assetName": "word_formal_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_formal_line.imageset/word_formal_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person wearing a formal suit.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.grand.adjective",
+      "word": "grand",
+      "lemma": "grand",
+      "partOfSpeech": "adjective",
+      "assetName": "word_grand_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_grand_line.imageset/word_grand_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A grand building with columns.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.independent.adjective",
+      "word": "independent",
+      "lemma": "independent",
+      "partOfSpeech": "adjective",
+      "assetName": "word_independent_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_independent_line.imageset/word_independent_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child tying their own shoes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.inner.adjective",
+      "word": "inner",
+      "lemma": "inner",
+      "partOfSpeech": "adjective",
+      "assetName": "word_inner_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_inner_line.imageset/word_inner_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "The inner layers of an onion shown in cross section.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.isolated.adjective",
+      "word": "isolated",
+      "lemma": "isolated",
+      "partOfSpeech": "adjective",
+      "assetName": "word_isolated_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_isolated_line.imageset/word_isolated_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One small house isolated in a landscape.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.lively.adjective",
+      "word": "lively",
+      "lemma": "lively",
+      "partOfSpeech": "adjective",
+      "assetName": "word_lively_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lively_line.imageset/word_lively_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Children playing energetically.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.lost.adjective",
+      "word": "lost",
+      "lemma": "lost",
+      "partOfSpeech": "adjective",
+      "assetName": "word_lost_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_lost_line.imageset/word_lost_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person looking at a map in confusion.",
+      "isDecorative": false
     }
   ]
 }
