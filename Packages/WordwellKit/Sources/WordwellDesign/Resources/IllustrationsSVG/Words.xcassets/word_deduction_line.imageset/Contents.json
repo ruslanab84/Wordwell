@@ -1,0 +1,15 @@
+{
+  "images": [
+    {
+      "filename": "word_deduction_line.svg",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  },
+  "properties": {
+    "preserves-vector-representation": true
+  }
+}
