@@ -31341,6 +31341,526 @@
       ],
       "altText": "A craftsperson carving a small wooden bowl with hand tools.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.cultivation.noun",
+      "word": "cultivation",
+      "lemma": "cultivation",
+      "partOfSpeech": "noun",
+      "assetName": "word_cultivation_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cultivation_line.imageset/word_cultivation_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A gardener tending rows of young plants.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.custom.noun",
+      "word": "custom",
+      "lemma": "custom",
+      "partOfSpeech": "noun",
+      "assetName": "word_custom_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_custom_line.imageset/word_custom_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A family sharing a traditional meal around a table.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dealer.noun",
+      "word": "dealer",
+      "lemma": "dealer",
+      "partOfSpeech": "noun",
+      "assetName": "word_dealer_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dealer_line.imageset/word_dealer_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person dealing playing cards at a table.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.decision.noun",
+      "word": "decision",
+      "lemma": "decision",
+      "partOfSpeech": "noun",
+      "assetName": "word_decision_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_decision_line.imageset/word_decision_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person choosing between two signposted paths.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.defect.noun",
+      "word": "defect",
+      "lemma": "defect",
+      "partOfSpeech": "noun",
+      "assetName": "word_defect_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_defect_line.imageset/word_defect_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A ceramic cup with a small crack.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.demonstration.noun",
+      "word": "demonstration",
+      "lemma": "demonstration",
+      "partOfSpeech": "noun",
+      "assetName": "word_demonstration_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_demonstration_line.imageset/word_demonstration_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A teacher demonstrating a simple experiment to students.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.depth.noun",
+      "word": "depth",
+      "lemma": "depth",
+      "partOfSpeech": "noun",
+      "assetName": "word_depth_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_depth_line.imageset/word_depth_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A diver swimming below the surface of the water.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.designer.noun",
+      "word": "designer",
+      "lemma": "designer",
+      "partOfSpeech": "noun",
+      "assetName": "word_designer_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_designer_line.imageset/word_designer_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A clothing designer sketching a dress.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.determination.noun",
+      "word": "determination",
+      "lemma": "determination",
+      "partOfSpeech": "noun",
+      "assetName": "word_determination_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_determination_line.imageset/word_determination_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A determined climber reaching toward a mountain summit.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.device.noun",
+      "word": "device",
+      "lemma": "device",
+      "partOfSpeech": "noun",
+      "assetName": "word_device_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_device_line.imageset/word_device_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A simple handheld electronic device with buttons.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.difference.noun",
+      "word": "difference",
+      "lemma": "difference",
+      "partOfSpeech": "noun",
+      "assetName": "word_difference_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_difference_line.imageset/word_difference_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two similar apples with one apple larger than the other.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dimple.noun",
+      "word": "dimple",
+      "lemma": "dimple",
+      "partOfSpeech": "noun",
+      "assetName": "word_dimple_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dimple_line.imageset/word_dimple_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A smiling face with a cheek dimple.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.director.noun",
+      "word": "director",
+      "lemma": "director",
+      "partOfSpeech": "noun",
+      "assetName": "word_director_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_director_line.imageset/word_director_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A film director holding a clapperboard.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dirt.noun",
+      "word": "dirt",
+      "lemma": "dirt",
+      "partOfSpeech": "noun",
+      "assetName": "word_dirt_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dirt_line.imageset/word_dirt_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small pile of garden dirt beside a trowel.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.disorder.noun",
+      "word": "disorder",
+      "lemma": "disorder",
+      "partOfSpeech": "noun",
+      "assetName": "word_disorder_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_disorder_line.imageset/word_disorder_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cluttered room with books and clothes scattered.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dresser.noun",
+      "word": "dresser",
+      "lemma": "dresser",
+      "partOfSpeech": "noun",
+      "assetName": "word_dresser_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dresser_line.imageset/word_dresser_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wooden dresser with drawers and a mirror.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.drip.noun",
+      "word": "drip",
+      "lemma": "drip",
+      "partOfSpeech": "noun",
+      "assetName": "word_drip_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_drip_line.imageset/word_drip_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A drop of water dripping from a faucet.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.duet.noun",
+      "word": "duet",
+      "lemma": "duet",
+      "partOfSpeech": "noun",
+      "assetName": "word_duet_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_duet_line.imageset/word_duet_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two musicians playing instruments together.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dwarf.noun",
+      "word": "dwarf",
+      "lemma": "dwarf",
+      "partOfSpeech": "noun",
+      "assetName": "word_dwarf_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dwarf_line.imageset/word_dwarf_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small fairy-tale dwarf with a friendly expression.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.east.noun",
+      "word": "east",
+      "lemma": "east",
+      "partOfSpeech": "noun",
+      "assetName": "word_east_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_east_line.imageset/word_east_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A compass pointing east.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.ending.noun",
+      "word": "ending",
+      "lemma": "ending",
+      "partOfSpeech": "noun",
+      "assetName": "word_ending_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ending_line.imageset/word_ending_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person closing a book after reading.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.ensemble.noun",
+      "word": "ensemble",
+      "lemma": "ensemble",
+      "partOfSpeech": "noun",
+      "assetName": "word_ensemble_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ensemble_line.imageset/word_ensemble_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small musical ensemble performing together.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.entrance.noun",
+      "word": "entrance",
+      "lemma": "entrance",
+      "partOfSpeech": "noun",
+      "assetName": "word_entrance_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_entrance_line.imageset/word_entrance_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An open entrance to a building with steps.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.examination.noun",
+      "word": "examination",
+      "lemma": "examination",
+      "partOfSpeech": "noun",
+      "assetName": "word_examination_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_examination_line.imageset/word_examination_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A doctor examining a patient with a stethoscope.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.expedition.noun",
+      "word": "expedition",
+      "lemma": "expedition",
+      "partOfSpeech": "noun",
+      "assetName": "word_expedition_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_expedition_line.imageset/word_expedition_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A group of hikers with backpacks exploring a mountain trail.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.crew.noun",
+      "word": "crew",
+      "lemma": "crew",
+      "partOfSpeech": "noun",
+      "assetName": "word_crew_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_crew_line.imageset/word_crew_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small ship crew standing together on deck.",
+      "isDecorative": false
     }
   ]
 }
