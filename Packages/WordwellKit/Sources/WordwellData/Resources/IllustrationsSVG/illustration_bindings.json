@@ -39861,6 +39861,86 @@
       ],
       "altText": "A hand smacking a table with motion lines.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.cipher.noun",
+      "word": "cipher",
+      "lemma": "cipher",
+      "partOfSpeech": "noun",
+      "assetName": "word_cipher_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_cipher_line.imageset/word_cipher_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A handwritten coded message beside a magnifying glass.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.corona.noun",
+      "word": "corona",
+      "lemma": "corona",
+      "partOfSpeech": "noun",
+      "assetName": "word_corona_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_corona_line.imageset/word_corona_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "The sun's corona visible during an eclipse.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.death.noun",
+      "word": "death",
+      "lemma": "death",
+      "partOfSpeech": "noun",
+      "assetName": "word_death_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_death_line.imageset/word_death_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wilted flower lying beside a fallen leaf.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.clash.noun",
+      "word": "clash",
+      "lemma": "clash",
+      "partOfSpeech": "noun",
+      "assetName": "word_clash_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_clash_line.imageset/word_clash_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two cymbals clashing together with motion lines.",
+      "isDecorative": false
     }
   ]
 }
