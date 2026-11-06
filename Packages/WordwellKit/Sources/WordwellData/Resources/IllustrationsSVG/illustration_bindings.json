@@ -39941,6 +39941,1006 @@
       ],
       "altText": "Two cymbals clashing together with motion lines.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.curse.noun",
+      "word": "curse",
+      "lemma": "curse",
+      "partOfSpeech": "noun",
+      "assetName": "word_curse_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_curse_line.imageset/word_curse_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person speaking angrily with scribbles in a speech bubble.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.caper.noun",
+      "word": "caper",
+      "lemma": "caper",
+      "partOfSpeech": "noun",
+      "assetName": "word_caper_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_caper_line.imageset/word_caper_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small caper berry beside a jar.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.complement.noun",
+      "word": "complement",
+      "lemma": "complement",
+      "partOfSpeech": "noun",
+      "assetName": "word_complement_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_complement_line.imageset/word_complement_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cup and saucer that complement one another.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.displacement.noun",
+      "word": "displacement",
+      "lemma": "displacement",
+      "partOfSpeech": "noun",
+      "assetName": "word_displacement_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_displacement_line.imageset/word_displacement_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A stone dropped into a glass causing water to rise.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.draught.noun",
+      "word": "draught",
+      "lemma": "draught",
+      "partOfSpeech": "noun",
+      "assetName": "word_draught_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_draught_line.imageset/word_draught_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cool draught moving a curtain beside an open window.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.establishment.noun",
+      "word": "establishment",
+      "lemma": "establishment",
+      "partOfSpeech": "noun",
+      "assetName": "word_establishment_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_establishment_line.imageset/word_establishment_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small established shop with an awning.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.header.noun",
+      "word": "header",
+      "lemma": "header",
+      "partOfSpeech": "noun",
+      "assetName": "word_header_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_header_line.imageset/word_header_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A soccer player heading a ball.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.honour.noun",
+      "word": "honour",
+      "lemma": "honour",
+      "partOfSpeech": "noun",
+      "assetName": "word_honour_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_honour_line.imageset/word_honour_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person receiving a medal at a ceremony.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.judgement.noun",
+      "word": "judgement",
+      "lemma": "judgement",
+      "partOfSpeech": "noun",
+      "assetName": "word_judgement_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_judgement_line.imageset/word_judgement_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A judge's gavel beside a balance scale.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.motley.noun",
+      "word": "motley",
+      "lemma": "motley",
+      "partOfSpeech": "noun",
+      "assetName": "word_motley_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_motley_line.imageset/word_motley_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A patchwork quilt made of different patterns.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.ordinary.noun",
+      "word": "ordinary",
+      "lemma": "ordinary",
+      "partOfSpeech": "noun",
+      "assetName": "word_ordinary_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_ordinary_line.imageset/word_ordinary_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A simple everyday ceramic cup.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.organisation.noun",
+      "word": "organisation",
+      "lemma": "organisation",
+      "partOfSpeech": "noun",
+      "assetName": "word_organisation_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_organisation_line.imageset/word_organisation_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Neatly arranged storage boxes on shelves.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.outrage.noun",
+      "word": "outrage",
+      "lemma": "outrage",
+      "partOfSpeech": "noun",
+      "assetName": "word_outrage_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_outrage_line.imageset/word_outrage_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person looking shocked and upset.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.patronage.noun",
+      "word": "patronage",
+      "lemma": "patronage",
+      "partOfSpeech": "noun",
+      "assetName": "word_patronage_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_patronage_line.imageset/word_patronage_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A customer visiting a small local shop.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.perpendicular.noun",
+      "word": "perpendicular",
+      "lemma": "perpendicular",
+      "partOfSpeech": "noun",
+      "assetName": "word_perpendicular_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_perpendicular_line.imageset/word_perpendicular_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two wooden sticks crossing at a right angle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.promenade.noun",
+      "word": "promenade",
+      "lemma": "promenade",
+      "partOfSpeech": "noun",
+      "assetName": "word_promenade_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_promenade_line.imageset/word_promenade_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "People walking along a seaside promenade.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.prospect.noun",
+      "word": "prospect",
+      "lemma": "prospect",
+      "partOfSpeech": "noun",
+      "assetName": "word_prospect_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_prospect_line.imageset/word_prospect_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person looking toward a distant mountain view.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.radiation.noun",
+      "word": "radiation",
+      "lemma": "radiation",
+      "partOfSpeech": "noun",
+      "assetName": "word_radiation_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_radiation_line.imageset/word_radiation_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Rays radiating outward from the sun.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.reflexion.noun",
+      "word": "reflexion",
+      "lemma": "reflexion",
+      "partOfSpeech": "noun",
+      "assetName": "word_reflexion_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_reflexion_line.imageset/word_reflexion_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tree reflected in still water.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rendering.noun",
+      "word": "rendering",
+      "lemma": "rendering",
+      "partOfSpeech": "noun",
+      "assetName": "word_rendering_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rendering_line.imageset/word_rendering_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An artist rendering a landscape in a sketchbook.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.roach.noun",
+      "word": "roach",
+      "lemma": "roach",
+      "partOfSpeech": "noun",
+      "assetName": "word_roach_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_roach_line.imageset/word_roach_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A roach fish swimming in water.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rocker.noun",
+      "word": "rocker",
+      "lemma": "rocker",
+      "partOfSpeech": "noun",
+      "assetName": "word_rocker_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rocker_line.imageset/word_rocker_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A wooden rocking chair.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sanction.noun",
+      "word": "sanction",
+      "lemma": "sanction",
+      "partOfSpeech": "noun",
+      "assetName": "word_sanction_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sanction_line.imageset/word_sanction_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An official stamp beside a document.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.savory.noun",
+      "word": "savory",
+      "lemma": "savory",
+      "partOfSpeech": "noun",
+      "assetName": "word_savory_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_savory_line.imageset/word_savory_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sprig of the savory herb.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.straddle.noun",
+      "word": "straddle",
+      "lemma": "straddle",
+      "partOfSpeech": "noun",
+      "assetName": "word_straddle_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_straddle_line.imageset/word_straddle_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A child straddling a bicycle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.submission.noun",
+      "word": "submission",
+      "lemma": "submission",
+      "partOfSpeech": "noun",
+      "assetName": "word_submission_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_submission_line.imageset/word_submission_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A student handing a paper to a teacher.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.teaser.noun",
+      "word": "teaser",
+      "lemma": "teaser",
+      "partOfSpeech": "noun",
+      "assetName": "word_teaser_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_teaser_line.imageset/word_teaser_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small gift box partly wrapped with a ribbon.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tenor.noun",
+      "word": "tenor",
+      "lemma": "tenor",
+      "partOfSpeech": "noun",
+      "assetName": "word_tenor_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tenor_line.imageset/word_tenor_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A tenor singer performing with sheet music.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.transposition.noun",
+      "word": "transposition",
+      "lemma": "transposition",
+      "partOfSpeech": "noun",
+      "assetName": "word_transposition_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_transposition_line.imageset/word_transposition_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two musical notes switching positions.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.traverse.noun",
+      "word": "traverse",
+      "lemma": "traverse",
+      "partOfSpeech": "noun",
+      "assetName": "word_traverse_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_traverse_line.imageset/word_traverse_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hiker traversing a mountain slope.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.tuck.noun",
+      "word": "tuck",
+      "lemma": "tuck",
+      "partOfSpeech": "noun",
+      "assetName": "word_tuck_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_tuck_line.imageset/word_tuck_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A neatly tucked fold of fabric.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.turnout.noun",
+      "word": "turnout",
+      "lemma": "turnout",
+      "partOfSpeech": "noun",
+      "assetName": "word_turnout_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_turnout_line.imageset/word_turnout_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A group of people arriving at a community meeting.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.variable.noun",
+      "word": "variable",
+      "lemma": "variable",
+      "partOfSpeech": "noun",
+      "assetName": "word_variable_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_variable_line.imageset/word_variable_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Three boxes containing different shapes.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.variance.noun",
+      "word": "variance",
+      "lemma": "variance",
+      "partOfSpeech": "noun",
+      "assetName": "word_variance_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_variance_line.imageset/word_variance_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Several differently sized circles arranged in a row.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.abstraction.noun",
+      "word": "abstraction",
+      "lemma": "abstraction",
+      "partOfSpeech": "noun",
+      "assetName": "word_abstraction_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_abstraction_line.imageset/word_abstraction_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Simple geometric shapes representing a tree.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.accord.noun",
+      "word": "accord",
+      "lemma": "accord",
+      "partOfSpeech": "noun",
+      "assetName": "word_accord_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_accord_line.imageset/word_accord_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two people shaking hands in agreement.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.administration.noun",
+      "word": "administration",
+      "lemma": "administration",
+      "partOfSpeech": "noun",
+      "assetName": "word_administration_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_administration_line.imageset/word_administration_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "An office worker organizing folders at a desk.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.assay.noun",
+      "word": "assay",
+      "lemma": "assay",
+      "partOfSpeech": "noun",
+      "assetName": "word_assay_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_assay_line.imageset/word_assay_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A scientist testing a sample in a laboratory.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.assimilation.noun",
+      "word": "assimilation",
+      "lemma": "assimilation",
+      "partOfSpeech": "noun",
+      "assetName": "word_assimilation_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_assimilation_line.imageset/word_assimilation_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small group welcoming a newcomer.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.breeding.noun",
+      "word": "breeding",
+      "lemma": "breeding",
+      "partOfSpeech": "noun",
+      "assetName": "word_breeding_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_breeding_line.imageset/word_breeding_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hen caring for chicks in a nest.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.closing.noun",
+      "word": "closing",
+      "lemma": "closing",
+      "partOfSpeech": "noun",
+      "assetName": "word_closing_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_closing_line.imageset/word_closing_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand closing a wooden door.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.congee.noun",
+      "word": "congee",
+      "lemma": "congee",
+      "partOfSpeech": "noun",
+      "assetName": "word_congee_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_congee_line.imageset/word_congee_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A bowl of rice porridge with a spoon.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.conjunction.noun",
+      "word": "conjunction",
+      "lemma": "conjunction",
+      "partOfSpeech": "noun",
+      "assetName": "word_conjunction_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_conjunction_line.imageset/word_conjunction_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two links of a chain joined together.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.connexion.noun",
+      "word": "connexion",
+      "lemma": "connexion",
+      "partOfSpeech": "noun",
+      "assetName": "word_connexion_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_connexion_line.imageset/word_connexion_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "Two hands joining the ends of a cable.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.constituent.noun",
+      "word": "constituent",
+      "lemma": "constituent",
+      "partOfSpeech": "noun",
+      "assetName": "word_constituent_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_constituent_line.imageset/word_constituent_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "One puzzle piece beside an assembled puzzle.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.contrivance.noun",
+      "word": "contrivance",
+      "lemma": "contrivance",
+      "partOfSpeech": "noun",
+      "assetName": "word_contrivance_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_contrivance_line.imageset/word_contrivance_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A whimsical hand-built mechanical device.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.corruption.noun",
+      "word": "corruption",
+      "lemma": "corruption",
+      "partOfSpeech": "noun",
+      "assetName": "word_corruption_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_corruption_line.imageset/word_corruption_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person secretly passing money under a table.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.daub.noun",
+      "word": "daub",
+      "lemma": "daub",
+      "partOfSpeech": "noun",
+      "assetName": "word_daub_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_daub_line.imageset/word_daub_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A hand daubing paint on canvas.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.dirham.noun",
+      "word": "dirham",
+      "lemma": "dirham",
+      "partOfSpeech": "noun",
+      "assetName": "word_dirham_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_dirham_line.imageset/word_dirham_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dirham coin beside a small purse.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.canvass.noun",
+      "word": "canvass",
+      "lemma": "canvass",
+      "partOfSpeech": "noun",
+      "assetName": "word_canvass_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_canvass_line.imageset/word_canvass_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A volunteer asking a neighbor questions at a doorway.",
+      "isDecorative": false
     }
   ]
 }
