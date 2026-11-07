@@ -47941,6 +47941,26 @@
       ],
       "altText": "A person fusing two pieces of metal together with a welding torch.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.organize.verb",
+      "word": "organize",
+      "lemma": "organize",
+      "partOfSpeech": "verb",
+      "assetName": "word_organize_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_organize_line.imageset/word_organize_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person organizing books neatly on a shelf.",
+      "isDecorative": false
     }
   ]
 }
