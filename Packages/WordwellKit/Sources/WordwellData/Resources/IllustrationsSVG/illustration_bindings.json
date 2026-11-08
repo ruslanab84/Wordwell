@@ -55961,6 +55961,266 @@
       ],
       "altText": "A child plunking a pebble into water.",
       "isDecorative": false
+    },
+    {
+      "id": "illustration.well.adverb",
+      "word": "well",
+      "lemma": "well",
+      "partOfSpeech": "adverb",
+      "assetName": "word_well_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_well_line.imageset/word_well_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A student doing a task well and smiling.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.away.adverb",
+      "word": "away",
+      "lemma": "away",
+      "partOfSpeech": "adverb",
+      "assetName": "word_away_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_away_line.imageset/word_away_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person walking away along a path.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.butt.noun",
+      "word": "butt",
+      "lemma": "butt",
+      "partOfSpeech": "noun",
+      "assetName": "word_butt_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_butt_line.imageset/word_butt_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "The blunt butt end of a wooden stick.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.rat.verb",
+      "word": "rat",
+      "lemma": "rat",
+      "partOfSpeech": "verb",
+      "assetName": "word_rat_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_rat_line.imageset/word_rat_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A terrier hunting a toy rat.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.spat.verb",
+      "word": "spat",
+      "lemma": "spat",
+      "partOfSpeech": "verb",
+      "assetName": "word_spat_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_spat_line.imageset/word_spat_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A cat spitting with a startled expression.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.retrograde.verb",
+      "word": "retrograde",
+      "lemma": "retrograde",
+      "partOfSpeech": "verb",
+      "assetName": "word_retrograde_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_retrograde_line.imageset/word_retrograde_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A small toy car moving backward.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.riot.noun",
+      "word": "riot",
+      "lemma": "riot",
+      "partOfSpeech": "noun",
+      "assetName": "word_riot_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_riot_line.imageset/word_riot_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A crowd protesting with blank placards.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sable.noun",
+      "word": "sable",
+      "lemma": "sable",
+      "partOfSpeech": "noun",
+      "assetName": "word_sable_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sable_line.imageset/word_sable_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A sable animal standing in snow.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.sashay.noun",
+      "word": "sashay",
+      "lemma": "sashay",
+      "partOfSpeech": "noun",
+      "assetName": "word_sashay_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_sashay_line.imageset/word_sashay_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A dancer sashaying gracefully.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.scourge.noun",
+      "word": "scourge",
+      "lemma": "scourge",
+      "partOfSpeech": "noun",
+      "assetName": "word_scourge_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scourge_line.imageset/word_scourge_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A swarm of insects damaging a field.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.scruple.noun",
+      "word": "scruple",
+      "lemma": "scruple",
+      "partOfSpeech": "noun",
+      "assetName": "word_scruple_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_scruple_line.imageset/word_scruple_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A person hesitating thoughtfully before a choice.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.shag.noun",
+      "word": "shag",
+      "lemma": "shag",
+      "partOfSpeech": "noun",
+      "assetName": "word_shag_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_shag_line.imageset/word_shag_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A shaggy dog with long fur.",
+      "isDecorative": false
+    },
+    {
+      "id": "illustration.punch.noun",
+      "word": "punch",
+      "lemma": "punch",
+      "partOfSpeech": "noun",
+      "assetName": "word_punch_line",
+      "assetPath": "Resources/IllustrationsSVG/Words.xcassets/word_punch_line.imageset/word_punch_line.svg",
+      "style": "monochrome_line_art",
+      "contexts": [
+        "dictionary_entry",
+        "library",
+        "review"
+      ],
+      "version": 1,
+      "tags": [
+        "a1"
+      ],
+      "altText": "A boxer throwing a punch toward a training bag.",
+      "isDecorative": false
     }
   ]
 }
