@@ -1,3 +1,4 @@
+import AudioToolbox
 import SwiftUI
 import WordwellAICore
 import WordwellData
@@ -293,9 +294,26 @@ struct ChoicePracticeScreen: View {
             }
             player.stop()
             selected = choice
+            if mode == .picture { AnswerSound.play(correct: choice == item.correctChoiceIndex) }
             if choice == item.correctChoiceIndex { correct += 1 } else { missed.append(item) }
         } catch {
             saveFailed = true
         }
+    }
+}
+
+/// System sounds follow the silent switch and need no audio session, so they cannot interrupt speech or music.
+private enum AnswerSound {
+    private static let correct = load("answer_correct")
+    private static let wrong = load("answer_wrong")
+
+    static func play(correct isCorrect: Bool) {
+        if let sound = isCorrect ? correct : wrong { AudioServicesPlaySystemSound(sound) }
+    }
+
+    private static func load(_ name: String) -> SystemSoundID? {
+        guard let url = Bundle.main.url(forResource: name, withExtension: "caf") else { return nil }
+        var sound: SystemSoundID = 0
+        return AudioServicesCreateSystemSoundID(url as CFURL, &sound) == noErr ? sound : nil
     }
 }
