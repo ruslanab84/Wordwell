@@ -212,11 +212,18 @@ struct ContentView: View {
         case .listening:
             ChoicePracticeScreen(mode: .listening, dictionary: dictionaryRepository,
                                  library: libraryRepository, progress: progressRepository,
-                                 settings: settingsRepository, player: pronunciationPlayer)
+                                 settings: settingsRepository, illustrations: illustrationRepository,
+                                 player: pronunciationPlayer)
         case .quiz:
             ChoicePracticeScreen(mode: .quiz, dictionary: dictionaryRepository,
                                  library: libraryRepository, progress: progressRepository,
-                                 settings: settingsRepository, player: pronunciationPlayer)
+                                 settings: settingsRepository, illustrations: illustrationRepository,
+                                 player: pronunciationPlayer)
+        case .pictureQuiz:
+            ChoicePracticeScreen(mode: .picture, dictionary: dictionaryRepository,
+                                 library: libraryRepository, progress: progressRepository,
+                                 settings: settingsRepository, illustrations: illustrationRepository,
+                                 player: pronunciationPlayer)
         case .skillsCheck:
             SkillsCheckScreen(progress: progressRepository, settings: settingsRepository,
                               exam: examPractice, recorder: speechRecognizer,

@@ -1,7 +1,7 @@
 import Foundation
 
 public enum ChoicePracticeMode: Equatable, Sendable {
-    case quiz, listening
+    case quiz, listening, picture
 }
 
 public enum DeterministicPractice {
@@ -18,7 +18,7 @@ public enum DeterministicPractice {
         using rng: inout G
     ) -> [QuizQuestion] {
         let byID = Dictionary(entries.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
-        // Quiz options are definitions with the headword masked; listening options are the words.
+        // Quiz options are definitions with the headword masked; listening and picture options are the words.
         let optionText: (WordEntry) -> String = {
             mode == .quiz ? maskingHeadword(in: $0.senses[0].definition, word: $0.word) : $0.word
         }
@@ -51,9 +51,14 @@ public enum DeterministicPractice {
             var choices = Array(distractors)
             let slot = Int.random(in: 0...choices.count, using: &rng)
             choices.insert(answer, at: slot)
+            let prompt = switch mode {
+            case .quiz: "What does “\(entry.word)” mean?"
+            case .listening: "Which word do you hear?"
+            case .picture: "Which word matches the picture?"
+            }
             return QuizQuestion(
-                id: "\(mode == .quiz ? "quiz" : "listening").\(entry.id)",
-                prompt: mode == .quiz ? "What does “\(entry.word)” mean?" : "Which word do you hear?",
+                id: "\(mode).\(entry.id)",
+                prompt: prompt,
                 choices: choices,
                 correctChoiceIndex: slot,
                 wordID: entry.id

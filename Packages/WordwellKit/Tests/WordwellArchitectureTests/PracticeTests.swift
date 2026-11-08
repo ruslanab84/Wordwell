@@ -286,3 +286,32 @@ private struct SeededRNG: RandomNumberGenerator {
     #expect(report.quizAnswered == 1 && report.quizCorrect == 1)
     #expect(report.previousQuizAnswered == 1 && report.previousQuizCorrect == 0)
 }
+
+@Test func pictureQuestionsOfferTheWordAmongFourWords() throws {
+    func entry(_ id: String, _ pos: PartOfSpeech) -> WordEntry {
+        WordEntry(id: id, word: id, lemma: id, partOfSpeech: pos,
+                  senses: [DefinitionSense(id: "\(id).1", definition: "meaning of \(id)", examples: [])])
+    }
+    let entries = ["cat", "dog", "pen", "cup"].map { entry($0, .noun) } + ["run", "eat", "sit"].map { entry($0, .verb) }
+    var rng = SeededRNG(state: 5)
+    let quiz = DeterministicPractice.questions(from: entries, targetIDs: ["cat"], mode: .picture, limit: 10, using: &rng)
+    let question = try #require(quiz.first)
+    #expect(quiz.count == 1)
+    #expect(question.prompt == "Which word matches the picture?")
+    #expect(question.choices[question.correctChoiceIndex] == "cat")
+    #expect(Set(question.choices) == ["cat", "dog", "pen", "cup"]) // same part of speech wins over verbs
+}
+
+@Test func everyTopWordCanBecomeAPictureQuestion() async throws {
+    let dictionary: any DictionaryRepository = try LocalDictionaryRepository()
+    let illustrations: any IllustrationBindingRepository = LocalIllustrationBindingRepository()
+    var missing: [String] = []
+    for word in CommonWordsCatalog.load() {
+        let entry = try? await dictionary.entry(id: word.id)
+        let binding = try await illustrations.binding(
+            lemma: word.word, partOfSpeech: word.partOfSpeech, senseID: nil, context: .review
+        )
+        if entry == nil || binding == nil { missing.append(word.id) }
+    }
+    #expect(missing.isEmpty, "\(missing.count) words: \(missing.prefix(10))")
+}

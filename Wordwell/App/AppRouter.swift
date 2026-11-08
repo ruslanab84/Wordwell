@@ -16,6 +16,7 @@ enum AppRoute: Hashable {
     case conversation
     case improveSentence
     case quizMe
+    case pictureQuiz
     case grammarLesson(id: String)
     case grammarReview
     case collocationGroup(String)

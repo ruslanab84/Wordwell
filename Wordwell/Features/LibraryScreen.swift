@@ -277,6 +277,12 @@ struct LibraryScreen: View {
                 .accessibilityLabel("Top 3000 progress")
                 .accessibilityValue("\(count) of \(commonWords.count) words saved")
             WordwellBodyText("The 3,000 most frequently used English words, most common first.", secondary: true)
+            RouteLink(route: AppRoute.pictureQuiz) {
+                Text("Quiz me")
+            }
+            .buttonStyle(WordwellButtonStyle(.primary))
+            .accessibilityHint("Match pictures to words from the top 3000")
+            .padding(.top, 6)
         }
         .padding(.bottom, 12)
     }

@@ -1,5 +1,6 @@
 import SwiftUI
 import WordwellAICore
+import WordwellData
 import WordwellDesign
 import WordwellDomain
 
@@ -9,11 +10,13 @@ struct ChoicePracticeScreen: View {
     let library: any WordLibraryRepository
     let progress: any ProgressRepository
     let settings: any LearningSettingsRepository
+    let illustrations: any IllustrationBindingRepository
     let player: PronunciationPlayer
 
     @Environment(\.dismiss) private var dismiss
     @State private var questions: [WordwellDomain.QuizQuestion] = []
     @State private var words: [String: WordEntry] = [:]
+    @State private var pictures: [String: IllustrationBinding] = [:]
     @State private var index = 0
     @State private var selected: Int?
     @State private var played = false
@@ -27,7 +30,15 @@ struct ChoicePracticeScreen: View {
     @State private var voiceUnavailable = false
     @State private var saving = false
 
-    private var title: String { mode == .quiz ? "Quick quiz" : "Listening" }
+    private var title: String {
+        switch mode {
+        case .quiz: "Quick quiz"
+        case .listening: "Listening"
+        case .picture: "Quiz me"
+        }
+    }
+
+    private static let pictureRoundLength = 10
 
     var body: some View {
         Group {
@@ -46,8 +57,7 @@ struct ChoicePracticeScreen: View {
                 ContentUnavailableView("Not enough words", systemImage: "book.closed",
                                        description: Text(mode == .quiz
                                            ? "Save at least one word from the dictionary to start a quiz."
-                                           : "Four distinct dictionary words are needed for this activity."))
-            } else if index == questions.count {
+                                           : "Four distinct dictionary words are needed for this activity."))            } else if index == questions.count {
                 completion
             } else {
                 question(questions[index])
@@ -75,6 +85,11 @@ struct ChoicePracticeScreen: View {
                     .font(WordwellType.screenTitle)
                     .foregroundStyle(WordwellColor.ink)
                     .accessibilityAddTraits(.isHeader)
+
+                if mode == .picture, let picture = pictures[item.wordID] {
+                    BoundIllustration(binding: picture)
+                        .frame(maxWidth: .infinity, maxHeight: 200)
+                }
 
                 if mode == .listening {
                     Button(played ? "Play again" : "Play audio") {
@@ -126,7 +141,7 @@ struct ChoicePracticeScreen: View {
                         .font(WordwellType.body)
                         .foregroundStyle(WordwellColor.ink)
                         .accessibilityAddTraits(.updatesFrequently)
-                    if let definition = words[item.wordID]?.senses.first?.definition, mode == .listening {
+                    if let definition = words[item.wordID]?.senses.first?.definition, mode != .quiz {
                         WordwellBodyText(definition, secondary: true)
                     }
                     if mode == .quiz, selected != item.correctChoiceIndex,
@@ -169,13 +184,13 @@ struct ChoicePracticeScreen: View {
                 ForEach(missed) { item in
                     WordwellBodyText(words[item.wordID]?.word ?? item.wordID, secondary: true)
                 }
-                if mode == .quiz {
+                if mode != .listening {
                     Button("Practice mistakes") { retryMissed() }
                         .buttonStyle(WordwellButtonStyle(.primary))
                 }
             }
             Button("Done") { dismiss() }
-                .buttonStyle(WordwellButtonStyle(mode == .quiz && !missed.isEmpty ? .secondary : .primary))
+                .buttonStyle(WordwellButtonStyle(mode != .listening && !missed.isEmpty ? .secondary : .primary))
         }
         .padding(WordwellLayout.screenPadding)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
@@ -195,30 +210,45 @@ struct ChoicePracticeScreen: View {
         failed = false
         do {
             variant = (try? await settings.profile().preferredEnglishVariant) ?? .us
-            let savedIDs = try await library.allSavedWords().map(\.wordID)
+            let common = mode == .picture ? CommonWordsCatalog.load() : []
+            let savedIDs = mode == .picture ? [] : try await library.allSavedWords().map(\.wordID)
             let weak = Set((try? await progress.weakQuizWordIDs(limit: 5)) ?? [])
+            var bindings: [String: IllustrationBinding] = [:]
             // Weakest saved words first, then a random sample of the rest.
             // ponytail: no recency weighting; add last-asked date to rank stale words higher.
-            let targetIDs = (savedIDs.filter(weak.contains) + savedIDs.filter { !weak.contains($0) }.shuffled())
-                .prefix(5).map { $0 }
+            let targetIDs = mode == .picture
+                ? await pictureTargets(from: common, weak: weak, bindings: &bindings)
+                : (savedIDs.filter(weak.contains) + savedIDs.filter { !weak.contains($0) }.shuffled())
+                    .prefix(5).map { $0 }
             var entries: [WordEntry] = []
             func add(_ entry: WordEntry?) {
                 if let entry, !entries.contains(where: { $0.id == entry.id }) { entries.append(entry) }
             }
             for id in targetIDs { add(try await dictionary.entry(id: id)) }
-            // Distractor pool: other saved words, then fixed lemmas only while the pool is small.
-            for id in savedIDs.filter({ !targetIDs.contains($0) }).shuffled().prefix(10) {
-                add(try await dictionary.entry(id: id))
-            }
-            if entries.count < 14 {
-                for lemma in ["family", "happy", "garden", "journey", "book", "learn", "listen", "speak", "river", "music"] {
-                    add(try await dictionary.entry(lemma: lemma))
+            if mode == .picture {
+                // Three words of the same part of speech per picture, so every question has matching distractors.
+                let byID = Dictionary(uniqueKeysWithValues: common.map { ($0.id, $0) })
+                for id in targetIDs {
+                    let sameKind = common.filter { $0.partOfSpeech == byID[id]?.partOfSpeech && !targetIDs.contains($0.id) }
+                    for word in sameKind.shuffled().prefix(3) { add(try await dictionary.entry(id: word.id)) }
+                }
+            } else {
+                // Distractor pool: other saved words, then fixed lemmas only while the pool is small.
+                for id in savedIDs.filter({ !targetIDs.contains($0) }).shuffled().prefix(10) {
+                    add(try await dictionary.entry(id: id))
+                }
+                if entries.count < 14 {
+                    for lemma in ["family", "happy", "garden", "journey", "book", "learn", "listen", "speak", "river", "music"] {
+                        add(try await dictionary.entry(lemma: lemma))
+                    }
                 }
             }
             guard !Task.isCancelled else { return }
             words = Dictionary(uniqueKeysWithValues: entries.map { ($0.id, $0) })
-            questions = mode == .quiz && targetIDs.isEmpty
-                ? [] : DeterministicPractice.questions(from: entries, targetIDs: targetIDs, mode: mode)
+            pictures = bindings
+            questions = mode != .listening && targetIDs.isEmpty
+                ? [] : DeterministicPractice.questions(from: entries, targetIDs: targetIDs, mode: mode,
+                                                       limit: mode == .picture ? Self.pictureRoundLength : 5)
             missed = []
             index = 0
             selected = nil
@@ -232,13 +262,29 @@ struct ChoicePracticeScreen: View {
         loading = false
     }
 
+    /// Weak Top 3000 words first, then random ones. A word whose picture is missing or locked is skipped,
+    /// because a question without its picture cannot be answered.
+    private func pictureTargets(from common: [CommonWord], weak: Set<String>,
+                                bindings: inout [String: IllustrationBinding]) async -> [String] {
+        var targets: [String] = []
+        for word in common.filter({ weak.contains($0.id) }) + common.filter({ !weak.contains($0.id) }).shuffled() {
+            guard targets.count < Self.pictureRoundLength else { break }
+            guard let binding = try? await illustrations.binding(
+                lemma: word.word, partOfSpeech: word.partOfSpeech, senseID: nil, context: .review
+            ), PremiumAccess.shared.isPremium || FreeTier.isIllustrationFree(tags: binding.tags) else { continue }
+            bindings[word.id] = binding
+            targets.append(word.id)
+        }
+        return targets
+    }
+
     private func submit(_ choice: Int, item: WordwellDomain.QuizQuestion) async {
-        guard !saving, selected == nil, (mode == .quiz || played) else { return }
+        guard !saving, selected == nil, (mode != .listening || played) else { return }
         saving = true
         defer { saving = false }
         let seconds = min(max(Int(Date.now.timeIntervalSince(startedAt)), 1), 120)
         do {
-            if mode == .quiz {
+            if mode != .listening {
                 try await progress.recordQuizAnswer(QuizAnswerEvent(
                     wordID: item.wordID, isCorrect: choice == item.correctChoiceIndex, durationSeconds: seconds
                 ))
