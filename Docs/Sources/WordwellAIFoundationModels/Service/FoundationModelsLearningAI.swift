@@ -35,7 +35,8 @@ public final class FoundationModelsLearningAI: LearningAI {
 
     public func explain(_ word: AIWordContext, learner: LearnerProfile, languageCode: String?) async throws -> SimpleExplanation {
         let prompt = await prompts.explain(word, learner: learner, languageCode: languageCode)
-        return try await generate(.explain, prompt: prompt, languageCode: languageCode, as: GExplanation.self)
+        return try await generate(.explain, prompt: prompt, languageCode: languageCode,
+                                  outputLanguage: languageCode ?? learner.nativeLanguageCode, as: GExplanation.self)
             .domain(languageCode: languageCode)
     }
 
@@ -45,7 +46,7 @@ public final class FoundationModelsLearningAI: LearningAI {
                 do {
                     try FMAvailability.require(languageCode: languageCode)
                     let prompt = await self.prompts.explain(word, learner: learner, languageCode: languageCode)
-                    let session = await self.makeSession(for: .explain)
+                    let session = await self.makeSession(for: .explain, languageCode: languageCode ?? learner.nativeLanguageCode)
                     let stream = session.streamResponse(to: prompt, generating: GExplanation.self,
                                                         options: AIPrompts.options(for: .explain))
                     var latest = ExplanationDraft()
@@ -72,13 +73,13 @@ public final class FoundationModelsLearningAI: LearningAI {
 
     public func compare(_ first: AIWordContext, _ second: AIWordContext, learner: LearnerProfile) async throws -> WordComparison {
         let prompt = await prompts.compare(first, second, learner: learner)
-        return try await generate(.compare, prompt: prompt, as: GComparison.self)
+        return try await generate(.compare, prompt: prompt, outputLanguage: learner.nativeLanguageCode, as: GComparison.self)
             .domain(first: first.lemma, second: second.lemma)
     }
 
     public func commonMistakes(for word: AIWordContext, learner: LearnerProfile) async throws -> [CommonMistake] {
         let prompt = await prompts.commonMistakes(word, learner: learner)
-        return try await generate(.commonMistakes, prompt: prompt, as: GMistakes.self)
+        return try await generate(.commonMistakes, prompt: prompt, outputLanguage: learner.nativeLanguageCode, as: GMistakes.self)
             .mistakes.map { CommonMistake(incorrect: $0.incorrect, correct: $0.correct, explanation: $0.explanation) }
     }
 
@@ -93,7 +94,8 @@ public final class FoundationModelsLearningAI: LearningAI {
 
     public func improve(sentence: String, target: AIWordContext?, learner: LearnerProfile) async throws -> SentenceImprovement {
         let prompt = await prompts.improve(sentence, target: target, learner: learner)
-        let generated = try await generate(.improveSentence, prompt: prompt, tools: [lookupTool], as: GImprovement.self)
+        let generated = try await generate(.improveSentence, prompt: prompt, outputLanguage: learner.nativeLanguageCode,
+                                           tools: [lookupTool], as: GImprovement.self)
         return SentenceImprovement(original: sentence, corrected: generated.corrected,
                                    issues: generated.issues.map(\.domain))
     }
@@ -109,7 +111,8 @@ public final class FoundationModelsLearningAI: LearningAI {
 
     public func feedback(transcript: String, prompt: SpeakingPrompt, targetWords: [AIWordContext], learner: LearnerProfile) async throws -> SpeakingFeedback {
         let text = await prompts.speakingFeedback(transcript: transcript, prompt: prompt, words: targetWords, learner: learner)
-        let generated = try await generate(.speakingFeedback, prompt: text, tools: [lookupTool], as: GSpeakingFeedback.self)
+        let generated = try await generate(.speakingFeedback, prompt: text, outputLanguage: learner.nativeLanguageCode,
+                                           tools: [lookupTool], as: GSpeakingFeedback.self)
 
         // Target word usage is measured deterministically, not reported by the model.
         let used = targetWords.filter { FormMatcher.contains($0.allForms, in: transcript) }.map(\.lemma)
@@ -124,7 +127,7 @@ public final class FoundationModelsLearningAI: LearningAI {
 
     public func weeklyInsight(_ stats: WeeklyStats, learner: LearnerProfile) async throws -> WeeklyInsight {
         let prompt = await prompts.weeklyInsight(stats, learner: learner)
-        let generated = try await generate(.weeklyInsight, prompt: prompt, as: GWeeklyInsight.self)
+        let generated = try await generate(.weeklyInsight, prompt: prompt, outputLanguage: learner.nativeLanguageCode, as: GWeeklyInsight.self)
         return WeeklyInsight(headline: generated.headline, observation: generated.observation,
                              recommendation: generated.recommendation)
     }
@@ -141,6 +144,7 @@ public final class FoundationModelsLearningAI: LearningAI {
         _ task: AITask,
         prompt: String,
         languageCode: String? = nil,
+        outputLanguage: String? = nil,
         tools: [any Tool] = [],
         as type: T.Type
     ) async throws -> T {
@@ -148,9 +152,9 @@ public final class FoundationModelsLearningAI: LearningAI {
             try FMAvailability.require(languageCode: languageCode)
             let session: LanguageModelSession
             if tools.isEmpty {
-                session = await makeSession(for: task)
+                session = await makeSession(for: task, languageCode: outputLanguage)
             } else {
-                session = LanguageModelSession(tools: tools, instructions: AIPrompts.instructions(for: task))
+                session = LanguageModelSession(tools: tools, instructions: AIPrompts.instructions(for: task, languageCode: outputLanguage))
             }
             let response = try await session.respond(to: prompt, generating: T.self,
                                                      options: AIPrompts.options(for: task))
@@ -161,9 +165,10 @@ public final class FoundationModelsLearningAI: LearningAI {
     }
 
     /// Prewarmed session if available, otherwise a fresh one. Never reused across requests.
-    private func makeSession(for task: AITask) async -> LanguageModelSession {
-        if let warm = await warmer.take(task) { return warm }
-        return LanguageModelSession(instructions: AIPrompts.instructions(for: task))
+    /// Warm sessions carry English instructions, so a non-English request always starts fresh.
+    private func makeSession(for task: AITask, languageCode: String? = nil) async -> LanguageModelSession {
+        if AIPrompts.languageName(languageCode) == nil, let warm = await warmer.take(task) { return warm }
+        return LanguageModelSession(instructions: AIPrompts.instructions(for: task, languageCode: languageCode))
     }
 }
 #endif

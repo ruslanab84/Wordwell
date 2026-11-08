@@ -6,7 +6,7 @@ import WordwellAICore
 /// Instructions and prompt templates for scenario role-play. Bump `version` on any prompt/schema change.
 @available(iOS 26.0, macOS 26.0, *)
 enum ConversationPrompts {
-    static let version = "2026.10.conv.2"
+    static let version = "2026.11.conv.3"
 
     enum Kind: String {
         case reply, summary
@@ -67,7 +67,7 @@ enum ConversationPrompts {
         TARGET WORDS: \(targetWords.joined(separator: ", "))
         CONVERSATION:
         \(transcript(turns))
-        TASK: Review the learner's part of the conversation.
+        TASK: Review the learner's part of the conversation.\(AIPrompts.mustWrite("every \"why\" field", languageCode: learner.nativeLanguageCode))
         """
     }
 

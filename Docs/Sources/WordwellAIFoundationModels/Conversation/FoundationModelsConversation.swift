@@ -27,7 +27,7 @@ public final class FoundationModelsConversation: ConversationService {
 
     public func summary(scenario: ConversationScenario, targetWords: [String], turns: [ConversationTurn], learner: LearnerProfile) async throws -> ConversationSummary {
         let generated = try await generate(
-            .summary, scenario: scenario, as: GConversationSummary.self,
+            .summary, scenario: scenario, as: GConversationSummary.self, languageCode: learner.nativeLanguageCode,
             prompt: ConversationPrompts.summaryPrompt(scenario: scenario, targetWords: targetWords, turns: turns, learner: learner))
         return ConversationSummary(
             mistakes: generated.mistakes.map { ConversationMistake(original: $0.original, better: $0.better, why: $0.why) },
@@ -39,10 +39,12 @@ public final class FoundationModelsConversation: ConversationService {
     // MARK: - Engine
 
     /// Fresh session per request: the transcript travels in the prompt (at most ~17 short turns).
-    private func generate<T: Generable>(_ kind: ConversationPrompts.Kind, scenario: ConversationScenario, as type: T.Type, prompt: String) async throws -> T {
+    private func generate<T: Generable>(_ kind: ConversationPrompts.Kind, scenario: ConversationScenario, as type: T.Type, languageCode: String? = nil, prompt: String) async throws -> T {
         do {
             try FMAvailability.require(languageCode: nil)
-            let session = LanguageModelSession(instructions: ConversationPrompts.instructions(for: kind, scenario: scenario))
+            let session = LanguageModelSession(instructions: AIPrompts.localized(
+                ConversationPrompts.instructions(for: kind, scenario: scenario), languageCode: languageCode,
+                keepingEnglish: "\"original\" and \"better\" fragments, expressions and wordsToSave"))
             return try await session.respond(to: prompt, generating: T.self, options: ConversationPrompts.options(for: kind)).content
         } catch {
             throw FMErrorMapper.map(error)

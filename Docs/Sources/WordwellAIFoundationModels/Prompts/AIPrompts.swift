@@ -8,16 +8,34 @@ import WordwellAICore
 @available(iOS 26.0, macOS 26.0, *)
 public enum AIPrompts {
     /// Bump on any change in instructions, prompt templates or schemas. Invalidates cached responses.
-    public static let version = "2026.10.4"
+    public static let version = "2026.11.2"
 
     /// English name of a non-English explanation language ("ru" -> "Russian"); nil for English or no language.
     static func languageName(_ code: String?) -> String? {
         guard let code, !code.isEmpty, !code.lowercased().hasPrefix("en") else { return nil }
-        return Locale(identifier: "en").localizedString(forLanguageCode: code) ?? code
+        return Locale(identifier: "en").localizedString(forIdentifier: code) ?? code
     }
 
-    public static func instructions(for task: AITask) -> String {
-        base + "\n" + rule(for: task)
+    /// Adds Apple's locale phrase and a hard output-language rule for a non-English language the model supports.
+    /// Anything else stays unchanged, including a stale saved language the model no longer accepts.
+    static func localized(_ instructions: String, languageCode: String?, keepingEnglish english: String) -> String {
+        guard let languageCode, let language = languageName(languageCode),
+              SystemLanguageModel.default.supportsLocale(Locale(identifier: languageCode)) else { return instructions }
+        return """
+        The person's locale is \(languageCode).
+        \(instructions)
+        You MUST respond in \(language), never in English. Only \(english) stay in English.
+        """
+    }
+
+    /// Task-line suffix naming the fields that must be localized; empty for English or no language.
+    static func mustWrite(_ fields: String, languageCode: String?) -> String {
+        languageName(languageCode).map { " You MUST write \(fields) in \($0), never in English." } ?? ""
+    }
+
+    public static func instructions(for task: AITask, languageCode: String? = nil) -> String {
+        localized(base + "\n" + rule(for: task), languageCode: languageCode,
+                  keepingEnglish: "example sentences, corrected sentences, improved answers and quoted fragments")
     }
 
     public static func options(for task: AITask) -> GenerationOptions {

@@ -91,7 +91,7 @@ enum GLevel {
 struct GCriterionResult {
     var criterion: GCriterion
     var level: GLevel
-    @Guide(description: "One-sentence comment, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "One-sentence comment, in the required response language")
     var comment: String
 }
 

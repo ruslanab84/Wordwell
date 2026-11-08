@@ -43,23 +43,25 @@ public final class FoundationModelsExamPractice: ExamPracticeService {
     }
 
     public func assess(speakingTranscript: String, task: ExamSpeakingTask, learner: LearnerProfile) async throws -> ExamAssessment {
-        try await generate(.assessment, as: GExamAssessment.self,
+        try await generate(.assessment, as: GExamAssessment.self, languageCode: learner.nativeLanguageCode,
                            prompt: ExamPrompts.speakingAssessment(transcript: speakingTranscript, task: task, learner: learner))
             .domain
     }
 
     public func assess(writing: String, task: ExamWritingTask, learner: LearnerProfile) async throws -> ExamAssessment {
-        try await generate(.assessment, as: GExamAssessment.self,
+        try await generate(.assessment, as: GExamAssessment.self, languageCode: learner.nativeLanguageCode,
                            prompt: ExamPrompts.writingAssessment(answer: writing, task: task, learner: learner))
             .domain
     }
 
     // MARK: - Engine
 
-    private func generate<T: Generable>(_ kind: ExamPrompts.Kind, as type: T.Type, prompt: String) async throws -> T {
+    private func generate<T: Generable>(_ kind: ExamPrompts.Kind, as type: T.Type, languageCode: String? = nil, prompt: String) async throws -> T {
         do {
             try FMAvailability.require(languageCode: nil)
-            let session = LanguageModelSession(instructions: ExamPrompts.instructions(for: kind))
+            let session = LanguageModelSession(instructions: AIPrompts.localized(
+                ExamPrompts.instructions(for: kind), languageCode: languageCode,
+                keepingEnglish: "quoted fragments and corrected text"))
             return try await session.respond(to: prompt, generating: T.self, options: ExamPrompts.options(for: kind)).content
         } catch {
             throw FMErrorMapper.map(error)

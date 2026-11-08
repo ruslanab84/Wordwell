@@ -11,8 +11,11 @@ public enum LearningStatus: String, Codable, Sendable {
 /// Languages the learner can pick for AI explanations (BCP-47 code, English name).
 public enum SupportedLanguages {
     public static let all: [(code: String, name: String)] = [
-        ("az", "Azerbaijani"), ("de", "German"), ("en", "English"),
-        ("es", "Spanish"), ("fr", "French"), ("ru", "Russian"),
+        ("az", "Azerbaijani"), ("zh-Hans", "Chinese (Simplified)"), ("zh-Hant", "Chinese (Traditional)"),
+        ("da", "Danish"), ("nl", "Dutch"), ("en", "English"), ("fr", "French"), ("de", "German"),
+        ("it", "Italian"), ("ja", "Japanese"), ("ko", "Korean"), ("nb", "Norwegian"),
+        ("pt", "Portuguese"), ("ru", "Russian"), ("es", "Spanish"), ("sv", "Swedish"),
+        ("tr", "Turkish"), ("vi", "Vietnamese"),
     ]
 
     public static func name(for code: String) -> String {

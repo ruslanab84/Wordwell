@@ -79,13 +79,13 @@ public enum GrammarAI {
             let use = GrammarToolUse()
             let session = LanguageModelSession(
                 tools: [GrammarLessonTool(lesson: lesson, use: use)],
-                instructions: """
+                instructions: AIPrompts.localized("""
                 You are an English grammar tutor. Before answering, call getGrammarLesson for the requested ID.
                 Use only the rule and examples returned by that tool. \(language.map { "Explain in clear \($0); keep the supplied examples in English." } ?? "Explain in clear English.")
                 Write two or three short sentences that clarify the rule, illustrate it with one supplied example,
                 then give one practical tip. Do not copy the tool's field labels or dump its contents.
                 Do not invent extra rules.
-                """
+                """, languageCode: languageCode, keepingEnglish: "the supplied examples")
             )
             let response = try await session.respond(
                 to: "Explain grammar lesson ID \(lesson.id) for a learner.",

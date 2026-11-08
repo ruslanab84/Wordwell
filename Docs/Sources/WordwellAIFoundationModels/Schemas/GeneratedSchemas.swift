@@ -10,9 +10,9 @@ import FoundationModels
 struct GExplanation {
     @Guide(description: "ID of the explained sense copied from SENSES, for example s1")
     var senseID: String
-    @Guide(description: "Plain explanation of what the word means, at most two short sentences. Never answer with only a language name; follow the EXPLANATION LANGUAGE line only if the prompt has one")
+    @Guide(description: "Plain explanation of what the word means, at most two short sentences, written in the required response language. Never answer with only a language name")
     var explanation: String
-    @Guide(description: "Short everyday comparison that makes the meaning memorable, or an empty string; follow the EXPLANATION LANGUAGE line only if the prompt has one")
+    @Guide(description: "Short everyday comparison that makes the meaning memorable, written in the required response language, or an empty string")
     var analogy: String
     @Guide(description: "Natural English sentences that use the headword", .count(2))
     var examples: [String]
@@ -46,7 +46,7 @@ struct GComparisonExample {
 @available(iOS 26.0, macOS 26.0, *)
 @Generable
 struct GComparison {
-    @Guide(description: "The main difference in one sentence, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "The main difference in one sentence, in the required response language")
     var coreDifference: String
     @Guide(description: "The situation where word A fits, as a short phrase that completes 'Use A when ...'. Do not repeat 'Use' or the word; start with the situation itself")
     var useFirstWhen: String
@@ -63,7 +63,7 @@ struct GMistake {
     var incorrect: String
     @Guide(description: "Corrected sentence using the headword")
     var correct: String
-    @Guide(description: "Why it is wrong, one short sentence, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "Why it is wrong, one short sentence, in the required response language")
     var explanation: String
 }
 
@@ -93,9 +93,9 @@ struct GIssue {
     var kind: GIssueKind
     @Guide(description: "Exact wrong fragment copied from the learner text")
     var fragment: String
-    @Guide(description: "Corrected fragment")
+    @Guide(description: "Corrected fragment, always in English")
     var fix: String
-    @Guide(description: "Short reason, one sentence, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "Short reason, one sentence, in the required response language")
     var explanation: String
 }
 
@@ -120,13 +120,13 @@ struct GSpeakingPrompt {
 @available(iOS 26.0, macOS 26.0, *)
 @Generable
 struct GSpeakingFeedback {
-    @Guide(description: "Overall feedback, one or two kind sentences, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "Overall feedback, one or two kind sentences, in the required response language")
     var summary: String
-    @Guide(description: "What the learner did well, in the EXPLANATION LANGUAGE if given", .maximumCount(2))
+    @Guide(description: "What the learner did well, in the required response language", .maximumCount(2))
     var strengths: [String]
     @Guide(.maximumCount(3))
     var mistakes: [GIssue]
-    @Guide(description: "Improved answer close to the learner's ideas, using the target words, at most 4 sentences")
+    @Guide(description: "Improved answer close to the learner's ideas, always in English, using the target words, at most 4 sentences")
     var betterAnswer: String
 }
 
@@ -137,7 +137,7 @@ struct GWeeklyInsight {
     var headline: String
     @Guide(description: "One sentence about the week, using only given numbers")
     var observation: String
-    @Guide(description: "One concrete action for next week, in the EXPLANATION LANGUAGE if given")
+    @Guide(description: "One concrete action for next week, in the required response language")
     var recommendation: String
 }
 #endif

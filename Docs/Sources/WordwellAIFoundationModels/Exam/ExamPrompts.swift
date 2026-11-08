@@ -7,7 +7,7 @@ import WordwellAICore
 /// Brand-neutral by construction: no exam, board or publisher names; CEFR-only levels.
 @available(iOS 26.0, macOS 26.0, *)
 enum ExamPrompts {
-    static let version = "2026.10.exam.2"
+    static let version = "2026.11.exam.3"
 
     enum Kind: String {
         case speakingTask, writingTask, readingSet, assessment
@@ -101,7 +101,7 @@ enum ExamPrompts {
             "LEARNER TARGET LEVEL: \(learner.level.rawValue)",
         ] + languageLines(learner) + [
             "ANSWER: <<<\(sanitized(answer))>>>",
-            "TASK: Assess the answer.",
+            "TASK: Assess the answer." + assessmentLanguage(learner),
         ]
         return lines.joined(separator: "\n")
     }
@@ -114,7 +114,7 @@ enum ExamPrompts {
         LEARNER TARGET LEVEL: \(learner.level.rawValue)\(languageLines(learner).map { "\n" + $0 }.joined())
         NOTE: speech-recognition transcript; ignore punctuation and capitalisation. Pronunciation is not assessed.
         ANSWER: <<<\(sanitized(transcript))>>>
-        TASK: Assess the answer.
+        TASK: Assess the answer.\(assessmentLanguage(learner))
         """
     }
 
@@ -122,6 +122,10 @@ enum ExamPrompts {
 
     private static func languageLines(_ learner: LearnerProfile) -> [String] {
         AIPrompts.languageName(learner.nativeLanguageCode).map { ["EXPLANATION LANGUAGE: \($0)"] } ?? []
+    }
+
+    private static func assessmentLanguage(_ learner: LearnerProfile) -> String {
+        AIPrompts.mustWrite("every comment, strength and improvement explanation", languageCode: learner.nativeLanguageCode)
     }
 
     static func render(_ table: DataTable) -> String {

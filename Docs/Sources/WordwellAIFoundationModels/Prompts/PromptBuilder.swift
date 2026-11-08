@@ -20,7 +20,7 @@ public struct PromptBuilder: Sendable {
 
     public func explain(_ word: AIWordContext, learner: LearnerProfile, languageCode: String?) async -> String {
         let language = AIPrompts.languageName(languageCode ?? learner.nativeLanguageCode)
-        let languageTask = language.map { " Write the explanation and analogy in \($0); examples stay English." } ?? ""
+        let languageTask = language.map { " You MUST write the explanation and analogy in \($0), never in English. Only the examples stay in English." } ?? ""
         return await fitted(.explain) { senses in
             """
             \(render(word, maxSenses: senses))
@@ -48,7 +48,7 @@ public struct PromptBuilder: Sendable {
             WORD B
             \(render(second, maxSenses: senses))
             \(learnerBlock(learner, languageCode: nil))
-            TASK: Explain the difference between "\(first.lemma)" and "\(second.lemma)". Give one example for each word; set lemma to exactly "\(first.lemma)" or "\(second.lemma)".
+            TASK: Explain the difference between "\(first.lemma)" and "\(second.lemma)". Give one example for each word; set lemma to exactly "\(first.lemma)" or "\(second.lemma)".\(AIPrompts.mustWrite("coreDifference, useFirstWhen and useSecondWhen", languageCode: learner.nativeLanguageCode))
             """
         }
     }
@@ -104,7 +104,7 @@ public struct PromptBuilder: Sendable {
         \(words.map(renderShort).joined(separator: "\n"))
         \(learnerBlock(learner, languageCode: nil))
         TRANSCRIPT: <<<\(transcript)>>>
-        TASK: Give feedback on the transcript.
+        TASK: Give feedback on the transcript.\(AIPrompts.mustWrite("summary, strengths and every mistake explanation", languageCode: learner.nativeLanguageCode))
         """
     }
 
@@ -113,7 +113,7 @@ public struct PromptBuilder: Sendable {
         WEEK STATS: words learned \(stats.wordsLearned); words reviewed \(stats.wordsReviewed); speaking sessions \(stats.speakingSessions); listening minutes \(stats.listeningMinutes); quiz accuracy \(Int(stats.quizAccuracy * 100))%; streak \(stats.streakDays) days
         WEAK WORDS: \(stats.weakWords.prefix(5).joined(separator: ", "))
         \(learnerBlock(learner, languageCode: nil))
-        TASK: Write the weekly insight.
+        TASK: Write the weekly insight.\(AIPrompts.mustWrite("headline, observation and recommendation", languageCode: learner.nativeLanguageCode))
         """
     }
 

@@ -20,7 +20,9 @@ public final class FoundationModelsMistakeExplainer: MistakeExplainerService {
     public func explain(_ mistake: MistakeContext, learner: LearnerProfile) async throws -> MistakeExplanation {
         do {
             try FMAvailability.require(languageCode: nil)
-            let session = LanguageModelSession(instructions: MistakePrompts.instructions)
+            let session = LanguageModelSession(instructions: AIPrompts.localized(
+                MistakePrompts.instructions, languageCode: learner.nativeLanguageCode,
+                keepingEnglish: "the English answer options"))
             let generated = try await session.respond(
                 to: MistakePrompts.prompt(for: mistake, learner: learner),
                 generating: GMistakeExplanation.self,
