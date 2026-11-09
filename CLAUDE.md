@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Three separate Swift/Xcode units plus Python tooling:
 
-- `Wordwell.xcodeproj` + `Wordwell/` — iOS app target (iOS 27). `App/` holds `AppContainer` (the only production composition root), `AppRouter` (selected tab + five independent typed nav paths), `DictionaryAILookupAdapter`. `Features/` holds screens/view models; features stay in the app target, not separate modules.
+- `Wordwell.xcodeproj` + `Wordwell/` — iOS app target (iOS 26+). `App/` holds `AppContainer` (the only production composition root), `AppRouter` (selected tab + five independent typed nav paths), `DictionaryAILookupAdapter`. `Features/` holds screens/view models; features stay in the app target, not separate modules.
 - `Packages/WordwellKit/` — local SwiftPM package, four libraries: `WordwellDomain` (Foundation-only models + repository/AI contracts), `WordwellDesign` (tokens, fonts, components, SVG rendering; must not import Domain/Data/AI), `WordwellData` (bundled SQLite dictionary + local repositories; depends on Domain), `WordwellAI` (depends on Domain). One test target: `WordwellArchitectureTests`.
 - `Docs/` — despite the name, also a standalone SwiftPM package `WordwellAI` (`WordwellAICore`, `WordwellAIFoundationModels`, `wordwell-ai` CLI) alongside the spec docs. It is NOT yet what the app links; the app uses `WordwellKit/Sources/WordwellAI`. See `Docs/README.md` for the CLI and its anti-hallucination/exam-practice design.
 - `Tools/` — Python asset/dictionary generators.

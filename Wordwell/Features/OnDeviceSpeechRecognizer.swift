@@ -63,8 +63,16 @@ final class OnDeviceSpeechRecognizer {
             try session.setActive(true)
             let input = engine.inputNode
             let format = input.outputFormat(forBus: 0)
-            try input.installAudioTap(onBus: 0, bufferSize: 1024, format: format) { buffer, _ in
-                request.append(AVAudioPCMBuffer(copying: buffer))
+            if #available(iOS 27.0, *) {
+                try input.installAudioTap(onBus: 0, bufferSize: 1024, format: format) { buffer, _ in
+                    request.append(AVAudioPCMBuffer(copying: buffer))
+                }
+            } else {
+                // The older tap raises an uncatchable exception on an invalid format, such as no audio input.
+                guard format.sampleRate > 0, format.channelCount > 0 else { throw CocoaError(.featureUnsupported) }
+                input.installTap(onBus: 0, bufferSize: 1024, format: format) { buffer, _ in
+                    request.append(buffer)
+                }
             }
             task = recognizer.recognitionTask(with: request) { [weak self] result, error in
                 let text = result?.bestTranscription.formattedString
