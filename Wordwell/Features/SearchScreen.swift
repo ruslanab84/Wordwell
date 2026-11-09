@@ -11,6 +11,8 @@ struct SearchScreen: View {
 
     @AppStorage("wordwell.searchHistory") private var searchHistoryData = Data()
     @State private var query = ""
+    @State private var isSearchActive = false
+    @State private var didAutoFocus = false
     @State private var retry = 0
     @State private var phase: Phase = .idle
 
@@ -92,8 +94,18 @@ struct SearchScreen: View {
         }
         .onChange(of: query) { meaningTask?.cancel(); meaning = .idle }
         .onDisappear { meaningTask?.cancel() }
-        .searchable(text: $query, prompt: "Search words or meanings")
+        .searchable(
+            text: $query,
+            isPresented: $isSearchActive,
+            placement: .navigationBarDrawer(displayMode: .always),
+            prompt: "Search words or meanings"
+        )
         .onSubmit(of: .search) { recordSearch() }
+        .onAppear {
+            guard !didAutoFocus else { return }
+            didAutoFocus = true
+            isSearchActive = true
+        }
         .task(id: Request(query: query, retry: retry)) {
             await search()
         }

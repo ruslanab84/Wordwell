@@ -250,10 +250,14 @@ struct DictionaryEntryScreen: View {
                         aiCoach(entry: entry, sense: sense)
                     }
 
-                    Text("Definitions and examples: Open English Wordnet")
-                        .font(WordwellType.meta)
-                        .foregroundStyle(WordwellColor.secondaryText)
-                        .padding(.top, WordwellLayout.sectionGap)
+                    Link(destination: URL(string: "https://en-word.net/")!) {
+                        Text("Definitions and examples: Open English Wordnet")
+                            .font(WordwellType.meta)
+                            .underline()
+                            .foregroundStyle(WordwellColor.secondaryText)
+                            .frame(minHeight: 44, alignment: .leading)
+                    }
+                    .padding(.top, WordwellLayout.sectionGap)
                 }
                 .padding(.horizontal, WordwellLayout.screenPadding)
                 .padding(.vertical, WordwellLayout.screenPadding)
