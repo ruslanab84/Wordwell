@@ -247,7 +247,7 @@ struct DictionaryEntryScreen: View {
                     }
 
                     if let sense = entry.senses.first {
-                        aiCoach(entry: entry, sense: sense)
+                        AIGate { aiCoach(entry: entry, sense: sense) }
                     }
 
                     Link(destination: URL(string: "https://en-word.net/")!) {

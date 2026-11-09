@@ -11,6 +11,7 @@ struct ConversationScreen: View {
     let dictionary: any DictionaryRepository
     let library: any WordLibraryRepository
 
+    @Environment(\.aiDeviceStatus) private var aiStatus
     @State private var session: ConversationSession?
     @State private var isStarting = false
     @State private var unavailable = false
@@ -29,7 +30,7 @@ struct ConversationScreen: View {
         .background(WordwellColor.paper.ignoresSafeArea())
         .navigationTitle("Conversation")
         .navigationBarTitleDisplayMode(.inline)
-        .task { await checkAvailability() }
+        .task(id: aiStatus) { await checkAvailability() }
         .onDisappear { session?.cancel() }
     }
 
@@ -40,7 +41,7 @@ struct ConversationScreen: View {
                 WordwellPrivacyCue()
 
                 if unavailable {
-                    WordwellBodyText("AI unavailable on this device. Turn on Apple Intelligence in Settings, or try the other practice modes.", secondary: true)
+                    WordwellBodyText(aiStatus.message, secondary: true)
                 }
 
                 ForEach(ConversationScenario.catalog) { scenario in
@@ -60,10 +61,9 @@ struct ConversationScreen: View {
     }
 
     private func checkAvailability() async {
-        guard let service else { unavailable = true; return }
+        guard service != nil else { unavailable = true; return }
         let profile = try? await settings.profile()
-        let available = await service.availability(languageCode: "en") == .available
-        unavailable = !available || profile?.aiEnabled == false
+        unavailable = aiStatus != .ready || profile?.aiEnabled == false
     }
 
     private func start(_ scenario: ConversationScenario) async {

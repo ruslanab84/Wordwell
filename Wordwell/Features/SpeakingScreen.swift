@@ -31,6 +31,7 @@ struct SpeakingScreen: View {
         targetWords: []
     )
 
+    @Environment(\.aiDeviceStatus) private var aiStatus
     @State private var recorder: OnDeviceSpeechRecognizer
     @State private var startedAt: Date?
     @State private var durationSeconds = 0
@@ -142,7 +143,7 @@ struct SpeakingScreen: View {
             case .loading:
                 WordwellBodyText("Working on this device…", secondary: true)
             case .unavailable:
-                WordwellBodyText("On-device AI is unavailable or turned off in Settings. Read your transcript and notice one idea you could add next time.", secondary: true)
+                WordwellBodyText((aiStatus.showsAI ? aiStatus.message + " " : "") + "Read your transcript and notice one idea you could add next time.", secondary: true)
             case .failed:
                 WordwellBodyText("Could not review this answer.", secondary: true)
                 Button("Try again") { requestFeedback() }
@@ -321,7 +322,7 @@ struct SpeakingScreen: View {
         activeRequest = id
         phase = .loading
         feedbackTask = Task {
-            guard let profile = try? await settings.profile(), profile.aiEnabled else {
+            guard aiStatus == .ready, let profile = try? await settings.profile(), profile.aiEnabled else {
                 if activeRequest == id { phase = .unavailable }
                 return
             }

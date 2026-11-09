@@ -21,12 +21,11 @@ enum AppAppearance: String, CaseIterable {
 struct SettingsScreen: View {
     let settings: any LearningSettingsRepository
     let progress: any ProgressRepository
-    let ai: any LearningAI
     let notifications: DailyWordNotifications
     @Binding var appearance: AppAppearance
 
+    @Environment(\.aiDeviceStatus) private var aiStatus
     @State private var profile: LearningProfile?
-    @State private var aiAvailable = false
     @State private var loadFailed = false
     @State private var saveFailed = false
     @State private var saving = false
@@ -52,14 +51,16 @@ struct SettingsScreen: View {
                         Image(systemName: "text.book.closed")
                     }
                 }
-                Menu {
-                    ForEach(onDeviceSupportedLanguages(SupportedLanguages.all), id: \.code) { language in
-                        Button(language.name) { change { $0.explanationLanguage = language.code } }
-                    }
-                } label: {
-                    WordwellListRow(title: "Explanation language",
-                                    detail: SupportedLanguages.name(for: profile.explanationLanguage)) {
-                        Image(systemName: "globe")
+                if aiStatus.showsAI {
+                    Menu {
+                        ForEach(onDeviceSupportedLanguages(SupportedLanguages.all), id: \.code) { language in
+                            Button(language.name) { change { $0.explanationLanguage = language.code } }
+                        }
+                    } label: {
+                        WordwellListRow(title: "Explanation language",
+                                        detail: SupportedLanguages.name(for: profile.explanationLanguage)) {
+                            Image(systemName: "globe")
+                        }
                     }
                 }
                 Menu {
@@ -126,16 +127,18 @@ struct SettingsScreen: View {
                     }
                 }
 
-                sectionTitle("On-device AI")
-                Toggle("On-device AI (Apple Intelligence)", isOn: Binding(
-                    get: { profile.aiEnabled && aiAvailable },
-                    set: { enabled in change { $0.aiEnabled = enabled } }
-                ))
-                .toggleStyle(WordwellToggleStyle())
-                .disabled(!aiAvailable || saving)
-                WordwellBodyText(aiAvailable
-                    ? "Runs entirely on this device. You can turn it off at any time."
-                    : "Apple Intelligence is unavailable on this device. Dictionary and practice still work offline.", secondary: true)
+                if aiStatus.showsAI {
+                    sectionTitle("On-device AI")
+                    Toggle("On-device AI (Apple Intelligence)", isOn: Binding(
+                        get: { profile.aiEnabled && aiStatus == .ready },
+                        set: { enabled in change { $0.aiEnabled = enabled } }
+                    ))
+                    .toggleStyle(WordwellToggleStyle())
+                    .disabled(aiStatus != .ready || saving)
+                    WordwellBodyText(aiStatus == .ready
+                        ? "Runs entirely on this device. You can turn it off at any time."
+                        : aiStatus.message, secondary: true)
+                }
 
                 sectionTitle("Privacy")
                 Button { showPrivacyPolicy = true } label: {
@@ -193,9 +196,9 @@ struct SettingsScreen: View {
             let supported = onDeviceSupportedLanguages(SupportedLanguages.all).map(\.code)
             let needsLanguageReset = !supported.contains(loaded.explanationLanguage)
             profile = loaded
-            aiAvailable = await ai.availability(languageCode: "en") == .available
             loadFailed = false
-            if needsLanguageReset { change { $0.explanationLanguage = "en" } }
+            // The model reports no languages while Apple Intelligence is off; keep the learner's choice.
+            if needsLanguageReset, aiStatus == .ready { change { $0.explanationLanguage = "en" } }
         } catch {
             loadFailed = true
         }

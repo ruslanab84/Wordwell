@@ -24,19 +24,21 @@ struct ImproveSentenceScreen: View {
                 ScreenHeader(title: "Improve my sentence", subtitle: "Write in English, get gentle corrections")
                 WordwellPrivacyCue()
 
-                TextField("Write a sentence", text: $draft, axis: .vertical)
-                    .font(WordwellType.body)
-                    .lineLimit(3...8)
-                    .padding(14)
-                    .frame(minHeight: WordwellLayout.minimumTouchTarget, alignment: .topLeading)
-                    .overlay { RoundedRectangle(cornerRadius: WordwellLayout.cardRadius).strokeBorder(WordwellColor.border, lineWidth: 1) }
-                    .disabled(isLoading)
+                AIGate {
+                    TextField("Write a sentence", text: $draft, axis: .vertical)
+                        .font(WordwellType.body)
+                        .lineLimit(3...8)
+                        .padding(14)
+                        .frame(minHeight: WordwellLayout.minimumTouchTarget, alignment: .topLeading)
+                        .overlay { RoundedRectangle(cornerRadius: WordwellLayout.cardRadius).strokeBorder(WordwellColor.border, lineWidth: 1) }
+                        .disabled(isLoading)
 
-                Button("Improve my sentence", action: improve)
-                    .buttonStyle(WordwellButtonStyle(.primary))
-                    .disabled(isLoading || draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                    Button("Improve my sentence", action: improve)
+                        .buttonStyle(WordwellButtonStyle(.primary))
+                        .disabled(isLoading || draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
 
-                if !isIdle { answer }
+                    if !isIdle { answer }
+                }
             }
             .padding(WordwellLayout.screenPadding)
             .frame(maxWidth: .infinity, alignment: .leading)

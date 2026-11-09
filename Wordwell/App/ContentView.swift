@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var featuredReason: String?
     @AppStorage("wordwell.wordForYouPick") private var wordForYouPick = ""
     @State private var premium = PremiumAccess.shared
+    @State private var aiStatus = AIDeviceStatus.current
     private let dictionaryRepository: any DictionaryRepository
     private let libraryRepository: any WordLibraryRepository
     private let progressRepository: any ProgressRepository
@@ -103,11 +104,20 @@ struct ContentView: View {
         .onChange(of: horizontalSizeClass, initial: true) { router.isSplit = horizontalSizeClass == .regular }
         .environment(\.mistakeExplainer, mistakeExplainer)
         .sheet(isPresented: $premium.paywallPresented) { PaywallScreen() }
+        .environment(\.aiDeviceStatus, aiStatus)
         .tint(WordwellColor.ink)
         .tabBarMinimizeBehavior(.never)
         .preferredColorScheme(appearance.colorScheme)
+        .task(id: aiStatus) {
+            // The model finishes downloading without any scene change.
+            while aiStatus == .preparing, !Task.isCancelled {
+                try? await Task.sleep(for: .seconds(15))
+                aiStatus = .current
+            }
+        }
         .task(id: scenePhase) {
             guard scenePhase == .active else { return }
+            aiStatus = .current
             await refreshFeaturedWord()
             if let profile = try? await settingsRepository.profile() {
                 try? await dailyWordNotifications.refresh(for: profile)
@@ -246,7 +256,7 @@ struct ContentView: View {
             ProgressScreen(progress: progressRepository)
         case .settings:
             SettingsScreen(settings: settingsRepository, progress: progressRepository,
-                           ai: aiService, notifications: dailyWordNotifications, appearance: $appearance)
+                           notifications: dailyWordNotifications, appearance: $appearance)
         }
     }
 }

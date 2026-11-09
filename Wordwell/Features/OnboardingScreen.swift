@@ -86,9 +86,11 @@ struct OnboardingScreen: View {
     private var preferencesStep: some View {
         VStack(alignment: .leading, spacing: 18) {
             heading("Make learning yours")
-            Picker("Explanation language", selection: $explanationLanguage) {
-                ForEach(onDeviceSupportedLanguages(SupportedLanguages.all), id: \.code) { language in
-                    Text(language.name).tag(language.code)
+            if AIDeviceStatus.current.showsAI {
+                Picker("Explanation language", selection: $explanationLanguage) {
+                    ForEach(onDeviceSupportedLanguages(SupportedLanguages.all), id: \.code) { language in
+                        Text(language.name).tag(language.code)
+                    }
                 }
             }
             Picker("Pronunciation", selection: $variant) {

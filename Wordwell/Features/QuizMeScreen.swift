@@ -22,6 +22,7 @@ struct QuizMeScreen: View {
     private enum Phase { case loading, empty, quiz, done, unavailable, locked, failed }
 
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.aiDeviceStatus) private var aiStatus
     @State private var phase: Phase = .loading
     @State private var items: [Item] = []
     @State private var index = 0
@@ -44,7 +45,7 @@ struct QuizMeScreen: View {
                                        description: Text("Words you miss in Quick quiz show up here."))
             case .unavailable:
                 ContentUnavailableView("On-device AI unavailable", systemImage: "sparkles",
-                                       description: Text("Apple Intelligence is unavailable or turned off in Settings."))
+                                       description: Text(aiStatus.message))
             case .locked:
                 PremiumLockedCard(title: "Quiz Me is part of Verbalex Premium")
                     .padding(WordwellLayout.screenPadding)
@@ -66,6 +67,7 @@ struct QuizMeScreen: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear { if items.isEmpty { start() } }
         .onChange(of: PremiumAccess.shared.isPremium) { if phase == .locked { start() } }
+        .onChange(of: aiStatus) { if phase == .unavailable { start() } }
         .onDisappear { task?.cancel() }
         .alert("Could not save your answer", isPresented: $saveFailed) {
             Button("OK", role: .cancel) {}
@@ -180,7 +182,7 @@ struct QuizMeScreen: View {
     }
 
     private func load() async {
-        guard let profile = try? await settings.profile(), profile.aiEnabled else {
+        guard aiStatus == .ready, let profile = try? await settings.profile(), profile.aiEnabled else {
             if !Task.isCancelled { phase = .unavailable }
             return
         }

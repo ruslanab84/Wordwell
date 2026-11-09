@@ -104,6 +104,8 @@ final class PremiumAccess {
 struct PaywallScreen: View {
     @Environment(\.dismiss) private var dismiss
 
+    @Environment(\.aiDeviceStatus) private var aiStatus
+
     private let benefits: [(String, String)] = [
         ("text.book.closed", "Every grammar lesson and Skills Check results"),
         ("infinity", "Unlimited practice"),
@@ -117,13 +119,15 @@ struct PaywallScreen: View {
                 Text("Verbalex Premium")
                     .font(WordwellType.screenTitle)
                     .foregroundStyle(WordwellColor.ink)
-                ForEach(benefits, id: \.1) { icon, text in
+                ForEach(benefits.filter { aiStatus.showsAI || $0.0 != "sparkles" }, id: \.1) { icon, text in
                     Label(text, systemImage: icon)
                         .font(WordwellType.body)
                         .foregroundStyle(WordwellColor.ink)
                 }
-                WordwellBodyText("AI features need a device with Apple Intelligence. Everything else works on any device.",
-                                 secondary: true)
+                if aiStatus.showsAI {
+                    WordwellBodyText("AI features need a device with Apple Intelligence. Everything else works on any device.",
+                                     secondary: true)
+                }
             }
             .padding(WordwellLayout.screenPadding)
         }

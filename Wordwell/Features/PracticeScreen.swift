@@ -17,6 +17,7 @@ struct PracticeScreen: View {
     let onStartGrammar: () -> Void
 
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @Environment(\.aiDeviceStatus) private var aiStatus
     @State private var summary: PracticeSummary?
     @State private var activityUnavailable = false
     @State private var hasSkillsCheckDraft = false
@@ -73,25 +74,27 @@ struct PracticeScreen: View {
                 }
                 .buttonStyle(.plain)
                 .accessibilityHint("Start a speaking session")
-                Button(action: onStartConversation) {
-                    WordwellListRow(title: "Conversation", detail: "Role-play a real situation with on-device AI") {
-                        Image(systemName: "bubble.left.and.bubble.right")
+                if aiStatus.showsAI {
+                    Button(action: onStartConversation) {
+                        WordwellListRow(title: "Conversation", detail: "Role-play a real situation with on-device AI") {
+                            Image(systemName: "bubble.left.and.bubble.right")
+                        }
                     }
-                }
-                .buttonStyle(.plain)
-                .accessibilityHint("Pick a scene and chat in English")
-                Button(action: onStartImproveSentence) {
-                    WordwellListRow(title: "Improve my sentence", detail: "Write a sentence and get on-device corrections") {
-                        Image(systemName: "pencil.and.outline")
+                    .buttonStyle(.plain)
+                    .accessibilityHint("Pick a scene and chat in English")
+                    Button(action: onStartImproveSentence) {
+                        WordwellListRow(title: "Improve my sentence", detail: "Write a sentence and get on-device corrections") {
+                            Image(systemName: "pencil.and.outline")
+                        }
                     }
-                }
-                .buttonStyle(.plain)
-                Button(action: onStartQuizMe) {
-                    WordwellListRow(title: "Quiz Me", detail: "On-device questions on your weak words") {
-                        Image(systemName: "questionmark.bubble")
+                    .buttonStyle(.plain)
+                    Button(action: onStartQuizMe) {
+                        WordwellListRow(title: "Quiz Me", detail: "On-device questions on your weak words") {
+                            Image(systemName: "questionmark.bubble")
+                        }
                     }
+                    .buttonStyle(.plain)
                 }
-                .buttonStyle(.plain)
                 Button { if premium.consume(.practice) { onStartListening() } } label: {
                     WordwellListRow(title: "Listening", detail: "Hear words and choose what you heard") {
                         Image(systemName: "headphones")

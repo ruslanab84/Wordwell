@@ -89,7 +89,7 @@ struct SearchScreen: View {
                 }
             }
             if semantic != nil, !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-                meaningSection
+                AIGate { meaningSection }
             }
         }
         .onChange(of: query) { meaningTask?.cancel(); meaning = .idle }

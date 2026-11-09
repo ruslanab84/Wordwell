@@ -280,13 +280,12 @@ private struct GrammarLessonScreen: View {
             }
             GrammarPractice(lesson: lesson, settings: settings)
             related
-            aiExplanation
+            AIGate { aiExplanation.task { await loadAIAccess() } }
             if lesson.id == "phrasal-verbs" {
                 PhrasalVerbGallery()
             }
         }
         .navigationBarTitleDisplayMode(.inline)
-        .task { await loadAIAccess() }
         .onDisappear { stopAI() }
     }
 

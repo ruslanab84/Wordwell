@@ -10,6 +10,7 @@ struct ProfileScreen: View {
     let onSettings: () -> Void
 
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @Environment(\.aiDeviceStatus) private var aiStatus
 
     @State private var savedWords: Int?
     @State private var snapshot: ProgressSnapshot?
@@ -37,7 +38,8 @@ struct ProfileScreen: View {
             } label: {
                 WordwellListRow(title: premium.isPremium ? "Premium active" : "Verbalex Premium",
                                 detail: premium.isPremium ? "Manage your subscription"
-                                                          : "Full grammar, unlimited practice and AI") {
+                                                          : aiStatus.showsAI ? "Full grammar, unlimited practice and AI"
+                                                                             : "Full grammar and unlimited practice") {
                     Image(systemName: premium.isPremium ? "checkmark.seal" : "star")
                 }
             }
@@ -50,7 +52,7 @@ struct ProfileScreen: View {
             }
             .buttonStyle(.plain)
             Button(action: onSettings) {
-                WordwellListRow(title: "Settings", detail: "Learning, appearance, and AI") {
+                WordwellListRow(title: "Settings", detail: aiStatus.showsAI ? "Learning, appearance, and AI" : "Learning and appearance") {
                     Image(systemName: "gearshape")
                 }
             }

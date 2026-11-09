@@ -26,16 +26,18 @@ struct ExplainMistakeCard: View {
     private var isLoading: Bool { if case .loading = phase { true } else { false } }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            WordwellPrivacyCue()
-            if case .idle = phase {
-                Button("Explain mistake", action: explain)
-                    .buttonStyle(WordwellButtonStyle(.secondary))
-            } else {
-                WordwellCard { content }
+        AIGate {
+            VStack(alignment: .leading, spacing: 10) {
+                WordwellPrivacyCue()
+                if case .idle = phase {
+                    Button("Explain mistake", action: explain)
+                        .buttonStyle(WordwellButtonStyle(.secondary))
+                } else {
+                    WordwellCard { content }
+                }
             }
+            .onDisappear { task?.cancel() }
         }
-        .onDisappear { task?.cancel() }
     }
 
     @ViewBuilder

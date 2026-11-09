@@ -30,6 +30,7 @@ struct SkillsCheckScreen: View {
 
     @Environment(\.dismiss) private var dismiss
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.aiDeviceStatus) private var aiStatus
 
     private let pack = SkillsCheckPack.standard
     private let store = SkillsCheckDraftStore()
@@ -338,6 +339,7 @@ struct SkillsCheckScreen: View {
             WordwellBodyText("Objective questions: \(total)/\(result.listeningCorrect == nil ? 5 : 10)")
             WordwellBodyText("CEFR feedback is an unofficial practice estimate and does not predict a test result.", secondary: true)
             if assessing { ProgressView("Checking your writing and speaking") }
+            if aiStatus.needsSetup { WordwellBodyText(aiStatus.message, secondary: true) }
             if !draft.writingText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
                 Text("Your writing")
                     .font(WordwellType.sectionLabel)
