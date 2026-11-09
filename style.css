@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background: #f7f2e7;
+  color: #2b2822;
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+main { max-width: 640px; margin: 0 auto; padding: 48px 24px 64px; }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; }
+h1 { font-size: 36px; line-height: 1.15; margin: 0 0 6px; }
+h2 { font-size: 21px; margin: 32px 0 6px; }
+p { margin: 0 0 10px; }
+.sub { color: #736e64; }
+a { color: inherit; overflow-wrap: anywhere; }
