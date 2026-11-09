@@ -1,4 +1,5 @@
 import Observation
+import WordwellData
 
 enum AppTab: Hashable, CaseIterable {
     case home, grammar, library, practice, profile
@@ -19,6 +20,9 @@ enum AppRoute: Hashable {
     case pictureQuiz
     case grammarLesson(id: String)
     case grammarReview
+    case grammarMistakes
+    case grammarCategory(GrammarCategory, level: GrammarCEFR?)
+    case collocations
     case collocationGroup(String)
     case progress
     case settings

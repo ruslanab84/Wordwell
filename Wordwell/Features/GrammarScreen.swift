@@ -62,9 +62,8 @@ struct GrammarScreen: View {
                 .buttonStyle(.plain)
             }
 
-            NavigationLink {
-                GrammarMistakesScreen(settings: settings)
-            } label: {
+            // Value links only: a closure link in a path-bound stack stays above every later path entry.
+            NavigationLink(value: AppRoute.grammarMistakes) {
                 WordwellListRow(title: "Common mistakes",
                                 detail: "Quick fixes from every lesson, searchable") {
                     Image(systemName: "exclamationmark.bubble")
@@ -72,9 +71,7 @@ struct GrammarScreen: View {
             }
             .buttonStyle(.plain)
 
-            NavigationLink {
-                CollocationsScreen()
-            } label: {
+            NavigationLink(value: AppRoute.collocations) {
                 WordwellListRow(title: "Collocations",
                                 detail: "\(CollocationCatalog.all.count) word partners · make a decision, heavy rain") {
                     Image(systemName: "link.badge.plus")
@@ -83,9 +80,7 @@ struct GrammarScreen: View {
             .buttonStyle(.plain)
 
             ForEach(categories) { category in
-                NavigationLink {
-                    GrammarCategoryScreen(category: category, level: level, settings: settings)
-                } label: {
+                NavigationLink(value: AppRoute.grammarCategory(category, level: level)) {
                     let count = GrammarCatalog.lessons(in: category, level: level).count
                     WordwellListRow(title: category.rawValue,
                                     detail: "\(count) \(count == 1 ? "lesson" : "lessons") · \(category.summary)") {
@@ -115,7 +110,7 @@ struct GrammarLessonRoute: View {
     }
 }
 
-private struct GrammarMistakesScreen: View {
+struct GrammarMistakesScreen: View {
     let settings: any LearningSettingsRepository
     @State private var query = ""
 
@@ -150,7 +145,7 @@ private struct GrammarMistakesScreen: View {
     }
 }
 
-private struct GrammarCategoryScreen: View {
+struct GrammarCategoryScreen: View {
     let category: GrammarCategory
     let level: GrammarCEFR?
     let settings: any LearningSettingsRepository
@@ -302,9 +297,7 @@ private struct GrammarLessonScreen: View {
         if !lessons.isEmpty {
             section("Related lessons") {
                 ForEach(lessons) { other in
-                    NavigationLink {
-                        GrammarLessonScreen(lesson: other, settings: settings)
-                    } label: {
+                    NavigationLink(value: AppRoute.grammarLesson(id: other.id)) {
                         HStack {
                             Text(other.title)
                                 .font(WordwellType.body)
@@ -422,7 +415,7 @@ private struct GrammarLessonScreen: View {
 }
 
 /// Wrong / right / why. Meaning is carried by icon and label, not colour.
-private struct CollocationsScreen: View {
+struct CollocationsScreen: View {
     @State private var query = ""
 
     private var items: [Collocation] {

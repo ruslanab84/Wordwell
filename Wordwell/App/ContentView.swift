@@ -201,6 +201,12 @@ struct ContentView: View {
             GrammarLessonRoute(id: id, settings: settingsRepository)
         case .grammarReview:
             GrammarReviewScreen(settings: settingsRepository)
+        case .grammarMistakes:
+            GrammarMistakesScreen(settings: settingsRepository)
+        case .grammarCategory(let category, let level):
+            GrammarCategoryScreen(category: category, level: level, settings: settingsRepository)
+        case .collocations:
+            CollocationsScreen()
         case .collocationGroup(let group):
             CollocationGroupScreen(group: group, items: CollocationCatalog.all.filter { $0.group == group })
         case .vocabularyReview:
