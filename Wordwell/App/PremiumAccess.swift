@@ -127,7 +127,7 @@ struct PaywallScreen: View {
             }
             .padding(WordwellLayout.screenPadding)
         }
-        .storeButton(.visible, for: .restorePurchases)
+        .storeButton(.visible, for: .restorePurchases, .policies)
         .onInAppPurchaseCompletion { _, _ in
             await PremiumAccess.shared.refresh()
             if PremiumAccess.shared.isPremium { dismiss() }

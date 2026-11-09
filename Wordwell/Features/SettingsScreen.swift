@@ -33,6 +33,7 @@ struct SettingsScreen: View {
     @State private var premium = PremiumAccess.shared
     @State private var notificationFailed = false
     @State private var permissionDenied = false
+    @State private var showPrivacyPolicy = false
 
     var body: some View {
         FeaturePage(title: "Settings", subtitle: "Make Verbalex work for you") {
@@ -135,6 +136,14 @@ struct SettingsScreen: View {
                 WordwellBodyText(aiAvailable
                     ? "Runs entirely on this device. You can turn it off at any time."
                     : "Apple Intelligence is unavailable on this device. Dictionary and practice still work offline.", secondary: true)
+
+                sectionTitle("Privacy")
+                Button { showPrivacyPolicy = true } label: {
+                    WordwellListRow(title: "Privacy Policy", detail: "How Verbalex handles your data") {
+                        Image(systemName: "hand.raised")
+                    }
+                }
+                .buttonStyle(.plain)
                 #if DEBUG
                 sectionTitle("Debug")
                 Toggle("Force Premium", isOn: $premium.debugForcePremium)
@@ -144,6 +153,7 @@ struct SettingsScreen: View {
                 ProgressView("Loading settings")
             }
         }
+        .sheet(isPresented: $showPrivacyPolicy) { PrivacyPolicyScreen() }
         .navigationTitle("Settings")
         .navigationBarTitleDisplayMode(.inline)
         .task { await load() }
@@ -220,6 +230,41 @@ struct SettingsScreen: View {
                 await load()
             }
             saving = false
+        }
+    }
+}
+
+private struct PrivacyPolicyScreen: View {
+    @Environment(\.dismiss) private var dismiss
+
+    private let sections: [(String, String)] = [
+        ("Summary", "Verbalex has no accounts, advertising, analytics or tracking. The app does not send your data to us or to anyone else."),
+        ("Data on your device", "Your level, settings, saved words, search history and practice progress are stored only on this device. Deleting the app deletes them. Device backups you make may include them."),
+        ("Microphone and speech", "If you use speaking practice, iOS asks for access to the microphone and speech recognition. Your speech is transcribed on this device and is not sent to us."),
+        ("On-device AI", "AI features use Apple Intelligence models that run on this device. Your text is not sent to us or to a third-party AI service."),
+        ("Notifications", "Word notifications are scheduled on this device. You can turn them off in Settings."),
+        ("Subscriptions", "Apple processes purchases and manages subscriptions under its own privacy policy. We do not receive your payment details."),
+        ("Contact", "For privacy questions, use the support link on the Verbalex App Store page."),
+    ]
+
+    var body: some View {
+        NavigationStack {
+            FeaturePage(title: "Privacy Policy", subtitle: "Last updated November 9, 2026") {
+                ForEach(sections, id: \.0) { heading, text in
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text(heading)
+                            .font(WordwellType.cardHeadline)
+                            .foregroundStyle(WordwellColor.ink)
+                            .accessibilityAddTraits(.isHeader)
+                        WordwellBodyText(text)
+                    }
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Done") { dismiss() }
+                }
+            }
         }
     }
 }
